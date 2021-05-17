@@ -1,0 +1,245 @@
+﻿#02. Item Return Report :
+
+ItemReutrn.Title:ກັບ​ຄືນ​ລາຍ​ການ
+ItemReutrn.FromDate:ຈາກວັນ​ທີ
+ItemReutrn.ToDate:ເຖີງວັນ​ທີ
+ItemReutrn.PrintDate:ພິມ​ວັນ​ທີ
+ItemReutrn.TotalQty:ລວມ​ປະ​ລິ​ມານ
+ItemReutrn.TotalAmount:ລວມ​ຈຳ​ນວນ​ທັງ​ໝົດ
+ItemReutrn.TotalOther:​ລວມ​ຈຳ​ນວນ​ອື່ນໆ​ທັງ​ໝົດ
+ItemReutrn.Order:ບໍ່
+ItemReutrn.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+ItemReutrn.ItemName:ລາຍ​ການ​ຊື່
+ItemReutrn.UOM: UOM
+ItemReutrn.Quantity:ປະ​ລິ​ມານ
+ItemReutrn.Price:​ລາ​ຄາ
+ItemReutrn.Amount:ຈຳ​ນວນ
+ItemReutrn.AmountReturn:ກັບ​ຄືນ​ຈຳ​ນວນ
+ItemReturn.CAT:
+ItemReturn.CodeReturn:ກັບ​ຄືນ​ລະ​ຫັດ
+ItemReturn.CodeInvoice:ລະ​ຫັດ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+ItemReutrn.Printer:​ເຄື່ອງ​ພິມ
+ItemReutrn.Supervisor:ຫົວ​ໜ້າ​ງານ
+ItemReutrn.TitleSign:…..,ມື້…..ເດືອນ…ປີ…..
+
+#04.01. Import Product Sale Report:
+
+ImportProduct.Title:ການ​ປ້ອນ​ລາຍ​ການ
+ImportProduct.FromDate:ຈາກວັນ​ທີ
+ImportProduct.ToDate:ເຖີງວັນ​ທີ
+ImportProduct.PrintDate:ພິມ​ວັນ​ທີ
+ImportProduct.TotalQty:ລວມ​ປະ​ລິ​ມານ
+ImportProduct.Total:​ລວມ​ຈຳ​ນວນ
+ImportProduct.ImportType:ປະ​ເພດ​ນຳ​ເຂົ້າ
+ImportProduct.InvoiceNo:ບໍ່​ມີໃບ​ແຈ້ງ​ລາ​ຄາ
+ImportProduct.InvoiceCode:ລະ​ຫັດ​ປ້ອນ​ຂໍ້​ມູນ
+ImportProduct.InvoiceDate:ວັນ​ທີ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+ImportProduct.PosNo:ບໍ່​ມີ PO
+ImportProduct.InternalNo:ບໍ່​ມີ​ພາຍ​ໃນ
+ImportProduct.Order:​ບໍ່
+ImportProduct.ItemCode:​ລາຍ​ການ​ລະ​ຫັດ
+ImportProduct.ItemName:​ລາຍ​ການ​ຊື່
+ImportProduct.UOM: UOM
+ImportProduct.Qty:​ປະ​ລິ​ມານ
+ImportProduct.CAT: CAT
+ImportProduct.Price:ລາ​ຄາ
+ImportProduct.Amount:ຈຳ​ນວນ
+ImportProduct.Adjust:ປັບ​ປຸງ
+ImportProduct.GrandTotal:ຜົນ​ລວມ
+
+#04.02 Cua hang xuat hang:
+
+ExportProduct.Title:ລາຍ​ການ​ຜົນ​ຜະ​ລິດ
+ExportProduct.FromDate:ຈາກວັນ​ທີ
+ExportProduct.ToDate:ເຖີງວັນ​ທີ
+ExportProduct.PrintDate:ພິມ​ວັນ​ທີ
+ExportProduct.TotalQty:ລວມ​ປະ​ລິ​ມານ
+ExportProduct.Total:ລວມ​ຈຳ​ນວນ
+ExportProduct.ExportType:ປະ​ເພດ​ການ​ສົ່ງ​ອອກ
+ExportProduct.InvoiceNo:ບໍ່​ມີ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+ExportProduct.InvoiceCode:​ສົ່ງ​ອອກ​ລະ​ຫັດ
+ExportProduct.InvoiceDate:ວັນ​ທີ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+ExportProduct.PosNo:ບໍ່​ມີ PO
+ExportProduct.InternalNo:ບໍ່​ມີ​ພາຍ​ໃນ
+ExportProduct.Order:ບໍ່
+ExportProduct.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+ExportProduct.ItemName:ລາຍ​ການ​ຊື່
+ExportProduct.UOM: UOM
+ExportProduct.Qty:ປະ​ລິ​ມານ
+ExportProduct.CAT: CAT
+ExportProduct.Price:ລາ​ຄາ
+ExportProduct.Amount:ຈຳ​ນວນ
+ExportProduct.Adjust:ປັບ​ປຸງ
+ExportProduct.GrandTotal:ຜົນ​ລວມ
+
+#04.03 Cua hang xuat hang:
+
+InventorySale.Title:ລາຍ​ການ​ສິນ​ຄ້າ​ສາງ
+InventorySale.Date:ວັນ​ທີ
+InventorySale.PrintDate:​ພິມ​ວັນ​ທີ
+InventorySale.TotalQty:ລວມປະ​ລິ​ມານ
+InventorySale.Total:ລວມ​ຈຳ​ນວນ
+InventorySale.CAT: CAT
+InventorySale.Order:ບໍ່​ມີ
+InventorySale.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+InventorySale.ItemName:ລາຍ​ການ​ຊື່
+InventorySale.UOM: UOM
+InventorySale.Qty:ປະ​ລິ​ມານ
+InventorySale.Price:ລາ​ຄາ
+InventorySale.Amount:ຈຳ​ນວນ
+InventorySale.Printer:ເຄື່ອງພິມ
+InventorySale.Supervisor:​ຫົວ​ໜ້​າ
+InventorySale.TitleSign:….,ມື້…..ເດືອນ….ປີ…
+
+#04.04 Bao cao nhap xuat ton:
+
+BalanceItem.Title:ປັບ​ສົມ​ດຸນ​ສິນ​ຄ້າ​ສາງ
+BalanceItem.FromDate:ຈາກ
+BalanceItem.ToDate:ເຖີງ
+BalanceItem.PrintDate:ພິມ
+BalanceItem.GrandTotal:ຜົນ​ລວມ
+BalanceItem.BalanceFirst:ຍອດ​ທຳ​ອິດ
+BalanceItem.Input:ໄລ​ຍະ​ເວ​ລາ​ປ້ອນ​ຂໍ້​ມູນ
+BalanceItem.Output:ໄລ​ຍະ​ເວ​ລາ​ຂໍ້​ມູນ​ສົ່ງ​ອອກ
+BalanceItem.BalanceFinal:​ຍອດ​ສຸດ​ທ້າຍ
+BalanceItem.CAT: CAT
+BalanceItem.Order:ບໍ່ໍ່​ມີ
+BalanceItem.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+BalanceItem.ItemName:ລາຍ​ການ​ຊື່
+BalanceItem.UOM: UOM
+BalanceItem.FirstQty:​ປະ​ລິ​ມານ
+BalanceItem.FirstPrice:ລາ​ຄາ
+BalanceItem.FirstTotal:ຈຳ​ນວນ
+BalanceItem.InputQty:​ປະ​ລິ​ມານ
+BalanceItem.InputTotal:ຈຳ​ນວນ
+BalanceItem.InputQtyAdjust:ປັບ​ປຸງ
+BalanceItem.InputTotalAdjust:ຈຳ​ນວນ
+BalanceItem.OutputGrandTotal:ລວມ​ທັງ​ໝົດ
+BalanceItem.WarantyQty:ສິນ​ຄ້າ​ສາງ
+BalanceItem.WarantyTotal:ຈຳ​ນວນ
+BalanceItem.PromotionQty: Pro.
+BalanceItem.PromotionTotal:ຈຳ​ນວນ
+BalanceItem.OutputQtyAdjust:​ປັບ​ປຸງ
+BalanceItem.OutputTotalAdjust:ຈຳ​ນວນ
+BalanceItem.FinalQty:ປະ​ລິ​ມານ
+BalanceItem.FinalPrice:​ລາ​ຄາ
+BalanceItem.FinalTotal:ຈຳ​ນວນ
+BalanceItem.Printer:ເຄື່ອງ​ພິມ
+BalanceItem.Supervisor:ຫົວ​ໜ້າ
+BalanceItem.TitleSign:….,ມື້….ເດືອນ…ປີ
+
+#04.05. Bao cao hang khuyen mai:
+
+Promotion.Title:ລາຍ​ການ​ໂປ​ຣ​ໂມ​ຊັ່ນ
+Promotion.FromDate:ຈາກ
+Promotion.ToDate:ເຖີງ
+Promotion.PrintDate:ພິມ
+Promotion.GrandTotal:ລວມ
+Promotion.CAT: CAT
+Promotion.Order:ບໍ່
+Promotion.SaleDate:​ວັນ​ທີ​ຂາຍ
+Promotion.InvoiceNo:ໃບ​ແຈ້ງ​ລາ​ຄາ
+Promotion.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+Promotion.ItemName:ລາຍ​ການ​ຊື່
+Promotion.UOM: UOM
+Promotion.Qty:ປະ​ລິ​ມານ
+Promotion.Price:ລາ​ຄາ
+Promotion.Amount:ຈຳ​ນວນ
+Promotion.PersonPrint:ເຄື່ອງ​ພິມ
+Promotion.Supervisor:ຫົວ​ໜ້າ
+Promotion.TitleSign:….,ມື້….ເດືອນ…ປີ
+
+#04.06. Bao cao chenh lech gia:
+
+Compare.Title:ປຽບ​ທຽບ​ລາຍ​ງານ​ລາ​ຄາ
+Compare.FromDate:ຈາກ
+Compare.ToDate:ເຖີງ
+Compare.PrintDate:ພິມ
+Compare.GrandTotal:ຜົນ​ລວມ
+Compare.Order:ບໍໍ່
+Compare.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+Compare.ItemName:ລາຍ​ການ​ຊື່
+Compare.UOM: UOM
+Compare.Qty:ປະ​ລິ​ມານ
+Compare.Input:​ປ້ອນ​ຂໍ້​ມູນ
+Compare.Output:ສົ່ງ​ອອກ​ຂໍ້​ມູນ
+Compare.InputPrice:ລາ​ຄາ
+Compare.InputAmount:ຈຳ​ນວນ
+Compare.OutputPrice:ລາ​ຄາ
+Compare.OutputAmount:ຈຳ​ນວນ
+Compare.Difference:ຄວາມ​ແຕກ​ຕ່າງ
+
+#06.01. Sale Report:
+
+SaleReport.Title:ລາຍ​ງານ​ການ​ຂາຍ
+SaleReport.FromDate:ຈາກວັນ​ທີ
+SaleReport.ToDate:ເຖີງວັນ​ທີ
+SaleReport.PrintDate:ວັນ​ທີ​ພິມ
+SaleReport.TotalInvoice:ລວມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ທັງ​ໝົດ
+SaleReport.Total:ລວມ​ທັງ​ໝົດ
+SaleReport.Order:ບໍ່
+SaleReport.CodeInvoice:ລະ​ຫັດ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+SaleReport.CodeCustomer:ລ​ະ​ຫັດ​ລູກ​ຄ້າ
+SaleReport.NameCustomer:ຊື່​ລູກ​ຄ້າ
+SaleReport.ItemCategory: CAT
+SaleReport.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+SaleReport.ItemName:ລາຍ​ການ​ຊື່
+SaleReport.UOM: UOM
+SaleReport.Quantity:ປະ​ລິ​ມານ
+SaleReport.Price:ລາ​ຄາ
+SaleReport.Amount:ຈຳ​ນວນ
+SaleReport.Promotion:ໂປ​ຣ​ໂມ​ຊັ່ນ
+SaleReport.Payment:ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+SaleReport.PersonPrint:ເຄື່ອງ​ພິມ
+SaleReport.Supervisor:ຫົວ​ໜ້າ
+SaleReport.TitleSign:…..,ມື້….ເດືອນ….ປີ
+
+#06.02. Sale Report by Employee :
+
+SaleReportEmp.Title:ລາຍ​ງານ​ການ​ຂາຍ
+SaleReportEmp.FromDate:ຈ​າກວັນ​ທີ
+SaleReportEmp.ToDate:ເຖີງວັນ​ທີ
+SaleReportEmp.PrintDate:ວັນ​ທີ​ພິມ
+SaleReportEmp.TotalInvoice:ລວມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ທັງ​ໝົດ
+SaleReportEmp.Total:ລວມ​ທັງ​ໝົດ
+SaleReportEmp.Order:ບໍ່
+SaleReportEmp.CodeInvoice:ລະ​ຫັດ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+SaleReportEmp.CodeCustomer:ລະ​ຫັດ​ລູກ​ຄ້າ
+SaleReportEmp.NameCustomer:​ຊື່​ລູກ​ຄ້າ
+SaleReportEmp.ItemCategory: CAT
+SaleReportEmp.ItemCode:ລາຍ​ການ​ລະ​ຫັດ
+SaleReportEmp.ItemName:ລາຍ​ການ​ຊື່
+SaleReportEmp.UOM: UOM
+SaleReportEmp.Quantity:ປະ​ລິ​ມານ
+SaleReportEmp.Price:​ລາ​ຄາ
+SaleReportEmp.Amount:ຈຳ​ນວນ
+SaleReportEmp.Promotion:ໂປ​ຣ​ໂມ​ຊັ່ນ
+SaleReportEmp.Payment:​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+SaleReportEmp.Employee:ລູກ​ຈ້າງ
+SaleReportEmp.PersonPrint:ເຄື່ອງ​ພິມ
+SaleReportEmp.Supervisor:ຫົວ​ໜ້າ
+SaleReportEmp.TitleSign:…..,ມື໊….ເດືອນ….ປີ
+
+#06.03. Bao cao doanh so theo CAT:
+
+SaleByCAT.Title:ລາຍ​ງານ​ການ​ຂາຍ​ໂດຍ CAT
+SaleByCAT.FromDate:ຈາກ
+SaleByCAT.ToDate:ເຖີງ
+SaleByCAT.PrintDate:ພິມ
+SaleByCAT.GrandTotal:ຜົນ​ລວມ
+SaleByCAT.Order:ບໍ່
+SaleByCAT.CustCode:ລະ​ຫັດ​ລູກ​ຄ້າ
+SaleByCAT.CustName:ຊື່​ລູກ​ຄ້າ
+SaleByCAT.Address:​ທີ່​ຢູ່
+SaleByCAT.Sequence:ລຳ​ດັບ
+
+#06.07. Bao cao doanh so theo CAT:
+
+SaleNoExport.Title:ລູກ​ຄ້າບໍ່​ໄດ້​ເຮັດ​ທຸ​ລະ​ກຳ
+SaleNoExport.FromDate:ຈາກ
+SaleNoExport.ToDate:ເຖີງ
+SaleNoExport.PrintDate:ພິມ
+SaleNoExport.Order:ບໍ່
+SaleNoExport.CustCode:ລະ​ຫັດ​ລູກ​ຄ້າ
+SaleNoExport.CustName:ຊື່​ລູກ​ຄ້າ
+SaleNoExport.Address:ທີ່​ຢູ່

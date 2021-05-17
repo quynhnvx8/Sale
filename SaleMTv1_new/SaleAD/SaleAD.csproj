@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC5A63A7-DFDB-44E9-8ACC-2B3F87C6E950}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaleAD</RootNamespace>
+    <AssemblyName>SaleAD</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibUsed\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="StandardDAC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOOL\SaleMTInterfaces\bin\Debug\StandardDAC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmOptionData\frmCompanyInfomation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionData\frmCompanyInfomation.Designer.cs">
+      <DependentUpon>frmCompanyInfomation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptionData\frmMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionData\frmMembers.Designer.cs">
+      <DependentUpon>frmMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptionData\frmSystemData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionData\frmSystemData.Designer.cs">
+      <DependentUpon>frmSystemData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptionData\frmSystemOrganization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionData\frmSystemOrganization.Designer.cs">
+      <DependentUpon>frmSystemOrganization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptionData\frmUpdateStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionData\frmUpdateStore.Designer.cs">
+      <DependentUpon>frmUpdateStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmPrice.Designer.cs">
+      <DependentUpon>frmPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmPrintBarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmPrintBarCode.Designer.cs">
+      <DependentUpon>frmPrintBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmProductManagements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmProductManagements.Designer.cs">
+      <DependentUpon>frmProductManagements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmProductSearch.Designer.cs">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmViewPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmViewPrice.Designer.cs">
+      <DependentUpon>frmViewPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmViewPriceHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement\frmViewPriceHistory.Designer.cs">
+      <DependentUpon>frmViewPriceHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\frmAddEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\frmAddEditUser.Designer.cs">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\frmChangePasswordUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\frmChangePasswordUser.Designer.cs">
+      <DependentUpon>frmChangePasswordUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\FrmGroupUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\FrmGroupUser.Designer.cs">
+      <DependentUpon>FrmGroupUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\frmPermissionInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\frmPermissionInventory.Designer.cs">
+      <DependentUpon>frmPermissionInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\FrmPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\FrmPermissions.Designer.cs">
+      <DependentUpon>FrmPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem\frmShopSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem\frmShopSelect.Designer.cs">
+      <DependentUpon>frmShopSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleAD.Designer.cs">
+      <DependentUpon>SaleAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmOptionData\frmCompanyInfomation.resx">
+      <DependentUpon>frmCompanyInfomation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptionData\frmMembers.resx">
+      <DependentUpon>frmMembers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptionData\frmSystemData.resx">
+      <DependentUpon>frmSystemData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptionData\frmSystemOrganization.resx">
+      <DependentUpon>frmSystemOrganization.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptionData\frmUpdateStore.resx">
+      <DependentUpon>frmUpdateStore.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmPrice.resx">
+      <DependentUpon>frmPrice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmPrintBarCode.resx">
+      <DependentUpon>frmPrintBarCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmProductManagements.resx">
+      <DependentUpon>frmProductManagements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmProductSearch.resx">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmViewPrice.resx">
+      <DependentUpon>frmViewPrice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement\frmViewPriceHistory.resx">
+      <DependentUpon>frmViewPriceHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\frmAddEditUser.resx">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\frmChangePasswordUser.resx">
+      <DependentUpon>frmChangePasswordUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\FrmGroupUser.resx">
+      <DependentUpon>FrmGroupUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\frmPermissionInventory.resx">
+      <DependentUpon>frmPermissionInventory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\FrmPermissions.resx">
+      <DependentUpon>FrmPermissions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem\frmShopSelect.resx">
+      <DependentUpon>frmShopSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleAD.resx">
+      <DependentUpon>SaleAD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BARCODE_TEMPLATE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_EMAIL_INFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_EVENT_STACK_ERROR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_MESSAGE_QUEUE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_SENDING_EMAIL_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_SENDING_EMAIL_LOG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\BK_SEND_MESSAGE_LOG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CASH_PAYMENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CASH_RECEIPT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CASH_RECEIPT_PAYMENT_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\COMPANY_INFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\COUPONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\COUPONS_SALES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\COUPONS_SALES_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\COUPON_STORES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CURRENCY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CUSTOMERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CUSTOMERS_TEMP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CUSTOMER_CARD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\CUSTOMER_CARD_RESET.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DATA_CHANGED.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEBT_APPORTION.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEBT_NOTE_FOR_EMPLOYEE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEBT_RECEIPT_PAYMENT_VOUNCHER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEBT_VOUNCHER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEPT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEPT_HISTORY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_IN_DM_NHOMVATTU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_IN_DM_SEG_NHOMVT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_IN_SEG_NHOMVT_PHUTHUOC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_MASTER_PRODUCT_ATTRIBUTES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRICEITEMS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRICETABLEITEMHISTORIES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRICETABLEOFSTORE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRICETABLEOFSTOREHISTORIES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRICETABLES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DEV_PRODUCT_ATTRIBUTES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DISCOUNT_DEPT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DISCOUNT_TERM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DM_DonViTinh.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DM_LOOKUP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DM_NHOMVT_ATTRIBUTES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\DM_VATTU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EMPLOYEE_INFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EMPLOYEE_INFO_TEST.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\employee_sex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EMPLOYEE_TIME_SHEET.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EMPLOYEE_WORKING_TIME.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EMPLOYEE_ZONE_HISTORYS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXCHANGE_RATE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_PRODUCTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_PRODUCT_STORE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_PRODUCT_STORE_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_PRODUCT_ZONE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\EXPORT_PRODUCT_ZONE_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IMPORT_PRODUCTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IMPORT_PRODUCT_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\INVENTORY_TEMP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IN_DM_NHOMVATTU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IN_DM_SEG_NHOMVT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IN_DM_SEG_NHOMVT_1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\IN_SEG_NHOMVT_PHUTHUOC_1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ITEM_RETURN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ITEM_RETURN_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_dn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_lqd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_nct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_ndc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_pmh.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\kh_qt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MAIL_TEMPLATE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_DATA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_DATA_GROUP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_EX_EXAMEYE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_EX_LENSESORDER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_EX_LENSESORDER_INFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_EX_LENSESORDER_SERVICES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_PRODUCT_ATTRIBUTES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MASTER_WARRANTY_ERROR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MEMBERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MESSAGE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\MESSAGE_STORES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\newTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\NORM_PRODUCT_STORE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\NORM_PRODUCT_STORE_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\NORM_WAREHOUSE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\NORM_WAREHOUSE_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\OM_BangGia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS_DETAIL_PROPOS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS_HISTORY_PROPOS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS_PROPOS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS_SUPPLIER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCTS_SUPPLIER_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCT_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ORDER_PRODUCT_STATUS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PARAMETER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PERMISSIONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PERMISSION_CHAT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PERMISSION_INVENTORY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\POLICIES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\POS_CHILINHTINH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\POS_HEADER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\POS_LINE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PRODUCTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PRODUCT_ATTRIBUTES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PRODUCT_ATTRIBUTES_1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PRODUCT_PRICE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROGRAM_CATEGORY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROGRAM_MASTER_DATA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROGRAM_PRODUCT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROMOTIONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROMOTION_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\PROMOTION_GIFTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\REPORT_COLUMN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\REPORT_CONDITIONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\REPORT_INFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\REPORT_PERMISSIONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\REPORT_TEMPLATE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\RETURNS_PRODUCT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\RETURNS_PRODUCT_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ROLES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_EXPORTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_EXPORTS_ITEMS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_PAYMENT_HISTORY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_PAYMENT_HISTORY_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_PAYMENT_HISTORY_DETAIL_CARD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALES_SPECIAL_DISCOUNT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_ORDERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_ORDERS_PARENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_ORDER_HISTORY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_PROMOTION.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_PROMOTION_GIFTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SALE_TARGET.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SHIFT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\STORE_IP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SUPPLIER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SUPPLIER_ORDERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SUPPLIER_ORDERS_DETAIL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\SUPPLIER_TYPE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\sysdiagrams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\TEMP_01.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\TEMP_IMPORT_PRODUCTS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\TEMP_TEMP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\TEST_SYNCHRO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\TRANSFER_SHIFT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\UNIT_CONVERTER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\UPDATE_SQL_SCRIPT_ERROR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\USERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\USER_CHAT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\USER_DEPT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\View_DEV_PRICE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\View_Inventory_Temp03.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHERS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_GIFT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_GIFT_ITEMS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_GIFT_SALES.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_GIFT_SALES_ITEMS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_GIFT_TRANSFER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\VOUCHER_TRANSFER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\WAREHOUSE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\WARRANTY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\WARRANTY_ERROR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\WARRANTY_EXECUTE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\WARRANTY_PAYMENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaleMTObjAdmin\ZONE_PRICE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{4ECB738B-5A43-46D2-B662-739FF674AD5C}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaleMTCommon\SaleMTCommon.csproj">
+      <Project>{F0A607E9-7ED8-47B4-829A-61DFA95247DE}</Project>
+      <Name>SaleMTCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FrmCustomerEmployeeManagement\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

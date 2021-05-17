@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<promotionProgramXml>
+    <PromotionProgram>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <fromDate>2013-12-24T00:00:00+07:00</fromDate>
+        <id>9999</id>
+        <multiple>1</multiple>
+        <proFormat>Line-Qtty-Percent</proFormat>
+        <promotionProgramCode>KTZV01</promotionProgramCode>
+        <promotionProgramName>ktzv01</promotionProgramName>
+        <recursive>1</recursive>
+        <relationType>AND</relationType>
+        <status>RUNNING</status>
+        <synAction>2</synAction>
+        <type>ZV01</type>
+        <updateDate>2015-06-23T15:23:19+07:00</updateDate>
+        <updateUser>salemt_admin</updateUser>
+    </PromotionProgram>
+</promotionProgramXml>

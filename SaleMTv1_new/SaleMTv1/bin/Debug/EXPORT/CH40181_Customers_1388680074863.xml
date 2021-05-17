@@ -1,0 +1,43 @@
+<customersXml>
+  <Customers>
+    <customerCode>CUS.CH40041.06565</customerCode>
+    <shopCode>CH40181</shopCode>
+    <firstName>Hân</firstName>
+    <lastName>Phạm</lastName>
+    <placeOfBirth>BN</placeOfBirth>
+    <occupationCode>OCC.0004</occupationCode>
+    <maritalStatus>MAS.0001</maritalStatus>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNo>123456789</idNo>
+    <idNoIssuedDate>2004-12-27T15:18:53+07:00</idNoIssuedDate>
+    <idNoIssuedPlace>BN</idNoIssuedPlace>
+    <tel>012345678</tel>
+    <fax>90</fax>
+    <mobilePhone>0123456789</mobilePhone>
+    <emailAddress>abc@abc</emailAddress>
+    <countryCode>COU.0001</countryCode>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <districtCode>DIS.0004</districtCode>
+    <communesWards>fd</communesWards>
+    <houseStreet>fd|</houseStreet>
+    <address>,fd,fd,Quận Hoàn Kiếm,Hà Nội,Việt Nam</address>
+    <workingOffice />
+    <officeAddress />
+    <numberMark>0</numberMark>
+    <isActive>1</isActive>
+    <remark />
+    <createDate>2014-01-02T16:08:48.023+07:00</createDate>
+    <createBy />
+    <updateDate>2014-01-02T16:27:54.843+07:00</updateDate>
+    <lastUpdateBy />
+    <money>0</money>
+    <taxCode />
+    <oldCode />
+    <barCode />
+    <colSearch>CUS.CH40041.06565|Hân|Phạm|Pham Han|Phạm Hân||0123456789|,fd,fd,Quận Hoàn Kiếm,Hà Nội,Việt Nam|,fd,fd,Quan Hoan Kiem,Ha Noi,Viet Nam</colSearch>
+    <eventId>LUAN-PC-CH40181-14-000000022</eventId>
+    <isPrivate>1</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+</customersXml>

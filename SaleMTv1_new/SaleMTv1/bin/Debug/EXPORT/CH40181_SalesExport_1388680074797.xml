@@ -1,0 +1,74 @@
+<salesExportXml>
+  <SalesExport>
+    <exportCode>SAL.CH40181140102000</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40181140102001</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101001</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40181140102000</exportCode>
+    <exportDate>2014-01-02T16:14:04.7+07:00</exportDate>
+    <inputDate>2014-01-02T16:14:01.39+07:00</inputDate>
+    <totalAmount>187000</totalAmount>
+    <totalDiscount>0</totalDiscount>
+    <accountUser>Admin</accountUser>
+    <customerCode>CUS.CH40041.06565</customerCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <currencyId>VND</currencyId>
+    <eventId>LUAN-PC-CH40181-14-000000033</eventId>
+    <totalPromotion>9350</totalPromotion>
+    <totalPayments>177650</totalPayments>
+    <totalPayments1>177650</totalPayments1>
+    <balance>0</balance>
+    <transferShiftCode>TRA.CH40181.02.01.14.00001</transferShiftCode>
+    <isBarter>0</isBarter>
+    <totalRebate>0</totalRebate>
+    <totalNumberMark>0</totalNumberMark>
+    <redInvoiceCompanyName />
+    <redInvoiceTaxCode />
+    <redInvoiceAddress />
+    <usedRedInvoice>false</usedRedInvoice>
+    <customerNumberMark>0</customerNumberMark>
+    <customerCardDiscountPercent>0</customerCardDiscountPercent>
+    <redInvoiceRemark />
+    <synAction>1</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40181140102001</exportCode>
+    <exportDate>2014-01-02T16:14:45.44+07:00</exportDate>
+    <inputDate>2014-01-02T16:14:42.703+07:00</inputDate>
+    <totalAmount>440000</totalAmount>
+    <totalDiscount>0</totalDiscount>
+    <accountUser>Admin</accountUser>
+    <customerCode>CUS.CH40041.06565</customerCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <currencyId>VND</currencyId>
+    <eventId>LUAN-PC-CH40181-14-000000039</eventId>
+    <totalPromotion>32000</totalPromotion>
+    <totalPayments>408000</totalPayments>
+    <totalPayments1>408000</totalPayments1>
+    <balance>0</balance>
+    <transferShiftCode>TRA.CH40181.02.01.14.00001</transferShiftCode>
+    <isBarter>0</isBarter>
+    <totalRebate>0</totalRebate>
+    <totalNumberMark>0</totalNumberMark>
+    <redInvoiceCompanyName />
+    <redInvoiceTaxCode />
+    <redInvoiceAddress />
+    <usedRedInvoice>false</usedRedInvoice>
+    <customerNumberMark>0</customerNumberMark>
+    <customerCardDiscountPercent>0</customerCardDiscountPercent>
+    <redInvoiceRemark />
+    <synAction>1</synAction>
+  </SalesExport>
+</salesExportXml>

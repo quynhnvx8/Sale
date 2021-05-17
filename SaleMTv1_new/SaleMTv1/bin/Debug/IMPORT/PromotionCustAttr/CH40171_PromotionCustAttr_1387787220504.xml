@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<promotionCustAttrXml>
+    <PromotionCustAttr>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <id>14999</id>
+        <objectType>2</objectType>
+        <promotionProgramCode>KTZV01</promotionProgramCode>
+        <seq>0</seq>
+        <status>RUNNING</status>
+        <synAction>1</synAction>
+    </PromotionCustAttr>
+</promotionCustAttrXml>

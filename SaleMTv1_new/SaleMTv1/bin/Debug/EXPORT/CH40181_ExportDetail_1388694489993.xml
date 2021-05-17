@@ -1,0 +1,137 @@
+<exportDetailXml>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00002</exportProductsCode>
+    <productCode>01sb01</productCode>
+    <pId />
+    <productPrice>22000</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000046</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>22000</productPriceVAT>
+    <priceSale>22000</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>01SC01</productCode>
+    <pId />
+    <productPrice>15730</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>15730</productPriceVAT>
+    <priceSale>15730</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>02AA10</productCode>
+    <pId />
+    <productPrice>110</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>110</productPriceVAT>
+    <priceSale>110</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>05AA11</productCode>
+    <pId />
+    <productPrice>4070</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>4070</productPriceVAT>
+    <priceSale>4070</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>05AA30</productCode>
+    <pId />
+    <productPrice>4290</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>4290</productPriceVAT>
+    <priceSale>4290</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>05AG10</productCode>
+    <pId />
+    <productPrice>5170</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>5170</productPriceVAT>
+    <priceSale>5170</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>07BN10</productCode>
+    <pId />
+    <productPrice>7600</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>7600</productPriceVAT>
+    <priceSale>7600</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>07DA04</productCode>
+    <pId />
+    <productPrice>0</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>0</productPriceVAT>
+    <priceSale>0</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00003</exportProductsCode>
+    <productCode>07DA20</productCode>
+    <pId />
+    <productPrice>4950</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000054</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>4950</productPriceVAT>
+    <priceSale>4950</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+</exportDetailXml>

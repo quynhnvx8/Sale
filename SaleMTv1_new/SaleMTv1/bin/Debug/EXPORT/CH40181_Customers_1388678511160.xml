@@ -1,0 +1,1928 @@
+<customersXml>
+  <Customers>
+    <customerCode>CUS.AM10021.00001</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>vang lai</firstName>
+    <lastName>khach hang</lastName>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00001|vang lai|khach hang|khach hang vang lai|khach hang vang lai|AM10020.|||||</colSearch>
+    <eventId>POS063-AM10020-12-00000008</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00002</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Mộng Hương</firstName>
+    <lastName>Hoàng</lastName>
+    <dateOfBirth>1982-10-26T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <religionCode>REL.0003</religionCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986671980</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00002|Mộng Hương|Hoàng|Hoang Mong Huong|Hoàng Mộng Hương|AM10021.||0986671980||128 Chùa Thông, son lộc , Son Tay, Hà Nội|128 Chua Thong, son loc , Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003615</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00003</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hải Hà</firstName>
+    <lastName>Bùi Thị</lastName>
+    <dateOfBirth>1986-05-23T00:00:00+07:00</dateOfBirth>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0979938066</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00003|Hải Hà|Bùi Thị|Bui Thi Hai Ha|Bùi Thị Hải Hà|AM10021.||0979938066||Trung Sơn TRầm, Son Tay, Hà Nội|Trung Son TRam, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003616</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00004</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Lựu</firstName>
+    <lastName>Hà Thị</lastName>
+    <dateOfBirth>1984-11-07T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986866797</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00004|Lựu|Hà Thị|Ha Thi Luu|Hà Thị Lựu|AM10021.||0986866797||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003625</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00005</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Oanh</firstName>
+    <lastName>Trần Thị</lastName>
+    <dateOfBirth>1986-11-02T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985426501</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00005|Thu Oanh|Trần Thị|Tran Thi Thu Oanh|Trần Thị Thu Oanh|AM10021.||0985426501||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003626</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00006</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hương Quế</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1983-11-01T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0982959768</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00006|Hương Quế|Nguyễn Thị|Nguyen Thi Huong Que|Nguyễn Thị Hương Quế|AM10021.||0982959768||43, Nguyễn Thái Học , Sơn Tây, Hà Nội|43, Nguyen Thai Hoc , Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003745</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00007</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hồng Quân</firstName>
+    <lastName>Dương</lastName>
+    <dateOfBirth>1977-11-09T00:00:00+07:00</dateOfBirth>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0978301282</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00007|Hồng Quân|Dương|Duong Hong Quan|Dương Hồng Quân|AM10021.||0978301282||7/10, Sơn Lộc , Sơn Tây, Hà Nội|7/10, Son Loc , Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003746</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00008</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thị Lý</firstName>
+    <lastName>Phùng</lastName>
+    <dateOfBirth>1982-10-25T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985092668</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00008|Thị Lý|Phùng|Phung Thi Ly|Phùng Thị Lý|AM10021.||0985092668||33/18, Sơn Lộc, Sơn Tây, Hà Nội|33/18, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003747</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00009</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thị Hiển</firstName>
+    <lastName>Chu</lastName>
+    <dateOfBirth>1983-10-14T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0906231851</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00009|Thị Hiển|Chu|Chu Thi Hien|Chu Thị Hiển|AM10021.||0906231851||Khu đô thị Burolan, Sơn Tây, Hà Nội|Khu do thi Burolan, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003748</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00010</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hương</firstName>
+    <lastName>Nguyễn</lastName>
+    <dateOfBirth>1980-10-30T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01679126068</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00010|Hương|Nguyễn|Nguyen Huong|Nguyễn Hương|AM10021.||01679126068||Kim Sơn, Sơn Tây, Hà Nội|Kim Son, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003749</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00011</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thị Thanh</firstName>
+    <lastName>Nguyễn</lastName>
+    <dateOfBirth>1980-10-25T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986969673</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00011|Thị Thanh|Nguyễn|Nguyen Thi Thanh|Nguyễn Thị Thanh|AM10021.||0986969673||Sơn Lộc, Sơn tây, Hà Nội|Son Loc, Son tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003750</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00012</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ninh</firstName>
+    <lastName>Trương Trọng</lastName>
+    <dateOfBirth>1980-10-12T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0001</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0979601520</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00012|Ninh|Trương Trọng|Truong Trong Ninh|Trương Trọng Ninh|AM10021.||0979601520||Lê Lợi, Sơn Tây, Hà Nội|Le Loi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003751</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00013</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Mai Phương</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1983-10-26T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0915224369</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00013|Mai Phương|Nguyễn Thị|Nguyen Thi Mai Phuong|Nguyễn Thị Mai Phương|AM10021.||0915224369||Xuân Khanh, Sơn Tây, Hà Nội|Xuan Khanh, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003752</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00014</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Kim Anh</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1981-11-09T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0948551977</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00014|Kim Anh|Nguyễn Thị|Nguyen Thi Kim Anh|Nguyễn Thị Kim Anh|AM10021.||0948551977||sơn lộc,  Cầu trì , Sơn Tây, Hà Nội|son loc,  Cau tri , Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003753</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00015</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Lý</firstName>
+    <lastName>Kiều Thị</lastName>
+    <dateOfBirth>1967-11-18T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01677285771</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00015|Lý|Kiều Thị|Kieu Thi Ly|Kiều Thị Lý|AM10021.||01677285771|8208760001448|Khu nhà ở Buzolan, Sơn Lộc, Sơn Tây, Hà Nội|Khu nha o Buzolan, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003754</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00016</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Bích Thảo</firstName>
+    <lastName>Trần Thị</lastName>
+    <dateOfBirth>1983-11-01T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01647944946</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00016|Bích Thảo|Trần Thị|Tran Thi Bich Thao|Trần Thị Bích Thảo|AM10021.||01647944946||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003755</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00017</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thị Sáu</firstName>
+    <lastName>Vũ</lastName>
+    <dateOfBirth>1980-11-09T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01226221971</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00017|Thị Sáu|Vũ|Vu Thi Sau|Vũ Thị Sáu|AM10021.||01226221971||113 Chùa Thông, Sơn Lộc, Sơn Tây, Hà Nội|113 Chua Thong, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003847</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00018</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phương Thảo</firstName>
+    <lastName>Vũ Thị</lastName>
+    <dateOfBirth>1977-11-09T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0979461336</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00018|Phương Thảo|Vũ Thị|Vu Thi Phuong Thao|Vũ Thị Phương Thảo|AM10021.||0979461336||ái Mỗ, Trung Hưng, Sơn Tây, Hà Nội|ai Mo, Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003848</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00019</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Huyền</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1978-10-24T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01686502760</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00019|Thanh Huyền|Nguyễn Thị|Nguyen Thi Thanh Huyen|Nguyễn Thị Thanh Huyền|AM10021.||01686502760||Khu TT 2 BV Sơn Tây, Sơn Tây, Hà Nội|Khu TT 2 BV Son Tay, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003849</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00020</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hoài</firstName>
+    <lastName>Nguyễn thu</lastName>
+    <dateOfBirth>1976-11-08T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0918434866</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00020|Hoài|Nguyễn thu|Nguyen thu Hoai|Nguyễn thu Hoài|AM10021.||0918434866||10/17 Chùa Thông, Sơn Lộc, Sơn Tây, Hà Nội|10/17 Chua Thong, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003850</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00021</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Bích Thủy</firstName>
+    <lastName>Đặng Thị</lastName>
+    <dateOfBirth>1983-12-12T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0987690783</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00021|Bích Thủy|Đặng Thị|Dang Thi Bich Thuy|Đặng Thị Bích Thủy|AM10021.||0987690783||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003851</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00022</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hoa</firstName>
+    <lastName>Từ Thị</lastName>
+    <dateOfBirth>1977-12-05T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0915912217</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00022|Hoa|Từ Thị|Tu Thi Hoa|Từ Thị Hoa|AM10021.||0915912217||Hoàng Diệu, Sơn Tây, Hà Nội|Hoang Dieu, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003852</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00023</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh</firstName>
+    <lastName>Lê Thị</lastName>
+    <dateOfBirth>1982-11-09T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01685856809</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00023|Thanh|Lê Thị|Le Thi Thanh|Lê Thị Thanh|AM10021.||01685856809||Ngõ 3 Cầu Trì, Sơn Tây, Hà Nội|Ngo 3 Cau Tri, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003853</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00024</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Thủy</firstName>
+    <lastName>Lê Thị</lastName>
+    <dateOfBirth>1988-10-19T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0973160497</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00024|Thanh Thủy|Lê Thị|Le Thi Thanh Thuy|Lê Thị Thanh Thủy|AM10021.||0973160497||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003854</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00025</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngân</firstName>
+    <lastName>Hoàng Thị</lastName>
+    <dateOfBirth>1978-10-26T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0938850858</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00025|Ngân|Hoàng Thị|Hoang Thi Ngan|Hoàng Thị Ngân|AM10021.||0938850858||Quân y 105, Sơn Tây, Hà Nội|Quan y 105, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003855</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00026</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1977-11-08T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01697883697</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00026|Thu|Nguyễn Thị|Nguyen Thi Thu|Nguyễn Thị Thu|AM10021.||01697883697||Cụm 8, Phúc Thọ, Sơn Tây, Hà Nội|Cum 8, Phuc Tho, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003856</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00027</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Bích Ngọc</firstName>
+    <lastName>Trần</lastName>
+    <dateOfBirth>1975-12-18T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0912325973</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00027|Bích Ngọc|Trần|Tran Bich Ngoc|Trần Bích Ngọc|AM10021.||0912325973||15 Thanh vị, Sơn Lộc, Sơn Tây, Hà Nội|15 Thanh vi, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003979</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00028</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thành</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1982-09-08T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0975982446</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00028|Thành|Nguyễn Thị|Nguyen Thi Thanh|Nguyễn Thị Thành|AM10021.||0975982446||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003980</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00029</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Hương</firstName>
+    <lastName>Chu</lastName>
+    <dateOfBirth>1988-01-27T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0963092087</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00029|Thanh Hương|Chu|Chu Thanh Huong|Chu Thanh Hương|AM10021.||0963092087||Phú Nhi, Sơn Tây, Hà Nội|Phu Nhi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00003999</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00030</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phương Dung</firstName>
+    <lastName>Phạm</lastName>
+    <dateOfBirth>1988-05-08T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0902095547</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00030|Phương Dung|Phạm|Pham Phuong Dung|Phạm Phương Dung|AM10021.||0902095547||Thanh Vi, Son Tay, Hà Nội|Thanh Vi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004034</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00031</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hà</firstName>
+    <lastName>Vũ thị</lastName>
+    <dateOfBirth>1981-12-01T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0989841596</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00031|Hà|Vũ thị|Vu thi Ha|Vũ thị Hà|AM10021.||0989841596||Số Nhà 14 Ngõ 30, Sơn Lộc, Sơn Tây, Hà Nội|So Nha 14 Ngo 30, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004107</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00032</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Huệ</firstName>
+    <lastName>Khuất Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0975554879</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00032|Huệ|Khuất Thị|Khuat Thi Hue|Khuất Thị Huệ|AM10020.||0975554879||Cụm 1, Thọ Lộc, Phúc Thọ , Hà Nội|Cum 1, Tho Loc, Phuc Tho , Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004108</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00033</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngà</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1970-08-03T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0906279571</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00033|Ngà|Nguyễn Thị|Nguyen Thi Nga|Nguyễn Thị Ngà|AM10021.||0906279571||48, Quang Trung, Sơn Tây, Hà Nội|48, Quang Trung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004109</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00034</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Lan Anh</firstName>
+    <lastName>Nguyễn</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01683196089</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00034|Lan Anh|Nguyễn|Nguyen Lan Anh|Nguyễn Lan Anh|AM10020.||01683196089||48, Quang Trung, Sơn Tây, Hà Nội|48, Quang Trung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004110</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00035</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngọc Quyên</firstName>
+    <lastName>Nguyễn</lastName>
+    <dateOfBirth>1984-04-12T00:00:00+07:00</dateOfBirth>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0948441284</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00035|Ngọc Quyên|Nguyễn|Nguyen Ngoc Quyen|Nguyễn Ngọc Quyên|AM10021.||0948441284||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004234</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00036</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Huyền</firstName>
+    <lastName>Bùi Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985123895</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00036|Thanh Huyền|Bùi Thị|Bui Thi Thanh Huyen|Bùi Thị Thanh Huyền|AM10020.||0985123895||Sơn Đông, Sơn Tây, Hà Nội|Son Dong, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004336</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00037</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Vấn</firstName>
+    <lastName>Phạm Thị</lastName>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>33834757</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00037|Vấn|Phạm Thị|Pham Thi Van|Phạm Thị Vấn|AM10020.||33834757||52 phố cầu chì, Sơn Lộc, Sơn Tây, Hà Nội|52 pho cau chi, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004395</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00038</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ánh Tuyết</firstName>
+    <lastName>Nguyễn</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986576906</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00038|Ánh Tuyết|Nguyễn|Nguyen Anh Tuyet|Nguyễn Ánh Tuyết|AM10020.||0986576906||Phòng khám Viện 105, Sơn Tây, Hà Nội|Phong kham Vien 105, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004476</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00039</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Bình</firstName>
+    <lastName>Nguyễn</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01668531546</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00039|Thanh Bình|Nguyễn|Nguyen Thanh Binh|Nguyễn Thanh Bình|AM10020.||01668531546||Đội 3, Trung Hưng, Sơn Tây, Hà Nội|Doi 3, Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004831</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00040</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Trà</firstName>
+    <lastName>Tạ Thị</lastName>
+    <dateOfBirth>1980-02-20T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01659700699</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00040|Trà|Tạ Thị|Ta Thi Tra|Tạ Thị Trà|AM10021.||01659700699||37, Thanh Vị, Sơn Tây, Hà Nội|37, Thanh Vi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004832</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00041</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Duyên</firstName>
+    <lastName>Trần Khánh</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0984984818</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00041|Duyên|Trần Khánh|Tran Khanh Duyen|Trần Khánh Duyên|AM10020.||0984984818||Chùa Thông, Sơn Tây, Hà Nội|Chua Thong, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004833</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00042</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phượng</firstName>
+    <lastName>TRần Kim</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0904334134</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00042|Phượng|TRần Kim|TRan Kim Phuong|TRần Kim Phượng|AM10020.||0904334134||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004834</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00043</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Chinh</firstName>
+    <lastName>Hoàng Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0963042986</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00043|Chinh|Hoàng Thị|Hoang Thi Chinh|Hoàng Thị Chinh|AM10020.||0963042986||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004835</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00044</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hà</firstName>
+    <lastName>Nguyễn  Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01237224079</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00044|Hà|Nguyễn  Thị|Nguyen  Thi Ha|Nguyễn  Thị Hà|AM10020.||01237224079||Phúc Thọ, Sơn Tây, Hà Nội|Phuc Tho, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004859</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00045</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Huyền</firstName>
+    <lastName>Hà Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01699136659</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00045|Thu Huyền|Hà Thị|Ha Thi Thu Huyen|Hà Thị Thu Huyền|AM10020.||01699136659||Phúc Thọ, Sơn Tây, Hà Nội|Phuc Tho, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004860</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00046</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Huyền</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0982537367</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00046|Thu Huyền|Nguyễn Thị|Nguyen Thi Thu Huyen|Nguyễn Thị Thu Huyền|AM10020.||0982537367||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004861</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00047</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hoa Lệ</firstName>
+    <lastName>Phùng</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01688110267</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00047|Hoa Lệ|Phùng|Phung Hoa Le|Phùng Hoa Lệ|AM10020.||01688110267||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004862</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00048</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Vân</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0975557892</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00048|Vân|Nguyễn Thị|Nguyen Thi Van|Nguyễn Thị Vân|AM10020.||0975557892||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004942</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00049</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hạnh</firstName>
+    <lastName>Lê Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0932223466</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00049|Hạnh|Lê Thị|Le Thi Hanh|Lê Thị Hạnh|AM10020.||0932223466||Tập Thể 400, Sơn Tây, Hà Nội|Tap The 400, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00004943</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00050</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hoán</firstName>
+    <lastName>Vũ Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0984820363</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00050|Hoán|Vũ Thị|Vu Thi Hoan|Vũ Thị Hoán|AM10020.||0984820363||, Phúc Thọ, Hà Nội|, Phuc Tho, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005084</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00051</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Chúc</firstName>
+    <lastName>Đặng Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01633340739</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00051|Chúc|Đặng Thị|Dang Thi Chuc|Đặng Thị Chúc|AM10020.||01633340739||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005085</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00052</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phương</firstName>
+    <lastName>Trịnh Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0904029515</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00052|Phương|Trịnh Thị|Trinh Thi Phuong|Trịnh Thị Phương|AM10020.||0904029515||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005086</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00053</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Khuyên</firstName>
+    <lastName>Chu Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0984921387</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00053|Khuyên|Chu Thị|Chu Thi Khuyen|Chu Thị Khuyên|AM10020.||0984921387||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005294</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00054</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Dung</firstName>
+    <lastName>Lê Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0975980477</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00054|Dung|Lê Thị|Le Thi Dung|Lê Thị Dung|AM10020.||0975980477||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005295</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00055</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hải Vân</firstName>
+    <lastName>Trần Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01672784610</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00055|Hải Vân|Trần Thị|Tran Thi Hai Van|Trần Thị Hải Vân|AM10020.||01672784610||Xuân Sơn, Sơn Tây, Hà Nội|Xuan Son, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005319</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00056</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Thủy</firstName>
+    <lastName>Trần</lastName>
+    <dateOfBirth>1979-12-03T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0904251252</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00056|Thu Thủy|Trần|Tran Thu Thuy|Trần Thu Thủy|AM10021.||0904251252||124,  Sơn Lộc, Sơn Tây, Hà Nội|124,  Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005320</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00057</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Xuân</firstName>
+    <lastName>Cấn</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0987411413</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00057|Thu Xuân|Cấn|Can Thu Xuan|Cấn Thu Xuân|AM10020.||0987411413||361 Chùa Thông, Sơn Tây, Hà Nội|361 Chua Thong, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005321</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00058</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hoa</firstName>
+    <lastName>Chu Thị</lastName>
+    <dateOfBirth>1981-07-07T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>33619707</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00058|Hoa|Chu Thị|Chu Thi Hoa|Chu Thị Hoa|AM10021.||33619707||169, Phùng Khắc Khoan, Sơn Tây, Hà Nội|169, Phung Khac Khoan, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005322</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00059</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thùy Linh</firstName>
+    <lastName>Nguyễn</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0977541556</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00059|Thùy Linh|Nguyễn|Nguyen Thuy Linh|Nguyễn Thùy Linh|AM10020.||0977541556||Xuân Khanh, Sơn Tây, Hà Nội|Xuan Khanh, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005364</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00060</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Mai Hương</firstName>
+    <lastName>Tống Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0987608703</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00060|Mai Hương|Tống Thị|Tong Thi Mai Huong|Tống Thị Mai Hương|AM10020.||0987608703||Thị Trấn , Phúc Thọ, Hà Nội|Thi Tran , Phuc Tho, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005521</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00061</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Mỹ Hoa</firstName>
+    <lastName>Nguyễn Dạ</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01689858558</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00061|Mỹ Hoa|Nguyễn Dạ|Nguyen Da My Hoa|Nguyễn Dạ Mỹ Hoa|AM10020.||01689858558||58, Lê Lợi, Sơn Tây, Hà Nội|58, Le Loi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005522</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00062</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thúy Quỳnh</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0966704587</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00062|Thúy Quỳnh|Nguyễn Thị|Nguyen Thi Thuy Quynh|Nguyễn Thị Thúy Quỳnh|AM10020.||0966704587||Tản Lĩnh, Ba Vì, Hà Nội|Tan Linh, Ba Vi, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005681</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00063</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ánh Điệp</firstName>
+    <lastName>Lưu</lastName>
+    <dateOfBirth>1985-07-19T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0984735137</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00063|Ánh Điệp|Lưu|Luu Anh Diep|Lưu Ánh Điệp|AM10021.||0984735137||184 Chùa Thông, Sơn Lôc, Sơn Tây, Hà Nội|184 Chua Thong, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005795</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00064</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hiền</firstName>
+    <lastName>Vũ Thị</lastName>
+    <dateOfBirth>1987-09-14T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01697895285</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00064|Hiền|Vũ Thị|Vu Thi Hien|Vũ Thị Hiền|AM10021.||01697895285||KTT Trường Quân Y, Sơn Tây, Hà Nội|KTT Truong Quan Y, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005796</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00065</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngọc Mai</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1972-01-11T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01686918760</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00065|Ngọc Mai|Nguyễn Thị|Nguyen Thi Ngoc Mai|Nguyễn Thị Ngọc Mai|AM10021.||01686918760||55 - ngõ 3, Ngô Quyền, Sơn Tây, Hà Nội|55 - ngo 3, Ngo Quyen, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00005892</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00066</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hương</firstName>
+    <lastName>Vũ Thị</lastName>
+    <dateOfBirth>1969-11-05T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0988147996</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00066|Hương|Vũ Thị|Vu Thi Huong|Vũ Thị Hương|AM10021.||0988147996||Thụy An, Ba Vì, Hà Nội|Thuy An, Ba Vi, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006025</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00067</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hồng Vân</firstName>
+    <lastName>An</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986211592</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00067|Hồng Vân|An|An Hong Van|An Hồng Vân|AM10020.||0986211592||97, Sơn Lộc, Sơn Tây, Hà Nội|97, Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006245</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00068</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hiền Hậu</firstName>
+    <lastName>Phùng Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0989383840</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00068|Hiền Hậu|Phùng Thị|Phung Thi Hien Hau|Phùng Thị Hiền Hậu|AM10020.||0989383840||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006246</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00069</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thu Hoài</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01699868808</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00069|Thu Hoài|Nguyễn Thị|Nguyen Thi Thu Hoai|Nguyễn Thị Thu Hoài|AM10020.||01699868808||191A, Chùa Thông, Sơn Tây, Hà Nội|191A, Chua Thong, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006247</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00070</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Nguyệt Minh</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0982197927</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00070|Nguyệt Minh|Nguyễn Thị|Nguyen Thi Nguyet Minh|Nguyễn Thị Nguyệt Minh|AM10020.||0982197927||9 Cầu chì, Sơn Tây, Hà Nội|9 Cau chi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006248</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00071</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Liên</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01649379697</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00071|Liên|Nguyễn Thị|Nguyen Thi Lien|Nguyễn Thị Liên|AM10020.||01649379697||310 Chùa Thông, Sơn Tây, Hà Nội|310 Chua Thong, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006292</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00072</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Bích Ngọc</firstName>
+    <lastName>Trần Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0979781069</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00072|Bích Ngọc|Trần Thị|Tran Thi Bich Ngoc|Trần Thị Bích Ngọc|AM10020.||0979781069||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006741</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00073</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Dư</firstName>
+    <lastName>Trần Thị</lastName>
+    <dateOfBirth>1981-01-07T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0978445995</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00073|Dư|Trần Thị|Tran Thi Du|Trần Thị Dư|AM10021.||0978445995||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006742</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00074</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phương</firstName>
+    <lastName>Phan Thị</lastName>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01635325663</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00074|Phương|Phan Thị|Phan Thi Phuong|Phan Thị Phương|AM10020.||01635325663||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006757</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00075</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thúy</firstName>
+    <lastName>Đỗ Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0988151596</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00075|Thúy|Đỗ Thị|Do Thi Thuy|Đỗ Thị Thúy|AM10020.||0988151596||Viện 105, Sơn Tây, Hà Nội|Vien 105, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006899</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00076</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Phương Mai</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1982-12-24T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01639002916</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00076|Phương Mai|Nguyễn Thị|Nguyen Thi Phuong Mai|Nguyễn Thị Phương Mai|AM10021.||01639002916||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006900</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00077</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hải</firstName>
+    <lastName>Chu Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985063274</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00077|Hải|Chu Thị|Chu Thi Hai|Chu Thị Hải|AM10020.||0985063274||Trung Hưng, Sơn Tây, Hà Nội|Trung Hung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006910</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00078</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Khanh</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0984420267</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00078|Khanh|Nguyễn Thị|Nguyen Thi Khanh|Nguyễn Thị Khanh|AM10020.||0984420267||Thanh Mỹ, Sơn Tây, Hà Nội|Thanh My, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00006911</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00079</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Mai</firstName>
+    <lastName>Đào thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0433835359</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00079|Mai|Đào thị|Dao thi Mai|Đào thị Mai|AM10020.||0433835359||Số 01 , Lê Lợi, Sơn Tây, Hà Nội|So 01 , Le Loi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007214</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00080</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Liễu</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1973-06-07T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0977374073</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>1</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00080|Liễu|Nguyễn Thị|Nguyen Thi Lieu|Nguyễn Thị Liễu|AM10021.||0977374073||, Sơn Tây, Hà Nội|, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007324</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00081</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thanh Hiền</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0934440929</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00081|Thanh Hiền|Nguyễn Thị|Nguyen Thi Thanh Hien|Nguyễn Thị Thanh Hiền|AM10020.||0934440929||Cầu Chì, Sơn Tây, Hà Nội|Cau Chi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007352</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00082</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hằng</firstName>
+    <lastName>Nguyễn Thu</lastName>
+    <dateOfBirth>1976-11-28T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01665522289</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00082|Hằng|Nguyễn Thu|Nguyen Thu Hang|Nguyễn Thu Hằng|AM10021.||01665522289||206 Thanh Vị, Sơn Tây, Hà Nội|206 Thanh Vi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007353</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00083</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Dậu</firstName>
+    <lastName>Tô Bích</lastName>
+    <dateOfBirth>1976-01-24T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0948566215</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00083|Dậu|Tô Bích|To Bich Dau|Tô Bích Dậu|AM10021.||0948566215|8208760000014|Tam Hiệp, Phúc Thọ, Hà Nội|Tam Hiep, Phuc Tho, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007510</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00084</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Kim Thanh</firstName>
+    <lastName>Hoàng thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0932244678</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00084|Kim Thanh|Hoàng thị|Hoang thi Kim Thanh|Hoàng thị Kim Thanh|AM10020.||0932244678||, Sơn Tây, Hà Nội|, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007598</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00085</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Quy</firstName>
+    <lastName>Trần Kim</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986444481</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00085|Quy|Trần Kim|Tran Kim Quy|Trần Kim Quy|AM10020.||0986444481||25, Nguyễn Thái Học, Sơn Tây, Hà Nội|25, Nguyen Thai Hoc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007609</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00086</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Kim Thanh</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0975292878</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00086|Kim Thanh|Nguyễn Thị|Nguyen Thi Kim Thanh|Nguyễn Thị Kim Thanh|AM10020.||0975292878||38, Quang Trung, Sơn Tây, Hà Nội|38, Quang Trung, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007705</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00087</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thế Anh</firstName>
+    <lastName>Công</lastName>
+    <dateOfBirth>1990-11-03T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0001</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01679788881</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00087|Thế Anh|Công|Cong The Anh|Công Thế Anh|AM10021.||01679788881||Số 2, Hoàng Diệu, Sơn Tây, Hà Nội|So 2, Hoang Dieu, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007715</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00088</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thế Minh</firstName>
+    <lastName>Công</lastName>
+    <dateOfBirth>1998-12-14T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0001</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985642086</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00088|Thế Minh|Công|Cong The Minh|Công Thế Minh|AM10021.||0985642086|8208760001998|Số 4, Hoàng Diệu, Sơn Tây, Hà Nội|So 4, Hoang Dieu, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007716</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00089</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngọc Yến</firstName>
+    <lastName>Khuất Thị</lastName>
+    <dateOfBirth>1985-11-08T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0916940678</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00089|Ngọc Yến|Khuất Thị|Khuat Thi Ngoc Yen|Khuất Thị Ngọc Yến|AM10021.||0916940678||Phù Sa - Lê Lợi, Sơn Tây, Hà Nội|Phu Sa - Le Loi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007717</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00090</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hằng</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00090|Hằng|Nguyễn Thị|Nguyen Thi Hang|Nguyễn Thị Hằng|AM10020.||||Viện 105, Sơn Tây, Hà Nội|Vien 105, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007731</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00091</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Hạnh</firstName>
+    <lastName>Đoàn Thị</lastName>
+    <dateOfBirth>1985-12-03T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0985799583</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00091|Hạnh|Đoàn Thị|Doan Thi Hanh|Đoàn Thị Hạnh|AM10021.||0985799583||Phú Nhi, Sơn Tây, Hà Nội|Phu Nhi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007741</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00092</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Giang</firstName>
+    <lastName>Nguyễn Thu</lastName>
+    <dateOfBirth>1985-11-28T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0943537129</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00092|Giang|Nguyễn Thu|Nguyen Thu Giang|Nguyễn Thu Giang|AM10021.||0943537129||Đường lâm, Sơn Tây, Hà Nội|Duong lam, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007742</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00094</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Tính</firstName>
+    <lastName>Đoàn Thị</lastName>
+    <dateOfBirth>1983-11-19T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01642468620</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00094|Tính|Đoàn Thị|Doan Thi Tinh|Đoàn Thị Tính|AM10021.||01642468620||Phú Nhi, Sơn Tây, Hà Nội|Phu Nhi, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007744</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00095</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Nhàn</firstName>
+    <lastName>Nguyễn Thị</lastName>
+    <dateOfBirth>1987-08-13T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0986201792</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00095|Nhàn|Nguyễn Thị|Nguyen Thi Nhan|Nguyễn Thị Nhàn|AM10021.||0986201792||Xuân Sơn, Sơn Tây, Hà Nội|Xuan Son, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007745</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00096</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>An Đức</firstName>
+    <lastName>Phùng Thị</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01697297222</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00096|An Đức|Phùng Thị|Phung Thi An Duc|Phùng Thị An Đức|AM10020.||01697297222||Trường Sĩ Quan Lục Quân 1, Sơn Tây, Hà Nội|Truong Si Quan Luc Quan 1, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00007858</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00097</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thủy</firstName>
+    <lastName>Kiều Thanh</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0983527559</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00097|Thủy|Kiều Thanh|Kieu Thanh Thuy|Kiều Thanh Thủy|AM10020.||0983527559||Kim Sơn, Sơn Tây, Hà Nội|Kim Son, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00008047</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00098</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thủy</firstName>
+    <lastName>Đỗ Thu</lastName>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>0913068086</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00098|Thủy|Đỗ Thu|Do Thu Thuy|Đỗ Thu Thủy|AM10020.||0913068086||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00008057</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00099</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Ngư</firstName>
+    <lastName>Phùng Thị</lastName>
+    <dateOfBirth>1982-10-24T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01685741960</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00099|Ngư|Phùng Thị|Phung Thi Ngu|Phùng Thị Ngư|AM10021.||01685741960||Sơn Lộc, Sơn Tây, Hà Nội|Son Loc, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00008058</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+  <Customers>
+    <customerCode>CUS.AM10021.00100</customerCode>
+    <shopCode>NT20191</shopCode>
+    <firstName>Thương</firstName>
+    <lastName>Đào Thị</lastName>
+    <dateOfBirth>1977-12-19T00:00:00+07:00</dateOfBirth>
+    <sexCode>SEX.0002</sexCode>
+    <customerGroupCode>CUG.0001</customerGroupCode>
+    <idNoIssuedDate>1753-01-01T00:00:00+07:00</idNoIssuedDate>
+    <passportNoIssuedDate>1753-01-01T00:00:00+07:00</passportNoIssuedDate>
+    <passportNoExpiryDate>1753-01-01T00:00:00+07:00</passportNoExpiryDate>
+    <mobilePhone>01686851234</mobilePhone>
+    <provinceCityCode>PRC.0002</provinceCityCode>
+    <isActive>0</isActive>
+    <updateDate>2014-01-02T16:01:51.15+07:00</updateDate>
+    <colSearch>CUS.AM10021.00100|Thương|Đào Thị|Dao Thi Thuong|Đào Thị Thương|AM10021.||01686851234||Trung Sơn Trầm, Sơn Tây, Hà Nội|Trung Son Tram, Son Tay, Ha Noi</colSearch>
+    <eventId>POS063-AM10020-13-00008196</eventId>
+    <isPrivate>0</isPrivate>
+    <synAction>1</synAction>
+  </Customers>
+</customersXml>

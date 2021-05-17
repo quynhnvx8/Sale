@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<promotionCustAttrDetailXml>
+    <PromotionCustAttrDetail>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <customerTypeCode>CUG.0001</customerTypeCode>
+        <id>1221</id>
+        <objectType>2</objectType>
+        <promotionCustAttrId>14999</promotionCustAttrId>
+        <status>RUNNING</status>
+        <synAction>1</synAction>
+    </PromotionCustAttrDetail>
+    <PromotionCustAttrDetail>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <customerTypeCode>CUG.0004</customerTypeCode>
+        <id>1222</id>
+        <objectType>2</objectType>
+        <promotionCustAttrId>14999</promotionCustAttrId>
+        <status>RUNNING</status>
+        <synAction>1</synAction>
+    </PromotionCustAttrDetail>
+</promotionCustAttrDetailXml>

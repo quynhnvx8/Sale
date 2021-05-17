@@ -1,0 +1,4 @@
+if(SaleMTChangePriceCatalog._editIndex != undefined){
+				var fromDate = $('#grid').datagrid('getEditor', {index:SaleMTChangePriceCatalog._editIndex,field: 'fromDate'}).target.next().children().first().val();
+				$('#grid').datagrid('updateRow',{index: SaleMTChangePriceCatalog._editIndex, row:{'fromDate': fromDate}});
+			}

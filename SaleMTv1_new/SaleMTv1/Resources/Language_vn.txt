@@ -1,0 +1,1995 @@
+﻿#Message Dialog:
+Msg.TitleDialog:Thông báo
+Msg.PermissionDialog:Bạn không có quyền truy cập chức năng này
+Msg.Error:Thông báo lỗi
+Msg.UpdateSuccess: Cập nhật thành công
+Msg.EmailNotFound: Không tìm thấy email
+Msg.DataNotFound: Không tìm thấy dữ liệu
+Msg.AmountNotEmpty: Số tiền không được để trống
+Msg.InvoiceNotEmpty: Số hóa đơn không được để trống
+Msg.InvoiceExists: Số hóa đơn đã tồn tại
+Msg.MustBeSelected: Vui lòng chọn dữ liệu
+Msg.NoPermissionQty:Bạn không được phép sửa số lượng
+Msg.PasswordNotSame: Mật khẩu không giống nhau
+Msg.Mandatory: Bắt buộc nhập trường có dấu (*)
+Msg.PercentDiscount:Vui lòng nhập phần trăm chiết khấu
+#End Message Dialog:
+#frmMain:
+frmSaleMTMain.Text		:Quản lý bán hàng
+mnuSystem				:Hệ thống
+mnuLogin				:Đăng nhập
+mnuDatabaseConfig		:Kết nối cơ sở dữ liệu
+mnuChangePassword		:Thay đổi mật khẩu
+mnuCustomizeFormat      :Tùy chỉnh
+mnuSetupPrinter         :Tùy chọn máy in
+mnuOptionSynData        :Cấu hình đồng bộ dữ liệu
+mnuFtpConfig            :Cấu hình FTP
+mnuQuitApp              :Thoát
+mnuInvenManagement      :Quản lý kho hàng
+mnuOrder                :Đặt hàng
+mnuGoodsReceipt         :Nhập hàng
+mnuGoodsDelivery        :Xuất hàng
+mnuCheckInventory       :Kiểm tra tồn kho
+mnuInputStock           :Nhập tồn kho đầu kỳ
+mnuSaleManage           :Quản lý bán hàng
+mnuSale                 :Bán hàng
+mnuReturnItems          :Hàng trả lại
+mnuCash                 :Quản lý thu chi
+mnuCashPay              :Quản lý chi tiền
+mnuCashReceipt          :Quản lý thu tiền
+mnuManageReceipt        :Quản lý hóa đơn
+tsmCusManager           :Quản lý khách hàng
+mnuShiftReport          :In dữ liệu ca làm việc
+mnuCloseShift           :Kết ca làm việc
+tsmnuQuanLyKHNV         :Quản lý KH && NV
+mnuCustomersManage      :Quản lý thông tin KH
+mnuEmployeeInfor        :Thông tin nhân viên
+mnuShiftmanage          :Xếp ca làm việc
+mnuTimeAttendance       :Nhân viên quét thẻ
+mnuLiabilityManage      :Quản lý công nợ
+mnuCashDepo             :Bảng kê nộp tiền
+mnuInvoicePay           :Thanh toán đơn hàng
+mnuInputLiability       :Nhập công nợ đầu kỳ
+mnuLiablityReport       :Báo cáo công nợ
+mnuReport               :Báo cáo
+mnuRReport              :Báo cáo
+mnuUtilities            :Tiện ích
+mnuBarcodeScaner        :Quét mã vạch
+mnuCalculator           :Máy tính
+mnuNotepad              :Trình văn bản
+mnuCompareExcel         :So sánh số lượng
+mnuGoodsInventory       :Kiểm kê hàng
+mnuHelp                 :Trợ giúp
+mnuUserGuide            :Hướng dẫn sử dụng
+mnuAppInfo              :Thông tin chương trình
+mnuAbout                :Thông tin bản quyền
+mnuWindow               :Cửa sổ
+mnuExitWindow           :Đóng tất cả
+testToolStripMenuItem   :Admin
+btnAdd                  :Thêm mới thông tin(Ctrl N)
+btnSave                 :Lưu thông tin(Ctrl S)
+btnEdit                 :Sửa thông tin đang chọn(Ctrl E)
+btnCancel               :Hủy bỏ thao tác(Ctrl Q)
+btnDelete               :Xóa thông tin đang chọn(Ctrl D)
+btnPrint                :In thông tin(Ctrl P)
+btnExport               :Xuất thông tin(Ctrl T)
+btnViewReport           :Xem báo cáo(Ctrl R)
+btnSearch               :Tìm kiếm thông tin(Ctrl F)
+btnLogin                :Đăng nhập hệ thống(Ctrl L)
+btnLogout               :Thoát(Ctrl O)
+btnExit                 :Đóng
+lblStore                :Cửa hàng
+frmOptionDatabase.label1 :Máy chủ
+frmOptionDatabase.label2 :Cơ sở dữ liệu
+frmOptionDatabase.label3 :Tên đăng nhập
+frmOptionDatabase.label4 :Mật khẩu
+frmOptionDatabase.btnSave :Lưu
+frmOptionDatabase.btnClose :Đóng
+frmOptionDatabase.Text :Thiết lập kết nối cơ sở dữ liệu
+frmLogin.label1	:Tên đăng nhập
+frmLogin.label2:Mật khẩu
+frmLogin.btnLogin:Đăng nhập
+frmLogin.btnClose:Đóng
+frmLogin.chkRememberPass:Nhớ thông tin đăng nhập
+frmLogin.Text:Đăng nhập
+frmChangePass.lblMKcu.Text :Mật khẩu cũ
+frmChangePass.lblMKmoi.Text :Mật khẩu mới
+frmChangePass.lblXacNhanMK.Text :Xác nhận mật khẩu
+frmChangePass.Text :Thay đổi mật khẩu
+frmChangePassword.label1.Text :Mật khẩu cũ
+frmChangePassword.btnClose.Text :Đóng
+frmChangePassword.label2.Text :Mật khẩu mới
+frmChangePassword.label3.Text :Xác nhận mật khẩu
+frmChangePassword.btnSave.Text :Lưu
+frmChangePassword.Text :Thay đổi mật khẩu
+frmFTPMonitor.statusStrip1.Text :statusStrip1
+frmFTPMonitor.grbParameter.Text :Thông số kết nối đến server FTP
+frmFTPMonitor.label6.Text :Port
+frmFTPMonitor.label5.Text :Password
+frmFTPMonitor.label4.Text :User name
+frmFTPMonitor.label3.Text :Host
+frmFTPMonitor.btnExCheckConn.Text :Kiểm tra kết nối
+frmFTPMonitor.ckbExSSL.Text :SSL
+frmFTPMonitor.btnImpCheckConn.Text :Kiểm tra kết nối
+frmFTPMonitor.ckbImpSSL.Text :SSL
+frmFTPMonitor.label2.Text :Export
+frmFTPMonitor.label1.Text :Import
+frmFTPMonitor.rdDif.Text :Export và Import khác server
+frmFTPMonitor.rdSame.Text :Export và Import cùng server
+frmFTPMonitor.grbDir.Text :Thư mục thực thi
+frmFTPMonitor.label12.Text :Note
+frmFTPMonitor.label10.Text :Export
+frmFTPMonitor.label11.Text :Import
+frmFTPMonitor.label9.Text :Local
+frmFTPMonitor.label8.Text :FTP
+frmFTPMonitor.btnLoad.Text :Load lại thiết lập
+frmFTPMonitor.btnSave.Text :Lưu
+frmFTPMonitor.Text :FTP Monitor
+frmOptionData.groupBox1.Text :Thông tin kết nối máy chủ
+frmOptionData.label6.Text :Schema
+frmOptionData.lblPass.Text :Mật khẩu
+frmOptionData.lblUserName.Text :Tên đăng nhập
+frmOptionData.label3.Text :Cơ sở dữ liệu
+frmOptionData.chkAccountDomain.Text :Tài khoản Domain
+frmOptionData.lblServer.Text :Máy chủ 
+frmOptionData.groupBox2.Text :Thông số
+frmOptionData.chkHide.Text :Ẩn khi khởi động chương trình
+frmOptionData.label8.Text :Xử lý dữ liệu sau
+frmOptionData.label9.Text :Kết nối Web service sau
+frmOptionData.chkShowInfor.Text :Hiển thị thông báo khi không kết nối thành công tới máy chủ
+frmOptionData.chkOpenSynData.Text :Bật chức năng đồng bộ với máy chủ
+frmOptionData.label1.Text :Kiểm tra kết nối máy chủ khi rớt mạng sau
+frmOptionData.label7.Text :Đồng bộ dữ liệu sau 
+frmOptionData.btnClose.Text :Đóng
+frmOptionData.btnSave.Text :Lưu
+frmOptionData.btnExit.Text :Tắt chức năng đồng bộ
+frmOptionData.label2.Text :phút
+frmOptionData.Text :Thiết lập thông tin đồng bộ dữ liệu
+frmOptionFormat.tabFormat.Text :Định dạng
+frmOptionFormat.groupBox2.Text :Mẫu
+frmOptionFormat.label6.Text :Tiền tệ
+frmOptionFormat.label9.Text :Ngày tháng
+frmOptionFormat.label7.Text :Số
+frmOptionFormat.label8.Text :Giờ
+frmOptionFormat.groupBox1.Text :Kiểu dữ liệu
+frmOptionFormat.label5.Text :Số thập phân
+frmOptionFormat.label4.Text :Tiền tệ
+frmOptionFormat.label3.Text :Số
+frmOptionFormat.label2.Text :Giờ
+frmOptionFormat.label1.Text :Ngày tháng
+frmOptionFormat.btnCheckDisplay.Text :Kiểm tra hiển thị
+frmOptionFormat.label11.Text :Baud Rate 
+frmOptionFormat.label10.Text :Com Port
+frmOptionFormat.chkChoose.Text :Có sử dụng
+frmOptionFormat.tabPrintInvoi.Text :In hóa đơn
+frmOptionFormat.label15.Text :Tên KH
+frmOptionFormat.label14.Text :Mã KH mặc định
+frmOptionFormat.label13.Text :Tên người in HĐ đỏ
+frmOptionFormat.label12.Text :Số lượng HĐ bán hàng in mặc định
+frmOptionFormat.btnSave.Text :Lưu
+frmOptionFormat.btnClose.Text :Đóng
+frmOptionFormat.Text :Tùy chỉnh
+frmRegister.lblNVHienthi.Text :ÐĂNG KÝ SỬ DỤNG
+frmRegister.cmdGiupdo.Text :&Giúp đỡ
+frmRegister.cmdThoat.Text : Th&oát
+frmRegister.cmdChapnhan.Text :&Chấp nhận
+frmRegister.lblgiaima.Text :Mã ĐK
+frmRegister.lblmadangky.Text :Mã của bạn
+frmShips.grbShifts.Text :Danh sách chưa kết ca làm việc
+frmShips.columnHeader1.Text :Ca
+frmShips.columnHeader2.Text :Ngày
+frmShips.columnHeader3.Text :Người dùng
+frmShips.btnPrint.Text :In dữ liệu
+frmShips.btnOkShifts.Text :Kết ca
+frmShips.btnContinute.Text :Tiếp tục
+frmShips.Text :Thông báo
+SetupPrint.chkCheck.Text :Xem trước khi in
+SetupPrint.groupBox1.Text :Máy in hóa đơn
+SetupPrint.label2.Text :Máy in 2
+SetupPrint.label1.Text :Máy in 1
+SetupPrint.groupBox2.Text :Máy in báo cáo
+SetupPrint.label4.Text :Máy in 2
+SetupPrint.label3.Text :Máy in1 
+SetupPrint.btnSave.Text :Lưu
+SetupPrint.btnClose.Text :Đóng
+SetupPrint.Text :Tùy chọn máy in
+dlgImportProduct.groupBox1.Text :Tập tin
+dlgImportProduct.btnImportExcel.Text :Mẫu Import
+dlgImportProduct.btnBegin.Text :Bắt đầu
+dlgImportProduct.label3.Text :Sheet
+dlgImportProduct.label2.Text :Tập tin
+dlgImportProduct.groupBox2.Text :Danh sách
+dlgImportProduct.ProductCode.HeaderText :Mã hàng
+dlgImportProduct.Quantity.HeaderText :Số lượng
+dlgImportProduct.lblStatus.Text :Sẵn sàng
+dlgImportProduct.btnClose.Text :Đóng
+dlgImportProduct.btnOK.Text :Đồng ý
+dlgImportProduct.lblSum.Text :Tổng cộng
+dlgImportProduct.Text :Import mã hàng
+frmBarcodeScaner.label1.Text :Mã hàng
+frmBarcodeScaner.label14.Text :Mã vạch(F5)
+frmBarcodeScaner.groupBox3.Text :Danh sách hàng
+frmBarcodeScaner.label7.Text :Bảng giá
+frmBarcodeScaner.btnExportData.Text :Xuất dữ liệu
+frmBarcodeScaner.btnExportGroup.Text :Xuất gom nhóm
+frmBarcodeScaner.btnDelete.Text :Xóa danh sách
+frmBarcodeScaner.btnClose.Text :Đóng
+frmBarcodeScaner.BarCode.HeaderText :Mã vạch
+frmBarcodeScaner.ProductID.HeaderText :Mã hàng
+frmBarcodeScaner.colProductName.HeaderText :Tên hàng
+frmBarcodeScaner.UnitName.HeaderText :Đơn vị tính
+frmBarcodeScaner.Quantity.HeaderText :Số lượng
+frmBarcodeScaner.Price.HeaderText :Giá
+frmBarcodeScaner.TotalPrice.HeaderText :Thành tiền
+frmBarcodeScaner.Text :Quét mã vạch
+frmCheckProduct.tabPSanPham.Text :Sản phẩm
+frmCheckProduct.btnClose.Text :Đóng
+frmCheckProduct.btnSave.Text :Lưu
+frmCheckProduct.btnCancel.Text :X
+frmCheckProduct.btnF5.Text :(F5)>>
+frmCheckProduct.groupBox2.Text :Đã chọn
+frmCheckProduct.columnHeader1.Text :Mã sản phẩm
+frmCheckProduct.columnHeader2.Text :Tên sản phẩm
+frmCheckProduct.label2.Text :Tổng cộng
+frmCheckProduct.btnImport.Text :Import
+frmCheckProduct.groupBox1.Text :Chọn sản phẩm
+frmCheckProduct.btnSearch.Text :Tìm
+frmCheckProduct.btnExcel.Text :Excel
+frmCheckProduct.label1.Text :Tổng cộng
+frmCheckProduct.label7.Text :Lọc theo
+frmCheckProduct.Text :Chọn sản phẩm
+frmCompareExcelFile.STT.HeaderText :STT
+frmCompareExcelFile.clnProductCode.HeaderText :Mã sản phẩm
+frmCompareExcelFile.clnQuantity.HeaderText :Số lượng
+frmCompareExcelFile.STTB.HeaderText :STT
+frmCompareExcelFile.clnProductCodeB.HeaderText :Mã sản phẩm
+frmCompareExcelFile.clnQuantityB.HeaderText :Số lượng
+frmCompareExcelFile.btnImportB.Text :Import
+frmCompareExcelFile.gbxDuLieu.Text :Số liệu khác nhau
+frmCompareExcelFile.STTK.HeaderText :STT
+frmCompareExcelFile.MaSPK.HeaderText :Mã sản phẩm
+frmCompareExcelFile.SoLuongK.HeaderText :Số lượng
+frmCompareExcelFile.GhiChu.HeaderText :Ghi chú
+frmCompareExcelFile.btnCompare.Text :So sánh
+frmCompareExcelFile.btnClose.Text :Đóng
+frmCompareExcelFile.lblTotal.Text :Tổng cộng
+frmCompareExcelFile.Text :So sánh số lượng
+frmGoodsInventory.groupBox4.Text :Danh sách sản phẩm
+frmGoodsInventory.colCAT.HeaderText :Ngành hàng
+frmGoodsInventory.colPRODUCT_GROUP.HeaderText :Nhóm SP
+frmGoodsInventory.colPRODUCT_ID.HeaderText :Mã SP
+frmGoodsInventory.colPRODUCT_NAME.HeaderText :Tên SP
+frmGoodsInventory.colQUANTITY.HeaderText :SL tồn kho
+frmGoodsInventory.colPRODUCT_PRICE.HeaderText :Giá
+frmGoodsInventory.colTotalMoney.HeaderText :Thành tiền
+frmGoodsInventory.colQuantityIvent.HeaderText :SL Packet kiểm kê
+frmGoodsInventory.colQuantityOdd.HeaderText :SL Lẻ kiểm kê
+frmGoodsInventory.colTotalQuantity.HeaderText :Tổng SL kiểm kê
+frmGoodsInventory.colDifferen.HeaderText :Chênh lệch
+frmGoodsInventory.colUNIT1.HeaderText :ĐVT Packet
+frmGoodsInventory.colPRICE.HeaderText :SL Quy đổi
+frmGoodsInventory.colUNIT_SLQD.HeaderText :ĐVT Lẻ
+frmGoodsInventory.label2.Text :Sản phẩm
+frmGoodsInventory.label3.Text :Đến ngày
+frmGoodsInventory.btnClose.Text :Đóng
+frmGoodsInventory.btnExportDC.Text :Xuất điều chỉnh
+frmGoodsInventory.btnExportExcel.Text :Xuất dữ liệu
+frmGoodsInventory.btnImportDC.Text :Nhập điều chỉnh
+frmGoodsInventory.btnInventory.Text :Lấy dữ liệu tồn kho
+frmGoodsInventory.gbxlistTK.Text :Danh sách
+frmGoodsInventory.Column1.HeaderText :Mã
+frmGoodsInventory.lblDate.Text :Ngày
+frmGoodsInventory.btnSearch.Text :Tìm kiếm
+frmGoodsInventory.Text :Kiểm kê hàng hóa
+dlgChooseGift.label1.Text :(Nhấn F2 để thay đổi số lượng) 
+dlgChooseGift.btnOK.Text :Đồng ý
+dlgChooseGift.btnClose.Text :Đóng
+dlgChooseGift.grbGift2.Text :Danh sách quà tặng 2
+dlgChooseGift.columnHeader1.Text :Mã hàng
+dlgChooseGift.columnHeader2.Text :Tên hàng
+dlgChooseGift.columnHeader3.Text :Số lượng
+dlgChooseGift.columnHeader4.Text :TK
+dlgChooseGift.columnHeader5.Text :Mã CTKM
+dlgChooseGift.columnHeader6.Text :Tên CTKM
+dlgChooseGift.colProCode.Text :Mã hàng
+dlgChooseGift.colProName.Text :Tên hàng
+dlgChooseGift.colQuantity.Text :Số lượng
+dlgChooseGift.colTK.Text :TK
+dlgChooseGift.colProgramPro.Text :Mã CTKM
+dlgChooseGift.colProgramCode.Text :Tên CTKM
+dlgChooseGift.grbGift1.Text :Danh sách quà tặng 1
+dlgChooseGift.Text :Chọn quà tặng
+dlgCoupon.groupBox1.Text :Phiếu giảm giá
+dlgCoupon.btnClose.Text :Hủy bỏ
+dlgCoupon.btnOK.Text :Đồng ý
+dlgCoupon.columnHeader1.Text :Chương trình
+dlgCoupon.columnHeader2.Text :Từ ngày
+dlgCoupon.columnHeader3.Text :Đến ngày
+dlgCoupon.columnHeader4.Text :Mã phiếu
+dlgCoupon.columnHeader5.Text :Giảm %
+dlgCoupon.btnAdd.Text :Thêm
+dlgCoupon.Text :Phiếu giảm giá
+dlgPromotion.tabNum.Text :Số lượng
+dlgPromotion.groupBox1.Text :Chương trình
+dlgPromotion.colProCode.Text :Mã CT
+dlgPromotion.colProName.Text :Tên CT
+dlgPromotion.colDateFrom.Text :Từ ngày
+dlgPromotion.colDateTo.Text :Đến ngày
+dlgPromotion.colNumMin.Text :SL tối thiểu
+dlgPromotion.colNumMax.Text :SL tối đa
+dlgPromotion.columnHeader7.Text :Giảm theo
+dlgPromotion.columnHeader8.Text :Giá trị giảm
+dlgPromotion.columnHeader9.Text :Tổng SL mua
+dlgPromotion.columnHeader10.Text :Tổng tiền mua
+dlgPromotion.columnHeader11.Text :Thành tiền giảm
+dlgPromotion.btnOK.Text :Đồng ý
+dlgPromotion.btnClose.Text :Đóng
+dlgPromotion.Text :Chương trình khuyến mại
+dlgSearchCustomer.gbListCustomer.Text :Danh sách khách hàng
+dlgSearchCustomer.clnSTT.HeaderText :STT
+dlgSearchCustomer.clnCustomerCode.HeaderText :Mã KH
+dlgSearchCustomer.clnOldCode.HeaderText :Mã cũ
+dlgSearchCustomer.clnFirstName.HeaderText :Tên
+dlgSearchCustomer.clnLastName.HeaderText :Họ
+dlgSearchCustomer.clnPhoneNumber.HeaderText :ĐT di động
+dlgSearchCustomer.clnBirthDate.HeaderText :Ngày sinh
+dlgSearchCustomer.clnIDNO.HeaderText :CMND
+dlgSearchCustomer.clnTelephone.HeaderText :ĐT bàn
+dlgSearchCustomer.clnEmail.HeaderText :Email
+dlgSearchCustomer.clnAdress.HeaderText :Địa chỉ
+dlgSearchCustomer.clnGroup.HeaderText :group
+dlgSearchCustomer.clnPlace.HeaderText :CH
+dlgSearchCustomer.clnPurchase.HeaderText :Doanh số
+dlgSearchCustomer.btnGoPage.Text :Tới trang
+dlgSearchCustomer.lblTotalRow.Text :Tổng 
+dlgSearchCustomer.lblPage.Text :Trang
+dlgSearchCustomer.btnClose.Text :Đóng
+dlgSearchCustomer.Text :Kết quả tìm kiếm
+frmCashPaymentVoucher.gbxTTChiTien.Text :Thông tin chi tiền
+frmCashPaymentVoucher.label9.Text :Tỷ giá
+frmCashPaymentVoucher.label8.Text :Giờ
+frmCashPaymentVoucher.lblDate.Text :Ngày
+frmCashPaymentVoucher.label6.Text :Ghi chú
+frmCashPaymentVoucher.label5.Text :Số tiền
+frmCashPaymentVoucher.label4.Text :Người nhận
+frmCashPaymentVoucher.label3.Text :Loại chi
+frmCashPaymentVoucher.label2.Text :Người chi
+frmCashPaymentVoucher.label1.Text :Mã chi tiền
+frmCashPaymentVoucher.gbxDanhSach.Text :Danh sách 
+frmCashPaymentVoucher.columnHeader1.Text :Người chi tiền
+frmCashPaymentVoucher.columnHeader2.Text :Tên loại chi
+frmCashPaymentVoucher.columnHeader3.Text :Người nhận
+frmCashPaymentVoucher.columnHeader4.Text :Số tiền
+frmCashPaymentVoucher.columnHeader5.Text :Tiền tệ
+frmCashPaymentVoucher.columnHeader6.Text :Tỷ giá
+frmCashPaymentVoucher.columnHeader7.Text :Ngày chi
+frmCashPaymentVoucher.columnHeader8.Text :Ghi chú
+frmCashPaymentVoucher.btnPrintVoucher.Text :In phiếu
+frmCashPaymentVoucher.btnClose.Text :Đóng
+frmCashPaymentVoucher.btnDelete.Text :Xóa
+frmCashPaymentVoucher.btnSave.Text :Lưu
+frmCashPaymentVoucher.btnInsert.Text :Thêm mới
+frmCashPaymentVoucher.Text :Thông tin chi tiền
+frmCashReceiveVouche.gbxTTThuTien.Text :Thông tin thu tiền
+frmCashReceiveVouche.label9.Text :Giờ
+frmCashReceiveVouche.lblDateReceipt.Text :Ngày
+frmCashReceiveVouche.label7.Text :Tỷ giá
+frmCashReceiveVouche.label6.Text :Ghi chú
+frmCashReceiveVouche.label5.Text :Số tiền
+frmCashReceiveVouche.label4.Text :Nhận từ
+frmCashReceiveVouche.label3.Text :Loại thu
+frmCashReceiveVouche.label2.Text :Người nhận
+frmCashReceiveVouche.label1.Text :Mã thu
+frmCashReceiveVouche.gbxDanhSach.Text :Danh sách
+frmCashReceiveVouche.columnHeader1.Text :Người thu tiền
+frmCashReceiveVouche.columnHeader2.Text :Tên loại thu
+frmCashReceiveVouche.columnHeader3.Text :Nhận từ
+frmCashReceiveVouche.columnHeader4.Text :Số tiền
+frmCashReceiveVouche.columnHeader5.Text :Tiền tệ
+frmCashReceiveVouche.columnHeader6.Text :Tỷ giá
+frmCashReceiveVouche.columnHeader7.Text :Ngày thu
+frmCashReceiveVouche.columnHeader8.Text :Ghi chú
+frmCashReceiveVouche.btnInsert.Text :Thêm mới
+frmCashReceiveVouche.btnSave.Text :Lưu
+frmCashReceiveVouche.btnDelete.Text :Xóa
+frmCashReceiveVouche.btnClose.Text :Đóng
+frmCashReceiveVouche.btnPrint.Text :In phiếu
+frmCashReceiveVouche.Text :Thông tin thu tiền
+frmCustomerSearch.gbxTimKiem.Text :Điều kiện tìm kiếm
+frmCustomerSearch.btnSearch.Text :Tìm
+frmCustomerSearch.label11.Text :Địa chỉ
+frmCustomerSearch.label10.Text :Địa chỉ Email
+frmCustomerSearch.label9.Text :ĐT bàn-Di động
+frmCustomerSearch.label8.Text :CMND-Hộ chiếu
+frmCustomerSearch.label7.Text :Tôn giáo
+frmCustomerSearch.label6.Text :Nhóm máu
+frmCustomerSearch.label5.Text :Mã KH
+frmCustomerSearch.chkActive.Text :Khách hàng ngưng kích hoạt
+frmCustomerSearch.label4.Text :Chủng tộc
+frmCustomerSearch.label3.Text :Giới tính
+frmCustomerSearch.label2.Text :Năm sinh
+frmCustomerSearch.label1.Text :Họ tên
+frmCustomerSearch.gbxDanhSach.Text :Danh sách khách hàng
+frmCustomerSearch.clnSTT.HeaderText :STT
+frmCustomerSearch.clnCustomerCode.HeaderText :Mã KH
+frmCustomerSearch.clnOldCode.HeaderText :Mã cũ
+frmCustomerSearch.clnFirstName.HeaderText :Tên
+frmCustomerSearch.clnLastName.HeaderText :Họ
+frmCustomerSearch.clnPhoneNumber.HeaderText :ĐT di động
+frmCustomerSearch.clnBirthDate.HeaderText :Ngày sinh
+frmCustomerSearch.clnIDNO.HeaderText :CMND
+frmCustomerSearch.clnTelephone.HeaderText :ĐT bàn
+frmCustomerSearch.clnEmail.HeaderText :Email
+frmCustomerSearch.clnAdress.HeaderText :Địa chỉ
+frmCustomerSearch.clnPlace.HeaderText :CH
+frmCustomerSearch.btnOK.Text :Đồng ý
+frmCustomerSearch.btnClose.Text :Đóng
+frmCustomerSearch.btnGoPage.Text :Tới trang
+frmCustomerSearch.lblTotalRow.Text :Tổng số 
+frmCustomerSearch.lblPage.Text :Trang
+frmCustomerSearch.label12.Text :Dòng/ trang
+frmCustomerSearch.Text :Tìm kiếm khách hàng
+frmDialogAuthentication.label1.Text :Tên người dùng
+frmDialogAuthentication.btnCheck.Text :Kiểm tra
+frmDialogAuthentication.label2.Text :Mật khẩu
+frmDialogAuthentication.btnClose.Text :Đóng
+frmDialogDiscountProduct.groupBox1.Text :Danh sách hàng
+frmDialogDiscountProduct.clnChose.HeaderText :Chọn
+frmDialogDiscountProduct.clnProductCode.HeaderText :Mã hàng
+frmDialogDiscountProduct.clnProductName.HeaderText :Tên hàng
+frmDialogDiscountProduct.clnQuantity.HeaderText :Số lượng
+frmDialogDiscountProduct.clnPrice.HeaderText :Giá gốc
+frmDialogDiscountProduct.clnPriceSales.HeaderText :Giá bán
+frmDialogDiscountProduct.clnIntoMoney.HeaderText :Thành tiền
+frmDialogDiscountProduct.chkChose.Text :Bỏ chọn tất cả sản phẩm
+frmDialogDiscountProduct.btnOK.Text :Đồng ý
+frmDialogDiscountProduct.btnClose.Text :Hủy bỏ
+frmDialogDiscountProduct.Text :Chọn sản phẩm chiết khấu
+frmDialogPayment.tpPayCard.Text :Ngoại tệ, thẻ thanh toán
+frmDialogPayment.label14.Text :Số tiền
+frmDialogPayment.label15.Text :Loại thẻ
+frmDialogPayment.label16.Text :Visa
+frmDialogPayment.clnCurrency.HeaderText :Tiền tệ
+frmDialogPayment.clnExchangeRate.HeaderText :Tỷ giá
+frmDialogPayment.clnAmount.HeaderText :Số tiền
+frmDialogPayment.clnIntoMoney.HeaderText :Thành tiền
+frmDialogPayment.tpGift.Text :Phiếu quà tặng
+frmDialogPayment.clnCode.HeaderText :Mã phiếu
+frmDialogPayment.clnPar.HeaderText :Mệnh giá
+frmDialogPayment.clnBalance.HeaderText :Số dư
+frmDialogPayment.clnMaxPay.HeaderText :TT Tối đa
+frmDialogPayment.clnPayment.HeaderText :Thanh toán
+frmDialogPayment.clnRemain.HeaderText :Còn lại
+frmDialogPayment.tpPromotion.Text :Khuyến mãi
+frmDialogPayment.tpBill.Text :Hóa đơn đỏ
+frmDialogPayment.label17.Text :Ghi chú
+frmDialogPayment.label18.Text :Mã số thuế
+frmDialogPayment.label19.Text :Địa chỉ
+frmDialogPayment.label20.Text :Tên công ty
+frmDialogPayment.chkRedBill.Text :In hóa đơn đỏ
+frmDialogPayment.grbPayment.Text :Thanh toán
+frmDialogPayment.label5.Text :Phải thanh toán
+frmDialogPayment.label4.Text :Tiền chiết khấu
+frmDialogPayment.label3.Text :Tiền khuyến mãi
+frmDialogPayment.label2.Text :Giảm giá
+frmDialogPayment.label1.Text :Tiền hàng
+frmDialogPayment.groupBox2.Text :Tiền khách hàng đưa
+frmDialogPayment.label7.Text :VNĐ
+frmDialogPayment.label6.Text :Tiền khác (Visa,Master,ngoại tệ...)
+frmDialogPayment.groupBox3.Text :Tổng
+frmDialogPayment.label11.Text :SL bill
+frmDialogPayment.label10.Text :Còn thiếu
+frmDialogPayment.label9.Text :Tiền trả lại
+frmDialogPayment.label8.Text :Tổng tiền nhận
+frmDialogPayment.btnClose.Text :ESC
+frmDialogPayment.btnPayment.Text :F9
+frmDialogPayment.btnPayAndPrint.Text :F8
+frmDialogPayment.btnPrintTemp.Text :F7
+frmDialogPayment.Text :Thanh toán
+frmDialogRedInvoice.groupBox1.Text :Thông tin hóa đơn đỏ
+frmDialogRedInvoice.label15.Text :Hình thức TT
+frmDialogRedInvoice.label9.Text :Ghi chú
+frmDialogRedInvoice.label8.Text :Người mua hàng
+frmDialogRedInvoice.label7.Text :Địa chỉ (*)
+frmDialogRedInvoice.label5.Text :Mã số thuế (*)
+frmDialogRedInvoice.label6.Text :Tên đơn vị (*)
+frmDialogRedInvoice.label3.Text :Ngày in
+frmDialogRedInvoice.label4.Text :Số HĐ (*)
+frmDialogRedInvoice.label2.Text :Tên khách hàng
+frmDialogRedInvoice.label1.Text :Mã khách hàng
+frmDialogRedInvoice.groupBox2.Text :Danh sách hàng hóa
+frmDialogRedInvoice.label14.Text :Tổng cộng tiền thanh toán
+frmDialogRedInvoice.label12.Text :Cộng tiền hàng
+frmDialogRedInvoice.label11.Text :Tổng SL
+frmDialogRedInvoice.label10.Text :Tổng tiền mua hàng thực tế
+frmDialogRedInvoice.btnPrint.Text :In
+frmDialogRedInvoice.btnClose.Text :Đóng
+frmDialogRedInvoice.ProductID.HeaderText :Mã hàng
+frmDialogRedInvoice.colProductName.HeaderText :Tên hàng hóa, dịch vụ
+frmDialogRedInvoice.ProductRIC.HeaderText :NH
+frmDialogRedInvoice.Quantity.HeaderText :Số lượng
+frmDialogRedInvoice.UnitName.HeaderText :Đơn vị tính
+frmDialogRedInvoice.PriceSale.HeaderText :Đơn giá
+frmDialogRedInvoice.PriceTotal.HeaderText :Thành tiền
+frmDialogRedInvoice.VAT.HeaderText :Thuế GTGT
+frmDialogRedInvoice.Remark.HeaderText :Ghi chú
+frmDialogRedInvoice.Text :In hóa đơn đỏ
+frmDialogRedInvoiceMng.groupBox1.Text :Tìm kiếm
+frmDialogRedInvoiceMng.label4.Text :Đến ngày
+frmDialogRedInvoiceMng.label3.Text :In từ ngày
+frmDialogRedInvoiceMng.label2.Text :Tên KH
+frmDialogRedInvoiceMng.label1.Text :Mã khách hàng
+frmDialogRedInvoiceMng.groupBox2.Text :Danh sách
+frmDialogRedInvoiceMng.btnLoad.Text :Tìm
+frmDialogRedInvoiceMng.btnPrint.Text :In
+frmDialogRedInvoiceMng.btnView.Text :Xem lại
+frmDialogRedInvoiceMng.btnDelete.Text :Xóa
+frmDialogRedInvoiceMng.btnClose.Text :Đóng
+frmDialogRedInvoiceMng.INVOICE_NO.HeaderText :Số hóa đơn đỏ
+frmDialogRedInvoiceMng.OFFICE_WORKING.HeaderText :Tên đơn vị
+frmDialogRedInvoiceMng.OFFICE_ADDRESS.HeaderText :Địa chỉ
+frmDialogRedInvoiceMng.TAX_CODE.HeaderText :Mã số thuế
+frmDialogRedInvoiceMng.TOTAL_QUANTITY.HeaderText :Số lượng
+frmDialogRedInvoiceMng.TOTAL_MONEY.HeaderText :Tiền hàng
+frmDialogRedInvoiceMng.VAT.HeaderText :Tiền thuế GTGT
+frmDialogRedInvoiceMng.TOTAL.HeaderText :Tổng cộng tiền thanh toán
+frmDialogRedInvoiceMng.PRINT_DATE.HeaderText :Ngày in
+frmDialogRedInvoiceMng.REMARKS.HeaderText :Ghi chú HĐ đỏ
+frmDialogRedInvoiceMng.AUTO_ID.HeaderText :AUTO_ID
+frmDialogRedInvoiceMng.CREATE_DATE.HeaderText :CREATE_DATE
+frmDialogRedInvoiceMng.USER_CREATE.HeaderText :USER_CREATE
+frmDialogRedInvoiceMng.PAYMENT_TYPE.HeaderText :PAYMENT_TYPE
+frmDialogRedInvoiceMng.CUSTOMER_ID.HeaderText :CUSTOMER_ID
+frmDialogRedInvoiceMng.LIST_INVOICE.HeaderText :LIST_INVOICE
+frmDialogRedInvoiceMng.Text :Quản lý hóa đơn đỏ
+frmDialogReturnItemAdd.groupBox1.Text :Thông tin trả hàng
+frmDialogReturnItemAdd.label6.Text :Tổng tiền trả lại
+frmDialogReturnItemAdd.label5.Text :Thông tin phản hồi (*)
+frmDialogReturnItemAdd.label4.Text :Lý do trả (*)
+frmDialogReturnItemAdd.label3.Text :Giờ(*)
+frmDialogReturnItemAdd.label2.Text :Ngày(*)
+frmDialogReturnItemAdd.btnSearch.Text :Tìm kiếm
+frmDialogReturnItemAdd.label1.Text :Mã hóa đơn(*)
+frmDialogReturnItemAdd.btnSave.Text :Lưu
+frmDialogReturnItemAdd.btnClose.Text :Đóng
+frmDialogReturnItemAdd.clnProductCode.HeaderText :Mã hàng
+frmDialogReturnItemAdd.clnProductName.HeaderText :Tên hàng
+frmDialogReturnItemAdd.clnQuantity.HeaderText :Số lượng
+frmDialogReturnItemAdd.clnPriceSale.HeaderText :Giá bán
+frmDialogReturnItemAdd.clnCashReturn.HeaderText :Tiền trả lại
+frmDialogReturnItemAdd.clnCode.HeaderText :code
+frmDialogReturnItemAdd.clnREASON.HeaderText :REASON
+frmDialogReturnItemAdd.clnMASTER_CODE.HeaderText :MASTER_CODE
+frmDialogReturnItemAdd.Text :Thông tin trả hàng
+frmDialogSales.clnProductCode.HeaderText :Mã SP
+frmDialogSales.clnBarCode.HeaderText :Mã vạch
+frmDialogSales.clnProductName.HeaderText :Tên SP
+frmDialogSales.Text :Danh sách sản phẩm
+frmDialogSaleBillSearch.groupBox1.Text :Điều kiện tìm kiếm
+frmDialogSaleBillSearch.btnSearch.Text :Tìm kiếm
+frmDialogSaleBillSearch.label2.Text :Đến ngày
+frmDialogSaleBillSearch.label1.Text :Từ ngày
+frmDialogSaleBillSearch.groupBox2.Text :Danh sách hóa đơn
+frmDialogSaleBillSearch.clnSaleCode.HeaderText :Mã hóa đơn
+frmDialogSaleBillSearch.clnSaleDate.HeaderText :Ngày hóa đơn
+frmDialogSaleBillSearch.clnTotalAmount.HeaderText :Tổng tiền
+frmDialogSaleBillSearch.btnOK.Text :Đồng ý
+frmDialogSaleBillSearch.btnClose.Text :Đóng
+frmDialogSaleBillSearch.Text :Kết quả tìm kiếm hóa đơn
+frmDialogSpecialDiscount.rdbTime.Text :Chiết khấu thời điểm
+frmDialogSpecialDiscount.rdbSpecial.Text :Chiết khấu đặc biệt
+frmDialogSpecialDiscount.label4.Text :Ghi chú
+frmDialogSpecialDiscount.label3.Text :Chiết khấu bởi
+frmDialogSpecialDiscount.label2.Text :Loại chiết khấu
+frmDialogSpecialDiscount.label1.Text :Chiết khấu
+frmDialogSpecialDiscount.btnOk.Text :Đồng ý
+frmDialogSpecialDiscount.btnClose.Text :Đóng
+frmDialogSpecialDiscount.label5.Text :Tên chiết khấu
+frmDialogSpecialDiscount.label6.Text :Chiết khấu %
+frmDialogSpecialDiscount.Text :Chiết khấu đặc biệt
+frmExportDiscountVoucher.gbxDanhSachKH.Text :Danh sách khách hàng
+frmExportDiscountVoucher.columnHeader1.Text :Mã KH
+frmExportDiscountVoucher.columnHeader2.Text :Tên
+frmExportDiscountVoucher.columnHeader3.Text :Họ
+frmExportDiscountVoucher.gbxTimKiem.Text :Tìm nhanh
+frmExportDiscountVoucher.btnDiscountVoucherSearch.Text :Tìm
+frmExportDiscountVoucher.label13.Text :Ghi chú
+frmExportDiscountVoucher.label11.Text :Giờ xuất
+frmExportDiscountVoucher.label9.Text :Ngày xuất
+frmExportDiscountVoucher.label10.Text :Mã hóa đơn
+frmExportDiscountVoucher.label8.Text :Mã xuất phiếu
+frmExportDiscountVoucher.label7.Text :Email
+frmExportDiscountVoucher.label6.Text :Số CMND
+frmExportDiscountVoucher.label5.Text :Họ tên
+frmExportDiscountVoucher.label4.Text :Nơi tạo
+frmExportDiscountVoucher.label3.Text :Điện thoại
+frmExportDiscountVoucher.label2.Text :Ngày sinh
+frmExportDiscountVoucher.label1.Text :Mã KH
+frmExportDiscountVoucher.gbxDanhSachPhieu.Text :Danh sách phiếu
+frmExportDiscountVoucher.gbxDanhSachXuatPhieu.Text :Danh sách xuất phiếu giảm giá
+frmExportDiscountVoucher.Text :Xuất phiếu giảm giá
+frmManagerReceive.gbxDanhSach.Text :Danh sách hóa đơn
+frmManagerReceive.btnInvoicesRedPrint.Text :In hóa đơn đỏ
+frmManagerReceive.btnInvoicesManage.Text :Quản lý HĐ đỏ
+frmManagerReceive.btnInvoicePrint.Text :In hóa đơn
+frmManagerReceive.btnDeleteInvoice.Text :Xóa hóa đơn
+frmManagerReceive.btnGoPage.Text :Tới trang
+frmManagerReceive.lblTotalRow.Text :Tổng 
+frmManagerReceive.lblPage.Text :Trang 
+frmManagerReceive.label7.Text :Dòng/ trang
+frmManagerReceive.tabPage1.Text :Chi tiết hóa đơn
+frmManagerReceive.PRODUCT_ID.HeaderText :Mã sản phẩm
+frmManagerReceive.P_ID.HeaderText :ID
+frmManagerReceive.PRODUCT_NAME.HeaderText :Tên sản phẩm
+frmManagerReceive.PRODUCT_NAME_PRINT.HeaderText :Tên in hóa đơn
+frmManagerReceive.UNIT_NAME.HeaderText :Đơn vị
+frmManagerReceive.Quantity.HeaderText :Số lượng
+frmManagerReceive.PRICE_SALES.HeaderText :Giá bán
+frmManagerReceive.Amount.HeaderText :Thành tiền
+frmManagerReceive.TotalDiscount.HeaderText :Giảm giá
+frmManagerReceive.TotalAmount.HeaderText :Thanh toán
+frmManagerReceive.Remark.HeaderText :Ghi chú
+frmManagerReceive.columnHeader20.Text :Mã sản phẩm
+frmManagerReceive.columnHeader21.Text :ID
+frmManagerReceive.columnHeader22.Text :Tên sản phẩm
+frmManagerReceive.columnHeader23.Text :Tên in hóa đơn
+frmManagerReceive.columnHeader24.Text :Đơn vị
+frmManagerReceive.columnHeader25.Text :Số lượng
+frmManagerReceive.columnHeader26.Text :Giá bán
+frmManagerReceive.columnHeader27.Text :Thành tiền
+frmManagerReceive.columnHeader28.Text :Giảm giá
+frmManagerReceive.columnHeader30.Text :Thanh toán
+frmManagerReceive.columnHeader29.Text :Ghi chú
+frmManagerReceive.tabPage2.Text :Thông tin thanh toán
+frmManagerReceive.columnHeader1.Text :Lần thanh toán
+frmManagerReceive.columnHeader2.Text :Tiền tệ
+frmManagerReceive.columnHeader3.Text :Tỷ giá
+frmManagerReceive.columnHeader4.Text :Số tiền
+frmManagerReceive.columnHeader5.Text :Phải thanh toán
+frmManagerReceive.columnHeader6.Text :Đã thanh toán
+frmManagerReceive.columnHeader7.Text :Còn lại
+frmManagerReceive.columnHeader8.Text :Tiền trả lại
+frmManagerReceive.columnHeader9.Text :Người thu tiền
+frmManagerReceive.columnHeader10.Text :Ngày thu
+frmManagerReceive.tabPage3.Text :Giảm giá & chiết khấu
+frmManagerReceive.columnHeader11.Text :Phiếu/Thẻ/Chương trình
+frmManagerReceive.columnHeader12.Text :Loại
+frmManagerReceive.columnHeader13.Text :Tiền chiết khấu/giảm
+frmManagerReceive.columnHeader14.Text :% Chiết khấu/giảm
+frmManagerReceive.columnHeader15.Text :Tổng tiền chiết khấu/giảm
+frmManagerReceive.columnHeader16.Text :Thực hiện bởi
+frmManagerReceive.columnHeader17.Text :Xác thực bởi
+frmManagerReceive.tabPage4.Text :Khuyến mãi
+frmManagerReceive.label8.Text :Chương trình
+frmManagerReceive.groupBox1.Text :Quà tặng
+frmManagerReceive.columnHeader18.Text :Mã sản phẩm
+frmManagerReceive.columnHeader19.Text :Tên sản phẩm
+frmManagerReceive.columnHeader31.Text :Tên in hóa đơn
+frmManagerReceive.columnHeader32.Text :Số lượng
+frmManagerReceive.btnSearch.Text :Tìm kiếm
+frmManagerReceive.btnExit.Text :Đóng
+frmManagerReceive.gbxThongTinHD.Text :Thông tin hóa đơn
+frmManagerReceive.label6.Text :Đến
+frmManagerReceive.label5.Text :Bán từ
+frmManagerReceive.label4.Text :HĐ đỏ
+frmManagerReceive.label3.Text :Mã hóa đơn
+frmManagerReceive.label2.Text :Tên khách hàng
+frmManagerReceive.label1.Text :Mã khách hàng
+frmManagerReceive.colSelect.HeaderText :Chọn
+frmManagerReceive.EXPORT_CODE.HeaderText :Mã hóa đơn
+frmManagerReceive.TRANSFER_SHIFT_CODE.HeaderText :Ca làm việc
+frmManagerReceive.CUSTOMER_ID.HeaderText :Mã khách hàng
+frmManagerReceive.FIRST_NAME.HeaderText :Tên
+frmManagerReceive.LAST_NAME.HeaderText :Họ
+frmManagerReceive.EXPORT_DATE.HeaderText :Ngày bán
+frmManagerReceive.TOTAL_AMOUNT.HeaderText :Tổng giá trị
+frmManagerReceive.TOTAL_DISCOUNT.HeaderText :Tiền giảm giá
+frmManagerReceive.TOTAL_PAYMENTS.HeaderText :Tiền phải trả
+frmManagerReceive.USED_RED_INVOIDE.HeaderText :In HĐ đỏ
+frmManagerReceive.Column11.HeaderText :CTy/Đơn vị
+frmManagerReceive.Column12.HeaderText :Mã số thuế
+frmManagerReceive.Column13.HeaderText :Địa chỉ
+frmManagerReceive.Column14.HeaderText :Ghi chú HĐ đỏ
+frmManagerReceive.Column15.HeaderText :Ghi chú
+frmManagerReceive.Column17.HeaderText :STT
+frmManagerReceive.Text :Quản lý hóa đơn
+frmProductSearch.btnSearch.Text :Tìm
+frmProductSearch.rdbTenHang.Text :Tên hàng
+frmProductSearch.rdbMaHang.Text :Mã hàng
+frmProductSearch.groupBox2.Text :Danh sách
+frmProductSearch.PRODUCT_ID.HeaderText :Mã hàng
+frmProductSearch.PRODUCT_NAME.HeaderText :Tên hàng
+frmProductSearch.btnOK.Text :Đồng ý
+frmProductSearch.btnExit.Text :Đóng
+frmProductSearch.Text :Tìm kiếm mã hàng
+frmReturnItems.groupBox5.Text :Tổng số tiền trả lại
+frmReturnItems.label11.Text :Tổng số tiền trả lại
+frmReturnItems.label10.Text :Thông tin phản hồi
+frmReturnItems.label9.Text :Lí do trả
+frmReturnItems.groupBox4.Text :Thông tin hàng đã trả
+frmReturnItems.clnDetailsCode.HeaderText :code
+frmReturnItems.clnMASTER_CODE.HeaderText :MASTER_CODE
+frmReturnItems.clnREASON.HeaderText :REASON
+frmReturnItems.clnProductCode.HeaderText :Mã hàng
+frmReturnItems.clnProductName.HeaderText :Tên hàng
+frmReturnItems.clnQuantity.HeaderText :Số lượng
+frmReturnItems.clnReturnMoney.HeaderText :Tiền trả lại
+frmReturnItems.groupBox3.Text :Danh sách các đợt trả hàng
+frmReturnItems.columnHeader4.Text :Mã trả hàng
+frmReturnItems.columnHeader5.Text :Ngày trả hàng
+frmReturnItems.columnHeader6.Text :Hóa đơn
+frmReturnItems.groupBox1.Text :Danh sách khách hàng
+frmReturnItems.columnHeader1.Text :Mã khách hàng
+frmReturnItems.columnHeader2.Text :Tên 
+frmReturnItems.columnHeader3.Text :Họ
+frmReturnItems.gbxTim.Text :Tìm nhanh
+frmReturnItems.btnCustomerSearch.Text :Tìm
+frmReturnItems.label1.Text :Danh sách khách hàng
+frmReturnItems.label8.Text :Email
+frmReturnItems.label7.Text :Số CMND
+frmReturnItems.label6.Text :Họ tên
+frmReturnItems.label5.Text :Nơi tạo
+frmReturnItems.label4.Text :Điện thoại
+frmReturnItems.label3.Text :Ngày sinh
+frmReturnItems.label2.Text :Mã KH
+frmReturnItems.Text :Thông tin trả hàng
+frmSale.gbxBanHang.Text :Bán hàng
+frmSale.label12.Text :Ca
+frmSale.lblDate.Text :Ngày
+frmSale.label3.Text :Giờ
+frmSale.label2.Text :Ngày
+frmSale.label1.Text :Mã hàng (F5)
+frmSale.btnF2.Text :F2 Số lượng
+frmSale.btnF3.Text :F3 Khách hàng
+frmSale.btnF8.Text :F8 Thanh toán
+frmSale.btnF9.Text :F9 Thay đổi giá
+frmSale.btnF10.Text :F10 Chiết khấu
+frmSale.btnF11.Text :F11 Phiếu GG
+frmSale.btnF12.Text :F12 Hủy bỏ
+frmSale.btnEsc.Text :Esc
+frmSale.gbxDanhSach.Text :Danh sách hàng
+frmSale.clnBARCODE.HeaderText :Mã vạch
+frmSale.clnPRODUCT_ID.HeaderText :Mã hàng
+frmSale.clnPRODUCT_NAME.HeaderText :Tên hàng
+frmSale.clnUNIT_NAME.HeaderText :Đơn vị tính
+frmSale.clnQUANTITY.HeaderText :Số lượng
+frmSale.clnINVENTORY.HeaderText :TK
+frmSale.clnPrice.HeaderText :Giá bán
+frmSale.clnIntoMoney.HeaderText :Thành tiền
+frmSale.clnCoupons.HeaderText :Giảm PGG
+frmSale.clnCustomerCard.HeaderText :Giảm thẻ KH
+frmSale.clnPromotion.HeaderText :Khuyến mãi
+frmSale.clnSpecialDiscount.HeaderText :Chiết khấu ĐB
+frmSale.clnPayment.HeaderText :Thanh toán
+frmSale.clnEmployee.HeaderText :Nhân viên
+frmSale.clnRemarks.HeaderText :Ghi chú
+frmSale.gbxKhachHang.Text :Khách hàng
+frmSale.label13.Text :Doanh số tích lũy
+frmSale.label4.Text :Mã KH (F4)
+frmSale.label6.Text :Địa chỉ
+frmSale.label5.Text :Tên KH
+frmSale.gbxThanhToan.Text :Thanh toán
+frmSale.label7.Text :Thanh toán
+frmSale.label11.Text :Chiết khấu
+frmSale.label10.Text :Khuyến mại
+frmSale.label9.Text :Giảm giá
+frmSale.label8.Text :Tiền hàng
+frmSale.Text :Bán hàng
+frmSellGiftVoucher.label13.Text :Ghi chú
+frmSellGiftVoucher.label12.Text :Tổng tiền
+frmSellGiftVoucher.label11.Text :Giờ bán
+frmSellGiftVoucher.label10.Text :Mã hóa đơn
+frmSellGiftVoucher.label9.Text :Ngày bán
+frmSellGiftVoucher.label8.Text :Mã bán phiếu
+frmSellGiftVoucher.gbxDanhSachPhieu.Text :Danh sách phiếu
+frmSellGiftVoucher.gbxDanhSachBanPhieu.Text :Danh sách bán phiếu quà tặng
+frmSellGiftVoucher.gbxDanhSachKH.Text :Danh sách khách hàng
+frmSellGiftVoucher.columnHeader1.Text :Mã KH
+frmSellGiftVoucher.columnHeader2.Text :Tên
+frmSellGiftVoucher.columnHeader3.Text :Họ
+frmSellGiftVoucher.gbxTimKiem.Text :Tìm nhanh
+frmSellGiftVoucher.btnGiftVoucherSearch.Text :Tìm
+frmSellGiftVoucher.label7.Text :Email
+frmSellGiftVoucher.label6.Text :Số CMND
+frmSellGiftVoucher.label5.Text :Họ tên
+frmSellGiftVoucher.label4.Text :Nơi tạo
+frmSellGiftVoucher.label3.Text :Điện thoại
+frmSellGiftVoucher.label2.Text :Ngày sinh
+frmSellGiftVoucher.label1.Text :Mã KH
+frmSellGiftVoucher.Text :Bán phiếu tặng
+frmTimeEndAttendance.label42.Text :Ngày
+frmTimeEndAttendance.label20.Text :Mã vạch(F5)
+frmTimeEndAttendance.gbxThongTinNV.Text :Thông tin nhân viên
+frmTimeEndAttendance.label4.Text :Nơi làm việc
+frmTimeEndAttendance.label3.Text :Ngày giờ quét thẻ
+frmTimeEndAttendance.label1.Text :Họ tên
+frmTimeEndAttendance.label31.Text :Mã nhân viên
+frmTimeEndAttendance.label28.Text :Hình ảnh
+frmTimeEndAttendance.label2.Text :Thông tin chính
+frmTimeEndAttendance.Text :Quét thẻ nhân viên
+frmShiftManagement.gbxDanhSachNV.Text :Danh sách nhân viên
+frmShiftManagement.btnView.Text :Xem lịch
+frmShiftManagement.chkAllEmployee.Text :Chọn tất cả nhân viên
+frmShiftManagement.columnHeader1.Text :Mã nhân viên
+frmShiftManagement.columnHeader2.Text :Họ 
+frmShiftManagement.columnHeader3.Text :Tên
+frmShiftManagement.gbxShift.Text :Cài đặt lịch làm việc
+frmShiftManagement.label1.Text :Chọn ca
+frmShiftManagement.label27.Text :Đến ngày
+frmShiftManagement.label42.Text :Từ ngày
+frmShiftManagement.gbxLich.Text :Lịch làm việc
+frmShiftManagement.Text :Lịch trực bán hàng
+frmSearchEmployeeName.groupBox1.Text :Danh sách nhân viên
+frmSearchEmployeeName.btnChoosePage.Text :Tới trang
+frmSearchEmployeeName.lblPage.Text :Trang
+frmSearchEmployeeName.label1.Text :Số dòng / trang
+frmSearchEmployeeName.colEmployeeCode.Text :Mã nhân viên
+frmSearchEmployeeName.colEmploeeName.Text :Tên
+frmSearchEmployeeName.colEmployeeFisrtName.Text :Họ
+frmSearchEmployeeName.colRoom.Text :Phòng ban
+frmSearchEmployeeName.btnOK.Text :Đồng ý
+frmSearchEmployeeName.btnClose.Text :Đóng
+frmSearchEmployeeName.Text :Tìm kiếm nhân viên
+frmEmployeeSearch.gbxToChuc.Text :Tổ chức
+frmEmployeeSearch.btnEmployeeSearch.Text :Tìm
+frmEmployeeSearch.gbxNhanVien.Text :Nhân viên
+frmEmployeeSearch.lblPage.Text :Trang
+frmEmployeeSearch.lblRowlist.Text :Tổng cộng
+frmEmployeeSearch.columnHeader1.Text :Mã nhân viên
+frmEmployeeSearch.columnHeader2.Text :Tên 
+frmEmployeeSearch.columnHeader3.Text :Họ
+frmEmployeeSearch.groupBox3.Text :Đã chọn
+frmEmployeeSearch.columnHeader4.Text :Mã nhân viên
+frmEmployeeSearch.columnHeader5.Text :Tên
+frmEmployeeSearch.columnHeader6.Text :Họ
+frmEmployeeSearch.columnHeader7.Text :Phòng ban
+frmEmployeeSearch.btnOK.Text :Đồng ý
+frmEmployeeSearch.btnCancel.Text :Đóng
+frmEmployeeSearch.tabPage1.Text :Danh sách nhân viên
+frmEmployeeSearch.Text :Tìm kiếm nhân viên
+frmEmployeeInfomation.gbxTTNhanVien.Text :Thông tin nhân viên
+frmEmployeeInfomation.label45.Text :(*) là những dữ liệu bắt buộc nhập
+frmEmployeeInfomation.label27.Text :Ngày nghỉ việc
+frmEmployeeInfomation.label25.Text :Hiện trạng làm việc
+frmEmployeeInfomation.label24.Text :Lương(VNĐ)
+frmEmployeeInfomation.label42.Text :Ngày bắt đầu
+frmEmployeeInfomation.label23.Text :Chức vụ
+frmEmployeeInfomation.label22.Text :Nhóm
+frmEmployeeInfomation.label21.Text :Nơi làm việc(*)
+frmEmployeeInfomation.label19.Text :Nơi làm việc
+frmEmployeeInfomation.label18.Text :Địa chỉ tạm trú
+frmEmployeeInfomation.label16.Text :Địa chỉ thường trú
+frmEmployeeInfomation.label14.Text :Điện thoại tạm trú
+frmEmployeeInfomation.label15.Text :Điện thoại thường
+frmEmployeeInfomation.label12.Text :Điện thoại di động
+frmEmployeeInfomation.label11.Text :Email
+frmEmployeeInfomation.label9.Text :Thông tin liên lạc
+frmEmployeeInfomation.label8.Text :Nơi cấp
+frmEmployeeInfomation.label26.Text :Ngày cấp
+frmEmployeeInfomation.label20.Text :CMND
+frmEmployeeInfomation.label6.Text :CMND
+frmEmployeeInfomation.label4.Text :Học vấn
+frmEmployeeInfomation.label10.Text :Tinh trạng hôn nhân
+frmEmployeeInfomation.label17.Text :Tôn giáo
+frmEmployeeInfomation.label7.Text :Giới tính
+frmEmployeeInfomation.label44.Text :Nơi sinh
+frmEmployeeInfomation.label5.Text :Ngày sinh
+frmEmployeeInfomation.label1.Text :Mã vạch
+frmEmployeeInfomation.label13.Text :Tên(*)
+frmEmployeeInfomation.label3.Text :Họ & tên đệm(*)
+frmEmployeeInfomation.label31.Text :Mã nhân viên
+frmEmployeeInfomation.label2.Text :Thông tin chính
+frmEmployeeInfomation.gbxDanhSachNV.Text :Danh sách nhân viên
+frmEmployeeInfomation.columnHeader1.Text :Mã nhân viên
+frmEmployeeInfomation.columnHeader2.Text :Họ 
+frmEmployeeInfomation.columnHeader3.Text :Tên
+frmEmployeeInfomation.gbxTim.Text :Tìm nhanh
+frmEmployeeInfomation.btnEmployeeSearch.Text :Tìm
+frmEmployeeInfomation.Text :Thông tin nhân viên
+frmCustomerManagement.label1.Text :Danh sách khách hàng
+frmCustomerManagement.gbxTim.Text :Tìm nhanh
+frmCustomerManagement.btnCustomerSearch.Text :Tìm
+frmCustomerManagement.gbxDanhSachKH.Text :Danh sách khách hàng
+frmCustomerManagement.columnHeader1.Text :Mã khách hàng
+frmCustomerManagement.columnHeader2.Text :Tên 
+frmCustomerManagement.columnHeader3.Text :Họ
+frmCustomerManagement.tabCustomer.Text :Khách hàng
+frmCustomerManagement.gbxTTKhachhang.Text :Thông tin khách hàng
+frmCustomerManagement.label17.Text :Ngày tạo thẻ 
+frmCustomerManagement.label16.Text :Loại thẻ KH 
+frmCustomerManagement.label15.Text :Thông tin thẻ khách hàng
+frmCustomerManagement.label8.Text :Số nhà
+frmCustomerManagement.label46.Text :Email
+frmCustomerManagement.label45.Text :(*) là những dữ liệu bắt buộc nhập
+frmCustomerManagement.label44.Text :Nơi tạo
+frmCustomerManagement.label43.Text :Ngày cập nhật/ bởi
+frmCustomerManagement.label42.Text :Ngày tạo/ bởi
+frmCustomerManagement.label41.Text :Thông tin khác
+frmCustomerManagement.label40.Text :Mã số thuế
+frmCustomerManagement.label39.Text :Địa chỉ công tác
+frmCustomerManagement.label38.Text :Đơn vị công tác
+frmCustomerManagement.label37.Text :Địa chỉ
+frmCustomerManagement.label36.Text :Đường
+frmCustomerManagement.label35.Text :Xã/Phường (*)
+frmCustomerManagement.label34.Text :Quận/Huyện (*)
+frmCustomerManagement.label33.Text :Tỉnh/TP (*)
+frmCustomerManagement.label32.Text :Quốc gia (*)
+frmCustomerManagement.label31.Text :ĐT di động (*)
+frmCustomerManagement.label30.Text :ĐT bàn/Fax
+frmCustomerManagement.label29.Text :Thông tin liên lạc
+frmCustomerManagement.label26.Text :Ngày cấp
+frmCustomerManagement.label25.Text :Ghi chú
+frmCustomerManagement.label21.Text :Nơi cấp
+frmCustomerManagement.label20.Text :CMND/Hộ chiếu
+frmCustomerManagement.label19.Text :CMND & Hộ chiếu
+frmCustomerManagement.chkCusOfStore.Text :Khách hàng của riêng cửa hàng
+frmCustomerManagement.label18.Text :Nhóm KH (*)
+frmCustomerManagement.chkOther.Text :Khác
+frmCustomerManagement.label14.Text :Mã KH
+frmCustomerManagement.label13.Text :Tên (*)
+frmCustomerManagement.label12.Text :Trạng thái
+frmCustomerManagement.label11.Text :Doanh số tích lũy
+frmCustomerManagement.label10.Text :Hôn nhân
+frmCustomerManagement.label9.Text :Nghề nghiệp
+frmCustomerManagement.label7.Text :Giới tính
+frmCustomerManagement.label6.Text :Nơi sinh
+frmCustomerManagement.label5.Text :Ngày sinh (*)
+frmCustomerManagement.label4.Text :Mã vạch
+frmCustomerManagement.label3.Text :Họ (*)
+frmCustomerManagement.label2.Text :Thông tin chính
+frmCustomerManagement.tabCustomerHistory.Text :Lịch sử khách hàng
+frmCustomerManagement.label28.Text :Nội dung
+frmCustomerManagement.btnPhone.Text :Lưu
+frmCustomerManagement.label47.Text :Tiêu đề
+frmCustomerManagement.label48.Text :Ngày gọi
+frmCustomerManagement.label49.Text :Số điện thoại
+frmCustomerManagement.label50.Text :Người gọi
+frmCustomerManagement.btnSaveFeedback.Text :Lưu
+frmCustomerManagement.label22.Text :Nội dung
+frmCustomerManagement.label23.Text :Tiêu đề
+frmCustomerManagement.label24.Text :Khách hàng
+frmCustomerManagement.label27.Text :Ngày
+frmCustomerManagement.btnEmail.Text :Gửi Email
+frmCustomerManagement.button3.Text :Điện thoại
+frmCustomerManagement.button2.Text :Feedback
+frmCustomerManagement.groupBox4.Text :Danh sách
+frmCustomerManagement.dataGridViewTextBoxColumn3.HeaderText :Ngày
+frmCustomerManagement.dataGridViewTextBoxColumn4.HeaderText :Loại
+frmCustomerManagement.dataGridViewTextBoxColumn5.HeaderText :Tiêu đề
+frmCustomerManagement.Column6.HeaderText :Contact
+frmCustomerManagement.Column7.HeaderText :Người liên hệ
+frmCustomerManagement.Column8.HeaderText :Cửa hàng
+frmCustomerManagement.Column9.HeaderText :Chuỗi
+frmCustomerManagement.Column10.HeaderText :Vị trí
+frmCustomerManagement.dataGridViewTextBoxColumn1.HeaderText :Ngày trả
+frmCustomerManagement.dataGridViewTextBoxColumn2.HeaderText :Mã trả hàng
+frmCustomerManagement.groupBox2.Text :Danh sách sản phẩm
+frmCustomerManagement.Column3.HeaderText :Mã hàng
+frmCustomerManagement.Column4.HeaderText :Tên hàng
+frmCustomerManagement.Column5.HeaderText :Người bán
+frmCustomerManagement.groupBox1.Text :Danh sách hóa đơn
+frmCustomerManagement.Column1.HeaderText :Ngày mua hàng
+frmCustomerManagement.colExportCode.HeaderText :Mã hóa đơn
+frmCustomerManagement.Text :Quản lý khách hàng
+frmAbout.label2.Text :Bản quyền DSS 2020
+frmAbout.label1.Text :Phiên bản phần mềm 6.0
+frmAbout.Text :Thông tin bản quyền
+frmAppInfo.label2.Text :(Phiên bản 6.0)
+frmAppInfo.label1.Text :CHƯƠNG TRÌNH QUẢN LÝ  BÁN HÀNG RDo
+frmAppInfo.Text :Thông tin chương trình
+frmPaymentInvoice.btnSearch.Text :Tìm
+frmPaymentInvoice.label4.Text :đến
+frmPaymentInvoice.label3.Text :đến
+frmPaymentInvoice.label2.Text :Ngày thanh toán từ ngày
+frmPaymentInvoice.label1.Text :Ngày hóa đơn từ ngày
+frmPaymentInvoice.groupBox2.Text :Danh sách hóa đơn
+frmPaymentInvoice.SoHD.HeaderText :Số hóa đơn
+frmPaymentInvoice.SoPO.HeaderText :Số PO
+frmPaymentInvoice.SoNoiBo.HeaderText :Số nội bộ
+frmPaymentInvoice.NgayHD.HeaderText :Ngày hóa đơn
+frmPaymentInvoice.SoTien.HeaderText :Số tiền
+frmPaymentInvoice.SoTienDaThanhToan.HeaderText :Đã thanh toán
+frmPaymentInvoice.SoThanhToan.HeaderText :Thanh toán
+frmPaymentInvoice.SoTienconLai.HeaderText :Số tiền chưa thanh toán
+frmPaymentInvoice.groupBox3.Text :Thông tin nộp tiền
+frmPaymentInvoice.btnPhanBo.Text :Phân bổ
+frmPaymentInvoice.label7.Text :VNĐ
+frmPaymentInvoice.label6.Text :Số tiền(*)
+frmPaymentInvoice.label5.Text :Ngày
+frmPaymentInvoice.btnTableStatementMoney.Text :Bảng kê nộp tiền
+frmPaymentInvoice.btnSave.Text :&Lưu
+frmPaymentInvoice.btnClose.Text :&Đóng
+frmPaymentInvoice.Text :Thanh toán hóa đơn
+frmLiablityView.btnImport.Text :Excel
+frmLiablityView.btnView.Text :Xem 
+frmLiablityView.label8.Text :Ngày
+frmLiablityView.label9.Text :Bảng kê chi tiết các loại hóa đơn thanh toán
+frmLiablityView.btnImportPay.Text :Excel
+frmLiablityView.btnViewPay.Text :Xem 
+frmLiablityView.label4.Text :đến
+frmLiablityView.label5.Text :Từ ngày
+frmLiablityView.label6.Text :Bảng kê nộp tiền thanh toán công ty
+frmLiablityView.btnImportLiablity.Text :Excel
+frmLiablityView.btnViewLiablity.Text :Xem 
+frmLiablityView.label1.Text :đến
+frmLiablityView.label2.Text :Từ ngày
+frmLiablityView.label3.Text :Đối chiếu công nợ công ty
+frmLiablityView.btnImportInvoices.Text :Excel
+frmLiablityView.btnViewInvoices.Text :Xem 
+frmLiablityView.label27.Text :đến
+frmLiablityView.label42.Text :Từ ngày
+frmLiablityView.label31.Text :Bảng kê chi tiết hóa đơn nhập hàng
+frmLiablityView.btnClose.Text :Đóng
+frmLiablityView.Text :Báo cáo công nợ
+frmInvoicePayment.label28.Text :Các lần thanh toán
+frmInvoicePayment.label27.Text :Đến ngày
+frmInvoicePayment.label42.Text :Từ ngày
+frmInvoicePayment.gbxDanhSach.Text :Danh sách thanh toán
+frmInvoicePayment.MaTT.HeaderText :Mã
+frmInvoicePayment.Ngay.HeaderText :Ngày
+frmInvoicePayment.MASTER_NAME.HeaderText :Loại
+frmInvoicePayment.gbxChiTietTT.Text :Chi tiết thanh toán
+frmInvoicePayment.Column1.HeaderText :Số hóa đơn
+frmInvoicePayment.SoPO.HeaderText :Số PO
+frmInvoicePayment.SoNoiBo.HeaderText :Sô nội bộ
+frmInvoicePayment.NgayHD.HeaderText :Ngày hóa đơn
+frmInvoicePayment.NgayTT.HeaderText :Ngày đến hạn
+frmInvoicePayment.SoTien.HeaderText :Số tiền
+frmInvoicePayment.SoThanhToan.HeaderText :Thanh toán
+frmInvoicePayment.SoTienDaThanhToan.HeaderText :TC. Đã thanh toán
+frmInvoicePayment.SoTienconLai.HeaderText :Số tiền chưa thanh toán
+frmInvoicePayment.gbxThanhToanHD.Text :Chi tiết thanh toán theo HĐ
+frmInvoicePayment.dataGridViewTextBoxColumn1.HeaderText :Số hóa đơn
+frmInvoicePayment.dataGridViewTextBoxColumn2.HeaderText :Ngày hóa đơn
+frmInvoicePayment.MASTERNAME.HeaderText :Loại thanh toán
+frmInvoicePayment.sSoThanhToan.HeaderText :Số tiền
+frmInvoicePayment.GhiChu.HeaderText :Ghi chú
+frmInvoicePayment.Text :Thanh toán đơn hàng
+frmInputOpeningLiablity.gbxThongTinCongNo.Text :Thông tin công nợ đầu kỳ
+frmInputOpeningLiablity.label7.Text :Ghi chú
+frmInputOpeningLiablity.label4.Text :Còn lại
+frmInputOpeningLiablity.label5.Text :Đã thanh toán
+frmInputOpeningLiablity.label6.Text :Số tiền(*)
+frmInputOpeningLiablity.label27.Text :Ngày thanh toán
+frmInputOpeningLiablity.label42.Text :Ngày hóa đơn
+frmInputOpeningLiablity.label2.Text :Số nội bộ(*)
+frmInputOpeningLiablity.label1.Text :Số PO(*)
+frmInputOpeningLiablity.label3.Text :Số hóa đơn(*)
+frmInputOpeningLiablity.gbxDanhSach.Text :Danh sách công nợ đầu kỳ
+frmInputOpeningLiablity.SoHD.HeaderText :Số hóa đơn
+frmInputOpeningLiablity.SoPO.HeaderText :Số PO
+frmInputOpeningLiablity.SoNoiBo.HeaderText :Số nội bộ
+frmInputOpeningLiablity.NgayHoaDon.HeaderText :Ngày hóa đơn
+frmInputOpeningLiablity.SoTien.HeaderText :Số tiền
+frmInputOpeningLiablity.SoTienDaThanhToan.HeaderText :Số tiền đã thanh toán
+frmInputOpeningLiablity.SoTienConLai.HeaderText :Số tiền còn lại
+frmInputOpeningLiablity.GhiChu.HeaderText :Ghi chú
+frmInputOpeningLiablity.NgayTT.HeaderText :NgayTT
+frmInputOpeningLiablity.btnImport.Text :Import
+frmInputOpeningLiablity.btnInsert.Text :Thêm mới
+frmInputOpeningLiablity.btnSave.Text :Lưu
+frmInputOpeningLiablity.btnDelete.Text :Xóa
+frmInputOpeningLiablity.btnClose.Text :Đóng
+frmInputOpeningLiablity.gbxImport.Text :Tập tin
+frmInputOpeningLiablity.label10.Text :Ngày nhập
+frmInputOpeningLiablity.lblSum.Text :Tổng cộng
+frmInputOpeningLiablity.lblStatus.Text :Ready
+frmInputOpeningLiablity.btnSampleExcel.Text :Mẫu Import
+frmInputOpeningLiablity.btnBegin.Text :Bắt đầu
+frmInputOpeningLiablity.label8.Text :Sheet
+frmInputOpeningLiablity.label9.Text :Tập tin
+frmInputOpeningLiablity.Text :Nhập công nợ đầu kỳ
+frmCashDeposit.gbxThongTin.Text :Thông tin nộp tiền
+frmCashDeposit.label6.Text :VNĐ
+frmCashDeposit.label5.Text :VNĐ
+frmCashDeposit.label4.Text :Diễn giải
+frmCashDeposit.label3.Text :Tiền POS
+frmCashDeposit.label2.Text :Tiền mặt
+frmCashDeposit.label1.Text :Ngày
+frmCashDeposit.groupBox2.Text :Danh sách các lần nộp tiền
+frmCashDeposit.btnExport.Text :Xuất dữ liệu
+frmCashDeposit.btnClose.Text :Đóng
+frmCashDeposit.btnCashSearch.Text :Tìm kiếm
+frmCashDeposit.label7.Text :Từ ngày
+frmCashDeposit.label8.Text :đến
+frmCashDeposit.btnInsert.Text :Thêm mới
+frmCashDeposit.btnSave.Text :Lưu
+frmCashDeposit.btnDelete.Text :Xóa
+frmCashDeposit.Ma.HeaderText :Mã
+frmCashDeposit.Ngay.HeaderText :Ngày tháng
+frmCashDeposit.DienGiai.HeaderText :Diễn giải
+frmCashDeposit.SoTien.HeaderText :Tiền mặt
+frmCashDeposit.POS.HeaderText :Tiền POS
+frmCashDeposit.TongCong.HeaderText :Tổng cộng
+frmCashDeposit.Text :Nộp tiền thanh toán công ty
+frmSOManagement.label4.Text :SO No
+frmSOManagement.label1.Text :Sản phẩm
+frmSOManagement.btnSearch.Text :Tìm kiếm
+frmSOManagement.clnId.HeaderText :Id
+frmSOManagement.clnSONo.HeaderText :SO No
+frmSOManagement.clnProductID.HeaderText :Mã sản phẩm
+frmSOManagement.clnProductName.HeaderText :Tên sản phẩm
+frmSOManagement.clnPRICE.HeaderText :Giá
+frmSOManagement.clnQuantity.HeaderText :Số lượng
+frmSOManagement.clnTOTAL.HeaderText :Thành tiền
+frmSOManagement.clnQuantitySuspend.HeaderText :Số lượng treo
+frmSOManagement.btnSave.Text :Lưu
+frmSOManagement.btnExportExcel.Text :Xuất Excel
+frmSOManagement.btnExit.Text :Đóng
+frmSOManagement.Text :Quản lý SO
+frmOrder.btnSearch.Text :Tìm kiếm
+frmOrder.btnSendOrder.Text :Gửi đơn hàng
+frmOrder.gbxDanhSach.Text :Danh sách
+frmOrder.columnHeader1.Text :Ngày đặt hàng
+frmOrder.columnHeader2.Text :Mã đặt hàng
+frmOrder.btnSoManagement.Text :Quản lý SO
+frmOrder.btnCreateAutoOrder.Text :Tạo đơn hàng tự động
+frmOrder.gbxSanPham.Text :Sản phẩm
+frmOrder.label18.Text :Số dòng
+frmOrder.clnProductId.HeaderText :Mã hàng
+frmOrder.clnQuantity.HeaderText :Số lượng
+frmOrder.clnProductPrice.HeaderText :Giá
+frmOrder.clnProductName.HeaderText :Tên hàng
+frmOrder.clnUnit.HeaderText :Đơn vị tính
+frmOrder.clnTotalMoney.HeaderText :Thành tiền
+frmOrder.Column1.HeaderText :CAT
+frmOrder.label17.Text :Tổng TT
+frmOrder.label16.Text :Tổng SL
+frmOrder.label3.Text :Đến ngày
+frmOrder.label2.Text :Ngày đặt từ
+frmOrder.label1.Text :Mã đặt hàng
+frmOrder.gbxTTDatHang.Text :Thông tin đặt hàng
+frmOrder.label11.Text :Ngày đặt hàng
+frmOrder.label9.Text :Ghi chú
+frmOrder.txtTTDatHang.Text :Mã đặt hàng
+frmOrder.Text :Đặt hàng
+frmInputOpeningStock.groupBox1.Text :Tập tin
+frmInputOpeningStock.btnImportExcel.Text :Mẫu Import
+frmInputOpeningStock.btnBegin.Text :Bắt đầu
+frmInputOpeningStock.label2.Text :Tập tin
+frmInputOpeningStock.label1.Text :Ngày nhập
+frmInputOpeningStock.groupBox2.Text :Danh sách
+frmInputOpeningStock.ProductCode.HeaderText :Mã hàng
+frmInputOpeningStock.Quantity.HeaderText :Số lượng
+frmInputOpeningStock.lblStatus.Text :Ready
+frmInputOpeningStock.btnClose.Text :Đóng
+frmInputOpeningStock.btnOK.Text :Đồng ý
+frmInputOpeningStock.lblSum.Text :Tổng cộng
+frmInputOpeningStock.Text :Nhập tồn kho đầu kỳ
+frmGoodsReceipt.label19.Text :(*) là dữ liệu bắt buộc nhập
+frmGoodsReceipt.tabPage1.Text :Sản Phẩm
+frmGoodsReceipt.label21.Text :Số dòng
+frmGoodsReceipt.label18.Text :Số dòng
+frmGoodsReceipt.label9.Text :Tổng TT (VAT)
+frmGoodsReceipt.label8.Text :Tổng TT
+frmGoodsReceipt.label7.Text :Tổng SL
+frmGoodsReceipt.tabPage2.Text :Khuyến Mãi
+frmGoodsReceipt.label20.Text :Số dòng
+frmGoodsReceipt.label23.Text :Tổng SL
+frmGoodsReceipt.ProductIdKM.HeaderText :Mã hàng
+frmGoodsReceipt.QuantityKM.HeaderText :Số lượng
+frmGoodsReceipt.ProductPriceKM.HeaderText :Giá
+frmGoodsReceipt.ProductNameKM.HeaderText :Tên hàng
+frmGoodsReceipt.UnitKM.HeaderText :Đơn vị tính
+frmGoodsReceipt.SaleOrderNumberKM.HeaderText :SO No
+frmGoodsReceipt.VATKM.HeaderText :VAT
+frmGoodsReceipt.P_IDKM.HeaderText :ID
+frmGoodsReceipt.groupBox4.Text :Danh sách
+frmGoodsReceipt.columnHeader1.Text :Ngày nhập
+frmGoodsReceipt.columnHeader2.Text :Số hóa đơn
+frmGoodsReceipt.columnHeader3.Text :Số nội bộ
+frmGoodsReceipt.columnHeader4.Text :S.Lượng
+frmGoodsReceipt.columnHeader5.Text :S.Tiền
+frmGoodsReceipt.columnHeader6.Text :Mã nhập hàng
+frmGoodsReceipt.btnBarcodeScan.Text :Quét mã vạch
+frmGoodsReceipt.btnSearch.Text :Tìm kiếm
+frmGoodsReceipt.gbxDathang.Text :Thông tin nhập hàng
+frmGoodsReceipt.chkInsert.Text :Thêm vào công nợ
+frmGoodsReceipt.label25.Text :Ngày nhập
+frmGoodsReceipt.label17.Text :Diễn giải
+frmGoodsReceipt.label16.Text :Số tiền
+frmGoodsReceipt.label15.Text :Loại điều chỉnh
+frmGoodsReceipt.label14.Text :PO No (*)
+frmGoodsReceipt.label13.Text :Số nội bộ (*)
+frmGoodsReceipt.label12.Text :Số HĐ (*)
+frmGoodsReceipt.label11.Text :Loại nhập
+frmGoodsReceipt.label6.Text :Ghi chú
+frmGoodsReceipt.label5.Text :Ngày HĐ
+frmGoodsReceipt.label4.Text :Mã nhập hàng
+frmGoodsReceipt.label10.Text :Loại nhập
+frmGoodsReceipt.label3.Text :Đến ngày
+frmGoodsReceipt.label2.Text :Ngày đặt từ
+frmGoodsReceipt.label1.Text :Mã nhập hàng
+frmGoodsReceipt.ProductId.HeaderText :Mã hàng
+frmGoodsReceipt.Quantity.HeaderText :Số lượng
+frmGoodsReceipt.ProductPrice.HeaderText :Giá
+frmGoodsReceipt.colProductName.HeaderText :Tên hàng
+frmGoodsReceipt.Unit.HeaderText :Đơn vị tính
+frmGoodsReceipt.TotalPrice.HeaderText :Thành tiền
+frmGoodsReceipt.SaleOrderNumber.HeaderText :SO No
+frmGoodsReceipt.VAT.HeaderText :VAT
+frmGoodsReceipt.P_ID.HeaderText :ID
+frmGoodsReceipt.Text :Nhập hàng
+frmGoodsDelivery.label19.Text :(* là dữ liệu bắt buộc nhập)
+frmGoodsDelivery.gbxSanPham.Text :Sản phẩm
+frmGoodsDelivery.label18.Text :Số dòng
+frmGoodsDelivery.label17.Text :Tổng thành tiền
+frmGoodsDelivery.label16.Text :Tổng số lượng
+frmGoodsDelivery.gbxDanhSach.Text :Danh sách
+frmGoodsDelivery.NgayXuat.Text :Ngày xuất
+frmGoodsDelivery.MaXuat.Text :Mã xuất hàng
+frmGoodsDelivery.SoLuongT.Text :Số lượng
+frmGoodsDelivery.ThanhTien.Text :Thành tiền
+frmGoodsDelivery.btnInventory.Text :Tồn kho
+frmGoodsDelivery.btnCodeScaner.Text :Quét mã vạch
+frmGoodsDelivery.btnSearch.Text :Tìm 
+frmGoodsDelivery.gbxTTXuat.Text :Thông tin xuất hàng
+frmGoodsDelivery.cbxDebt.Text :Trừ vào công nợ
+frmGoodsDelivery.label13.Text :PO No
+frmGoodsDelivery.label15.Text :Diễn giải
+frmGoodsDelivery.label12.Text :Ngày HĐ
+frmGoodsDelivery.label14.Text :Số tiền
+frmGoodsDelivery.label11.Text :Ngày xuất
+frmGoodsDelivery.label10.Text :Loại điều chỉnh
+frmGoodsDelivery.label9.Text :Ghi chú
+frmGoodsDelivery.label8.Text :Số nội bộ
+frmGoodsDelivery.label7.Text :Số HĐ
+frmGoodsDelivery.label6.Text :Loại xuất
+frmGoodsDelivery.label5.Text :Mã xuất hàng
+frmGoodsDelivery.label4.Text :Loại xuất
+frmGoodsDelivery.label3.Text :Đến ngày
+frmGoodsDelivery.label2.Text :Xuất từ ngày
+frmGoodsDelivery.label1.Text :Mã xuất hàng
+frmGoodsDelivery.ProductId.HeaderText :Mã hàng
+frmGoodsDelivery.Quantity.HeaderText :Số lượng
+frmGoodsDelivery.Price.HeaderText :Giá
+frmGoodsDelivery.colProductName.HeaderText :Tên hàng
+frmGoodsDelivery.Unit.HeaderText :Đơn vị tính
+frmGoodsDelivery.P_ID.HeaderText :Id
+frmGoodsDelivery.Text :Xuất hàng
+frmGiftReceipt.gpxPhieuQuaTang.Text :Phiếu quà tặng
+frmGiftReceipt.label12.Text :Tổng giá trị thật
+frmGiftReceipt.label11.Text :Tổng giá trị
+frmGiftReceipt.label10.Text :Tổng số phiếu
+frmGiftReceipt.gbxPhieuTang.Text :Danh sách
+frmGiftReceipt.btnSearchGift.Text :Tìm
+frmGiftReceipt.gpxThongTinPT.Text :Thông tin nhập phiếu tặng
+frmGiftReceipt.btnTaiVe.Text :Tải về
+frmGiftReceipt.label9.Text :Mã hóa đơn
+frmGiftReceipt.label8.Text :Nơi xuất phiếu
+frmGiftReceipt.label7.Text :Giờ xuất
+frmGiftReceipt.label6.Text :Ghi chú
+frmGiftReceipt.label5.Text :Ngày nhập
+frmGiftReceipt.label4.Text :Mã nhập phiếu
+frmGiftReceipt.label3.Text :Đến ngày
+frmGiftReceipt.label2.Text :Nhập từ ngày
+frmGiftReceipt.label1.Text :Mã nhập phiếu
+frmGiftReceipt.Text :Nhập phiếu tặng
+frmGiftDelivery.gbxPTangQua.Text :Phiếu tặng quà
+frmGiftDelivery.btnChooseGift.Text :Chọn phiếu tặng
+frmGiftDelivery.label12.Text :Tổng giá trị thật
+frmGiftDelivery.label11.Text :Tổng số tiền
+frmGiftDelivery.label10.Text :Tổng số phiếu
+frmGiftDelivery.gbxDanhSach.Text :Danh sách
+frmGiftDelivery.btnGiftSearch.Text :Tìm
+frmGiftDelivery.gpxXuatPT.Text :Thông tin xuất phiếu tặng
+frmGiftDelivery.rbnExportStore.Text :Xuất ra cửa hàng khác
+frmGiftDelivery.rbnExportWasehouse.Text :Xuất về kho
+frmGiftDelivery.label9.Text :Nơi xuất phiếu
+frmGiftDelivery.label8.Text :Nơi nhận phiếu
+frmGiftDelivery.label7.Text :Giờ xuất
+frmGiftDelivery.label6.Text :Ghi chú
+frmGiftDelivery.label5.Text :Ngày xuất
+frmGiftDelivery.label4.Text :Mã xuất phiếu
+frmGiftDelivery.label3.Text :Đến ngày
+frmGiftDelivery.label2.Text :Từ ngày
+frmGiftDelivery.label1.Text :Mã xuất phiếu
+frmGiftDelivery.Text :Xuất phiếu tặng
+frmDiscoutVoucherReceipt.gbxPhieuGG.Text :Phiếu giảm giá
+frmDiscoutVoucherReceipt.label7.Text :Tổng số phiếu
+frmDiscoutVoucherReceipt.gbxDanhSach.Text :Danh sách
+frmDiscoutVoucherReceipt.btnVoucherSearch.Text :Tìm kiếm
+frmDiscoutVoucherReceipt.gbxPhieuGiamGia.Text :Thông tin phiếu giảm giá
+frmDiscoutVoucherReceipt.btnTaiVe.Text :Tải về
+frmDiscoutVoucherReceipt.label12.Text :Mã hóa đơn
+frmDiscoutVoucherReceipt.label5.Text :Nơi xuất phiếu
+frmDiscoutVoucherReceipt.label11.Text :Giờ nhập
+frmDiscoutVoucherReceipt.label10.Text :Ghi chú
+frmDiscoutVoucherReceipt.label6.Text :Ngày nhập
+frmDiscoutVoucherReceipt.label4.Text :Mã nhập phiếu
+frmDiscoutVoucherReceipt.label3.Text :Đến ngày
+frmDiscoutVoucherReceipt.label2.Text :Nhập từ ngày
+frmDiscoutVoucherReceipt.label1.Text :Mã nhập phiếu
+frmDiscoutVoucherReceipt.Text :Nhập phiếu giảm giá
+frmDiscoutVoucherDelivery.label3.Text :Đến ngày
+frmDiscoutVoucherDelivery.label2.Text :Từ ngày
+frmDiscoutVoucherDelivery.label1.Text :Mã xuất phiếu
+frmDiscoutVoucherDelivery.btnSearchVoucher.Text :Tìm
+frmDiscoutVoucherDelivery.gbxDanhSach.Text :Danh sách
+frmDiscoutVoucherDelivery.gbxPhieuGiamGia.Text :Xuất phiếu giảm giá
+frmDiscoutVoucherDelivery.btnChonPhieu.Text :Chọn phiếu
+frmDiscoutVoucherDelivery.label10.Text :Tổng số phiếu
+frmDiscoutVoucherDelivery.gbxTTPhieuXuatGG.Text :Thông tin xuất phiếu giảm giá
+frmDiscoutVoucherDelivery.rbnExportStore.Text :Xuất ra cửa hàng khác
+frmDiscoutVoucherDelivery.rbnExportWasehouse.Text :Xuất về kho
+frmDiscoutVoucherDelivery.label9.Text :Nơi xuất phiếu
+frmDiscoutVoucherDelivery.label8.Text :Nơi nhận phiếu
+frmDiscoutVoucherDelivery.label7.Text : Giờ xuất
+frmDiscoutVoucherDelivery.label6.Text :Ghi chú
+frmDiscoutVoucherDelivery.label5.Text :Ngày xuất
+frmDiscoutVoucherDelivery.label4.Text :Mã xuất phiếu
+frmDiscoutVoucherDelivery.Text :Xuất phiếu giảm giá
+frmDialogSearchInventory.btnSearch.Text :Tìm
+frmDialogSearchInventory.rdbProductName.Text :Tên hàng
+frmDialogSearchInventory.rdbProductCode.Text :Mã hàng
+frmDialogSearchInventory.groupBox3.Text :Danh sách
+frmDialogSearchInventory.clnProductCode.HeaderText :Mã hàng
+frmDialogSearchInventory.clnProductName.HeaderText :Tên hàng
+frmDialogSearchInventory.clnPrice.HeaderText :Price
+frmDialogSearchInventory.clnShortName.HeaderText :short
+frmDialogSearchInventory.btnOK.Text :Đồng ý
+frmDialogSearchInventory.btnClose.Text :Đóng
+frmDialogSearchInventory.Text :Tìm kiếm mã hàng
+frmDialogReportF1.btnPrint.Text :In
+frmDialogReportF1.btnExcel.Text :Xuất Excel
+frmDialogReportF1.btnPO.Text :Chuyển thành PO
+frmDialogReportF1.btnClose.Text :Đóng
+frmDialogReportF1.PRODUCT_ID.HeaderText :Mã hàng
+frmDialogReportF1.PRODUCT_NAME.HeaderText :Tên hàng
+frmDialogReportF1.DAUKY.HeaderText :Đầu kỳ
+frmDialogReportF1.NHAP.HeaderText :Nhập
+frmDialogReportF1.XUAT.HeaderText :Xuất
+frmDialogReportF1.TON.HeaderText :Tồn
+frmDialogReportF1.LKTTT.HeaderText :LKTTT
+frmDialogReportF1.KHTTT.HeaderText :KHTTT
+frmDialogReportF1.DMKH.HeaderText :DMKH
+frmDialogReportF1.DTKH.HeaderText :DTKH
+frmDialogReportF1.DTTT.HeaderText :DTTT
+frmDialogReportF1.TKMIN.HeaderText :Min
+frmDialogReportF1.TKNEXT.HeaderText :Next
+frmDialogReportF1.TKLEAD.HeaderText :Lead
+frmDialogReportF1.YCTON.HeaderText :Y/c tồn
+frmDialogReportF1.POCONFIRM.HeaderText :POConfirm
+frmDialogReportF1.PODVKH.HeaderText :PODVKH
+frmDialogReportF1.QC.HeaderText :QC
+frmDialogReportF1.SLT.HeaderText :Số lượng tổng
+frmDialogReportF1.THANHTIEN.HeaderText :T.Tiền
+frmDialogReportF1.CB.HeaderText :CB
+frmDialogReportF1.Text :Báo cáo xuất nhập tồn F1
+frmDialogProductSearch.btnSearch.Text :Tìm
+frmDialogProductSearch.rdbTenHang.Text :Tên hàng
+frmDialogProductSearch.rdbMaHang.Text :Mã hàng
+frmDialogProductSearch.groupBox2.Text :Danh sách
+frmDialogProductSearch.PRODUCT_ID.HeaderText :Mã hàng
+frmDialogProductSearch.PRODUCT_NAME.HeaderText :Tên hàng
+frmDialogProductSearch.btnOK.Text :Đồng ý
+frmDialogProductSearch.btnExit.Text :Đóng
+frmDialogProductSearch.Text :Tìm kiếm mã hàng
+frmDialogImport.btnDownloadPO.Text :Tải dữ liệu từ server
+frmDialogImport.tabPage3.Text :Hàng nhập
+frmDialogImport.SaleOrderNumber.HeaderText :SO No
+frmDialogImport.ItemCode.HeaderText :Mã sản phẩm
+frmDialogImport.ItemName.HeaderText :Tên sản phẩm
+frmDialogImport.Price.HeaderText :Giá
+frmDialogImport.Quantity.HeaderText :Số lượng
+frmDialogImport.Amount.HeaderText :Thành tiền
+frmDialogImport.Unit.HeaderText :Unit
+frmDialogImport.tabPage4.Text :Hàng khuyến mãi
+frmDialogImport.SaleOrderNumberKM.HeaderText :SO No
+frmDialogImport.ItemCodeKM.HeaderText :Mã sản phẩm
+frmDialogImport.ItemNameKM.HeaderText :Tên sản phẩm
+frmDialogImport.PriceKM.HeaderText :Giá
+frmDialogImport.QuantityKM.HeaderText :Số lượng
+frmDialogImport.AmountKM.HeaderText :Thành tiền
+frmDialogImport.UnitKM.HeaderText :Unit
+frmDialogImport.POCONumber.HeaderText :PO No
+frmDialogImport.SoNoiBo.HeaderText :Số nội bộ
+frmDialogImport.OrderDate.HeaderText :Ngày
+frmDialogImport.tabPage2.Text :So sánh SO - PO
+frmDialogImport.chkDetail.Text :Xem chi tiết
+frmDialogImport.btnSearch.Text :Tìm
+frmDialogImport.btnClose.Text :Đóng
+frmDialogImport.btnExcel.Text :Excel
+frmDialogImport.groupBox2.Text :Dữ liệu khác nhau
+frmDialogImport.label4.Text :Đến
+frmDialogImport.label3.Text :SO No.
+frmDialogImport.label2.Text :Sản phẩm
+frmDialogImport.label1.Text :Từ ngày
+frmDialogImport.btnImport.Text :Nhập hàng
+frmDialogImport.btnExportExcel.Text :Xuất Excel
+frmDialogImport.btnExit.Text :Đóng
+frmDialogImport.Column1.HeaderText :STT
+frmDialogImport.SaleOrderNumberCol.HeaderText :SO No.
+frmDialogImport.ItemCodeCol.HeaderText :MÃ SP
+frmDialogImport.PONO.HeaderText :PO No.
+frmDialogImport.SOQuantityCol.HeaderText :SL SO
+frmDialogImport.POQuantityCol.HeaderText :SL PO
+frmDialogImport.SOPOCol.HeaderText :SO - PO
+frmDialogImport.NameCol.HeaderText :TÊN SP
+frmDialogImport.UnitCol.HeaderText :Đơn vị tính
+frmDialogImport.PriceCol.HeaderText :GIÁ
+frmDialogImport.Text :Import
+frmCheckInventory.gbxSanPham.Text :Thông tin sản phẩm
+frmCheckInventory.btnCheck.Text :Kiểm tra
+frmCheckInventory.label4.Text :Giá
+frmCheckInventory.label3.Text :Tên viết tắt
+frmCheckInventory.label2.Text :Tên sản phẩm
+frmCheckInventory.label1.Text :Mã sản phẩm
+frmCheckInventory.gpxTonKho.Text :Tồn kho
+frmCheckInventory.StoreName.HeaderText :Cửa hàng
+frmCheckInventory.StoreCode.HeaderText :Chuỗi
+frmCheckInventory.StoreLocation.HeaderText :Vị trí
+frmCheckInventory.Quantity.HeaderText :Tồn kho
+frmCheckInventory.StoreAddress.HeaderText :Địa chỉ cửa hàng
+frmCheckInventory.StoreTel.HeaderText :Điện thoại
+frmCheckInventory.StoreFax.HeaderText :Fax
+frmCheckInventory.btnExit.Text :Đóng
+frmCheckInventory.Text :Kiểm tra tồn kho
+dlgSOImport.groupBox1.Text :Tập tin
+dlgSOImport.btnImportExcel.Text :Mẫu Import
+dlgSOImport.btnBegin.Text :Bắt đầu
+dlgSOImport.label2.Text :Tập tin
+dlgSOImport.groupBox2.Text :Danh sách
+dlgSOImport.clnProductCode.HeaderText :Mã hàng
+dlgSOImport.clnProductName.HeaderText :Tên hàng
+dlgSOImport.btnOK.Text :Đồng ý
+dlgSOImport.btnClose.Text :Đóng
+dlgSOImport.label5.Text :Tổng cộng
+dlgSOImport.Text :Import mã hàng
+dlgChooseProduct.groupBox1.Text :Chọn sản phẩm
+dlgChooseProduct.columnHeader2.Text :Sản phẩm
+dlgChooseProduct.columnHeader1.Text :Mã sản phẩm
+dlgChooseProduct.clnProductCode.HeaderText :Mã SP
+dlgChooseProduct.clnProductName.HeaderText :Tên SP
+dlgChooseProduct.lblTotalProduct.Text :Tổng cộng
+dlgChooseProduct.label1.Text :Lọc theo
+dlgChooseProduct.groupBox2.Text :Đã chọn
+dlgChooseProduct.lblTotalChoosed.Text :Tổng cộng
+dlgChooseProduct.clnProduct_Id.HeaderText :Mã SP
+dlgChooseProduct.clnProduct_name.HeaderText :Tên SP
+dlgChooseProduct.btnClose.Text :Đóng
+dlgChooseProduct.btnSave.Text :Lưu
+dlgChooseProduct.tabPage2.Text :Sản phẩm
+dlgChooseProduct.Text :Chọn sản phẩm
+frmCouponStatus.groupBox2.Text:Thông tin chương trình
+frmCouponStatus.label8.Text:Giảm theo
+frmCouponStatus.label1.Text:Tên
+frmCouponStatus.label5.Text:Mã phiếu
+frmCouponStatus.label3.Text:Đến ngày
+frmCouponStatus.label6.Text:Bắt đầu từ ngày
+frmCouponStatus.btnSearch.Text:Tìm
+frmCouponStatus.btnExit.Text:Đóng
+frmCouponStatus.btnExport.Text:Excel
+frmCouponStatus.groupBox4.Text:Danh sách
+frmCouponStatus.btnGoPage.Text:Tới trang
+frmCouponStatus.lblTotalRow.Text:Tổng 
+frmCouponStatus.lblPage.Text:Trang
+frmCouponStatus.label2.Text:Dòng/ trang
+frmCouponStatus.groupBox3.Text:Thông tin phiếu
+frmCouponStatus.rdbCancel.Text:Đã ngưng sử dụng
+frmCouponStatus.label4.Text:đến
+frmCouponStatus.rdbUsed.Text:Đã sử dụng
+frmCouponStatus.rdbActive.Text:Đã xuất
+frmCouponStatus.label7.Text:Giá trị từ
+frmCouponStatus.rdbWait.Text:Chưa xuất
+frmCouponStatus.groupBox1.Text:Tìm kiếm
+frmCouponStatus.Column2.HeaderText:Cửa hàng
+frmCouponStatus.Column1.HeaderText:Mã phiếu
+frmCouponStatus.colAmount.HeaderText:Giảm
+frmCouponStatus.Column7.HeaderText:Loại
+frmCouponStatus.Column8.HeaderText:Trạng thái
+frmCouponStatus.Column6.HeaderText:Mã chương trình
+frmCouponStatus.Column10.HeaderText:Tên chương trình
+frmCouponStatus.Column5.HeaderText:Ngày bắt đầu
+frmCouponStatus.Column3.HeaderText:Ngày kết thúc
+frmCouponStatus.Text:06.01 Báo cáo bán hàng
+frmVoucherStatus.groupBox2.Text:Thông tin tìm kiếm báo cáo
+frmVoucherStatus.label3.Text:đến ngày
+frmVoucherStatus.label6.Text:Tạo từ ngày
+frmVoucherStatus.btnSearch.Text:Tìm
+frmVoucherStatus.btnExit.Text:Đóng
+frmVoucherStatus.btnExport.Text:Excel
+frmVoucherStatus.groupBox4.Text:Danh sách
+frmVoucherStatus.btnGoPage.Text:Tới trang
+frmVoucherStatus.lblTotalRow.Text:Tổng 
+frmVoucherStatus.lblPage.Text:Trang
+frmVoucherStatus.label2.Text:Dòng/ trang
+frmVoucherStatus.Column2.HeaderText:Cửa hàng
+frmVoucherStatus.Column1.HeaderText:Mã phiếu
+frmVoucherStatus.colItem_de.HeaderText:Mệnh giá
+frmVoucherStatus.colItem_real.HeaderText:Mệnh giá thật
+frmVoucherStatus.colBalance.HeaderText:Số dư
+frmVoucherStatus.Column6.HeaderText:Trạng thái
+frmVoucherStatus.Column10.HeaderText:Ngày tạo
+frmVoucherStatus.Column5.HeaderText:Mã liên kết
+frmVoucherStatus.Text:06.01 Báo cáo bán hàng
+frmCompareImportProductReport.label10.Text:Đến ngày
+frmCompareImportProductReport.label9.Text:Ngày hóa đơn
+frmCompareImportProductReport.label8.Text:Số PO
+frmCompareImportProductReport.label7.Text:Số nộ bộ
+frmCompareImportProductReport.label6.Text:Số hóa đơn
+frmCompareImportProductReport.label4.Text:Sản phẩm
+frmCompareImportProductReport.label3.Text:Thuộc tính sản phẩm
+frmCompareImportProductReport.label2.Text:Đến ngày
+frmCompareImportProductReport.label1.Text:Từ ngày
+frmCompareImportProductReport.btnSeach.Text:Tìm
+frmCompareImportProductReport.btnExport.Text:Excel
+frmCompareImportProductReport.btnExit.Text:Đóng
+frmCompareImportProductReport.btnPrint.Text:In
+frmCompareImportProductReport.Text:04.06 Báo cáo chênh lệch giá
+frmEntryInventoryProductReportSale.groupBox2.Text:Thông tin tìm kiếm báo cáo
+frmEntryInventoryProductReportSale.label3.Text:Đến ngày
+frmEntryInventoryProductReportSale.label5.Text:Sản phẩm
+frmEntryInventoryProductReportSale.label6.Text:Báo cáo từ ngày
+frmEntryInventoryProductReportSale.btnSearch.Text:Tìm
+frmEntryInventoryProductReportSale.btnExit.Text:Đóng
+frmEntryInventoryProductReportSale.btnExport.Text:Excel
+frmEntryInventoryProductReportSale.btnPrint.Text:In
+frmEntryInventoryProductReportSale.groupBox4.Text:Danh sách
+frmEntryInventoryProductReportSale.Column1.HeaderText:Ngành hàng
+frmEntryInventoryProductReportSale.Column3.HeaderText:Mã hàng
+frmEntryInventoryProductReportSale.Column4.HeaderText:Tên hàng
+frmEntryInventoryProductReportSale.Column5.HeaderText:Đơn vị tính
+frmEntryInventoryProductReportSale.colDK.HeaderText:Tồn đầu kỳ
+frmEntryInventoryProductReportSale.colPriceDK.HeaderText:Giá đầu kỳ
+frmEntryInventoryProductReportSale.colTotalDK.HeaderText:Thành tiền ĐK
+frmEntryInventoryProductReportSale.colImTotal.HeaderText:Tổng nhập trong kỳ
+frmEntryInventoryProductReportSale.colSumImPro.HeaderText:Nhập mua hàng
+frmEntryInventoryProductReportSale.colToTalIm.HeaderText:Tiền mua hàng
+frmEntryInventoryProductReportSale.colQuanDC.HeaderText:SL nhập điều chỉnh
+frmEntryInventoryProductReportSale.colMoneyDC.HeaderText:Tiền nhập điều chỉnh
+frmEntryInventoryProductReportSale.colTotalEx.HeaderText:Tổng xuất trong kỳ
+frmEntryInventoryProductReportSale.colExPro.HeaderText:Xuất bán hàng
+frmEntryInventoryProductReportSale.colTotalExPro.HeaderText:Tiền bán hàng
+frmEntryInventoryProductReportSale.colPromotionPro.HeaderText:KM bán hàng
+frmEntryInventoryProductReportSale.colPromotion.HeaderText:Tiền KM
+frmEntryInventoryProductReportSale.colQuanExDC.HeaderText:SL xuất điều chỉnh
+frmEntryInventoryProductReportSale.colTotalExDC.HeaderText:Tiền xuất điều chỉnh
+frmEntryInventoryProductReportSale.colTotalEnd.HeaderText:Tồn cuối kỳ
+frmEntryInventoryProductReportSale.colEndPice.HeaderText:Giá cuối kỳ
+frmEntryInventoryProductReportSale.colSumTotalEnd.HeaderText:Thành tiền cuối kỳ
+frmEntryInventoryProductReportSale.Text:06.01 Báo cáo bán hàng
+frmInventoryReportSale.label4.Text:Sản phẩm
+frmInventoryReportSale.label3.Text:Thuộc tính sản phẩm
+frmInventoryReportSale.label1.Text:Đến ngày
+frmInventoryReportSale.btnSeach.Text:Tìm
+frmInventoryReportSale.btnExport.Text:Excel
+frmInventoryReportSale.btnExit.Text:Đóng
+frmInventoryReportSale.Text:06.01 Báo cáo tồn kho cửa hàng
+frmReportProductsSale.label10.Text:Đến ngày
+frmReportProductsSale.label9.Text:Ngày hóa đơn
+frmReportProductsSale.label8.Text:Số PO
+frmReportProductsSale.label7.Text:Số nộ bộ
+frmReportProductsSale.label6.Text:Số hóa đơn
+frmReportProductsSale.label5.Text:Loại nhập
+frmReportProductsSale.label4.Text:Sản phẩm
+frmReportProductsSale.label3.Text:Thuộc tính sản phẩm
+frmReportProductsSale.label2.Text:Đến ngày
+frmReportProductsSale.label1.Text:Từ ngày
+frmReportProductsSale.btnSeach.Text:Tìm
+frmReportProductsSale.btnExport.Text:Excel
+frmReportProductsSale.btnExit.Text:Đóng
+frmReportProductsSale.Text:Cửa hàng nhập hàng
+frmSalePromotionGifts.groupBox2.Text:Thông tin tìm kiếm báo cáo
+frmSalePromotionGifts.label1.Text:Mã hóa đơn
+frmSalePromotionGifts.label3.Text:Đến ngày
+frmSalePromotionGifts.label5.Text:Sản phẩm
+frmSalePromotionGifts.label6.Text:Báo cáo từ ngày
+frmSalePromotionGifts.btnSearch.Text:Tìm
+frmSalePromotionGifts.btnExit.Text:Đóng
+frmSalePromotionGifts.btnExport.Text:Excel
+frmSalePromotionGifts.btnPrint.Text:In
+frmSalePromotionGifts.groupBox4.Text:Danh sách
+frmSalePromotionGifts.Column2.HeaderText:Ngày bán
+frmSalePromotionGifts.Column1.HeaderText:Ngành hàng
+frmSalePromotionGifts.Column3.HeaderText:Mã hàng
+frmSalePromotionGifts.Column4.HeaderText:Hóa đơn
+frmSalePromotionGifts.Column9.HeaderText:Số lượng
+frmSalePromotionGifts.Column7.HeaderText:Giá
+frmSalePromotionGifts.Column8.HeaderText:Thành tiền
+frmSalePromotionGifts.Column6.HeaderText:Barcode
+frmSalePromotionGifts.Column10.HeaderText:Tên hàng
+frmSalePromotionGifts.Column5.HeaderText:Đơn vị tính
+frmSalePromotionGifts.btnGoPage.Text:Tới trang
+frmSalePromotionGifts.lblTotalRow.Text:Tổng 
+frmSalePromotionGifts.lblPage.Text:Trang
+frmSalePromotionGifts.label2.Text:Dòng/ trang
+frmSalePromotionGifts.Text:06.01 Báo cáo bán hàng
+rptExportProductsStoreSale.label8.Text:Số PO
+rptExportProductsStoreSale.label7.Text:Số nội bộ
+rptExportProductsStoreSale.label6.Text:Số hóa đơn
+rptExportProductsStoreSale.label5.Text:Loại xuất
+rptExportProductsStoreSale.label4.Text:Sản phẩm
+rptExportProductsStoreSale.label3.Text:Thuộc tính sản phẩm
+rptExportProductsStoreSale.label2.Text:Đến ngày
+rptExportProductsStoreSale.label1.Text:Từ ngày
+rptExportProductsStoreSale.btnSeach.Text:Tìm
+rptExportProductsStoreSale.btnExit.Text:Đóng
+rptExportProductsStoreSale.btnPrint.Text:In
+rptExportProductsStoreSale.Text:Cửa hàng xuất hàng
+frmCashReport.groupBox2.Text:Thông tin tìm kiếm báo cáo
+frmCashReport.chkPayment.Text:Báo cáo chi tiền mặt
+frmCashReport.chkReceipt.Text:Báo cáo thu tiền mặt
+frmCashReport.label3.Text:Đến ngày
+frmCashReport.label6.Text:Báo cáo từ ngày
+frmCashReport.btnSearch.Text:Tìm
+frmCashReport.btnExit.Text:Đóng
+frmCashReport.btnExport.Text:Excel
+frmCashReport.groupBox4.Text:Danh sách
+frmCashReport.btnGoPage.Text:Tới trang
+frmCashReport.lblTotalRow.Text:Tổng 
+frmCashReport.lblPage.Text:Trang
+frmCashReport.label2.Text:Dòng/ trang
+frmCashReport.Column2.HeaderText:Mã loại
+frmCashReport.Column1.HeaderText:Tên nhân viên
+frmCashReport.Column3.HeaderText:Họ nhân viên
+frmCashReport.clnCashPerson.HeaderText:Người chi tiền
+frmCashReport.clnMasterName.HeaderText:Tên loại thu tiền
+frmCashReport.colAmount.HeaderText:Số tiền
+frmCashReport.Column6.HeaderText:Tiền tệ
+frmCashReport.Column10.HeaderText:Tỷ giá
+frmCashReport.colTotal.HeaderText:Thành tiền
+frmCashReport.Column5.HeaderText:Cửa hàng
+frmCashReport.Column11.HeaderText:Ngày tạo
+frmCashReport.Text:06.01 Báo cáo bán hàng
+frmItemReturnReport.groupBox1.Text:Thông tin tìm kiếm báo cáo
+frmItemReturnReport.label2.Text:Đến ngày
+frmItemReturnReport.label4.Text:Sản phẩm
+frmItemReturnReport.label1.Text:Báo cáo từ ngày
+frmItemReturnReport.btnPrint.Text:In
+frmItemReturnReport.btnExport.Text:Excel
+frmItemReturnReport.btnExit.Text:Đóng
+frmItemReturnReport.groupBox2.Text:Lý do trả hàng
+frmItemReturnReport.btnSearch.Text:Tìm
+frmItemReturnReport.groupBox4.Text:Danh sách
+frmItemReturnReport.Column1.HeaderText:Mã trả hàng - Hóa đơn - Khách hàng
+frmItemReturnReport.Column2.HeaderText:Ngành hàng
+frmItemReturnReport.Column3.HeaderText:Mã sản phẩm
+frmItemReturnReport.Column4.HeaderText:Tên sản phẩm
+frmItemReturnReport.Column5.HeaderText:Đơn vị tính
+frmItemReturnReport.colQuan.HeaderText:Số lượng
+frmItemReturnReport.colPrice.HeaderText:Giá bán
+frmItemReturnReport.ColTotal.HeaderText:Thành tiền
+frmItemReturnReport.ColTotalReturn.HeaderText:Tiền trả lại
+frmItemReturnReport.Column10.HeaderText:Ngày trả
+frmItemReturnReport.Column11.HeaderText:Lý do trả
+frmItemReturnReport.Column12.HeaderText:Thông tin phản hồi
+frmItemReturnReport.Text:06.01 Báo cáo bán hàng
+frmLiablityReport.groupBox1.Text:Tìm kiếm
+frmLiablityReport.label6.Text:Bắt đầu từ ngày
+frmLiablityReport.label3.Text:Đến ngày
+frmLiablityReport.groupBox3.Text:Thông tin phiếu
+frmLiablityReport.rdbCancel.Text:Đã ngưng sử dụng
+frmLiablityReport.label4.Text:đến
+frmLiablityReport.rdbUsed.Text:Đã sử dụng
+frmLiablityReport.rdbActive.Text:Đã xuất
+frmLiablityReport.label7.Text:Giá trị từ
+frmLiablityReport.rdbWait.Text:Chưa xuất
+frmLiablityReport.groupBox2.Text:Thông tin chương trình
+frmLiablityReport.label8.Text:Giảm theo
+frmLiablityReport.label1.Text:Tên
+frmLiablityReport.label5.Text:Mã phiếu
+frmLiablityReport.btnExit.Text:Đóng
+frmLiablityReport.btnExport.Text:Excel
+frmLiablityReport.btnSearch.Text:In
+frmLiablityReport.Text:06.01 Báo cáo công nợ
+frmCreateReasion.label1.Text:Tên
+frmCreateReasion.btnSave.Text:Lưu 
+frmCreateReasion.Text:Thêm điều kiện
+frmCustomerListSearchByNoExportCode.groupBox1.Text:Thông tin tìm kiếm báo cáo
+frmCustomerListSearchByNoExportCode.btnPrint.Text:In
+frmCustomerListSearchByNoExportCode.btnExit.Text:Đóng
+frmCustomerListSearchByNoExportCode.btnExport.Text:Excel
+frmCustomerListSearchByNoExportCode.btnSeach.Text:Tìm
+frmCustomerListSearchByNoExportCode.label1.Text:Từ ngày
+frmCustomerListSearchByNoExportCode.groupBox2.Text:Danh sách
+frmCustomerListSearchByNoExportCode.CUSTOMER_ID.HeaderText:Mã khách hàng
+frmCustomerListSearchByNoExportCode.CUSTOMER_NAME.HeaderText:Tên khách hàng
+frmCustomerListSearchByNoExportCode.ADDRESSS.HeaderText:Địa chỉ
+frmCustomerListSearchByNoExportCode.lblCount.Text:Tổng
+frmCustomerListSearchByNoExportCode.btnChoosePage.Text:Tới trang
+frmCustomerListSearchByNoExportCode.lblPage.Text:Trang 
+frmCustomerListSearchByNoExportCode.label6.Text:Dòng / trang
+frmCustomerListSearchByNoExportCode.Text:06.07 Báo cáo danh sách khách hàng không có giao dịch
+frmDeleteResion.Resion.Text:Điều kiện
+frmDeleteResion.btnExit.Text:Đóng
+frmDeleteResion.btnDelete.Text:Xóa
+frmDeleteResion.Text:Điều kiện
+frmEmployeeSearchSale.gbxToChuc.Text:Tổ chức
+frmEmployeeSearchSale.btnEmployeeSearch.Text:Tìm
+frmEmployeeSearchSale.gbxNhanVien.Text:Nhân viên
+frmEmployeeSearchSale.lblPage.Text:Trang
+frmEmployeeSearchSale.lblRowlist.Text:Tổng cộng
+frmEmployeeSearchSale.columnHeader1.Text:Mã nhân viên
+frmEmployeeSearchSale.columnHeader2.Text:Tên 
+frmEmployeeSearchSale.columnHeader3.Text:Họ
+frmEmployeeSearchSale.groupBox3.Text:Đã chọn
+frmEmployeeSearchSale.columnHeader4.Text:Mã nhân viên
+frmEmployeeSearchSale.columnHeader5.Text:Tên
+frmEmployeeSearchSale.columnHeader6.Text:Họ
+frmEmployeeSearchSale.columnHeader7.Text:Phòng ban
+frmEmployeeSearchSale.btnOK.Text:OK
+frmEmployeeSearchSale.btnCancel.Text:Đóng
+frmEmployeeSearchSale.tabPage1.Text:Danh sách nhân viên
+frmEmployeeSearchSale.Text:Tìm kiếm nhân viên
+
+frmInvoicher.lblScount.Text:Tổng
+frmInvoicher.btnChoosePage.Text:Tới trang
+frmInvoicher.lblPage.Text:Trang
+frmInvoicher.label6.Text:Dòng / trang
+frmInvoicher.groupBox2.Text:Danh sách
+frmInvoicher.STT.HeaderText:STT
+frmInvoicher.groupBox1.Text:Thông tin tìm kiếm
+frmInvoicher.chkFromInvoi.Text:Số hóa đơn từ
+frmInvoicher.btnExit.Text:Đóng
+frmInvoicher.btnExport.Text:Excel
+frmInvoicher.label2.Text:Đến ngày
+frmInvoicher.btnSeach.Text:Tìm
+frmInvoicher.label1.Text:Từ ngày
+frmInvoicher.Text:Báo cáo theo hóa đơn
+frmInvoicherManagement.lblSCount.Text:Tổng
+frmInvoicherManagement.btnChoosePage.Text:Tới trang
+frmInvoicherManagement.label3.Text:Trang 
+frmInvoicherManagement.label6.Text:Dòng / trang
+frmInvoicherManagement.groupBox2.Text:Danh sách
+frmInvoicherManagement.STT.HeaderText:STT
+frmInvoicherManagement.groupBox1.Text:Thông tin tìm kiếm
+frmInvoicherManagement.chkToMoney.Text:Đến
+frmInvoicherManagement.chkFromMoney.Text:Số tiền từ
+frmInvoicherManagement.btnExit.Text:Đóng
+frmInvoicherManagement.btnExport.Text:Excel
+frmInvoicherManagement.label2.Text:Đến ngày
+frmInvoicherManagement.btnSeach.Text:Tìm
+frmInvoicherManagement.label1.Text:Từ ngày
+frmInvoicherManagement.Text:Báo cáo doanh số theo hóa đơn
+frmListCustomerReport.lblPage.Text:Trang 
+frmListCustomerReport.lblSCount.Text:Tổng
+frmListCustomerReport.btnChoosePage.Text:Tới trang
+frmListCustomerReport.label11.Text:Dòng / trang
+frmListCustomerReport.groupBox1.Text:Thông tin chi tiết
+frmListCustomerReport.chkNo.Text:Không
+frmListCustomerReport.chkYes.Text:Có
+frmListCustomerReport.chkToMoney.Text:Khác
+frmListCustomerReport.label7.Text:Kích hoạt
+frmListCustomerReport.label5.Text:Nhóm KH
+frmListCustomerReport.label4.Text:Hôn nhân
+frmListCustomerReport.label3.Text:Nghề nghiệp
+frmListCustomerReport.label1.Text:Giới tính
+frmListCustomerReport.groupBox2.Text:Thông tin liên lạc
+frmListCustomerReport.label13.Text:Tỉnh / Thành phố
+frmListCustomerReport.label12.Text:Quốc gia
+frmListCustomerReport.btnSeach.Text:Tìm
+frmListCustomerReport.btnExport.Text:Excel
+frmListCustomerReport.groupBox5.Text:Danh sách
+frmListCustomerReport.btnExit.Text:Đóng
+frmListCustomerReport.CUSTOMER_ID.HeaderText:Mã KH
+frmListCustomerReport.FIRST_NAME.HeaderText:Tên
+frmListCustomerReport.LAST_NAME.HeaderText:Họ
+frmListCustomerReport.DATE_OF_BIRTH.HeaderText:Ngày sinh
+frmListCustomerReport.YEAR_OF_BIRTH.HeaderText:Năm sinh
+frmListCustomerReport.PLACE_OF_BIRTH.HeaderText:Nơi sinh
+frmListCustomerReport.TEL.HeaderText:Điện thoại
+frmListCustomerReport.MOBILE_PHONE.HeaderText:Di động
+frmListCustomerReport.EMAIL_ADDRESS.HeaderText:Địa chỉ Email
+frmListCustomerReport.FAX.HeaderText:Fax
+frmListCustomerReport.ADDRESS.HeaderText:Địa chỉ
+frmListCustomerReport.Country.HeaderText:Quốc gia
+frmListCustomerReport.City.HeaderText:Thành phố
+frmListCustomerReport.DISTRICT_OTHER.HeaderText:Quận/huyện
+frmListCustomerReport.COMMUNES_WARDS.HeaderText:Xã/phường
+frmListCustomerReport.HOUSE_STREET.HeaderText:Số nhà
+frmListCustomerReport.WORKING_OFFICE.HeaderText:Nơi công tác
+frmListCustomerReport.OFFICE_ADDRESS.HeaderText:Địa chỉ công tác
+frmListCustomerReport.Sex.HeaderText:Giới tính
+frmListCustomerReport.Column21.HeaderText:Nhóm máu
+frmListCustomerReport.RaceName.HeaderText:Chủng tộc
+frmListCustomerReport.RegionName.HeaderText:Tôn giáo
+frmListCustomerReport.OCCUPATION_OTHER.HeaderText:Nghề nghiệp khác
+frmListCustomerReport.Column25.HeaderText:Nghề nghiệp
+frmListCustomerReport.Marital.HeaderText:Hôn nhân
+frmListCustomerReport.Column27.HeaderText:Nhóm KH
+frmListCustomerReport.ID_NO.HeaderText:Số CMND
+frmListCustomerReport.ID_NO_ISSUED_DATE.HeaderText:Ngày cấp CMND
+frmListCustomerReport.ID_NO_ISSUED_PLACE.HeaderText:Nơi cấp
+frmListCustomerReport.PASSPORT_NO.HeaderText:Hộ chiếu
+frmListCustomerReport.PASSPORT_NO_EXPIRY_DATE.HeaderText:Ngày cấp HC
+frmListCustomerReport.PASSPORT_NO_ISSUED_DATE.HeaderText:Ngày hết hạn HC
+frmListCustomerReport.PASSPORT_NO_ISSUED_PLACE.HeaderText:Nơi cấp HC
+frmListCustomerReport.REMARK.HeaderText:Ghi chú
+frmListCustomerReport.CREATE_DATE.HeaderText:Ngày tạo
+frmListCustomerReport.CREATE_BY.HeaderText:Người tạo
+frmListCustomerReport.UPDATE_DATE.HeaderText:Ngày cập nhật
+frmListCustomerReport.LAST_UPDATE_BY.HeaderText:Người cập nhật
+frmListCustomerReport.Text:Báo cáo danh sách khách hàng
+frmProductReportSearch.label1.Text:Điều kiện
+frmProductReportSearch.tabReasion.Text:Điều kiện
+frmProductReportSearch.groupBox2.Text:Thuộc tính
+frmProductReportSearch.groupBox1.Text:Nhóm sản phẩm
+frmProductReportSearch.groupBox3.Text:Danh sách cột
+frmProductReportSearch.btnClose.Text:Đóng
+frmProductReportSearch.btnSave.Text:Lưu ĐK
+frmProductReportSearch.btnInsert.Text:Thêm ĐK
+frmProductReportSearch.btnOK.Text:Chấp nhận
+frmProductReportSearch.Text:Điều kiện tìm kiếm
+frmReportSale.btnSeach.Text:Tìm
+frmReportSale.btnExport.Text:Xuất dữ liệu
+frmReportSale.btnExit.Text:Đóng
+frmReportSale.label5.Text:Người thu tiền
+frmReportSale.label4.Text:Sản phẩm
+frmReportSale.label3.Text:Thuộc tính sản phẩm
+frmReportSale.label2.Text:Đến ngày
+frmReportSale.label1.Text:Từ ngày
+frmReportSale.groupBox2.Text:Danh sách
+frmReportSale.Column1.HeaderText:Mã hóa đơn
+frmReportSale.Column2.HeaderText:Mã khách hàng
+frmReportSale.Column3.HeaderText:Họ tên
+frmReportSale.CAT.HeaderText:Ngành hàng
+frmReportSale.Column5.HeaderText:Mã sản phẩm
+frmReportSale.Column6.HeaderText:Tên sản phẩm
+frmReportSale.Column7.HeaderText:Đơn vị tính
+frmReportSale.Column8.HeaderText:Ngày bán
+frmReportSale.Column9.HeaderText:Số lượng
+frmReportSale.Column10.HeaderText:Giá bán
+frmReportSale.Column11.HeaderText:Tổng cộng
+frmReportSale.Column12.HeaderText:Khuyến mại
+frmReportSale.Column13.HeaderText:Thanh toán
+frmReportSale.Column14.HeaderText:Ghi chú
+frmReportSale.Column15.HeaderText:Mã nhân viên
+frmReportSale.Column16.HeaderText:Họ tên nhân viên
+frmReportSale.Column17.HeaderText:Cửa hàng
+frmReportSale.Column18.HeaderText:Chuỗi cửa hàng
+frmReportSale.Column19.HeaderText:Nhóm sản phẩm
+frmReportSale.lblPage.Text:Trang 
+frmReportSale.lblScount.Text:Tổng
+frmReportSale.btnChoosePage.Text:Tới trang
+frmReportSale.btnPrint.Text:In
+frmReportSale.Text:06.01 Báo cáo bán hàng
+frmSalesExportSearchReportByCat.btnDownList.Text:Thông tin tìm kiếm báo cáo
+frmSalesExportSearchReportByCat.btnPrint.Text:In
+frmSalesExportSearchReportByCat.btnExit.Text:Đóng
+frmSalesExportSearchReportByCat.btnExport.Text:Excel
+frmSalesExportSearchReportByCat.label2.Text:Đến ngày
+frmSalesExportSearchReportByCat.btnSeach.Text:Tìm
+frmSalesExportSearchReportByCat.label1.Text:Từ ngày
+frmSalesExportSearchReportByCat.groupBox2.Text:Danh sách
+frmSalesExportSearchReportByCat.lblPage.Text:Trang 
+frmSalesExportSearchReportByCat.lblScount.Text:Tổng
+frmSalesExportSearchReportByCat.btnChoosePage.Text:Tới trang
+frmSalesExportSearchReportByCat.label6.Text:Dòng / trang
+frmSalesExportSearchReportByCat.STT.HeaderText:STT
+frmSalesExportSearchReportByCat.Text:06.03 Báo cáo doanh số theo CAT
+frmSalesReportByCustomerSale.groupBox2.Text:Thông tin tìm kiếm báo cáo
+frmSalesReportByCustomerSale.label18.Text:Thuộc tính sản phẩm
+frmSalesReportByCustomerSale.label17.Text:Độ tuổi từ
+frmSalesReportByCustomerSale.groupBox7.Text:Ngày tạo
+frmSalesReportByCustomerSale.label14.Text:đến ngày
+frmSalesReportByCustomerSale.label15.Text:Từ ngày
+frmSalesReportByCustomerSale.groupBox6.Text:Thông tin liên lạc
+frmSalesReportByCustomerSale.label13.Text:Tỉnh / Thành phố
+frmSalesReportByCustomerSale.label12.Text:Quốc gia
+frmSalesReportByCustomerSale.groupBox5.Text:Thông tin chi tiết
+frmSalesReportByCustomerSale.label10.Text:Nhóm KH
+frmSalesReportByCustomerSale.label11.Text:Hôn nhân
+frmSalesReportByCustomerSale.chkToMoney.Text:Khác
+frmSalesReportByCustomerSale.label3.Text:Nghề nghiệp
+frmSalesReportByCustomerSale.label7.Text:Giới tính
+frmSalesReportByCustomerSale.label4.Text:Sản phẩm
+frmSalesReportByCustomerSale.label19.Text:Danh sách nhân viên
+frmSalesReportByCustomerSale.label2.Text:Đến ngày
+frmSalesReportByCustomerSale.label1.Text:Báo cáo bán từ ngày
+frmSalesReportByCustomerSale.btnExit.Text:Đóng
+frmSalesReportByCustomerSale.btnExport.Text:Excel
+frmSalesReportByCustomerSale.btnSeach.Text:Tìm
+frmSalesReportByCustomerSale.groupBox1.Text:Danh sách
+frmSalesReportByCustomerSale.Column1.HeaderText:Cửa hàng
+frmSalesReportByCustomerSale.Column2.HeaderText:Chuỗi
+frmSalesReportByCustomerSale.Column3.HeaderText:Mã hóa đơn
+frmSalesReportByCustomerSale.CUSTOMER_ID.HeaderText:Mã khách hàng
+frmSalesReportByCustomerSale.Column5.HeaderText:Họ tên
+frmSalesReportByCustomerSale.Column6.HeaderText:Ngành hàng
+frmSalesReportByCustomerSale.Column7.HeaderText:Nhóm sản phẩm
+frmSalesReportByCustomerSale.Column8.HeaderText:Mã sản phẩm
+frmSalesReportByCustomerSale.Column9.HeaderText:Tên sản phẩm
+frmSalesReportByCustomerSale.Column10.HeaderText:Đơn vị tính
+frmSalesReportByCustomerSale.Column11.HeaderText:Mã vạch
+frmSalesReportByCustomerSale.Column12.HeaderText:Ngày bán
+frmSalesReportByCustomerSale.Column13.HeaderText:Số lượng
+frmSalesReportByCustomerSale.Column14.HeaderText:Giá bán
+frmSalesReportByCustomerSale.Column15.HeaderText:Tổng cộng
+frmSalesReportByCustomerSale.Column16.HeaderText:Chiết khấu
+frmSalesReportByCustomerSale.Column17.HeaderText:Giảm giá
+frmSalesReportByCustomerSale.Column18.HeaderText:Giảm giá theo thẻ KH
+frmSalesReportByCustomerSale.Column19.HeaderText:Khuyến mãi
+frmSalesReportByCustomerSale.Column20.HeaderText:Tổng số tiền trả
+frmSalesReportByCustomerSale.Column21.HeaderText:Ghi chú
+frmSalesReportByCustomerSale.Column22.HeaderText:Mã nhân viên
+frmSalesReportByCustomerSale.Column23.HeaderText:Họ tên nhân viên
+frmSalesReportByCustomerSale.label6.Text:Dòng / trang
+frmSalesReportByCustomerSale.lblPage.Text:Trang 
+frmSalesReportByCustomerSale.btnChoosePage.Text:Tới trang
+frmSalesReportByCustomerSale.lblSumCount.Text:Tổng
+frmSalesReportByCustomerSale.btnPrint.Text:Trang in
+frmSalesReportByCustomerSale.Text:06.02.Báo cáo bán hàng theo khách hàng, nhân viên bán hàng
+
+frmEmployeeSearchReport.gbxToChuc.Text:Tổ chức
+frmEmployeeSearchReport.btnEmployeeSearch.Text:Tìm
+frmEmployeeSearchReport.gbxNhanVien.Text:Nhân viên
+frmEmployeeSearchReport.columnHeader1.Text:Mã nhân viên
+frmEmployeeSearchReport.columnHeader2.Text:Tên 
+frmEmployeeSearchReport.columnHeader3.Text:Họ
+frmEmployeeSearchReport.groupBox3.Text:Đã chọn
+frmEmployeeSearchReport.columnHeader4.Text:Mã nhân viên
+frmEmployeeSearchReport.columnHeader5.Text:Tên
+frmEmployeeSearchReport.columnHeader6.Text:Họ
+frmEmployeeSearchReport.columnHeader7.Text:Phòng ban
+frmEmployeeSearchReport.btnOK.Text:OK
+frmEmployeeSearchReport.btnCancel.Text:Đóng
+frmEmployeeSearchReport.Text:Tìm kiếm nhân viên
+
+frmReport.btnOpen.Text:Mở
+frmReport.btnClose.Text:Đóng
+frmReport.Text:Quản lý báo cáo
+
+frmAddEditUser.groupBox1.Text :Thông tin người dùng
+frmAddEditUser.cbxPermissionChangePrice.Text :Quyền thay đổi giá sản phẩm
+frmAddEditUser.cbxPermissionDiscount.Text :Quyền Chiết khấu và Xóa hóa đơn
+frmAddEditUser.rbtAdmin.Text :Nhóm quản lý
+frmAddEditUser.rbtShop.Text :Nhóm cửa hàng
+frmAddEditUser.label9.Text :Nhóm người dùng (*)
+frmAddEditUser.label8.Text :Ghi chú
+frmAddEditUser.label7.Text :Email
+frmAddEditUser.label6.Text :Điện thoại
+frmAddEditUser.label5.Text :Tên (*)
+frmAddEditUser.label4.Text :Họ (*)
+frmAddEditUser.label3.Text :Xác nhận mật khẩu (*)
+frmAddEditUser.label2.Text :Mật khẩu (*)
+frmAddEditUser.label1.Text :Tên đăng nhập (*)
+frmAddEditUser.button1.Text :Lưu
+frmAddEditUser.button2.Text :Đóng
+frmAddEditUser.Text :Người dùng
+
+FrmGroupUser.tabUsers.Text :Người dùng
+FrmGroupUser.rbtGroupManagement.Text :Nhóm quản lý
+FrmGroupUser.rbtGroupStore.Text :Nhóm cửa hàng
+FrmGroupUser.label5.Text :Nhóm người dùng
+FrmGroupUser.btnUpdateStore.Text :Cập nhật cửa hàng
+FrmGroupUser.btnCloseTabUser.Text :Đóng
+FrmGroupUser.btnChangePass.Text :Đổi mật khẩu
+FrmGroupUser.btnDeleteTabUser.Text :Xóa
+FrmGroupUser.btnInsertTabUser.Text :Thêm mới
+FrmGroupUser.groupBox2.Text :Danh sách cửa hàng
+FrmGroupUser.columnHeader1.Text :Người dùng
+FrmGroupUser.columnHeader2.Text :Cửa hàng
+FrmGroupUser.groupBox1.Text :Danh sách
+FrmGroupUser.ACCOUNT.HeaderText :Người dùng
+FrmGroupUser.Column2.HeaderText :Tên
+FrmGroupUser.Column3.HeaderText :Họ
+FrmGroupUser.Column4.HeaderText :Điện thoại
+FrmGroupUser.Column5.HeaderText :Email
+FrmGroupUser.Column6.HeaderText :Ngày tạo
+FrmGroupUser.Column7.HeaderText :Ghi chú
+FrmGroupUser.btnStore.Text :Cửa hàng
+FrmGroupUser.label9.Text :Tìm nhanh theo tên
+FrmGroupUser.label6.Text :Ghi chú
+FrmGroupUser.label7.Text :Điện thoại
+FrmGroupUser.label8.Text :Ngày tạo
+FrmGroupUser.label4.Text :Email
+FrmGroupUser.label3.Text :Họ
+FrmGroupUser.label2.Text :Tên
+FrmGroupUser.label1.Text :Người dùng
+FrmGroupUser.tabGroup.Text :Nhóm
+FrmGroupUser.btnClose.Text :Đóng
+FrmGroupUser.btnDelete.Text :Xóa
+FrmGroupUser.btnSave.Text :Lưu
+FrmGroupUser.btnInsert.Text :Thêm mới
+FrmGroupUser.label11.Text :Mô tả
+FrmGroupUser.label10.Text :Mã nhóm
+FrmGroupUser.tabPage3.Text :Đưa người dùng vào nhóm
+FrmGroupUser.btnStoreTab3.Text :Cửa hàng
+FrmGroupUser.label12.Text :Tìm nhanh theo tên
+FrmGroupUser.Text :Quản lý người dùng và nhóm người dùng
+frmChangePass.button1.Text :Lưu
+frmChangePass.button2.Text :Đóng
+frmChangePass.label1.Text :Người dùng
+frmChangePass.label2.Text :Mật khẩu
+frmChangePass.label3.Text :Nhập lại mật khẩu

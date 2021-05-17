@@ -1,0 +1,12 @@
+<exportProductStoreDetailXml>
+  <ExportProductStoreDetail>
+    <exportProductStore>EXS.CH40211.14.00001</exportProductStore>
+    <productCode>01sb01</productCode>
+    <pId />
+    <quantity>1</quantity>
+    <productPrice>22000</productPrice>
+    <eventId>HAITHANH-PC-CH40211-14-00023</eventId>
+    <productPriceVAT>0</productPriceVAT>
+    <synAction>1</synAction>
+  </ExportProductStoreDetail>
+</exportProductStoreDetailXml>

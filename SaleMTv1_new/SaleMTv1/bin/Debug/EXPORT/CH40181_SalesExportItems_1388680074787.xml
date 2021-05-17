@@ -1,0 +1,62 @@
+<salesExportItemsXml>
+  <SalesExportItems>
+    <exportCode>SAL.CH40181140102000</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportCode>SAL.CH40181140102001</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportCode>SAL.CH40211140101001</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportDate>2014-01-02T16:14:04.703+07:00</exportDate>
+    <inputDate>2014-01-02T16:14:01.39+07:00</inputDate>
+    <exportCode>SAL.CH40181140102000</exportCode>
+    <productCode>01SX01</productCode>
+    <barcode />
+    <quantity>10</quantity>
+    <amount>187000</amount>
+    <priceDefault>18700</priceDefault>
+    <priceSales>18700</priceSales>
+    <discount>0</discount>
+    <rebate>0</rebate>
+    <promotion>9350</promotion>
+    <remark />
+    <employeeId />
+    <eventId>LUAN-PC-CH40181-14-000000034</eventId>
+    <totalAmount>177650</totalAmount>
+    <deliveryDate>2014-01-02T16:14:01.39+07:00</deliveryDate>
+    <rebateByCustomerCard>0</rebateByCustomerCard>
+    <quantityExported>0</quantityExported>
+    <synAction>1</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportDate>2014-01-02T16:14:45.44+07:00</exportDate>
+    <inputDate>2014-01-02T16:14:42.703+07:00</inputDate>
+    <exportCode>SAL.CH40181140102001</exportCode>
+    <productCode>02AA12</productCode>
+    <barcode />
+    <quantity>2</quantity>
+    <amount>440000</amount>
+    <priceDefault>220000</priceDefault>
+    <priceSales>220000</priceSales>
+    <discount>0</discount>
+    <rebate>0</rebate>
+    <promotion>32000</promotion>
+    <remark />
+    <employeeId />
+    <eventId>LUAN-PC-CH40181-14-000000040</eventId>
+    <totalAmount>408000</totalAmount>
+    <deliveryDate>2014-01-02T16:14:42.703+07:00</deliveryDate>
+    <rebateByCustomerCard>0</rebateByCustomerCard>
+    <quantityExported>0</quantityExported>
+    <synAction>1</synAction>
+  </SalesExportItems>
+</salesExportItemsXml>

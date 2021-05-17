@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleMTGenKey", "SaleMTGenKey\SaleMTGenKey.csproj", "{DF1AE7DE-BD2B-4CBA-8EDC-03DC753BC0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\..\DataAccessLayer\DataAccessLayer.csproj", "{4ECB738B-5A43-46D2-B662-739FF674AD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF1AE7DE-BD2B-4CBA-8EDC-03DC753BC0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1AE7DE-BD2B-4CBA-8EDC-03DC753BC0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1AE7DE-BD2B-4CBA-8EDC-03DC753BC0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1AE7DE-BD2B-4CBA-8EDC-03DC753BC0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECB738B-5A43-46D2-B662-739FF674AD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECB738B-5A43-46D2-B662-739FF674AD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECB738B-5A43-46D2-B662-739FF674AD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECB738B-5A43-46D2-B662-739FF674AD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

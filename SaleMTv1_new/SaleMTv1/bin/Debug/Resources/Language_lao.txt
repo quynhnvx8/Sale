@@ -1,0 +1,1995 @@
+﻿#Message Dialog
+Msg.TitleDialog:​ການ​ແຈ້ງ
+Msg.PermissionDialog:ຟັ່ງ​ຊັ່ນ​ນີ້ບໍ່​ອະ​ນຸ​ຍາດ​ໃຫ້​ເຈົ້າ​ເຂົ້າ​ໄດ້
+Msg.Error:ຜິດ​ພາດ
+Msg.UpdateSuccess:ອັບ​ເດ​ດ​ສຳ​ເລັດ
+Msg.EmailNotFound:ບໍ່​ພົບ​ອີ​ເມວ
+Msg.DataNotFound:ຈຳ​ນວນບໍ່​ຫວ່າງ
+Msg.AmountNotEmpty:ບໍ່​ພົບ​ຂໍ້​ມູນ
+Msg.InvoiceNotEmpty:ໃບ​ແຈ້ງ​ລາ​ຄາບໍ່​ຫວ່າງ
+Msg.InvoiceExists:ມີ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+Msg.MustBeSelected:ກະ​ລຸ​ນາ​ເລືອກ​ຂໍ້​ມູນ
+Msg.NoPermissionQty:ປະ​ລິ​ມານບໍ່​ອະ​ນຸ​ຍາດ
+Msg.PasswordNotSame:ລະ​ຫັດ​ຜ່ານບໍ່​ຄື​ກັນ
+Msg.Mandatory:ຕ້ອງ​ໃສ່​ບ່ອນ​ທີ່​ໝາຍ​ດ້ວຍ(*)
+Msg.PercentDiscount:ກະ​ລຸ​ນາ​ໃສ່​ເປີ​ເຊັນ​ການຫຼຸດ​ລົງ
+#End Message Dialog:
+#frmMain:
+frmSaleMTMain.Text		:ຜູ້​ຈັດ​ການ​ຂາຍ"
+mnuSystem				:ລະ​ບົບ"
+mnuLogin				:ເຂົ້າ​ສູ່"
+mnuDatabaseConfig		:ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ"
+mnuChangePassword		:ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ"
+mnuCustomizeFormat      :ພາ​ສີ
+mnuSetupPrinter         :ຕົວ​ເລືອກ​ການ​ພິ​ມ
+mnuOptionSynData        :ຕັ້ງ​ຄ່າ​ຊີ້ງ​ຂໍ້​ມູນ
+mnuFtpConfig            :ຕັ້ງ​ຄ່າ FTP
+mnuQuitApp              :ອອກ
+mnuInvenManagement      :ຜູ້​ຈັດ​ການ​ສາງ
+mnuOrder                :ໃບ​ສັ່ງ
+mnuGoodsReceipt         :ສິນ​ຄ້າ​ນຳ​ເຂົ້າ
+mnuGoodsDelivery        :ສິນ​ຄ້າ​ນຳ​ອອກ
+mnuCheckInventory       :ກວດ​ສິນ​ຄ້າ​ສາງ
+mnuInputStock           :ການ​ເປີດ​ເຂົ້າ​ຮຸ້ນ
+mnuSaleManage           :ຜູ້​ຈັດ​ການ​ຂາຍ
+mnuSale                 :ຂາຍ
+mnuReturnItems          :ສິນ​ຄ້າ​ກັບ​ຄືນ
+mnuCash                 :ຜູ້​ຈັດ​ການ​ເງິນ​ສົດ
+mnuCashPay              :ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+mnuCashReceipt          :ຜູ້​ຮັບ
+mnuManageReceipt        :ຜູ້​ຈັດ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+tsmCusManager           :ຜູ້​ຈັດ​ການ​ລູກ​ຄ້າ
+mnuShiftReport          :ຍ້າຍ​ການ​ພິມ
+mnuCloseShift           :ການ​ເຮັດ​ວຽກ​ສິ້ນ​ສຸດ
+tsmnuQuanLyKHNV         :ລູກ​ຄ້າ&&​ຜູ້​ຈັດ​ການ​ພະ​ນັກ​ງານ
+mnuCustomersManage      :ຜູ້​ຈັດ​ການ​ຂໍ້​ມູນ​ລູກ​ຄ້າ
+mnuEmployeeInfor        :ຂໍ້​ມູນ​ພະ​ນັກ​ງານ
+mnuShiftmanage          :ຈັດ​ຕາ​ຕະ​ລາງ​ເຮັດ​ວຽກ
+mnuTimeAttendance       :ພະ​ນັກ​ງານ​ສະ​ແກນ​ບັດ
+mnuLiabilityManage      :ຜູ້​ຈັດ​ການ​ໜີ້
+mnuCashDepo             :ໃບ​ຢັ້ງ​ຢືນ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+mnuInvoicePay           :ໃບ​ສັ່ງ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+mnuInputLiability       :ການ​ເປີດ​ເຂົ້າ​ເງິນ​ສົດ
+mnuLiablityReport       :ລາຍ​ງານ​ໜີ້
+mnuReport               :ລາຍ​ງານ
+mnuRReport              :ລາຍ​ງານ
+mnuUtilities            :​ອັດ​ຖະ​ປະ​ໂຫຍດ
+mnuBarcodeScaner        :ສະ​ແກນ​ບາ​ໂຄດ
+mnuCalculator           :ຄອມ​ພິວ​ເຕິ
+mnuNotepad              :ສົ່ງ​ຂໍ້​ມູນ
+mnuCompareExcel         :ການ​ປຽບ​ທຽບ​ປະ​ລິ​ມານ
+mnuGoodsInventory       :ສິນ​ຄ້າ​ໃນ​​ສາງ
+mnuHelp                 :​ຊ່ວຍ​ເຫຼືອ
+mnuUserGuide            :ຄູ່​ມື​ການ​ໃຊ້
+mnuAppInfo              :​ຂໍ້​ມູນ​ໂປ​ຣ​ແກ​ຣມ
+mnuAbout                :ຂໍ້​ມູນ​ລິ​ຂະ​ສິດ
+mnuWindow               :ວິນ​ໂດ
+mnuExitWindow           :ປິດ​ທັ້ງ​ໝົດ
+testToolStripMenuItem   :ຜູ້​ໃຊ້​ງານ
+btnAdd                  :ເພີ່ມ​ໃໝ່
+btnSave                 :ບັນ​ທຶກ
+btnEdit                 :ແກ້​ໄຂ
+btnCancel               :ປະ​ຕິ​ເສດ
+btnDelete               :ລຶບ
+btnPrint                :ພິມ
+btnExport               :ການ​ນຳ​ອອກ
+btnViewReport           :ລາຍ​ງານ​ຄືນ
+btnSearch               :ຊອກ​ຫາ​ຂໍ້​ມູນ
+btnLogin                :ເຂົ້າ​ສູ່​ລະ​ບົບ
+btnLogout               :ອອກ
+btnExit                 :ປິດ
+lblStore                :ຮ້ານ​ຄ້າ
+frmOptionDatabase.label1 :ການ​ເກັບ​ຂໍ້​ມູນ​ຢູ່​ເຊີບ​ເວີ
+frmOptionDatabase.label2 :ຂໍ້​ມູນ
+frmOptionDatabase.label3 :ຊື່​ຜູ້​ນຳ​ໃຊ້
+frmOptionDatabase.label4 :ລະ​ຫັດ​ຜ່ານ
+frmOptionDatabase.btnSave :ບັນ​ທຶກ
+frmOptionDatabase.btnClose :ປິດ
+frmOptionDatabase.Text :ສ້າງ​ຂໍ້​ມູນ​ເຊື່ອມ​ຕໍ່
+frmLogin.label1	:ຊື່​ຜູ້​ນຳ​ໃຊ້"
+frmLogin.label2:ລະ​ຫັດ​ຜ່ານ
+frmLogin.btnLogin:ເຂົ້າ​ສູ່​ລະ​ບົບ
+frmLogin.btnClose:ປິດ
+frmLogin.chkRememberPass:ຈື່​ຂ້ອຍ
+frmLogin.Text:ເຂົ້າ​ສູ່​ລະ​ບົບ
+frmChangePass.lblMKcu.Text :ລະ​ຫັດ​ຜ່ານ​ເກົ່າ
+frmChangePass.lblMKmoi.Text :ລະ​ຫັດ​ຜ່ານ​ໃໝ່
+frmChangePass.lblXacNhanMK.Text :ຢືນ​ຢັນ​ລະ​ຫັດ​ຜ່ານ
+frmChangePass.Text :ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ
+frmChangePassword.label1.Text :ລະ​ຫັດ​ຜ່ານ​ເກົ່າ
+frmChangePassword.btnClose.Text :ປິດ
+frmChangePassword.label2.Text :ລະ​ຫັດ​ຜ່ານ​ໃໝ່
+frmChangePassword.label3.Text :ຢືນ​ຢັນ​ລະ​ຫັດ​ຜ່ານ
+frmChangePassword.btnSave.Text :ບັນ​ທຶກ
+frmChangePassword.Text :ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ
+frmFTPMonitor.statusStrip1.Text :statusStrip1
+frmFTPMonitor.grbParameter.Text :ການ​ເຊື່ອ​ຕໍ່​ຕົວ​ປ່ຽນ​ຂອງ FTP ເຊີ​ບເວີ
+frmFTPMonitor.label6.Text :​ທ່າ​ເຮືອ
+frmFTPMonitor.label5.Text :ລະ​ຫັດ​ຜ່ານ
+frmFTPMonitor.label4.Text :ຊື່​ຜູ້​ນຳ​ໃຊ້
+frmFTPMonitor.label3.Text :ການ​ເກັບ​ກຳ​ຂໍ້​ມູນ
+frmFTPMonitor.btnExCheckConn.Text :ການກວດ​ເຊື່ອມ​ຕໍ່
+frmFTPMonitor.ckbExSSL.Text :SSL
+frmFTPMonitor.btnImpCheckConn.Text :ການກວດ​ເຊື່ອມ​ຕໍ່
+frmFTPMonitor.ckbImpSSL.Text :SSL
+frmFTPMonitor.label2.Text :​ການ​ນຳ​ອອກ
+frmFTPMonitor.label1.Text :ການ​ນຳ​ເຂົ້າ
+frmFTPMonitor.rdDif.Text :ການ​ນຳ​ອອກ​ແລະ​ການ​ນຳ​ເຂົ້າ​ເຊີບ​ເວີ​ອື່ນໆ
+frmFTPMonitor.rdSame.Text :ການ​ນຳ​ອອກແລະ​ການ​ນຳ​ເຂົ້າ​ກັບ​ເຊີບ​ເວີ
+frmFTPMonitor.grbDir.Text :ການ​ດຳ​ເນີນ​ການ​ເກັບ​ລາຍ​ຊື່
+frmFTPMonitor.label12.Text :ໝາຍ​ເຫດ
+frmFTPMonitor.label10.Text :ການ​ນຳ​ອອກ
+frmFTPMonitor.label11.Text :ການ​ນຳ​ເຂົ້າ
+frmFTPMonitor.label9.Text :ທ້ອງ​ຖິ່ນ
+frmFTPMonitor.label8.Text :FTP
+frmFTPMonitor.btnLoad.Text :​ການ​ຕັ້ງ​ຄ່າ​ການ​ໂຫຼດ
+frmFTPMonitor.btnSave.Text :ບັນ​ທຶກ
+frmFTPMonitor.Text :ໜ້າ​ຈໍ FTP
+frmOptionData.groupBox1.Text :ເຊີບ​ເວີ​ການ​ເຊື່ອມ​ຕໍ່​ຂໍ້​ມູນ
+frmOptionData.label6.Text :ແຜນ​ການ
+frmOptionData.lblPass.Text :ລະ​ຫັດ​ຜ່ານ
+frmOptionData.lblUserName.Text :ຊື່​ຜູ້​ນຳ​ໃຊ້
+frmOptionData.label3.Text :ຂໍ້​ມູນ
+frmOptionData.chkAccountDomain.Text :ບັນ​ຊີ​ຄະ​ນິດ
+frmOptionData.lblServer.Text :ເຊີບ​ເວີ​
+frmOptionData.groupBox2.Text :ຕົວ​ປ່ຽນ
+frmOptionData.chkHide.Text :ເຊື່ອງ​ໄວ້​ໃນ​ການ​ເລີ່ມ​ຕົ້ນ​ໂປ​ຣ​ແກ​ຣມ
+frmOptionData.label8.Text :ປະ​ມວນ​ຜົນ​ຂໍ້​ມູນ​ຕໍ່​ໄປ​ນີ້
+frmOptionData.label9.Text :ເຊື່ອມ​ຕໍ່​ບໍ​ລິ​ການ​ເວັບ​ດັ່ງ​ຕໍ່​ໄປ​ນີ້
+frmOptionData.chkShowInfor.Text :ສະ​ແດງ​ຂໍ້​ຄວາມ​ເມື່ອບໍ່​ໄດ້​ເຊື່ອມ​ຕໍ່​ກັບ​ເຊີ​ບເວີຢ່າງ​ສຳ​ເລັດ​ຜົນ
+frmOptionData.chkOpenSynData.Text :ເປີດ​ຊີ້ງ​ຂໍ້​ມູນ​ກັບ​ເຊີ​ບ​ເວີ
+frmOptionData.label1.Text :ກວດ​ສອບ​ເຊີບ​ເວີ​ເຊື່ອມ​ຕໍ່​ເມືອ​ອິນ​ເຕີ​ເນັດ​ຊ້າ
+frmOptionData.label7.Text :ຊີ້ງກວດ​ຂໍ້​ມູນ
+frmOptionData.btnClose.Text :ປິດ
+frmOptionData.btnSave.Text :ບັນ​ທຶກ
+frmOptionData.btnExit.Text :ປິດຊີ້ງ
+frmOptionData.label2.Text :ນາ​ທີ
+frmOptionData.Text :ການ​ຕັ້ງ​ຄ່າ​ຊີ້ງ​ຂໍ້​ມູນ
+frmOptionFormat.tabFormat.Text :ຮູບ​ແບບ
+frmOptionFormat.groupBox2.Text :ແບບ​ຟ​ອມ
+frmOptionFormat.label6.Text :ສະ​ກຸນ​ເງິນ
+frmOptionFormat.label9.Text :ວັນ​ທີ
+frmOptionFormat.label7.Text :ຈຳ​ນວນ
+frmOptionFormat.label8.Text :ຊົ່ວ​ໂມງ
+frmOptionFormat.groupBox1.Text :ປະ​ເພດ​ຂໍ້​ມູນ
+frmOptionFormat.label5.Text :ທົດ​ສະ​ນິ​ຍົມ
+frmOptionFormat.label4.Text :ສະ​ກຸນ​ເງິນ
+frmOptionFormat.label3.Text :ຈຳ​ນວນ
+frmOptionFormat.label2.Text :ຊົ່ວ​ໂມງ
+frmOptionFormat.label1.Text :ວັນ​ທີ
+frmOptionFormat.btnCheckDisplay.Text :ສະ​ແດງ​ຜົນ​ທົດ​ສອບ
+frmOptionFormat.label11.Text :ອັດ​ຕາ​ການ​ສົ່ງ​ຂໍ​ມູນ
+frmOptionFormat.label10.Text :ສະ​ແດງ​ອອກ
+frmOptionFormat.chkChoose.Text :ຄື​ການ​ໃຊ້
+frmOptionFormat.tabPrintInvoi.Text :ການ​ພິມ​ໃບ​ແຈ້ງ​ໜີ້
+frmOptionFormat.label15.Text :ຊື່​ລູກ​ຄ້າ
+frmOptionFormat.label14.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmOptionFormat.label13.Text :​ຊື່​ລູກ​ຄ້າ​ແຈ້ງ​ໜີ້
+frmOptionFormat.label12.Text :ຈຳ​ນວນ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ການ​ຂາຍ​ພິມ
+frmOptionFormat.btnSave.Text :ບັນ​ທຶກ
+frmOptionFormat.btnClose.Text :ປິດ
+frmOptionFormat.Text :ພາ​ສີ
+frmRegister.lblNVHienthi.Text :​ລົງ​ທະ​ບຽນ
+frmRegister.cmdGiupdo.Text :ຊ່ວຍ​ເຫຼືອ
+frmRegister.cmdThoat.Text :ອອກ
+frmRegister.cmdChapnhan.Text :ຍອມ​ຮັບ
+frmRegister.lblgiaima.Text :ລົງ​ທະ​ບຽນ​ລະ​ຫັດ
+frmRegister.lblmadangky.Text :ລະ​ຫັດ​ຂອງ​ເຈົ້າ
+frmShips.grbShifts.Text :ລາຍ​ການ​ຂອງ​ການ​ເຮັດ​ວຽກ​ທີ່​ຍັງ​ບໍ່​ແລ້ວ
+frmShips.columnHeader1.Text :ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ
+frmShips.columnHeader2.Text :ມື້
+frmShips.columnHeader3.Text :ຜູ້​ນຳ​ໃຊ້
+frmShips.btnPrint.Text :ພິມ
+frmShips.btnOkShifts.Text :ເຮັດ​ວຽກ​ສຳ​ເລັດ​ແລ້ວ
+frmShips.btnContinute.Text :ສືບ​ຕໍ່
+frmShips.Text :ແຈ້ງ
+SetupPrint.chkCheck.Text :ເບີ່ງ​ຕົວ​ຢ່າງ​ການ​ພິມ
+SetupPrint.groupBox1.Text :ເຄື່ອງ​ພິມ​ໃບ​ຮັບ​ເງິນ
+SetupPrint.label2.Text :ເຄື່ອງ​ພິມ2
+SetupPrint.label1.Text :ເຄື່ອງ​ພິມ1
+SetupPrint.groupBox2.Text :ລາຍ​ງານ​ການ​ພິມ
+SetupPrint.label4.Text :ເຄື່ອງ​ພິມ2
+SetupPrint.label3.Text :ເຄື່ອງ​ພິມ1
+SetupPrint.btnSave.Text :ບັນ​ທຶກ
+SetupPrint.btnClose.Text :ປິດ
+SetupPrint.Text :ຕົວ​ເລຶອກ​ເຄື່ອງ​ພິມ
+dlgImportProduct.groupBox1.Text :ໄຟ​ລ
+dlgImportProduct.btnImportExcel.Text :ແບບ​ຟອມ​ນຳ​ເຂົ້າ
+dlgImportProduct.btnBegin.Text :ເລີ່ມ​ຕົ້ນ
+dlgImportProduct.label3.Text :​ໜ້າ​ເຈ້ຍ
+dlgImportProduct.label2.Text :ໄຟ​ລ
+dlgImportProduct.groupBox2.Text :ລາຍ​ການ
+dlgImportProduct.ProductCode.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+dlgImportProduct.Quantity.HeaderText :ຈຳ​ນວນ
+dlgImportProduct.lblStatus.Text :ກຽມ​ພ້ອມ
+dlgImportProduct.btnClose.Text :ປິດ
+dlgImportProduct.btnOK.Text :ຕົກ​ລົງ
+dlgImportProduct.lblSum.Text :ລວມ
+dlgImportProduct.Text :ການ​ນຳ​ເຂົ້າ​ລາຍ​ການ​ລະ​ຫັດ
+frmBarcodeScaner.label1.Text :ລາຍ​ການ​ລະ​ຫັດ
+frmBarcodeScaner.label14.Text :ບາ​ໂຄດ (F5)
+frmBarcodeScaner.groupBox3.Text :ລາຍ​ການ​ສິນ​ຄ້າ
+frmBarcodeScaner.label7.Text :ລາຍ​ການ​ລາ​ຄາ
+frmBarcodeScaner.btnExportData.Text :ຂໍ້​ມູນ​ນຳ​ອອກ
+frmBarcodeScaner.btnExportGroup.Text :ກຸ່ມ​ນຳ​ອອກ
+frmBarcodeScaner.btnDelete.Text :ລາຍ​ການ​ທີ່​ຊັດ​ເຈນ
+frmBarcodeScaner.btnClose.Text :ປິດ
+frmBarcodeScaner.BarCode.HeaderText :ລະ​ຫັດ​ບາ​ໂຄດ
+frmBarcodeScaner.ProductID.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmBarcodeScaner.colProductName.HeaderText :ລາຍ​ການ​ຊື່
+frmBarcodeScaner.UnitName.HeaderText :UOM
+frmBarcodeScaner.Quantity.HeaderText :ປະ​ລິ​ມານ
+frmBarcodeScaner.Price.HeaderText :ລາ​ຄາ
+frmBarcodeScaner.TotalPrice.HeaderText :ຈຳ​ນວນ
+frmBarcodeScaner.Text :ສະ​ແກນ​ລະ​ຫັດ
+frmCheckProduct.tabPSanPham.Text :ຜະ​ລິດ
+frmCheckProduct.btnClose.Text :ປິດ
+frmCheckProduct.btnSave.Text :ບັນ​ທຶກ
+frmCheckProduct.btnCancel.Text :X
+frmCheckProduct.btnF5.Text :(F5)>>
+frmCheckProduct.groupBox2.Text :ເລືອກ
+frmCheckProduct.columnHeader1.Text :ລະ​ຫັດຜະ​ລິດ​ຕະ​ພັນ
+frmCheckProduct.columnHeader2.Text :​ຊື່ຜະ​ລິດ​ຕະ​ພັນ
+frmCheckProduct.label2.Text :ລວມ
+frmCheckProduct.btnImport.Text :ນຳ​ເຂົ້າ
+frmCheckProduct.groupBox1.Text :ເລືອກ​ຜະ​ລິດ​ຕະ​ພັນ
+frmCheckProduct.btnSearch.Text :ຄົ້ນ​ຫາ
+frmCheckProduct.btnExcel.Text :ເອັກ​ເຊວ
+frmCheckProduct.label1.Text :ລວມ
+frmCheckProduct.label7.Text :ກັ່ນ​ຕອງ
+frmCheckProduct.Text :ເລືອກ​ຜະ​ລິດຕະ​ພັນ
+frmCompareExcelFile.STT.HeaderText :ບໍ່
+frmCompareExcelFile.clnProductCode.HeaderText :ລະ​ຫັດຜະ​ລິດ​ຕະ​ພັນ
+frmCompareExcelFile.clnQuantity.HeaderText :ຈຳ​ນວນ
+frmCompareExcelFile.STTB.HeaderText :ບໍ່
+frmCompareExcelFile.clnProductCodeB.HeaderText :ລະ​ຫັດຜະ​ລິດ​ຕະ​ພັນ
+frmCompareExcelFile.clnQuantityB.HeaderText :ຈຳ​ນວນ
+frmCompareExcelFile.btnImportB.Text :ນຳ​ເຂົ້າ
+frmCompareExcelFile.gbxDuLieu.Text :ຕົວ​ເລກ​ທີ່​ແຕກ​ຕ່າງ
+frmCompareExcelFile.STTK.HeaderText :ບໍ່
+frmCompareExcelFile.MaSPK.HeaderText :ຜະ​ລິດ​ຫັດ
+frmCompareExcelFile.SoLuongK.HeaderText :ຈຳ​ນວນ
+frmCompareExcelFile.GhiChu.HeaderText :ໝາຍ​ເຫດ
+frmCompareExcelFile.btnCompare.Text :ປຽບ​ທຽບ
+frmCompareExcelFile.btnClose.Text :ປິດ
+frmCompareExcelFile.lblTotal.Text :ລວມ
+frmCompareExcelFile.Text :ປຽບ​ທຽບ​ປະ​ລິ​ມານ
+frmGoodsInventory.groupBox4.Text :ລາຍ​ການ​ຜະ​ລິດ
+frmGoodsInventory.colCAT.HeaderText :ອຸດ​ສາ​ຫະ​ກຳ
+frmGoodsInventory.colPRODUCT_GROUP.HeaderText :ລາຍ​ການ​ກຸ່ມ
+frmGoodsInventory.colPRODUCT_ID.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmGoodsInventory.colPRODUCT_NAME.HeaderText :ລາຍ​ການ​ຊື່
+frmGoodsInventory.colQUANTITY.HeaderText :ປະ​ລິ​ມານ​ສົມ​ດຸນ
+frmGoodsInventory.colPRODUCT_PRICE.HeaderText :ລາ​ຄາ
+frmGoodsInventory.colTotalMoney.HeaderText :ຈຳ​ນວນ
+frmGoodsInventory.colQuantityIvent.HeaderText :ປະ​ລິ​ມານ​ສາງ​ບັນ​ຈຸ
+frmGoodsInventory.colQuantityOdd.HeaderText :ປະ​ລິ​ມານ​ສິນ​ຄ້າ​ຄັງ
+frmGoodsInventory.colTotalQuantity.HeaderText :ລວ​ມ​ປະ​ລິມານ​ສິນ​ຄ້າ​ຄັງ
+frmGoodsInventory.colDifferen.HeaderText :ແຕກ​ຕ່າງ
+frmGoodsInventory.colUNIT1.HeaderText : ບັນ​ຈຸ UOM
+frmGoodsInventory.colPRICE.HeaderText :ປ່ຽນ​ປະ​ລິ​ມານ
+frmGoodsInventory.colUNIT_SLQD.HeaderText :ຫົວ​ໜ່ວຍ UOM
+frmGoodsInventory.label2.Text :ຜະ​ລິດ
+frmGoodsInventory.label3.Text :ເຖີງວັນ​ທີ
+frmGoodsInventory.btnClose.Text :ປິດ
+frmGoodsInventory.btnExportDC.Text :ການ​ປັບ​ປ່ຽນ​ການ​ສົ່ງ​ອອກ
+frmGoodsInventory.btnExportExcel.Text :ການ​ນຳ​ອອກ​ຂໍ້​ມູນ
+frmGoodsInventory.btnImportDC.Text :ເຂົ້າ​ການ​ປັບ​ຕົວ
+frmGoodsInventory.btnInventory.Text :ໄດ້​ຮັບ​ຂໍ້​ມູນ​ສິນ​ຄ້າ​ຄັງ
+frmGoodsInventory.gbxlistTK.Text :ລາຍ​ການ
+frmGoodsInventory.Column1.HeaderText :ລະ​ຫັດ
+frmGoodsInventory.lblDate.Text :ມື້
+frmGoodsInventory.btnSearch.Text :ຄົ້ນ​ຫາ
+frmGoodsInventory.Text :ຜະ​ລິດ​ສິນ​ຄ້າ​ຄັງ
+dlgChooseGift.label1.Text :ກົດ F2 ປ່ຽນ​ເປັນ​ຈຳ​ນວນ
+dlgChooseGift.btnOK.Text :ຕົກ​ລົງ
+dlgChooseGift.btnClose.Text :ປິດ
+dlgChooseGift.grbGift2.Text :ລາຍ​ການ​ຂອງ​ຂວັນ2
+dlgChooseGift.columnHeader1.Text :ລາຍ​ການ​ລະ​ຫັດ
+dlgChooseGift.columnHeader2.Text :ລາຍ​ການ​ຊື່
+dlgChooseGift.columnHeader3.Text :ປະ​ລິ​ມານ
+dlgChooseGift.columnHeader4.Text :TK
+dlgChooseGift.columnHeader5.Text :ລະ​ຫັດ​ໂປ​ຣໂມ​ຊັ່ນ
+dlgChooseGift.columnHeader6.Text :ຊື່​ໂປ​ຣ​ໂມ​ຊັ່ນ
+dlgChooseGift.colProCode.Text :ລາຍ​ການ​ລະ​ຫັດ
+dlgChooseGift.colProName.Text :ລາຍ​ການ​ຊື່
+dlgChooseGift.colQuantity.Text :ປະ​ລິ​ມານ
+dlgChooseGift.colTK.Text :TK
+dlgChooseGift.colProgramPro.Text :ລະ​ຫັດ​ໂປ​ຣໂມ​ຊັ່ນ
+dlgChooseGift.colProgramCode.Text :ຊື່​ໂປ​ຣ​ໂມ​ຊັ່ນ
+dlgChooseGift.grbGift1.Text :ລາຍ​ການ​ຂອງ​ຂວັນ2
+dlgChooseGift.Text :ເລືອກ​ຂອງ​ຂວັນ
+dlgCoupon.groupBox1.Text :ຄູ​ປອງ
+dlgCoupon.btnClose.Text :ປະ​ຕິ​ເສດ
+dlgCoupon.btnOK.Text :ຕົກ​ລົງ
+dlgCoupon.columnHeader1.Text :ໂປ​ຣ​ແກ​ຣມ
+dlgCoupon.columnHeader2.Text :ຈາກວັນ​ທີ
+dlgCoupon.columnHeader3.Text :ເຖີງວັນ​ທີ
+dlgCoupon.columnHeader4.Text :ລະ​ຫັດ​ແບບ​ຟອມ
+dlgCoupon.columnHeader5.Text :ການຫຼຸດ​ລົງ% 
+dlgCoupon.btnAdd.Text :ຫຼາຍ
+dlgCoupon.Text :ຄູ​ປອງ
+dlgPromotion.tabNum.Text :ປະ​ລິ​ມານ
+dlgPromotion.groupBox1.Text :ໂປ​ຣ​ແກ​ຣມ
+dlgPromotion.colProCode.Text :ລະ​ຫັດ​ໂປ​ຣໂມ​ຊັ່ນ
+dlgPromotion.colProName.Text :ຊື່​ໂປ​ຣ​ໂມ​ຊັ່ນ
+dlgPromotion.colDateFrom.Text :ຈາກວັນ​ທີ
+dlgPromotion.colDateTo.Text :ເຖີງວັນ​ທີ
+dlgPromotion.colNumMin.Text :ປະ​ລິ​ມານ​ໜ້ອຍ
+dlgPromotion.colNumMax.Text :ປະ​ລິ​ມານຫຼາຍ
+dlgPromotion.columnHeader7.Text :ການຫຼຸດ​ລົງ
+dlgPromotion.columnHeader8.Text :ມູນ​ຄ່າຫຼຸດ​ລົງ
+dlgPromotion.columnHeader9.Text :ລວມ​ການ​ຊື້  SL
+dlgPromotion.columnHeader10.Text :ລວມ​ການ​ຊື້
+dlgPromotion.columnHeader11.Text :ຈຳ​ນວນຫຼຸດ​ລົງ
+dlgPromotion.btnOK.Text :ຕົກ​ລົງ
+dlgPromotion.btnClose.Text :ປິດ
+dlgPromotion.Text :ໂປ​ຣ​ແກ​ຣ​ມ​ໂປ​ຣ​ໂມ​ຊັ່ນ
+dlgSearchCustomer.gbListCustomer.Text :​ບັນ​ຊີ​ລູ​ກ​ຄ້າ
+dlgSearchCustomer.clnSTT.HeaderText :ບໍ່
+dlgSearchCustomer.clnCustomerCode.HeaderText :ລະ​ຫັດ​ລູກ​ຄ້າ
+dlgSearchCustomer.clnOldCode.HeaderText :ລະ​ຫັດ​ເກົ່າ
+dlgSearchCustomer.clnFirstName.HeaderText :ຊື່
+dlgSearchCustomer.clnLastName.HeaderText :ນາມ​ສະ​ກຸນ
+dlgSearchCustomer.clnPhoneNumber.HeaderText :ໂທ​ລະ​ສັບ​ມື​ຖື
+dlgSearchCustomer.clnBirthDate.HeaderText :ວັນ​ທີ​ເກີດ
+dlgSearchCustomer.clnIDNO.HeaderText :ລະ​ຫັດ​ບັດ
+dlgSearchCustomer.clnTelephone.HeaderText :ໂທ​ລະ​ສັບ​ຕັ້ງ​ໂຕະ
+dlgSearchCustomer.clnEmail.HeaderText :ອີ​ເມວ
+dlgSearchCustomer.clnAdress.HeaderText :ທີ່​ຢູ່
+dlgSearchCustomer.clnGroup.HeaderText :ກຸ່ມ
+dlgSearchCustomer.clnPlace.HeaderText :ຮ້ານ
+dlgSearchCustomer.clnPurchase.HeaderText :ຂາຍ
+dlgSearchCustomer.btnGoPage.Text :ໄປ​ທີ່​ໜ້າ​ທີ
+dlgSearchCustomer.lblTotalRow.Text :ລວ​ມ​ປະ​ລິມານ​ສິນ​ຄ້າ​ຄັງ
+dlgSearchCustomer.lblPage.Text :ໜ້າ​ທີ
+dlgSearchCustomer.btnClose.Text :ປິດ
+dlgSearchCustomer.Text :ຜົນ​ການ​ຄົ້ນ​ຫາ
+frmCashPaymentVoucher.gbxTTChiTien.Text :ຂໍ້​ມູນ​ການ​ໃຊ້​ຈ່າຍ​ເງິນ
+frmCashPaymentVoucher.label9.Text :ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmCashPaymentVoucher.label8.Text :ຊົ່ວ​ໂມງ
+frmCashPaymentVoucher.lblDate.Text :ມື້
+frmCashPaymentVoucher.label6.Text :ໝາຍ​ເຫດ
+frmCashPaymentVoucher.label5.Text :ຈຳ​ນວນ​ເງິນ
+frmCashPaymentVoucher.label4.Text :ຜູ້​ຮັບ
+frmCashPaymentVoucher.label3.Text :ປະ​ເພດ​ການ​ຈ່າຍ​ຄ່າ​ຕ​ອບ​ແທນ
+frmCashPaymentVoucher.label2.Text :ໃຜ​ໃຊ້​ຈ່າຍ
+frmCashPaymentVoucher.label1.Text :ລະ​ຫັດ​ຄ່າ​ຕອບ​ແທນ
+frmCashPaymentVoucher.gbxDanhSach.Text :ລາຍ​ການ
+frmCashPaymentVoucher.columnHeader1.Text :ໃຜ​ເປັນ​ຄົນ​ຈ່າ​ຍ​ເງິນ
+frmCashPaymentVoucher.columnHeader2.Text :ປະ​ເພດ​ຊື່​ຄ່າ​ຕອບ​ແທນ
+frmCashPaymentVoucher.columnHeader3.Text :ຜູ້​ຮັບ
+frmCashPaymentVoucher.columnHeader4.Text :ຈຳ​ນວນ​ເງິນ
+frmCashPaymentVoucher.columnHeader5.Text :ສະ​ກຸນ​ເງິນ
+frmCashPaymentVoucher.columnHeader6.Text :ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmCashPaymentVoucher.columnHeader7.Text :ວັນ​ທີ​ທີ່​ໃຊ້​ຈ່າຍ
+frmCashPaymentVoucher.columnHeader8.Text :ໝາຍ​ເຫດ
+frmCashPaymentVoucher.btnPrintVoucher.Text :ພິມ​ຄູ​ປອງ
+frmCashPaymentVoucher.btnClose.Text :ປິດ
+frmCashPaymentVoucher.btnDelete.Text :ລົບ​ລ້າງ
+frmCashPaymentVoucher.btnSave.Text :ບັນ​ທຶກ
+frmCashPaymentVoucher.btnInsert.Text :ເພີ່ມ​ໃໝ່
+frmCashPaymentVoucher.Text :ຂໍ້​ມູນ​ການ​ໃຊ້​ຈ່າຍ​ເງິນ
+frmCashReceiveVouche.gbxTTThuTien.Text :ການ​ເກັບ​ກຳ​ຂໍ້​ມູນ
+frmCashReceiveVouche.label9.Text :ຊົ່ວ​ໂມງ
+frmCashReceiveVouche.lblDateReceipt.Text :ມື້
+frmCashReceiveVouche.label7.Text :ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmCashReceiveVouche.label6.Text :ໝາຍ​ເຫດ
+frmCashReceiveVouche.label5.Text :ຈຳ​ນວນ​ເງິນ
+frmCashReceiveVouche.label4.Text :ໄດ້​ຮັບ​ຈາກ
+frmCashReceiveVouche.label3.Text :ປະ​ເພດ​ໃບ​ຮັບ​ເງິນ
+frmCashReceiveVouche.label2.Text :ຜູ້​ຮັບ
+frmCashReceiveVouche.label1.Text :ລະ​ຫັດ​ໃບ​ຮັບ​ເງິນ
+frmCashReceiveVouche.gbxDanhSach.Text :ລາຍ​ການ
+frmCashReceiveVouche.columnHeader1.Text :ສະ​ສົມ
+frmCashReceiveVouche.columnHeader2.Text :ຊື່​ປະ​ເພດ​ໃບ​ຮັບ​ເງິນ
+frmCashReceiveVouche.columnHeader3.Text :ໄດ້​ຮັບ​ຈາກ
+frmCashReceiveVouche.columnHeader4.Text :ຈຳ​ນວນ​ເງິນ
+frmCashReceiveVouche.columnHeader5.Text :ສະ​ກຸນ​ເງິນ
+frmCashReceiveVouche.columnHeader6.Text :ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmCashReceiveVouche.columnHeader7.Text :ມື້​ລະ​ດູ​ໃບ​ໄມ້​ລົ່ນ
+frmCashReceiveVouche.columnHeader8.Text :ໝາຍ​ເຫດ
+frmCashReceiveVouche.btnInsert.Text :ເພີ່ມ​ໃໝ່
+frmCashReceiveVouche.btnSave.Text :ບັນ​ທຶກ
+frmCashReceiveVouche.btnDelete.Text :ລົບ​ລ້າງ
+frmCashReceiveVouche.btnClose.Text :ປິດ
+frmCashReceiveVouche.btnPrint.Text :ພິມ​ຄູ​ປອງ
+frmCashReceiveVouche.Text :ການ​ເກັບ​ກຳ​ຂໍ້​ມູນ
+frmCustomerSearch.gbxTimKiem.Text :ຄຳ​ຄົ້ນ​ຫາ
+frmCustomerSearch.btnSearch.Text :ຊອກ​ຫາ
+frmCustomerSearch.label11.Text :ທີ່​ຢູ່
+frmCustomerSearch.label10.Text :ທີ່​ຢູ່​ອີ​ເມວ
+frmCustomerSearch.label9.Text :ໂທ​ລະ​ສັບ​ມື​ຖື-​ໂທ​ລະ​ສັບ​ຕັ້ງ​ໂຕະ
+frmCustomerSearch.label8.Text :ລະ​ຫັດ​ບັດ​ຜ່ານ​ແດນ
+frmCustomerSearch.label7.Text :ສ​າ​ສະ​ໜາ
+frmCustomerSearch.label6.Text :ກຸ່ມ​ເລືອດ
+frmCustomerSearch.label5.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmCustomerSearch.chkActive.Text :ລູກ​ຄ້າ​ໄດ້​ປິດ​ການ​ນຳ​ໃຊ້
+frmCustomerSearch.label4.Text :ແຂ່ງ
+frmCustomerSearch.label3.Text :ເພດ
+frmCustomerSearch.label2.Text :ປີ​ເກີດ
+frmCustomerSearch.label1.Text :ຊື່​ແທ້
+frmCustomerSearch.gbxDanhSach.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmCustomerSearch.clnSTT.HeaderText :ບໍ່
+frmCustomerSearch.clnCustomerCode.HeaderText :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmCustomerSearch.clnOldCode.HeaderText :ລະ​ຫັດ​ເກົ່າ
+frmCustomerSearch.clnFirstName.HeaderText :ຊື່
+frmCustomerSearch.clnLastName.HeaderText :ນ​າມ​ສະ​ກຸນ
+frmCustomerSearch.clnPhoneNumber.HeaderText :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmCustomerSearch.clnBirthDate.HeaderText :ວັນ​ທີ​ເກີດ
+frmCustomerSearch.clnIDNO.HeaderText :ລະ​ຫັດ​ບັດ
+frmCustomerSearch.clnTelephone.HeaderText :ໂທ​ລ​ະສັບ​ຕັ້ງ​ໂຕະ
+frmCustomerSearch.clnEmail.HeaderText :ອີ​ເມວ
+frmCustomerSearch.clnAdress.HeaderText :ທີ່​ຢູ່
+frmCustomerSearch.clnPlace.HeaderText :ຮ້ານ
+frmCustomerSearch.btnOK.Text :ຕົກ​ລົງ
+frmCustomerSearch.btnClose.Text :ປິດ
+frmCustomerSearch.btnGoPage.Text :ໄປ​ທີ່​ໜ້າ​ທີ
+frmCustomerSearch.lblTotalRow.Text :ລວມ
+frmCustomerSearch.lblPage.Text :ໜ້າ​ທີ
+frmCustomerSearch.label12.Text :ເສັ້ນ/ໜ້າ​ທີ
+frmCustomerSearch.Text :ຄົ້ນ​ຫາ​ລູກ​ຄ້າ
+frmDialogAuthentication.label1.Text :ຊື່​ຜູ້​ນຳ​ໃຊ້
+frmDialogAuthentication.btnCheck.Text :ກວດ​ເບີ່ງ
+frmDialogAuthentication.label2.Text :ລ​ະ​ຫັດ​ຜ່ານ
+frmDialogAuthentication.btnClose.Text :ປິດ
+frmDialogDiscountProduct.groupBox1.Text :ລາຍ​ການ​ສິນ​ຄ້າ
+frmDialogDiscountProduct.clnChose.HeaderText :ເລືອກ
+frmDialogDiscountProduct.clnProductCode.HeaderText :ເລືອກ​ລາຍ​ການ​ລະ​ຫັດ
+frmDialogDiscountProduct.clnProductName.HeaderText :ລາຍ​ການ​ຊື່
+frmDialogDiscountProduct.clnQuantity.HeaderText :ຈຳ​ນວນ
+frmDialogDiscountProduct.clnPrice.HeaderText :ຄ່າ​ໃຊ້​ຈ່າຍ
+frmDialogDiscountProduct.clnPriceSales.HeaderText :ລາ​ຄາ
+frmDialogDiscountProduct.clnIntoMoney.HeaderText :ຈຳ​ນວນ
+frmDialogDiscountProduct.chkChose.Text :ຍົກ​ເລີກ​ຜະ​ລິດ​ຕະ​ພັນ​ທັງ​ໝົດ
+frmDialogDiscountProduct.btnOK.Text :ຕົກ​ລົງ
+frmDialogDiscountProduct.btnClose.Text :ປະ​ຕິ​ເສດ
+frmDialogDiscountProduct.Text :ເລືອກ​ຜະ​ລິດ​ຕ​ະ​ພັນ​ທີ່ຫຼຸດ​ລາ​ຄາ
+frmDialogPayment.tpPayCard.Text :ສະ​ກຸນ​ເງິນ​ຕ່າງ​ປະ​ເທດ, ບັດ​ຈ່າຍ​ເງິນ
+frmDialogPayment.label14.Text :ຈຳ​ນວນ​ເງິນ
+frmDialogPayment.label15.Text :ປະ​ເພດ​ບັດ
+frmDialogPayment.label16.Text :ວິ​ຊ່າ
+frmDialogPayment.clnCurrency.HeaderText :ສະ​ກຸນ​ເງີນ
+frmDialogPayment.clnExchangeRate.HeaderText :ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmDialogPayment.clnAmount.HeaderText :ຈຳ​ນວນ​ເງິນ
+frmDialogPayment.clnIntoMoney.HeaderText :ຈຳ​ນວນ
+frmDialogPayment.tpGift.Text :ໃບ​ຢັ້ງ​ຢືນ​ຂອງ​ຂວັນ
+frmDialogPayment.clnCode.HeaderText :ລະ​ຫັດ​ແບບ​ຟອມ
+frmDialogPayment.clnPar.HeaderText :ລາ​ຄາ Braidh
+frmDialogPayment.clnBalance.HeaderText :ຈຳ​ນວນ​ເກີນ
+frmDialogPayment.clnMaxPay.HeaderText :TT ໃຫຍ່
+frmDialogPayment.clnPayment.HeaderText :ຈ່າຍ
+frmDialogPayment.clnRemain.HeaderText :ພັກ​ຜ່ອນ
+frmDialogPayment.tpPromotion.Text :ໂປ​ຣ​ໂມ​ຊັ່ນ
+frmDialogPayment.tpBill.Text :ໃບ​ແຈ້ງ​ລາ​ຄາ VAT
+frmDialogPayment.label17.Text :ໝາຍ​ເຫດ
+frmDialogPayment.label18.Text :ລະ​ຫັດ​ພາ​ສີ
+frmDialogPayment.label19.Text :​ທີ່​ຢູ່
+frmDialogPayment.label20.Text :ຊື່​ບໍ​ລິ​ສັດ
+frmDialogPayment.chkRedBill.Text :ການ​ພິມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmDialogPayment.grbPayment.Text :ຈ່າຍ
+frmDialogPayment.label5.Text :ມີ​ຈ່າຍ
+frmDialogPayment.label4.Text :ການຫຼຸດ​ລາ​ຄາ
+frmDialogPayment.label3.Text :ການ​ຈັດ​ການ​ເງິນ
+frmDialogPayment.label2.Text :ການຫຼຸດ​ລາ​ຄາ
+frmDialogPayment.label1.Text :ເງິນ​ສຳ​ລັບ​ສິນ​ຄ້າ
+frmDialogPayment.groupBox2.Text :ລູກ​ຄ້າ​ໃຫ້​ເງິນ
+frmDialogPayment.label7.Text :VND
+frmDialogPayment.label6.Text :ເງິນ​ອື່ນໆ(ວິ​ຊ່າ,ຜູ້​ຊ່ຽວ​ຊານ, ສະ​ກຸນ​ເງິນ​ຕ່າງ​ປະ​ເທດ…)
+frmDialogPayment.groupBox3.Text :ລວມ
+frmDialogPayment.label11.Text :ປະ​ລິ​ມານ​ໃບ​ບິນ
+frmDialogPayment.label10.Text :ຂາດ​ຫາຍ​ໄປ
+frmDialogPayment.label9.Text :ສົ່ງ​ເງິນ​ຄືນ
+frmDialogPayment.label8.Text :ລ​ວມ​ຜູ້​ຮັບ
+frmDialogPayment.btnClose.Text :ESC
+frmDialogPayment.btnPayment.Text :F9
+frmDialogPayment.btnPayAndPrint.Text :F8
+frmDialogPayment.btnPrintTemp.Text :F7
+frmDialogPayment.Text :ຈ່າຍ
+frmDialogRedInvoice.groupBox1.Text :ຂໍ້​ມູນ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmDialogRedInvoice.label15.Text :ແບບ​ຟອມ TT
+frmDialogRedInvoice.label9.Text :ໝາຍ​ເຫດ
+frmDialogRedInvoice.label8.Text :ຜູ້​ຊື້
+frmDialogRedInvoice.label7.Text :ທີ່​ຢູ່
+frmDialogRedInvoice.label5.Text :ລະ​ຫັດ​ພາ​ສີ
+frmDialogRedInvoice.label6.Text :ຊື່​ຫົວ​ໜ່ວຍ
+frmDialogRedInvoice.label3.Text :ພິມ​ວັນ​ທີ
+frmDialogRedInvoice.label4.Text :ເບີ​ໂທ​ລະ​ສັບ​ຕິດ​ຕໍ່
+frmDialogRedInvoice.label2.Text :ຊື່​ລູກ​ຄ້າ
+frmDialogRedInvoice.label1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmDialogRedInvoice.groupBox2.Text :ລາຍ​ການ​ສິນ​ຄ້າ
+frmDialogRedInvoice.label14.Text :ລວ​ມ​ການ​ຈ່າຍ
+frmDialogRedInvoice.label12.Text :ເພີ່ມ​ສິນ​ຄ້າ
+frmDialogRedInvoice.label11.Text :ລວມ​ປະ​ລິ​ມານ
+frmDialogRedInvoice.label10.Text :ລວ​ມ​ການ​ຊື້​ຕົວ​ຈິງ
+frmDialogRedInvoice.btnPrint.Text :ພິມ
+frmDialogRedInvoice.btnClose.Text :ປິດ
+frmDialogRedInvoice.ProductID.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmDialogRedInvoice.colProductName.HeaderText :ລາຍ​ການ​ຊື່,ບໍ​ລິ​ການ
+frmDialogRedInvoice.ProductRIC.HeaderText :NH
+frmDialogRedInvoice.Quantity.HeaderText :ປະ​ລິ​ມານ
+frmDialogRedInvoice.UnitName.HeaderText :UOM
+frmDialogRedInvoice.PriceSale.HeaderText :ລາ​ຄາ​ຫົວ​ໜ່ວຍ
+frmDialogRedInvoice.PriceTotal.HeaderText :ຈຳ​ນວນ
+frmDialogRedInvoice.VAT.HeaderText :ອາ​ກອນ​ມູນ​ຄ່າ​ເພີ່ມ
+frmDialogRedInvoice.Remark.HeaderText :ໝາຍ​ເຫດ
+frmDialogRedInvoice.Text :ການ​ພິມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmDialogRedInvoiceMng.groupBox1.Text :ຄົ້ນ​ຫາ
+frmDialogRedInvoiceMng.label4.Text :ເຖີງວັນ​ທີ
+frmDialogRedInvoiceMng.label3.Text :ຈາກວັນ​ທີ
+frmDialogRedInvoiceMng.label2.Text :ຊື່​ຂອງ​ລູກ​ຄ້າ
+frmDialogRedInvoiceMng.label1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmDialogRedInvoiceMng.groupBox2.Text :ລາຍ​ການ
+frmDialogRedInvoiceMng.btnLoad.Text :ຊອກ​ຫາ
+frmDialogRedInvoiceMng.btnPrint.Text :ພິມ
+frmDialogRedInvoiceMng.btnView.Text :ການ​ທົບ​ທວນ​ຄືນ
+frmDialogRedInvoiceMng.btnDelete.Text :ລົບ​ລ້າງ
+frmDialogRedInvoiceMng.btnClose.Text :ປິດ
+frmDialogRedInvoiceMng.INVOICE_NO.HeaderText :ຈຳ​ນວນ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmDialogRedInvoiceMng.OFFICE_WORKING.HeaderText :ຊື່​ຫົວ​ໜ່ວຍ
+frmDialogRedInvoiceMng.OFFICE_ADDRESS.HeaderText :ທີ່​ຢູ່
+frmDialogRedInvoiceMng.TAX_CODE.HeaderText :ລະ​ຫັດ​ພາ​ສີ
+frmDialogRedInvoiceMng.TOTAL_QUANTITY.HeaderText :ຈຳ​ນວນ
+frmDialogRedInvoiceMng.TOTAL_MONEY.HeaderText :ເງິນ​ສຳ​ລັບ​ສິນ​ຄ້າ
+frmDialogRedInvoiceMng.VAT.HeaderText :ຈຳ​ນວນ​ອາ​ກອນ​ມູນ​ຄ່າ​ເພີ່ມ
+frmDialogRedInvoiceMng.TOTAL.HeaderText :​ລວມ​ການ​ຈ່າຍ​ເງິນ
+frmDialogRedInvoiceMng.PRINT_DATE.HeaderText :ວັນ​ທີ​ປິ້ນ
+frmDialogRedInvoiceMng.REMARKS.HeaderText :ໝາຍ​ເຫດ​ການ​ຕິດ​ຕໍ່​ແດງ
+frmDialogRedInvoiceMng.AUTO_ID.HeaderText :ລະ​ຫັດ​ອັ​ດ​ຕະ​ໂນ​ມັດ
+frmDialogRedInvoiceMng.CREATE_DATE.HeaderText :ສ້າງວັນ​ທີ
+frmDialogRedInvoiceMng.USER_CREATE.HeaderText :ສ້າງ​ຜູ້​ນຳ​ໃຊ້
+frmDialogRedInvoiceMng.PAYMENT_TYPE.HeaderText :ປະ​ເພດ​ການ​ຈ່າຍ​ຄ່າ​ຕ​ອບ​ແທນ
+frmDialogRedInvoiceMng.CUSTOMER_ID.HeaderText :​ລະ​ຫັດ​ລູກ​ຄ້າ
+frmDialogRedInvoiceMng.LIST_INVOICE.HeaderText :ລາຍ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmDialogRedInvoiceMng.Text :ການ​ຈັດ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmDialogReturnItemAdd.groupBox1.Text :ຂໍ້​ມູນ​ກັບ​ຄືນ
+frmDialogReturnItemAdd.label6.Text :ລວມ​ການ​ຈ່າຍ​ເງິນ
+frmDialogReturnItemAdd.label5.Text :ສົ່ງ​ກັບ
+frmDialogReturnItemAdd.label4.Text :ເຫດ​ຜົນ​ສຳ​ລັບ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmDialogReturnItemAdd.label3.Text :ຊົ່ວ​ໂມງ
+frmDialogReturnItemAdd.label2.Text :ມື້
+frmDialogReturnItemAdd.btnSearch.Text :ຄົ້ນ​ຫາ
+frmDialogReturnItemAdd.label1.Text :ລະ​ຫັດ​ໃບ​ບິນ
+frmDialogReturnItemAdd.btnSave.Text :ບັນ​ທຶກ
+frmDialogReturnItemAdd.btnClose.Text :ປິດ
+frmDialogReturnItemAdd.clnProductCode.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmDialogReturnItemAdd.clnProductName.HeaderText :ລາຍ​ການ​ຊື່
+frmDialogReturnItemAdd.clnQuantity.HeaderText :ຈຳ​ນວນ
+frmDialogReturnItemAdd.clnPriceSale.HeaderText :ລາ​ຄາ
+frmDialogReturnItemAdd.clnCashReturn.HeaderText :ການ​ຈ່າຍ​ເງິນ
+frmDialogReturnItemAdd.clnCode.HeaderText :ລະ​ຫັດ
+frmDialogReturnItemAdd.clnREASON.HeaderText :ເຫດ​ຜົນ
+frmDialogReturnItemAdd.clnMASTER_CODE.HeaderText :ລະ​ຫັດ​ຜູ້​ຊ່ຽວ​ຊານ
+frmDialogReturnItemAdd.Text :ຂໍ້​ມູນ​ກັບ​ຄືນ
+frmDialogSales.clnProductCode.HeaderText :ລາຍ​ການລະ​ຫັດ
+frmDialogSales.clnBarCode.HeaderText :ບ​າ​ໂຄດ
+frmDialogSales.clnProductName.HeaderText :ລາຍ​ການ​​ຊື່
+frmDialogSales.Text :ລາຍ​ການ​ຜະ​ລິດ​ຕະ​ພັນ
+frmDialogSaleBillSearch.groupBox1.Text :ຄຳ​ຄົ້​ນ​ຫາ
+frmDialogSaleBillSearch.btnSearch.Text :ຄົ້ນ​ຫາ
+frmDialogSaleBillSearch.label2.Text :ເຖີງວັນ​ທີ
+frmDialogSaleBillSearch.label1.Text :ຈາກວັນ​ທີ
+frmDialogSaleBillSearch.groupBox2.Text :ລາຍ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmDialogSaleBillSearch.clnSaleCode.HeaderText :ລະ​ຫັດ​ໃບ​ບິນ
+frmDialogSaleBillSearch.clnSaleDate.HeaderText :ວັນ​ທີ​ບິນ
+frmDialogSaleBillSearch.clnTotalAmount.HeaderText :ລວມ
+frmDialogSaleBillSearch.btnOK.Text :ຕົກ​ລົງ
+frmDialogSaleBillSearch.btnClose.Text :ປິດ
+frmDialogSaleBillSearch.Text :ຄົ້ນ​ຫາ​ຜົນ​ແຈ້ງ​ລາ​ຄາ
+frmDialogSpecialDiscount.rdbTime.Text :ໄລ​ຍະ​ເວ​ລາຫຼຸດ​ລາ​ຄາ
+frmDialogSpecialDiscount.rdbSpecial.Text :ການຫຼຸດ​ລາ​ຄາ​ພິ​ເສດ
+frmDialogSpecialDiscount.label4.Text :ໝາຍ​ເຫດ
+frmDialogSpecialDiscount.label3.Text :ການຫຼຸດ​ລາ​ຄາ​ໂດຍ
+frmDialogSpecialDiscount.label2.Text :ປະ​ເພດ​ການຫຼຸດ​ລາ​ຄາ
+frmDialogSpecialDiscount.label1.Text :ການຫຼຸດ​ລາ​ຄາ
+frmDialogSpecialDiscount.btnOk.Text :ເຫັນ​ດີ
+frmDialogSpecialDiscount.btnClose.Text :ປິດ
+frmDialogSpecialDiscount.label5.Text :ຊື່​ການຫຼຸດ​ລາ​ຄາ
+frmDialogSpecialDiscount.label6.Text :ການຫຼຸດ​ລາ​ຄາ​ເປັນ %
+frmDialogSpecialDiscount.Text :ການຫຼຸດ​ລາ​ຄາ​ພິ​ເສດ
+frmExportDiscountVoucher.gbxDanhSachKH.Text :ລາຍ​ຊື່​ລູກ​ຄ້າ
+frmExportDiscountVoucher.columnHeader1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmExportDiscountVoucher.columnHeader2.Text :ຊື່
+frmExportDiscountVoucher.columnHeader3.Text :ນາມ​ສະ​ກຸນ
+frmExportDiscountVoucher.gbxTimKiem.Text :ຄົ້ນ​ຫາ​ໄວ
+frmExportDiscountVoucher.btnDiscountVoucherSearch.Text :ຊອກ​ຫາ
+frmExportDiscountVoucher.label13.Text :ໝາຍ​ເຫດ
+frmExportDiscountVoucher.label11.Text :ເວ​ລາ​ຂອງ​ການ​ສົ່ງ​ອອກ
+frmExportDiscountVoucher.label9.Text :ວັນ​ທີ​ສົ່ງ​ອອກ
+frmExportDiscountVoucher.label10.Text :ລະ​ຫັດໃບ​ບິນ
+frmExportDiscountVoucher.label8.Text :​ລະ​ຫັດ​ຄູ​ປອງ
+frmExportDiscountVoucher.label7.Text :ອີ​ເມວ
+frmExportDiscountVoucher.label6.Text :ລະ​ຫັດ​ບັດ
+frmExportDiscountVoucher.label5.Text :ຊື່​ແທ້
+frmExportDiscountVoucher.label4.Text :ສະ​ຖານ​ທີ່​ໃນ​ການ​ສ້າງ
+frmExportDiscountVoucher.label3.Text :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmExportDiscountVoucher.label2.Text :ວັນ​ທີ​ເກີດ
+frmExportDiscountVoucher.label1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmExportDiscountVoucher.gbxDanhSachPhieu.Text :ລາຍ​ການ​ຂອງ​ການ​ໂຫວດ
+frmExportDiscountVoucher.gbxDanhSachXuatPhieu.Text :ລາຍ​ການ​ຄູ​ປອງ
+frmExportDiscountVoucher.Text :ການ​ພິມ​ຄູ​ປອງ​ອອກ​ມາ
+frmManagerReceive.gbxDanhSach.Text :ລາຍ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.btnInvoicesRedPrint.Text :ການ​ພິ​ມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​ແດງ
+frmManagerReceive.btnInvoicesManage.Text :ຜູ້​ຈັດ​ການ​ການ​ຕິດ​ຕໍ່​ແດງ
+frmManagerReceive.btnInvoicePrint.Text :ການ​ພິມ​ໃບ​ແຈ້ງ​ລາ​ຄາ​
+frmManagerReceive.btnDeleteInvoice.Text :ລຶບ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.btnGoPage.Text :ໄປ​ທີ່​ໜ້າ​ທີ
+frmManagerReceive.lblTotalRow.Text :ລວມ
+frmManagerReceive.lblPage.Text :ໜ້າ​ທີ
+frmManagerReceive.label7.Text :ເສັ້ນ/ໜ້າ​ທີ
+frmManagerReceive.tabPage1.Text :ລາຍ​ລະ​ອຽດ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.PRODUCT_ID.HeaderText :ລະ​ຫັດ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.P_ID.HeaderText :ລະ​ຫັດ
+frmManagerReceive.PRODUCT_NAME.HeaderText :ຊື່​ຂອງ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.PRODUCT_NAME_PRINT.HeaderText :ການ​ພິມ​ຊື່​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.UNIT_NAME.HeaderText :ຫົວ​ໜ່ວຍ
+frmManagerReceive.Quantity.HeaderText :ປະ​ລິ​ມານ
+frmManagerReceive.PRICE_SALES.HeaderText :ລາ​ຄາ
+frmManagerReceive.Amount.HeaderText :ຈຳ​ນວນ
+frmManagerReceive.TotalDiscount.HeaderText :ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.TotalAmount.HeaderText :ຈ່າຍ
+frmManagerReceive.Remark.HeaderText :ໝາຍ​ເຫດ
+frmManagerReceive.columnHeader20.Text :ລະ​ຫັດ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.columnHeader21.Text :ລະ​ຫັດ
+frmManagerReceive.columnHeader22.Text :ຊື່​ຂອງ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.columnHeader23.Text :ການ​ພິມ​ຊື່​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.columnHeader24.Text :ຫົວ​ໜ່ວຍ
+frmManagerReceive.columnHeader25.Text :ຈຳ​ນວນ
+frmManagerReceive.columnHeader26.Text :ລາ​ຄາ
+frmManagerReceive.columnHeader27.Text :ຈຳ​ນວນ
+frmManagerReceive.columnHeader28.Text :ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.columnHeader30.Text :ຈ່າຍ
+frmManagerReceive.columnHeader29.Text :ໝາຍ​ເຫດ
+frmManagerReceive.tabPage2.Text :ຂໍ້​ມູນ​ຂອງ​ໃບ​ບິນ
+frmManagerReceive.columnHeader1.Text :ເວ​ລາ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmManagerReceive.columnHeader2.Text :ສະ​ກຸນ​ເງິນ
+frmManagerReceive.columnHeader3.Text :ອັດ​ຕາ​ການ​ແລກ​ປ່ຽນ
+frmManagerReceive.columnHeader4.Text :ຈຳ​ນວນ​ຂອງ​ເງິນ
+frmManagerReceive.columnHeader5.Text :ມີ​ການ​ຈ່າຍ
+frmManagerReceive.columnHeader6.Text :ໄດ້​ຈ່າຍ
+frmManagerReceive.columnHeader7.Text :ທີ່​ພັກ
+frmManagerReceive.columnHeader8.Text :ສົ່ງ​ເງິນ​ຄືນ
+frmManagerReceive.columnHeader9.Text :ສະ​ສົມ
+frmManagerReceive.columnHeader10.Text :ມື້​ລະ​ດູ​ໃບ​ໄມ້​ລົ່ນ
+frmManagerReceive.tabPage3.Text :ການຫຼຸດ​ລາ​ຄາ​ແລະ​ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.columnHeader11.Text :ຄູ​ປອງ/ບັດ/ໂປ​ຣ​ແກ​ຣມ
+frmManagerReceive.columnHeader12.Text :ປະ​ເພດ
+frmManagerReceive.columnHeader13.Text :ການຫຼຸດ​ລາ​ຄາ/ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.columnHeader14.Text :%ການຫຼຸດ​ລາ​ຄາ/ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.columnHeader15.Text :ລວມ​ການຫຼຸດ​ລາ​ຄາ/ການຫຼຸດ​ລາ​ຄາ
+frmManagerReceive.columnHeader16.Text :ໄດ້​ປະ​ຕິ​ບັດ​ໂດຍ
+frmManagerReceive.columnHeader17.Text :ກວດ​ສອບ​ໂດຍ
+frmManagerReceive.tabPage4.Text :ໂປ​ຣ​ໂມ​ຊັ່ນ
+frmManagerReceive.label8.Text :ໂປ​ຣ​ແກ​ຣມ
+frmManagerReceive.groupBox1.Text :ນຳສະ​ເໜີ
+frmManagerReceive.columnHeader18.Text :​ລະ​ຫັດ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.columnHeader19.Text :ຊື່​ຂອງ​ຜະ​ລິດ​ຕະ​ພັນ
+frmManagerReceive.columnHeader31.Text :ການ​ພິມ​ຊື່​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.columnHeader32.Text :ຈຳ​ນວນ
+frmManagerReceive.btnSearch.Text :ຄົ້ນ​ຫາ
+frmManagerReceive.btnExit.Text :ປິດ
+frmManagerReceive.gbxThongTinHD.Text :ຂໍ້​ມູນ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmManagerReceive.label6.Text :ມາ
+frmManagerReceive.label5.Text :ໄດ້​ຂາຍ​ຈາກ
+frmManagerReceive.label4.Text :ການ​ຕິດ​ຕໍ່​ແດງ
+frmManagerReceive.label3.Text :ລະ​ຫັດ​ໃບ​ບິນ
+frmManagerReceive.label2.Text :ຊື່​ລູກ​ຄ້າ
+frmManagerReceive.label1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmManagerReceive.colSelect.HeaderText :ເລືອກ
+frmManagerReceive.EXPORT_CODE.HeaderText :ລະ​ຫັດ​ໃບ​ບິນ
+frmManagerReceive.TRANSFER_SHIFT_CODE.HeaderText :ການ​ຍ້າຍ
+frmManagerReceive.CUSTOMER_ID.HeaderText :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmManagerReceive.FIRST_NAME.HeaderText :ຊື່
+frmManagerReceive.LAST_NAME.HeaderText :ນາມ​ສະ​ກຸນ
+frmManagerReceive.EXPORT_DATE.HeaderText :ວັນ​ທີ​ຂອງ​ການ​ຂາຍ
+frmManagerReceive.TOTAL_AMOUNT.HeaderText :ມູນ​ຄ່າ​ລວມ
+frmManagerReceive.TOTAL_DISCOUNT.HeaderText :ຈຳ​ນວນ​ເງິນ
+frmManagerReceive.TOTAL_PAYMENTS.HeaderText :ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmManagerReceive.USED_RED_INVOIDE.HeaderText :ກາ​ພິມ​ຕິດ​ຕໍ່​ແດງ
+frmManagerReceive.Column11.HeaderText :Cty/ຫົວ​ໜ່ວຍ
+frmManagerReceive.Column12.HeaderText :ລະ​ຫັດ​ພາ​ສີ
+frmManagerReceive.Column13.HeaderText :ທີ່​ຢູ່
+frmManagerReceive.Column14.HeaderText :ໝາຍ​ເຫດ​ການ​ຕິດ​ຕໍ່​ແດງ
+frmManagerReceive.Column15.HeaderText :ໝາຍ​ເຫດ
+frmManagerReceive.Column17.HeaderText :ບໍ່
+frmManagerReceive.Text :ຜູ້​ຈັດ​ການ​ໃບ​ບິນ
+frmProductSearch.btnSearch.Text :ຊອກ​ຫາ
+frmProductSearch.rdbTenHang.Text :ລາຍ​ການ​ຊື່
+frmProductSearch.rdbMaHang.Text :ລາຍ​ການ​ລະ​ຫັດ
+frmProductSearch.groupBox2.Text :ລາຍ​ການ
+frmProductSearch.PRODUCT_ID.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmProductSearch.PRODUCT_NAME.HeaderText :ລາຍ​ການ​ຊື່
+frmProductSearch.btnOK.Text :ຕົກ​ລົງ
+frmProductSearch.btnExit.Text :ປິດ
+frmProductSearch.Text :ຄົ້ນ​ຫາ​ລາຍ​ການ​ລະ​ຫັດ
+frmReturnItems.groupBox5.Text :ລວມ​ຈຳ​ນວນ​ກັບ​ຄືນ
+frmReturnItems.label11.Text :ລວມ​ຈຳ​ນວນ​ກັບ​ຄືນ
+frmReturnItems.label10.Text :ສົ່ງ​ກັບ​ໄປ​ຍັງ
+frmReturnItems.label9.Text :ເຫດ​ຜົນ​ສຳ​ລັບ​ການ​ຈ່າຍ
+frmReturnItems.groupBox4.Text :ຂໍ້​ມູນ​ຈ່າຍ​ສິນ​ຄ້າ
+frmReturnItems.clnDetailsCode.HeaderText :ລະ​ຫັດ
+frmReturnItems.clnMASTER_CODE.HeaderText :ລະ​ຫັດ​ຜູ້​ຊ່ຽວ​ຊານ
+frmReturnItems.clnREASON.HeaderText :ເຫດ​ຜົ​ນ
+frmReturnItems.clnProductCode.HeaderText :ລະ​ຫັດ​ສິນ​ຄ້າ
+frmReturnItems.clnProductName.HeaderText :ລາຍ​ການ​ຊື່
+frmReturnItems.clnQuantity.HeaderText :ຈຳ​ນວນ
+frmReturnItems.clnReturnMoney.HeaderText :ສົ່ງ​ເງິນ​ຄືນ
+frmReturnItems.groupBox3.Text :ກັບ​ຄືນ​ລາຍ​ການ
+frmReturnItems.columnHeader4.Text :ກັບ​ຄືນ​ລະ​ຫັດ
+frmReturnItems.columnHeader5.Text :ກັບ​ຄືນ​ວັນ​ທີ
+frmReturnItems.columnHeader6.Text :ໃບ​ບິນ
+frmReturnItems.groupBox1.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmReturnItems.columnHeader1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmReturnItems.columnHeader2.Text :ຊື່
+frmReturnItems.columnHeader3.Text :ນາມ​ສະ​ກຸນ
+frmReturnItems.gbxTim.Text :ຄົ້ນ​ຫາ​ໄວ
+frmReturnItems.btnCustomerSearch.Text :ຊອກ​ຫາ
+frmReturnItems.label1.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmReturnItems.label8.Text :ອີ​ເມວ
+frmReturnItems.label7.Text :ລະ​ຫັດ​ບັດ
+frmReturnItems.label6.Text :ຊື່​ແທ້
+frmReturnItems.label5.Text :ສ້າງ​ສະ​ຖານ​ທີ່
+frmReturnItems.label4.Text :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmReturnItems.label3.Text :ວັນ​ທີ​ເກີດ
+frmReturnItems.label2.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmReturnItems.Text :ກັບ​ຄືນ​ຂໍ້​ມູນ
+frmSale.gbxBanHang.Text :ຂາຍ
+frmSale.label12.Text :ການ​ຍ້າຍ
+frmSale.lblDate.Text :ມື້
+frmSale.label3.Text :ຊົ່ວ​ໂມງ
+frmSale.label2.Text :ມື້
+frmSale.label1.Text :ລາຍ​ການ​ລະ​ຫັດ (F5)
+frmSale.btnF2.Text :F2
+frmSale.btnF3.Text :F3
+frmSale.btnF8.Text :F8
+frmSale.btnF9.Text :F9
+frmSale.btnF10.Text :F10
+frmSale.btnF11.Text :F11
+frmSale.btnF12.Text :F12
+frmSale.btnEsc.Text :Esc
+frmSale.gbxDanhSach.Text :​ລາຍ​ການ​ສິນ​ຄ້າ
+frmSale.clnBARCODE.HeaderText :ບາ​ໂຄດ
+frmSale.clnPRODUCT_ID.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmSale.clnPRODUCT_NAME.HeaderText :ລາຍ​ການ​ຊື່
+frmSale.clnUNIT_NAME.HeaderText :UOM
+frmSale.clnQUANTITY.HeaderText :ປະ​ລິ​ມານ
+frmSale.clnINVENTORY.HeaderText :TK
+frmSale.clnPrice.HeaderText :ລາ​ຄາ
+frmSale.clnIntoMoney.HeaderText :ຈຳ​ນວນ
+frmSale.clnCoupons.HeaderText :ຫຼຸດ​ລົງ PGG
+frmSale.clnCustomerCard.HeaderText :ການຫຼຸດ​ລາ​ຄາ​ບັດ​ລູກ​ຄ້າ
+frmSale.clnPromotion.HeaderText :ໂປ​ຣ​ໂມ​ຊັ່ນ
+frmSale.clnSpecialDiscount.HeaderText :ການຫຼຸດ​ລາ​ຄາ NE
+frmSale.clnPayment.HeaderText :ຈ່າຍ
+frmSale.clnEmployee.HeaderText :ພະ​ນັກງານ
+frmSale.clnRemarks.HeaderText :​ໝາຍ​ເຫດ
+frmSale.gbxKhachHang.Text :ລູກ​ຄ້າ
+frmSale.label13.Text :ການ​ຂາຍ​ສະ​ສົມ​ເພີ່ມ​ຂື້ນ
+frmSale.label4.Text :​ລະ​ຫັດ​ລູກ​ຄ້າ (F4)
+frmSale.label6.Text :ທີ່​ຢູ່
+frmSale.label5.Text :ຊື່​ລູກ​ຄ້າ
+frmSale.gbxThanhToan.Text :ຈ່າຍ
+frmSale.label7.Text :ຈ່າຍ
+frmSale.label11.Text :ການຫຼຸດ​ລາ​ຄາ
+frmSale.label10.Text :​ໂປ​ຣ​ໂມ​ຊັ່ນ
+frmSale.label9.Text :ການຫຼຸດ​ລາ​ຄາ
+frmSale.label8.Text :ເງິນ​ສຳ​ລັບ​ສິນ​ຄ້າ
+frmSale.Text :ຂາຍ
+frmSellGiftVoucher.label13.Text :ໝາຍ​ເຫດ
+frmSellGiftVoucher.label12.Text :ລວມ
+frmSellGiftVoucher.label11.Text :ຊົ່ວ​ໂມງ​ຂອງ​ການ​ຂາຍ
+frmSellGiftVoucher.label10.Text :ລະ​ຫັດ​ໃບ​ບິນ
+frmSellGiftVoucher.label9.Text :ວັນ​ທີ​ຂອງ​ການ​ຂາຍ
+frmSellGiftVoucher.label8.Text :ລະ​ຫັດ​ຄູ​ປອງ
+frmSellGiftVoucher.gbxDanhSachPhieu.Text :ລາຍ​ການ​ຂອງ​ການ​ໂຫວດ
+frmSellGiftVoucher.gbxDanhSachBanPhieu.Text :ລາຍ​ການ​ການ​ຂາຍ​ໃບ​ຢັ້ງ​ຢືນ​ຂອງ​ຂວັນ
+frmSellGiftVoucher.gbxDanhSachKH.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmSellGiftVoucher.columnHeader1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmSellGiftVoucher.columnHeader2.Text :ຊື່
+frmSellGiftVoucher.columnHeader3.Text :ນາມ​ສະ​ກຸນ
+frmSellGiftVoucher.gbxTimKiem.Text :ຄົ້ນ​ຫາ​ໄວ
+frmSellGiftVoucher.btnGiftVoucherSearch.Text :ຊອກ​ຫາ
+frmSellGiftVoucher.label7.Text :ອີ​ເມວ
+frmSellGiftVoucher.label6.Text :ລະ​ຫັດ​ບັດ
+frmSellGiftVoucher.label5.Text :ຊື່​ແທ້
+frmSellGiftVoucher.label4.Text :ສ້າງ​ສະ​ຖານ​ທີ່
+frmSellGiftVoucher.label3.Text :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmSellGiftVoucher.label2.Text :ວັນ​ທີ​ເກີດ
+frmSellGiftVoucher.label1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmSellGiftVoucher.Text :ໃບ​ຮັບ​ຮອງ​ການ​ຂາຍ
+frmTimeEndAttendance.label42.Text :ມື້
+frmTimeEndAttendance.label20.Text :ບາ​ໂຄດ F5
+frmTimeEndAttendance.gbxThongTinNV.Text :ຂໍ້​ມູນ​ພ​ະ​ນັກ​ງານ
+frmTimeEndAttendance.label4.Text :ສະ​ຖານ​ທີ່​ເຮັດ​ວຽກ
+frmTimeEndAttendance.label3.Text :ວັນ​ທີ​ແລະ​ເວ​ລາ​ສະ​ແກນ​ບັດ
+frmTimeEndAttendance.label1.Text :ຊື່​ແທ້
+frmTimeEndAttendance.label31.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmTimeEndAttendance.label28.Text :ຮູບ​ພາບ
+frmTimeEndAttendance.label2.Text :ຂໍ້​ມູນຫຼັກ
+frmTimeEndAttendance.Text :ພະ​ນັກ​ງານ​ສະ​ແກນ​ບັດ
+frmShiftManagement.gbxDanhSachNV.Text :ລາຍ​ການ​ພະ​ນັກ​ງານ
+frmShiftManagement.btnView.Text :ກວດ​ປະ​ຕິ​ທິນ
+frmShiftManagement.chkAllEmployee.Text :ເລືອກ​ພະ​ນັກ​ງານ​ທັງ​ໝົດ
+frmShiftManagement.columnHeader1.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmShiftManagement.columnHeader2.Text :ນາມ​ສະ​ກຸນ
+frmShiftManagement.columnHeader3.Text :ຊື່
+frmShiftManagement.gbxShift.Text :ຈັດ​ຕາ​ຕະ​ລາງ​ເຮັດ​ວຽກ
+frmShiftManagement.label1.Text :ເລືອກ​ການ​ຍ້າຍ
+frmShiftManagement.label27.Text :ເຖີງວັນ​ທີ
+frmShiftManagement.label42.Text :ຈາກວັນ​ທີ
+frmShiftManagement.gbxLich.Text :ປະ​ຕິ​ທິນ
+frmShiftManagement.Text :ຕາ​ຕະ​ລາງ​ຂາຍ
+frmSearchEmployeeName.groupBox1.Text :ລາຍ​ການ​ພະ​ນັກ​ງານ
+frmSearchEmployeeName.btnChoosePage.Text :ໄປ​ທີ​ໜ້າ​ທີ
+frmSearchEmployeeName.lblPage.Text :ໜ້າ​ທີ
+frmSearchEmployeeName.label1.Text :ຈຳ​ນວນ​ເສັ້ນ/ໜ້າ​ທີ
+frmSearchEmployeeName.colEmployeeCode.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmSearchEmployeeName.colEmploeeName.Text :ຊື່
+frmSearchEmployeeName.colEmployeeFisrtName.Text :ນາມ​ສະ​ກຸນ
+frmSearchEmployeeName.colRoom.Text :ພະ​ແນກ
+frmSearchEmployeeName.btnOK.Text :ຕົກ​ລົງ
+frmSearchEmployeeName.btnClose.Text :ປິດ
+frmSearchEmployeeName.Text :ຊອກ​ຫາ​ພະ​ນັກ​ງານ
+frmEmployeeSearch.gbxToChuc.Text :ອົງ​ການ
+frmEmployeeSearch.btnEmployeeSearch.Text :ຊອກ​ຫາ
+frmEmployeeSearch.gbxNhanVien.Text :ພະ​ນັກ​ງານ
+frmEmployeeSearch.lblPage.Text :ໜ້າ​ທີ
+frmEmployeeSearch.lblRowlist.Text :ລວມ
+frmEmployeeSearch.columnHeader1.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeSearch.columnHeader2.Text :ຊື່
+frmEmployeeSearch.columnHeader3.Text :ນາມ​ສະ​ກຸນ
+frmEmployeeSearch.groupBox3.Text :ເລືອກ
+frmEmployeeSearch.columnHeader4.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeSearch.columnHeader5.Text :ຊື່
+frmEmployeeSearch.columnHeader6.Text :ນາມ​ສະ​ກຸນ
+frmEmployeeSearch.columnHeader7.Text :ພະ​ແນກ
+frmEmployeeSearch.btnOK.Text :ຕົກ​ລົງ
+frmEmployeeSearch.btnCancel.Text :ປິດ
+frmEmployeeSearch.tabPage1.Text :ລາຍ​ການ​ພະ​ນັກ​ງານ
+frmEmployeeSearch.Text :ຊອກ​ຫາ​ພະ​ນັກ​ງານ
+frmEmployeeInfomation.gbxTTNhanVien.Text :ຂໍ້​ມູນ​ພະ​ນັກ​ງານ
+frmEmployeeInfomation.label45.Text :ຕ້ອງ​ການ​ຂໍ້​ມູນ
+frmEmployeeInfomation.label27.Text :ມື້​ປິດ
+frmEmployeeInfomation.label25.Text :ສະ​ຖານ​ນະ​ການ​ເຮັດ​ວຽກ
+frmEmployeeInfomation.label24.Text :ເງິນ​ເດືອນ (VND)
+frmEmployeeInfomation.label42.Text :ມື້​ເລີ່ມ​ຕົ້ນ
+frmEmployeeInfomation.label23.Text :ຕ່ຳ​ແໜ່ງ
+frmEmployeeInfomation.label22.Text :ກຸ່ມ
+frmEmployeeInfomation.label21.Text :ສະ​ຖານ​ທີ່​ເຮັດ​ວຽກ
+frmEmployeeInfomation.label19.Text :ສະ​ຖານ​ທີ່​ເຮັດ​ວຽກ
+frmEmployeeInfomation.label18.Text :ທີ່​ຢູ່​ຊົ່ວ​ຄາວ
+frmEmployeeInfomation.label16.Text :ທີ່​ຢູ່​ຖາ​ວອນ
+frmEmployeeInfomation.label14.Text :ໂທ​ລະ​ສັບ​ມື​ຖື​ຊົ່ວ​ຄາວ
+frmEmployeeInfomation.label15.Text :ໂທ​ລະ​ສັບ​ປົກ​ກະ​ຕິ
+frmEmployeeInfomation.label12.Text :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmEmployeeInfomation.label11.Text :ອີ​ເມວ
+frmEmployeeInfomation.label9.Text :ການ​ສື່​ສານ
+frmEmployeeInfomation.label8.Text :ອອກ​ໂດຍ
+frmEmployeeInfomation.label26.Text :ຊ່ວງວັນ​ທີ
+frmEmployeeInfomation.label20.Text :ລະ​ຫັດ​ບັດ
+frmEmployeeInfomation.label6.Text :ລະ​ຫັດ​ບັດ
+frmEmployeeInfomation.label4.Text :ການ​ສຶກ​ສາ
+frmEmployeeInfomation.label10.Text :ສະ​ຖາ​ນະ​ພາບ​ສົມ​ລົດ
+frmEmployeeInfomation.label17.Text :​ສາ​ສະ​ໜາ
+frmEmployeeInfomation.label7.Text :ເພດ
+frmEmployeeInfomation.label44.Text :ສະ​ຖານ​ທີ່​ເກີດ
+frmEmployeeInfomation.label5.Text :ວັນ​ທີ​ເກີດ
+frmEmployeeInfomation.label1.Text :ບາ​ໂຄດ
+frmEmployeeInfomation.label13.Text :ຊື່
+frmEmployeeInfomation.label3.Text :ຊື່​ແທ້
+frmEmployeeInfomation.label31.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeInfomation.label2.Text :ຂໍ້​ມູນຫຼັກ
+frmEmployeeInfomation.gbxDanhSachNV.Text :ລາຍ​ການ​ພະ​ນັກ​ງານ
+frmEmployeeInfomation.columnHeader1.Text :ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeInfomation.columnHeader2.Text :ນາມ​ສະ​ກຸນ
+frmEmployeeInfomation.columnHeader3.Text :ຊື່
+frmEmployeeInfomation.gbxTim.Text :ຄົ້ນ​ຫາ​ໄວ
+frmEmployeeInfomation.btnEmployeeSearch.Text :ຊອກ​ຫາ
+frmEmployeeInfomation.Text :ຂໍ້​ມູນ​ພະ​ນັກ​ງານ
+frmCustomerManagement.label1.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmCustomerManagement.gbxTim.Text :ຄົ້ນ​ຫາ​ໄວ
+frmCustomerManagement.btnCustomerSearch.Text :ຊອ​ກ​ຫາ
+frmCustomerManagement.gbxDanhSachKH.Text :ລາຍ​ການ​ລູກ​ຄ້າ
+frmCustomerManagement.columnHeader1.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmCustomerManagement.columnHeader2.Text :ຊື່
+frmCustomerManagement.columnHeader3.Text :ນາມ​ສະ​ກຸນ
+frmCustomerManagement.tabCustomer.Text :ລູກ​ຄ້າ
+frmCustomerManagement.gbxTTKhachhang.Text :ຂໍ້​ມູນ​ລູກ​ຄ້າ
+frmCustomerManagement.label17.Text :ວັນ​ທີ​ສ້າງ​ບັດ
+frmCustomerManagement.label16.Text :ປະ​ເພດ​ບັດ​ລູກ​ຄ້າ
+frmCustomerManagement.label15.Text :ຂໍ້​ມູນ​ບັດ​ລູກ​ຄ້າ
+frmCustomerManagement.label8.Text :ຈຳ​ນວນ​ຫ້ອງ​ເຊົ່າ
+frmCustomerManagement.label46.Text :ອີ​ເມວ
+frmCustomerManagement.label45.Text :ຕ້ອງ​ການ​ຂໍ້​ມູນ
+frmCustomerManagement.label44.Text :ສະ​ຖານ​ທີ່​ສ້າງ
+frmCustomerManagement.label43.Text :ວັນ​ທີ​ອັບ​ເດດ/ໂດຍ
+frmCustomerManagement.label42.Text :ວັນ​ທີ​ສ້າງ/ໂດຍ
+frmCustomerManagement.label41.Text :ຂໍ້​ມູນ​ອື່ນໆ
+frmCustomerManagement.label40.Text :ລະ​ຫັດ​ພາ​ສີ
+frmCustomerManagement.label39.Text :ບ່ອນ​ເຮັດ​ວຽກ
+frmCustomerManagement.label38.Text :ຫົ​ວ​ໜ່ວຍ​ເຮັດ​ວຽກ
+frmCustomerManagement.label37.Text :ທີ່​ຢູ່
+frmCustomerManagement.label36.Text :ຖະ​ໜົນ
+frmCustomerManagement.label35.Text :ເຂ​ດ​ເລືອກ​ຕັ້ງ
+frmCustomerManagement.label34.Text :​ເມືອງ
+frmCustomerManagement.label33.Text :ແຂວງ​/ຕົວ​ເມືອງ
+frmCustomerManagement.label32.Text :ປະ​ເທດ
+frmCustomerManagement.label31.Text :ໂທ​ລະ​ສັບ​ມື​ຖື
+frmCustomerManagement.label30.Text :ໂຕະ/ແຟັກ
+frmCustomerManagement.label29.Text :ສື່​ສານ
+frmCustomerManagement.label26.Text :ຊ່ວງວັນ​ທີ
+frmCustomerManagement.label25.Text :ໝາຍ​ເຫດ
+frmCustomerManagement.label21.Text :ອອກ​ໂດຍ
+frmCustomerManagement.label20.Text :ລະ​ຫັດ​ບັດ/ປື້ມ​ຜ່ານ​ແດນ
+frmCustomerManagement.label19.Text :ລະ​ຫັດ​ບັດ/ປື້ມ​ຜ່ານ​ແດນ
+frmCustomerManagement.chkCusOfStore.Text :ຮ້ານ​ລູກ​ຄ້າ​ເອງ
+frmCustomerManagement.label18.Text :ກຸ່ມ​ລູກ​ຄ້າ
+frmCustomerManagement.chkOther.Text :ອື່ນໆ
+frmCustomerManagement.label14.Text :ລະ​ຫັດ​ລູກ​ຄ້າ
+frmCustomerManagement.label13.Text :ຊື່
+frmCustomerManagement.label12.Text :ສະ​ຖາ​ນະ
+frmCustomerManagement.label11.Text :ການ​ຂາຍ​ສະ​ສົມ
+frmCustomerManagement.label10.Text :ແຕ່ງ​ງານ
+frmCustomerManagement.label9.Text :ອາ​ຊີບ
+frmCustomerManagement.label7.Text :ເພດ
+frmCustomerManagement.label6.Text :ສະ​ຖານ​ທີ່​ເກີດ
+frmCustomerManagement.label5.Text :ວັນ​ທີ​ເກີດ
+frmCustomerManagement.label4.Text :ບາ​ໂຄດ
+frmCustomerManagement.label3.Text :ນາມ​ສະ​ກຸນ
+frmCustomerManagement.label2.Text :ຂໍ້​ມູນຫຼັກ
+frmCustomerManagement.tabCustomerHistory.Text :ປະ​ຫວັດ​ລູກ​ຄ້າ
+frmCustomerManagement.label28.Text :ສາ​ລະ​ບານ
+frmCustomerManagement.btnPhone.Text :ບັນ​ທຶກ
+frmCustomerManagement.label47.Text :ຄຳ​ນຳ
+frmCustomerManagement.label48.Text :ວັນ​ທີ​ໂທ
+frmCustomerManagement.label49.Text :ເບີ​ໂທ​ລະ​ສັບ
+frmCustomerManagement.label50.Text :ຜູ້​ໂທ
+frmCustomerManagement.btnSaveFeedback.Text :ບັນ​ທຶກ
+frmCustomerManagement.label22.Text :ສາ​ລະ​ບານ
+frmCustomerManagement.label23.Text :ຄຳ​ນຳ
+frmCustomerManagement.label24.Text :ລູກ​ຄ້າ
+frmCustomerManagement.label27.Text :ມື້
+frmCustomerManagement.btnEmail.Text :ສົ່ງ​ອີ​ເມວ
+frmCustomerManagement.button3.Text :ໂທ​ລະ​ສັບ
+frmCustomerManagement.button2.Text :ສົ່ງ​ກັບ​ໄປ​ຍັງ
+frmCustomerManagement.groupBox4.Text :ລາຍ​ການ
+frmCustomerManagement.dataGridViewTextBoxColumn3.HeaderText :ມື້
+frmCustomerManagement.dataGridViewTextBoxColumn4.HeaderText :ປະ​ເພດ
+frmCustomerManagement.dataGridViewTextBoxColumn5.HeaderText :ຄຳ​ນຳ
+frmCustomerManagement.Column6.HeaderText :ການຕິດ​ຕໍ່
+frmCustomerManagement.Column7.HeaderText :​ການຕິດ​ຕໍ່
+frmCustomerManagement.Column8.HeaderText :​ຮ້ານ
+frmCustomerManagement.Column9.HeaderText :ລະ​ບົບ​ຕ່ອງ​ໂສ້
+frmCustomerManagement.Column10.HeaderText :ສະ​ຖານ​ທີ່​ຕັ້ງ
+frmCustomerManagement.dataGridViewTextBoxColumn1.HeaderText :ມື້​ທີ່​ຈ່າຍ
+frmCustomerManagement.dataGridViewTextBoxColumn2.HeaderText :ສົ່ງ​ລະ​ຫັດ​ກັ​ບ​ຄືນ
+frmCustomerManagement.groupBox2.Text :ລາຍ​ການ​ຜະ​ລິດ​ຕະ​ພັນ
+frmCustomerManagement.Column3.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+frmCustomerManagement.Column4.HeaderText :ລາຍ​ການ​ຊື່
+frmCustomerManagement.Column5.HeaderText :ຜູ້​ຂາຍ
+frmCustomerManagement.groupBox1.Text :ລາຍ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmCustomerManagement.Column1.HeaderText :ວັນ​ທີ​ຊື້
+frmCustomerManagement.colExportCode.HeaderText :ລະ​ຫັດ​ໃບ​ບິນ
+frmCustomerManagement.Text :ຜູ້​ຈັດ​ການ​ລູກ​ຄ້າ
+frmAbout.label2.Text :ລິ​ຂະ​ສິດ  APIS 2020
+frmAbout.label1.Text :ລຸ້ນ​ຊ໋ອບ​ແວ
+frmAbout.Text :ລິ​ຂະ​ສິດ​ຂໍ້​ມູນ
+frmAppInfo.label2.Text :ລຸ້ນ 6.0
+frmAppInfo.label1.Text :RDO ໂປ​ຣ​ແກ​ຣມ​ຜູ້​ຈັດ​ການ​ຂາຍ
+frmAppInfo.Text :ໂປ​ຣ​ແກ​ຣມ​ຂໍ້​ມູນ
+frmPaymentInvoice.btnSearch.Text :ຊອກ​ຫາ
+frmPaymentInvoice.label4.Text :ເຖີງ
+frmPaymentInvoice.label3.Text :ເຖີງ
+frmPaymentInvoice.label2.Text :ຈາກວັນ​ທີ
+frmPaymentInvoice.label1.Text :ຈາກວັນ​ທີ
+frmPaymentInvoice.groupBox2.Text :ລາຍ​ການ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmPaymentInvoice.SoHD.HeaderText :ຈຳ​ນວນ​ໃບ​ບິນ
+frmPaymentInvoice.SoPO.HeaderText :ຈຳ​ນວນ PO
+frmPaymentInvoice.SoNoiBo.HeaderText :ຕົວ​ເລກ​ພາຍ​ໃນ
+frmPaymentInvoice.NgayHD.HeaderText :ວັນ​ທີ​ໃບ​ບິນ
+frmPaymentInvoice.SoTien.HeaderText :ຈຳ​ນວນ
+frmPaymentInvoice.SoTienDaThanhToan.HeaderText :ໄດ້​ຈ່າຍ
+frmPaymentInvoice.SoThanhToan.HeaderText :ຈ່າຍ
+frmPaymentInvoice.SoTienconLai.HeaderText :ຈຳ​ນວນບໍ່​ໄດ້​ຈ່າຍ
+frmPaymentInvoice.groupBox3.Text :ຂໍ້​ມູນ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmPaymentInvoice.btnPhanBo.Text :ການ​ຈັດ​ສັນ
+frmPaymentInvoice.label7.Text :VND
+frmPaymentInvoice.label6.Text :ຈຳ​ນວນ​ເງິນ
+frmPaymentInvoice.label5.Text :ມື້
+frmPaymentInvoice.btnTableStatementMoney.Text :ໃບ​ຢັ້ງ​ຢືນ​ການ​ຈ່າຍ​ເງິນ
+frmPaymentInvoice.btnSave.Text :ບັນ​ທຶກ
+frmPaymentInvoice.btnClose.Text :ປິດ
+frmPaymentInvoice.Text :ຈ່າຍ​ໃບ​ບິນ
+frmLiablityView.btnImport.Text :ເອັກ​ເຊວ
+frmLiablityView.btnView.Text :ເບີ່ງ
+frmLiablityView.label8.Text :ມື້
+frmLiablityView.label9.Text :ລາຍ​ລະ​ອຽດ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmLiablityView.btnImportPay.Text :ເອັກ​ເຊວ
+frmLiablityView.btnViewPay.Text :ເບີ່ງ
+frmLiablityView.label4.Text :ມາ
+frmLiablityView.label5.Text :ຈາກວັນ​ທີ
+frmLiablityView.label6.Text :ໃບ​ຢັ້ງ​ຢືນ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ​ຂອງ​ບໍ​ລິ​ສັດ
+frmLiablityView.btnImportLiablity.Text :ເອັກ​ເຊວ
+frmLiablityView.btnViewLiablity.Text :ເບີ່ງ
+frmLiablityView.label1.Text :​ມາ
+frmLiablityView.label2.Text :ຈາກວັນ​ທີ
+frmLiablityView.label3.Text :ການ​ຄືນ​ໜີ້​ຂອງ​ບໍ​ລິ​ສັດ
+frmLiablityView.btnImportInvoices.Text :ເອັກ​ເຊວ
+frmLiablityView.btnViewInvoices.Text :ເບີ່ງ
+frmLiablityView.label27.Text :ມາ
+frmLiablityView.label42.Text :ຈາກວັນ​ທີ
+frmLiablityView.label31.Text :ລາຍ​ລະ​ອຽດ​ການ​ນຳ​ເຂົ້າ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmLiablityView.btnClose.Text :ປິດ
+frmLiablityView.Text :ລາຍ​ງານ​ໜີ້
+frmInvoicePayment.label28.Text :ເວ​ລາ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmInvoicePayment.label27.Text :ເຖີງວັນ​ທີ
+frmInvoicePayment.label42.Text :ຈາກວັນ​ທີ
+frmInvoicePayment.gbxDanhSach.Text :ລາຍ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmInvoicePayment.MaTT.HeaderText :ລະ​ຫັດ
+frmInvoicePayment.Ngay.HeaderText :ມື້
+frmInvoicePayment.MASTER_NAME.HeaderText :ປະ​ເພດ
+frmInvoicePayment.gbxChiTietTT.Text :ລາຍ​ລະ​ອຽດ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ
+frmInvoicePayment.Column1.HeaderText :ຈຳ​ນວນ​ໃບ​ບິນ
+frmInvoicePayment.SoPO.HeaderText :ຈຳ​ນວນ PO
+frmInvoicePayment.SoNoiBo.HeaderText :ຕົວ​ເລກ​ພາຍ​ໃນ
+frmInvoicePayment.NgayHD.HeaderText :ວັນ​ທີ​ໃບ​ບິນ
+frmInvoicePayment.NgayTT.HeaderText :ວັນ​ທີ​ຄົບ​ກຳ​ນົດ
+frmInvoicePayment.SoTien.HeaderText :ຈຳ​ນວນ​ເງິນ
+frmInvoicePayment.SoThanhToan.HeaderText :ຈ່າຍ
+frmInvoicePayment.SoTienDaThanhToan.HeaderText :TC. ໄດ້​ຈ່າຍ
+frmInvoicePayment.SoTienconLai.HeaderText :ຈຳ​ນວນບໍ່​ໄດ້​ຈ່າຍ
+frmInvoicePayment.gbxThanhToanHD.Text :ລາຍ​ລະ​ອຽດ​ການ​ຈ່າຍ​ຄ່າ​ຕອບ​ແທນ​ອີງ​ຕາມ​ການ​ຕິດ​ຕໍ່
+frmInvoicePayment.dataGridViewTextBoxColumn1.HeaderText :ຈຳ​ນວນ​ໃບ​ບິນ
+frmInvoicePayment.dataGridViewTextBoxColumn2.HeaderText :ວັນ​ທີ​ໃບ​ບິນ
+frmInvoicePayment.MASTERNAME.HeaderText :ປະ​ເພດ​ການ​ຈ່າຍ​ຄ່າ​ຕ​ອບ​ແທນ
+frmInvoicePayment.sSoThanhToan.HeaderText :ຈຳ​ນວນ​ເງິນ
+frmInvoicePayment.GhiChu.HeaderText :ໝາຍ​ເຫດ
+frmInvoicePayment.Text :ໃບສັ່ງຈ່າຍ
+frmInputOpeningLiablity.gbxThongTinCongNo.Text :ໄລ​ຍະ​ເວ​ລາ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ຂໍ້​ມູນ​ໜີ້​ສິນ
+frmInputOpeningLiablity.label7.Text :ໝາຍເຫດ
+frmInputOpeningLiablity.label4.Text :ພັກຜ່ອນ
+frmInputOpeningLiablity.label5.Text :ຈ່າຍ
+frmInputOpeningLiablity.label6.Text :ຈຳນວນເງິນ(*)
+frmInputOpeningLiablity.label27.Text :ວັນທີຈ່າຍເງິນ
+frmInputOpeningLiablity.label42.Text :ວັນທີໃບບິນ
+frmInputOpeningLiablity.label2.Text :ເລກພາຍໃນ
+frmInputOpeningLiablity.label1.Text :ເລກ PO(*)
+frmInputOpeningLiablity.label3.Text :ຈຳ​ນວນ​ໃບ​ບີນ
+frmInputOpeningLiablity.gbxDanhSach.Text :ບັນ​ຊີ​ລາຍ​ຊື່​ຂອງ​ໜີ້​ສິນ​ໃນ​ຊ່ວງ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ໄລ​ຍະ​ເວ​ລາ
+frmInputOpeningLiablity.SoHD.HeaderText :ຈຳ​ນວນ​ໃບ​ບີນ
+frmInputOpeningLiablity.SoPO.HeaderText :ຈຳ​ນວນ PO
+frmInputOpeningLiablity.SoNoiBo.HeaderText :ເລກພາຍໃນ
+frmInputOpeningLiablity.NgayHoaDon.HeaderText :ວັນທີໃບບິນ
+frmInputOpeningLiablity.SoTien.HeaderText :ຈຳນວນເງິນ
+frmInputOpeningLiablity.SoTienDaThanhToan.HeaderText :ຈຳນວນທີ່ຈ່າຍ
+frmInputOpeningLiablity.SoTienConLai.HeaderText :ຈຳນວນທີ່ຍັງເຫຼືອ
+frmInputOpeningLiablity.GhiChu.HeaderText :ໝາຍເຫດ
+frmInputOpeningLiablity.NgayTT.HeaderText :ສິດທິ
+frmInputOpeningLiablity.btnImport.Text :ນຳເຂົ້າ
+frmInputOpeningLiablity.btnInsert.Text :ເພີ່ມໃໝ່
+frmInputOpeningLiablity.btnSave.Text :ບັນທຶກ
+frmInputOpeningLiablity.btnDelete.Text :ລົບລ້າງ
+frmInputOpeningLiablity.btnClose.Text :ປິດ
+frmInputOpeningLiablity.gbxImport.Text :​ໄຟ​ລ
+frmInputOpeningLiablity.label10.Text :ເພີ່ມວັນທີ
+frmInputOpeningLiablity.lblSum.Text :ລວມທັງໝົດ
+frmInputOpeningLiablity.lblStatus.Text :ກຽມພ້ອມ
+frmInputOpeningLiablity.btnSampleExcel.Text :ແບບຟອມນຳເຂົ້າ
+frmInputOpeningLiablity.btnBegin.Text :ເລີ່ມຕົ້ນ
+frmInputOpeningLiablity.label8.Text :ໜ້າ​ເຈ້ຍ
+frmInputOpeningLiablity.label9.Text :ໄຟ​ລ
+frmInputOpeningLiablity.Text :​ເລີ່ມ​ຕົ້ນ​ໄລ​ຍະ​ເວ​ລາເຂົ້າ​ສູ່​ໜີ້
+frmCashDeposit.gbxThongTin.Text :ຂໍ້ມູນການຈ່າຍເງິນ
+frmCashDeposit.label6.Text :VND
+frmCashDeposit.label5.Text :VND
+frmCashDeposit.label4.Text :ອະທິບາຍ
+frmCashDeposit.label3.Text :POS ເງິນສົດ
+frmCashDeposit.label2.Text :ເງິນສົດ
+frmCashDeposit.label1.Text :ມື້
+frmCashDeposit.groupBox2.Text :ລາຍຊື່ການຈ່າຍເງິນ
+frmCashDeposit.btnExport.Text :ການສົ່ງອອກຂໍ້ມູນ
+frmCashDeposit.btnClose.Text :ປິດ
+frmCashDeposit.btnCashSearch.Text :ຄົ້ນຫາ
+frmCashDeposit.label7.Text :ຕັ້ງແຕ່ວັນທີ
+frmCashDeposit.label8.Text :ມາ
+frmCashDeposit.btnInsert.Text :ເພີ່ມໃໝ່
+frmCashDeposit.btnSave.Text :ບັນທຶກ
+frmCashDeposit.btnDelete.Text :ລົບລ້າງ
+frmCashDeposit.Ma.HeaderText :ລະຫັດ
+frmCashDeposit.Ngay.HeaderText :ວັນທີ
+frmCashDeposit.DienGiai.HeaderText :ອະທິບາຍ
+frmCashDeposit.SoTien.HeaderText :ເງິນສົດ
+frmCashDeposit.POS.HeaderText :POS ເງິນສົດ
+frmCashDeposit.TongCong.HeaderText :ລວມທັງໝົດ
+frmCashDeposit.Text :ຈ່​າຍ​ເງິນ​ໃຫ້​ບໍລິສັດ
+frmSOManagement.label4.Text :ສະນັ້ນ​ບໍ່
+frmSOManagement.label1.Text :ຜະລິດ​ຕະພັນ
+frmSOManagement.btnSearch.Text :ຕົ້ນຫາ
+frmSOManagement.clnId.HeaderText :Id
+frmSOManagement.clnSONo.HeaderText :ສະນັ້ນ​ບໍ່
+frmSOManagement.clnProductID.HeaderText :ລະຫັດ​ຜະລິດ​ຕະພັນ
+frmSOManagement.clnProductName.HeaderText :ຊື່ຜະລິດ​ຕະພັນ
+frmSOManagement.clnPRICE.HeaderText :ລາຄາ
+frmSOManagement.clnQuantity.HeaderText :ຈຳນວນ
+frmSOManagement.clnTOTAL.HeaderText :ຈຳນວນ
+frmSOManagement.clnQuantitySuspend.HeaderText :​ຕົວ​ເລກ​ຂອງ​ການ​ຫ້ອຍ
+frmSOManagement.btnSave.Text :ບັນທຶກ
+frmSOManagement.btnExportExcel.Text :ສົ່ງ​ອອກ Excel
+frmSOManagement.btnExit.Text :ປິດ
+frmSOManagement.Text :ການຄຸ້ມ​ຄອງ SO
+frmOrder.btnSearch.Text :ຄົ້ນ​ຫາ
+frmOrder.btnSendOrder.Text :ຍື່ນ​ໃບ​ສັ່ງ​ຊື້
+frmOrder.gbxDanhSach.Text :ລາຍຊື່
+frmOrder.columnHeader1.Text :ວັນ​ທີ​ສັ່ງ​ຊື້
+frmOrder.columnHeader2.Text :ລະຫັດ​ສັ່ງ​ຊື້
+frmOrder.btnSoManagement.Text :ການຄຸ້ມ​ຄອງ SO
+frmOrder.btnCreateAutoOrder.Text :ການສ້າງ​ຄຳ​ສັ່ງ​ອັດຕະ​ໂນ​ມັດ
+frmOrder.gbxSanPham.Text :ຜະລິດ​ຕະພັນ
+frmOrder.label18.Text :ຈຳນວນ​ເສັ້ນ
+frmOrder.clnProductId.HeaderText :ລະຫັດ​ສິນຄ້າ
+frmOrder.clnQuantity.HeaderText :ຈຳນວນ
+frmOrder.clnProductPrice.HeaderText :ລາຄາ
+frmOrder.clnProductName.HeaderText :ຊື່ສິນຄ້າ
+frmOrder.clnUnit.HeaderText :UOM
+frmOrder.clnTotalMoney.HeaderText :ຈຳນວນ
+frmOrder.Column1.HeaderText :CAT
+frmOrder.label17.Text :ລວມ TT
+frmOrder.label16.Text :ລວມ SL
+frmOrder.label3.Text :​ເຖິງວັນ​ທີ
+frmOrder.label2.Text :ວັນທີ​ກຳນົດ​ຈາກ
+frmOrder.label1.Text :ລະຫັດ​ສັ່ງ​ຊື້
+frmOrder.gbxTTDatHang.Text :ຂໍ້ມູນ​ການສັ່ງ​ຊື້
+frmOrder.label11.Text :ວັນທີ່​ສັ່ງ​ຊື້
+frmOrder.label9.Text :ໝາຍເຫດ
+frmOrder.txtTTDatHang.Text :ລະຫັດ​ສັ່ງ​ຊື້
+frmOrder.Text :ສັ່ງ
+frmInputOpeningStock.groupBox1.Text :​ແຟ້ມ
+frmInputOpeningStock.btnImportExcel.Text :​ແບບຟອມນໍາ​ເຂົ້າ
+frmInputOpeningStock.btnBegin.Text :​ເລີ່​ມຕົ້ນ
+frmInputOpeningStock.label2.Text :​ແຟ້ມ
+frmInputOpeningStock.label1.Text :​ເພີ່​ມວັນ​ທີ
+frmInputOpeningStock.groupBox2.Text :ລາຍຊື່
+frmInputOpeningStock.ProductCode.HeaderText :ລະຫັດ​ສິນຄ້າ
+frmInputOpeningStock.Quantity.HeaderText :ຈຳນວນ​ເງິນ
+frmInputOpeningStock.lblStatus.Text :​ບັນ​ທຶກ
+frmInputOpeningStock.btnClose.Text :ປິດ
+frmInputOpeningStock.btnOK.Text :ຕົກລົງ
+frmInputOpeningStock.lblSum.Text :ລວມທັງໝົດ
+frmInputOpeningStock.Text :​ໃນ​ຕອນ​ຕົ້ນ​ຂອງ​ໄລ​ຍະ​ເວ​ລາ​ຂອງ​ການ​ກະ​ກຽມ​ສິນ​ຄ້າ​ຄົງ​ຄັງ
+frmGoodsReceipt.label19.Text :(*) ແມ່ນຂໍ້ມູນທີ່ຕ້ອງການ
+frmGoodsReceipt.tabPage1.Text :ຜະລິດ​ຕະພັນ
+frmGoodsReceipt.label21.Text :ຈຳນວນ​ເສັ້ນ
+frmGoodsReceipt.label18.Text :ຈຳນວນ​ເສັ້ນ
+frmGoodsReceipt.label9.Text :ລວມ TT (ອາກອນ​ມູນ​ຄ່າ​ເພີ່ມ)
+frmGoodsReceipt.label8.Text :ລວມ TT
+frmGoodsReceipt.label7.Text :ລວມ SL
+frmGoodsReceipt.tabPage2.Text :​ໂປຣ​ໂມ​ຊັນ
+frmGoodsReceipt.label20.Text :ຈຳນວນ​ເສັ້ນ
+frmGoodsReceipt.label23.Text :ລວມ SL
+frmGoodsReceipt.ProductIdKM.HeaderText :ລະຫັດ​ສິນຄ້າ
+frmGoodsReceipt.QuantityKM.HeaderText :ຈຳນວນ
+frmGoodsReceipt.ProductPriceKM.HeaderText :ລາຄາ
+frmGoodsReceipt.ProductNameKM.HeaderText :​ຊື່​ລາຍ​ການ
+frmGoodsReceipt.UnitKM.HeaderText :UOM
+frmGoodsReceipt.SaleOrderNumberKM.HeaderText :ສະນັ້ນ​ບໍ່
+frmGoodsReceipt.VATKM.HeaderText :ອາກອນ​ມູນ​ຄ່າ​ເພີ່​ມ
+frmGoodsReceipt.P_IDKM.HeaderText :ID
+frmGoodsReceipt.groupBox4.Text :ລາຍ​ຊື່
+frmGoodsReceipt.columnHeader1.Text :​ເພີ່​ມວັນ​ທີ
+frmGoodsReceipt.columnHeader2.Text :ບາງ​ໃບ​ບິນ
+frmGoodsReceipt.columnHeader3.Text :​ເລກພາຍ​ໃນ
+frmGoodsReceipt.columnHeader4.Text :ປະລິມານ
+frmGoodsReceipt.columnHeader5.Text :S. ​ເງິນ
+frmGoodsReceipt.columnHeader6.Text :ລະຫັດ​ເຂົ້າ
+frmGoodsReceipt.btnBarcodeScan.Text :ເຄື່ອງສະແກນບາໂຄດ
+frmGoodsReceipt.btnSearch.Text :ຄົ້ນຫາ
+frmGoodsReceipt.gbxDathang.Text :ນຳເຂົ້າຂໍ້ມູນ
+frmGoodsReceipt.chkInsert.Text :ເພີ່ມໜີ້
+frmGoodsReceipt.label25.Text :ເພີ່ມວັນທີ
+frmGoodsReceipt.label17.Text :ອະທິບາຍ
+frmGoodsReceipt.label16.Text :ຈຳນວນເງິນ
+frmGoodsReceipt.label15.Text :ປະເພດປັບປຸງ
+frmGoodsReceipt.label14.Text :PO No (*)
+frmGoodsReceipt.label13.Text :ເລກພາຍໃນ (*)
+frmGoodsReceipt.label12.Text :ເລກສັນຍາ (*)
+frmGoodsReceipt.label11.Text :ປະເພດຂາເຂົ້າ
+frmGoodsReceipt.label6.Text :ໝາຍເຫດ
+frmGoodsReceipt.label5.Text :ວັນທີຂອງສັນຍາ
+frmGoodsReceipt.label4.Text :ລະຫັດເຂົ້າ
+frmGoodsReceipt.label10.Text :ປະເພດຂາເຂົ້າ
+frmGoodsReceipt.label3.Text :ເຖິງວັນທີ
+frmGoodsReceipt.label2.Text :ວັນທີກຳນົດຈາກ
+frmGoodsReceipt.label1.Text :ລະຫັດເຂົ້າ
+frmGoodsReceipt.ProductId.HeaderText :ລະຫັດສິນຄ້າ
+frmGoodsReceipt.Quantity.HeaderText :ຈຳນວນ
+frmGoodsReceipt.ProductPrice.HeaderText :ລາຄາ
+frmGoodsReceipt.colProductName.HeaderText :ຊື່ສິນຄ້າ
+frmGoodsReceipt.Unit.HeaderText :UOM
+frmGoodsReceipt.TotalPrice.HeaderText :ຈຳນວນ
+frmGoodsReceipt.SaleOrderNumber.HeaderText :ສະນັ້ນ​ບໍ່
+frmGoodsReceipt.VAT.HeaderText :ອາກອນ​ມູນ​ຄ່າ​ເພີ່​ມ
+frmGoodsReceipt.P_ID.HeaderText :ID
+frmGoodsReceipt.Text :ສິນຄ້ານຳເຂົ້າ
+frmGoodsDelivery.label19.Text :(* ແມ່ນຂໍ້ມູນທີ່ຕ້ອງການ)
+frmGoodsDelivery.gbxSanPham.Text :ຜະລິດ​ຕະພັນ
+frmGoodsDelivery.label18.Text :ຈຳນວນເສັ້ນ
+frmGoodsDelivery.label17.Text :ຈຳນວນ
+frmGoodsDelivery.label16.Text :ລວມທັງໝົດ
+frmGoodsDelivery.gbxDanhSach.Text :ລາຍຊື່
+frmGoodsDelivery.NgayXuat.Text :ວັນທີສົ່ງອອກ
+frmGoodsDelivery.MaXuat.Text :ລະຫັດຂົນສົ່ງ
+frmGoodsDelivery.SoLuongT.Text :ຈຳນວນ
+frmGoodsDelivery.ThanhTien.Text :ຈຳນວນ
+frmGoodsDelivery.btnInventory.Text :​ສິນ​ຄ້າ​ຄົງ​ຄັງ
+frmGoodsDelivery.btnCodeScaner.Text :ເຄື່ອງສະແກນບາໂຄດ
+frmGoodsDelivery.btnSearch.Text :ຊອກຫາ
+frmGoodsDelivery.gbxTTXuat.Text :ສົ່ງອອກຂໍ້ມູນ
+frmGoodsDelivery.cbxDebt.Text :​ການ​ຫັກ​ໜີ້​ສິນ​ຂອງ​ເຈົ້າ
+frmGoodsDelivery.label13.Text :PO No 
+frmGoodsDelivery.label15.Text :ອະທິບາຍ
+frmGoodsDelivery.label12.Text :ວັນທີຂອງສັນຍາ
+frmGoodsDelivery.label14.Text :ຈຳນວນເງິນ
+frmGoodsDelivery.label11.Text :ວັນທີສົ່ງອອກ
+frmGoodsDelivery.label10.Text :ປະເພດປັບປຸງ
+frmGoodsDelivery.label9.Text :ໝາຍເຫດ
+frmGoodsDelivery.label8.Text :ເລກພາຍໃນ
+frmGoodsDelivery.label7.Text :ເລກສັນຍາ
+frmGoodsDelivery.label6.Text :ປະເພດຂາອອກ
+frmGoodsDelivery.label5.Text :ລະຫັດຂົນສົ່ງ
+frmGoodsDelivery.label4.Text :ປະເພດຂາອອກ
+frmGoodsDelivery.label3.Text :ເຖິງວັນທີ
+frmGoodsDelivery.label2.Text :ຕັ້ງແຕ່ວັນທີ
+frmGoodsDelivery.label1.Text :ລະຫັດຂົນສົ່ງ
+frmGoodsDelivery.ProductId.HeaderText :ລະຫັດສິນຄ້າ
+frmGoodsDelivery.Quantity.HeaderText :ຈຳນວນ
+frmGoodsDelivery.Price.HeaderText :ລາຄາ
+frmGoodsDelivery.colProductName.HeaderText :ຊື່ສິນຄ້າ
+frmGoodsDelivery.Unit.HeaderText :UOM
+frmGoodsDelivery.P_ID.HeaderText :Id
+frmGoodsDelivery.Text :ເປີດເຜີຍ
+frmGiftReceipt.gpxPhieuQuaTang.Text :ໃບຢັ້ງຢືນຂອງຂວັນ
+frmGiftReceipt.label12.Text :ລວມມູນຄ່າຕົວຈິງທັງໝົດ
+frmGiftReceipt.label11.Text :ລວມມູນຄ່າທັງໝົດ
+frmGiftReceipt.label10.Text :ຄະແນນສຽງທັງໝົດ
+frmGiftReceipt.gbxPhieuTang.Text :ລາຍຊື່
+frmGiftReceipt.btnSearchGift.Text :ຊອກຫາ
+frmGiftReceipt.gpxThongTinPT.Text :ຂໍ້ມູນການປ້ອນບັດ
+frmGiftReceipt.btnTaiVe.Text :ດາວໂຫຼດ
+frmGiftReceipt.label9.Text :ລະຫັດໃບບິນ
+frmGiftReceipt.label8.Text :ສະຖານທີ່ອອກ
+frmGiftReceipt.label7.Text :ເວລາຂອງການສົ່ງອອກ
+frmGiftReceipt.label6.Text :ໝາຍເຫດ
+frmGiftReceipt.label5.Text :ເພີ່ມວັນທີ
+frmGiftReceipt.label4.Text :ລະຫັດເຂົ້າຄູປອງ
+frmGiftReceipt.label3.Text :ເຖິງວັນທີ
+frmGiftReceipt.label2.Text :ຕັ້ງແຕ່ວັນທີ
+frmGiftReceipt.label1.Text :ລະຫັດເຂົ້າຄູປອງ
+frmGiftReceipt.Text :ບັດເຂົ້າ
+frmGiftDelivery.gbxPTangQua.Text :ບັດຂອງຂວັນ
+frmGiftDelivery.btnChooseGift.Text :ເລືອກບັດ
+frmGiftDelivery.label12.Text :ລວມມູນຄ່າຕົວຈິງທັງໝົດ
+frmGiftDelivery.label11.Text :ຈຳນວນທັງໝົດ
+frmGiftDelivery.label10.Text :ຄະແນນສຽງທັງໝົດ
+frmGiftDelivery.gbxDanhSach.Text :ລາຍຊື່
+frmGiftDelivery.btnGiftSearch.Text :ຊອກຫາ
+frmGiftDelivery.gpxXuatPT.Text :ຂໍ້ມູນອອກບັດ
+frmGiftDelivery.rbnExportStore.Text :ສົ່ງອອກໄປຍັງຮ້ານອື່ນ
+frmGiftDelivery.rbnExportWasehouse.Text :ສົ່ງອອກໄປສາງ
+frmGiftDelivery.label9.Text :ສະຖານທີ່ອອກ
+frmGiftDelivery.label8.Text :ສະຖານທີ່ຮັບ
+frmGiftDelivery.label7.Text :ເວລາຂອງການສົ່ງອອກ
+frmGiftDelivery.label6.Text :ໝາຍເຫດ
+frmGiftDelivery.label5.Text :ວັນທີສົ່ງອອກ
+frmGiftDelivery.label4.Text :ລະຫັດຄູປອງ
+frmGiftDelivery.label3.Text :ເຖິງວັນທີ
+frmGiftDelivery.label2.Text :ຕັ້ງແຕ່ວັນທີ
+frmGiftDelivery.label1.Text :ລະຫັດຄູປອງ
+frmGiftDelivery.Text :ອອກບັດ
+frmDiscoutVoucherReceipt.gbxPhieuGG.Text :ຄູປອງ
+frmDiscoutVoucherReceipt.label7.Text :ຄະແນນສຽງທັງໝົດ
+frmDiscoutVoucherReceipt.gbxDanhSach.Text :ລາຍຊື່
+frmDiscoutVoucherReceipt.btnVoucherSearch.Text :ຄົ້ນຫາ
+frmDiscoutVoucherReceipt.gbxPhieuGiamGia.Text :ຂໍ້ມູນຄູປອງ
+frmDiscoutVoucherReceipt.btnTaiVe.Text :ດາວໂຫຼດ
+frmDiscoutVoucherReceipt.label12.Text :ລະຫັດໃບບິນ
+frmDiscoutVoucherReceipt.label5.Text :ສະຖານທີ່ອອກ
+frmDiscoutVoucherReceipt.label11.Text :ເວລາເຂົ້າ
+frmDiscoutVoucherReceipt.label10.Text :ໝາຍເຫດ
+frmDiscoutVoucherReceipt.label6.Text :ເພີ່ມວັນທີ
+frmDiscoutVoucherReceipt.label4.Text :ລະຫັດເຂົ້າຄູປອງ
+frmDiscoutVoucherReceipt.label3.Text :ເຖິງວັນທີ
+frmDiscoutVoucherReceipt.label2.Text :ຕັ້ງແຕ່ວັນທີ
+frmDiscoutVoucherReceipt.label1.Text :ລະຫັດເຂົ້າຄູປອງ
+frmDiscoutVoucherReceipt.Text :ເຂົ້າຄູປອງ
+frmDiscoutVoucherDelivery.label3.Text :ເຖິງວັນທີ
+frmDiscoutVoucherDelivery.label2.Text :ຕັ້ງແຕ່ວັນທີ
+frmDiscoutVoucherDelivery.label1.Text :ລະຫັດຄູປອງ
+frmDiscoutVoucherDelivery.btnSearchVoucher.Text :ຊອກຫາ
+frmDiscoutVoucherDelivery.gbxDanhSach.Text :ລາຍຊື່
+frmDiscoutVoucherDelivery.gbxPhieuGiamGia.Text :ການອອກໃບຄູປອງ
+frmDiscoutVoucherDelivery.btnChonPhieu.Text :ເລືອກປີ້ຂອງທ່ານ
+frmDiscoutVoucherDelivery.label10.Text :ຄະແນນສຽງທັງໝົດ
+frmDiscoutVoucherDelivery.gbxTTPhieuXuatGG.Text :ຂໍ້ມູນຄູປອງ
+frmDiscoutVoucherDelivery.rbnExportStore.Text :ສົ່ງອອກຮ້ານອື່ນ
+frmDiscoutVoucherDelivery.rbnExportWasehouse.Text :ສົ່ງອອກໄປສາງ
+frmDiscoutVoucherDelivery.label9.Text :ສະຖານທີ່ອອກ
+frmDiscoutVoucherDelivery.label8.Text :ສະຖານທີຮັບ
+frmDiscoutVoucherDelivery.label7.Text :ເວລາຂອງການສົ່ງອອກ
+frmDiscoutVoucherDelivery.label6.Text :ໝາຍເຫດ
+frmDiscoutVoucherDelivery.label5.Text :ວັນທີສົ່ງອອກ
+frmDiscoutVoucherDelivery.label4.Text :ລະຫັດຄູປອງ
+frmDiscoutVoucherDelivery.Text :ການອອກໃບຄູປອງ
+frmDialogSearchInventory.btnSearch.Text :ຊອກຫາ
+frmDialogSearchInventory.rdbProductName.Text :ຊື່ສິນຄ້າ
+frmDialogSearchInventory.rdbProductCode.Text :ລະຫັດສິນຄ້າ
+frmDialogSearchInventory.groupBox3.Text :ລາຍຊື່
+frmDialogSearchInventory.clnProductCode.HeaderText :ລະຫັດສິນຄ້າ
+frmDialogSearchInventory.clnProductName.HeaderText :ຊື່ສິນຄ້າ
+frmDialogSearchInventory.clnPrice.HeaderText :ລາຄາ
+frmDialogSearchInventory.clnShortName.HeaderText :ສັ້ນ
+frmDialogSearchInventory.btnOK.Text :ຕົກລົງ
+frmDialogSearchInventory.btnClose.Text :ປິດ
+frmDialogSearchInventory.Text :ຄົ້ນຫາລະຫັດສິນຄ້າ
+frmDialogReportF1.btnPrint.Text :ພິມ
+frmDialogReportF1.btnExcel.Text :ສົ່ງອອກ Excel
+frmDialogReportF1.btnPO.Text :ປ່ຽນເປັນ PO
+frmDialogReportF1.btnClose.Text :ປິດ
+frmDialogReportF1.PRODUCT_ID.HeaderText :ລະຫັດສິນຄ້າ
+frmDialogReportF1.PRODUCT_NAME.HeaderText :ຊື່ສິນຄ້າ
+frmDialogReportF1.DAUKY.HeaderText :ເລີ່ມຕົ້ນ
+frmDialogReportF1.NHAP.HeaderText :ການນຳເຂົ້າ
+frmDialogReportF1.XUAT.HeaderText :ການສົ່ງອອກ
+frmDialogReportF1.TON.HeaderText :ຄວາມຢູ່ລ້ອດ
+frmDialogReportF1.LKTTT.HeaderText :LKTTT
+frmDialogReportF1.KHTTT.HeaderText :KHTTT
+frmDialogReportF1.DMKH.HeaderText :DMKH
+frmDialogReportF1.DTKH.HeaderText :DTKH
+frmDialogReportF1.DTTT.HeaderText :DTTT
+frmDialogReportF1.TKMIN.HeaderText :Min
+frmDialogReportF1.TKNEXT.HeaderText :ຕໍ່ໄປ
+frmDialogReportF1.TKLEAD.HeaderText :ນຳ
+frmDialogReportF1.YCTON.HeaderText :Y / c ມີຢູ່ແລ້ວ
+frmDialogReportF1.POCONFIRM.HeaderText :PO ຢືນ​ຢັນ
+frmDialogReportF1.PODVKH.HeaderText :PODVKH
+frmDialogReportF1.QC.HeaderText :QC
+frmDialogReportF1.SLT.HeaderText :ຈຳນວນທັງໝົດ
+frmDialogReportF1.THANHTIEN.HeaderText :ເງິນ
+frmDialogReportF1.CB.HeaderText :CB
+frmDialogReportF1.Text :ບົດລາຍງານ F1 ກ່ຽວກັບການນຳເຂົ້າແລະສົ່ງອອກ
+frmDialogProductSearch.btnSearch.Text :ຊອກຫາ
+frmDialogProductSearch.rdbTenHang.Text :ຊື່ສິນຄ້າ
+frmDialogProductSearch.rdbMaHang.Text :ລະຫັດສິນຄ້າ
+frmDialogProductSearch.groupBox2.Text :ລາຍຊື່
+frmDialogProductSearch.PRODUCT_ID.HeaderText :ລະຫັດສິນຄ້າ
+frmDialogProductSearch.PRODUCT_NAME.HeaderText :ຊື່ສິນຄ້າ
+frmDialogProductSearch.btnOK.Text :ຕົກລົງ
+frmDialogProductSearch.btnExit.Text :ປິດ
+frmDialogProductSearch.Text :ຄົ້ນຫາລະຫັດສິນຄ້າ
+frmDialogImport.btnDownloadPO.Text :ດາວໂຫຼດຂໍ້ມູນຈາກເຊີບເວີ
+frmDialogImport.tabPage3.Text :ສິນຄ້ານຳເຂົ້າ
+frmDialogImport.SaleOrderNumber.HeaderText :SO No
+frmDialogImport.ItemCode.HeaderText :ລະຫັດຜະລິດຕະພັນ
+frmDialogImport.ItemName.HeaderText :ຊື່ຜະລິດຕະພັນ
+frmDialogImport.Price.HeaderText :ລາຄາ
+frmDialogImport.Quantity.HeaderText :ຈຳນວນ
+frmDialogImport.Amount.HeaderText :ຈຳນວນ
+frmDialogImport.Unit.HeaderText :ຫົວໜ່ວຍ
+frmDialogImport.tabPage4.Text :ຂາຍໝົດລ້ວ
+frmDialogImport.SaleOrderNumberKM.HeaderText :SO No
+frmDialogImport.ItemCodeKM.HeaderText :ລະຫັດຜະລິດຕະພັນ
+frmDialogImport.ItemNameKM.HeaderText :ຊື່ຜະລິດຕະພັນ
+frmDialogImport.PriceKM.HeaderText :ລາຄາ
+frmDialogImport.QuantityKM.HeaderText :ຈຳນວນ
+frmDialogImport.AmountKM.HeaderText :ຈຳນວນ
+frmDialogImport.UnitKM.HeaderText :ຫົວໜ່ວຍ
+frmDialogImport.POCONumber.HeaderText :PO No
+frmDialogImport.SoNoiBo.HeaderText :ເລກພາຍໃນ
+frmDialogImport.OrderDate.HeaderText :ມື້
+frmDialogImport.tabPage2.Text :ປຽບທຽບ SO - PO
+frmDialogImport.chkDetail.Text :ເບິ່ງລາຍລະອຽດ
+frmDialogImport.btnSearch.Text :ຊອກຫາ
+frmDialogImport.btnClose.Text :ປິດ
+frmDialogImport.btnExcel.Text :Excel
+frmDialogImport.groupBox2.Text :ຂໍ້ມູນທີ່ແຕກຕ່າງກັນ
+frmDialogImport.label4.Text :ມາ
+frmDialogImport.label3.Text :SO No.
+frmDialogImport.label2.Text :ຜະລິດຕະພັນ
+frmDialogImport.label1.Text :ຕັ້ງແຕ່ວັນທີ
+frmDialogImport.btnImport.Text :ສິນຄ້ານຳເຂົ້າ
+frmDialogImport.btnExportExcel.Text :ສົ່ງອອກ Excel
+frmDialogImport.btnExit.Text :ປິດ
+frmDialogImport.Column1.HeaderText :ບໍ່
+frmDialogImport.SaleOrderNumberCol.HeaderText :SO No.
+frmDialogImport.ItemCodeCol.HeaderText :ລະຫັດສິນຄ້າ
+frmDialogImport.PONO.HeaderText :PO No.
+frmDialogImport.SOQuantityCol.HeaderText :ປະລິມານ SO
+frmDialogImport.POQuantityCol.HeaderText :ປະລິມານ PO
+frmDialogImport.SOPOCol.HeaderText :SO - PO
+frmDialogImport.NameCol.HeaderText :ຊື່​ສິນຄ້າ
+frmDialogImport.UnitCol.HeaderText :UOM
+frmDialogImport.PriceCol.HeaderText :ລາຄາ
+frmDialogImport.Text :ການ​ນຳ​​ເຂົ້າ
+frmCheckInventory.gbxSanPham.Text :ຂໍ້​ມູນ​ກ່ຽວ​ກັບ​ຜະລິດ​ຕະພັນ
+frmCheckInventory.btnCheck.Text :ກວດສອບ
+frmCheckInventory.label4.Text :ລາຄາ
+frmCheckInventory.label3.Text :ຕົວຫຍໍ້
+frmCheckInventory.label2.Text :ຊື່ຜະລິດຕະພັນ
+frmCheckInventory.label1.Text :ລະຫັດ​ຜະລິດ​ຕະພັນ
+frmCheckInventory.gpxTonKho.Text :ການລົງທຶນ
+frmCheckInventory.StoreName.HeaderText :ຮ້ານຄ້າ
+frmCheckInventory.StoreCode.HeaderText :ລະບົບ​ຕ່ອງ​ໂສ້
+frmCheckInventory.StoreLocation.HeaderText :ສະຖານ​ທີ່
+frmCheckInventory.Quantity.HeaderText :ການລົງທຶນ
+frmCheckInventory.StoreAddress.HeaderText :ທີ່ຢູ່​ຂອງ​ຮ້ານ
+frmCheckInventory.StoreTel.HeaderText :ໂທລະສັບ
+frmCheckInventory.StoreFax.HeaderText :Fax
+frmCheckInventory.btnExit.Text :ປິດ
+frmCheckInventory.Text :ການກວດ​ສອບ​ການ​ລົງທຶນ
+dlgSOImport.groupBox1.Text :​ໄຟ​ລ
+dlgSOImport.btnImportExcel.Text :​ແ​ບບຟອມນໍາ​ເຂົ້າ
+dlgSOImport.btnBegin.Text :​ເລີ່​ມຕົ້ນ
+dlgSOImport.label2.Text :​ໄຟ​ລ
+dlgSOImport.groupBox2.Text :ລາຍຊື່
+dlgSOImport.clnProductCode.HeaderText :ລະຫັດສິນຄ້າ
+dlgSOImport.clnProductName.HeaderText :ຊື່ສິນຄ້າ
+dlgSOImport.btnOK.Text :​ຕົກ​ລົງ
+dlgSOImport.btnClose.Text :ປິດ
+dlgSOImport.label5.Text :ລວມທັງໝົດ
+dlgSOImport.Text :ລະຫັດສ​ສິນຄ້າ​ນໍາ​ເຂົ້າ
+dlgChooseProduct.groupBox1.Text :​ເລື​ອກສິນຄ້າ
+dlgChooseProduct.columnHeader2.Text :ຜະລິດຕະພັນ
+dlgChooseProduct.columnHeader1.Text :ລະຫັດ​ຜະລິດ​ຕະພັນ
+dlgChooseProduct.clnProductCode.HeaderText :ລະຫັດ​ສິນຄ້າ
+dlgChooseProduct.clnProductName.HeaderText :ຊື່ສິນຄ້າ
+dlgChooseProduct.lblTotalProduct.Text :ລວມທັງໝົດ
+dlgChooseProduct.label1.Text :​ກັ່ນ​ຕອງ​ໂດຍ
+dlgChooseProduct.groupBox2.Text :​ເລືອກ
+dlgChooseProduct.lblTotalChoosed.Text :ລວມ
+dlgChooseProduct.clnProduct_Id.HeaderText :ລາຍ​ການ​ລະ​ຫັດ
+dlgChooseProduct.clnProduct_name.HeaderText :ລາຍ​ການ​ຊື່
+dlgChooseProduct.btnClose.Text :ປິດ
+dlgChooseProduct.btnSave.Text :ບັນ​ທຶກ
+dlgChooseProduct.tabPage2.Text :ຜະລິດຕະພັນ
+dlgChooseProduct.Text :ເລືອກ​ຜະ​ລິດ​ຕະ​ພັນ
+frmCouponStatus.groupBox2.Text:​ຂໍ້​ມູນ​ໂປ​ຣ​ແກ​ຣມ
+frmCouponStatus.label8.Text:ຫຼຸດ​ລົງ
+frmCouponStatus.label1.Text:ຊື່
+frmCouponStatus.label5.Text:ລະ​ຫັດ​ແບບ​ຟອມ
+frmCouponStatus.label3.Text:ເຖີງວັນ​ທີ
+frmCouponStatus.label6.Text:ຈາກວັນ​ທີ
+frmCouponStatus.btnSearch.Text:ຊອກຫາ
+frmCouponStatus.btnExit.Text:ປິດ
+frmCouponStatus.btnExport.Text:ເອັກ​ເຊວ
+frmCouponStatus.groupBox4.Text:ບັນ​ຊີ
+frmCouponStatus.btnGoPage.Text:ໄປ​ທີ່​ໜ້າ​ທີ
+frmCouponStatus.lblTotalRow.Text:ລວມ
+frmCouponStatus.lblPage.Text:ໜ້າ​ທີ
+frmCouponStatus.label2.Text:ເສັ້ນ/ໜ້າ​ທີ
+frmCouponStatus.groupBox3.Text:ຂໍ້​ມູນ​ຄູ​ປອງ
+frmCouponStatus.rdbCancel.Text:ຍົກ​ເລີກ
+frmCouponStatus.label4.Text:ມາ
+frmCouponStatus.rdbUsed.Text:ໃຊ້
+frmCouponStatus.rdbActive.Text:ໄດ້​ສົ່ງ​ອອກ
+frmCouponStatus.label7.Text:ແບບ​ຟ​ອມ​ມູນ​ຄ່າ
+frmCouponStatus.rdbWait.Text:ຍັງ​ບໍ່​ທັນ​ສົ່ງ​ອອກ​ເທື່ອ
+frmCouponStatus.groupBox1.Text:ຄົ້ນ​ຫາ
+frmCouponStatus.Column2.HeaderText:ຮ້ານຄ້າ
+frmCouponStatus.Column1.HeaderText:ລະ​ຫັດ​ແບບ​ຟອມ
+frmCouponStatus.colAmount.HeaderText:ຫຼຸດ​ລົງ
+frmCouponStatus.Column7.HeaderText:ຊະ​ນິດ
+frmCouponStatus.Column8.HeaderText:ສະ​ຖາ​ນະ
+frmCouponStatus.Column6.HeaderText:ລະ​ຫັດ​ໂປ​ຣ​ແກ​ຣມ
+frmCouponStatus.Column10.HeaderText:ຊື່​ຂອງ​ໂປ​ຣ​ແກ​ຣມ
+frmCouponStatus.Column5.HeaderText:ມື້​ເລີ່ມ​ຕົ້ນ
+frmCouponStatus.Column3.HeaderText:ວັນ​ທີ​ຈົບ
+frmCouponStatus.Text:ລາຍ​ງານ​ການ​ຂາຍ
+frmVoucherStatus.groupBox2.Text:ຄົ້ນ​ຫາ​ລາຍ​ງານ​ຂໍ້​ມູນ
+frmVoucherStatus.label3.Text:ເຖີງວັນ​ທີ
+frmVoucherStatus.label6.Text:ຈາກວັນ​ທີ
+frmVoucherStatus.btnSearch.Text:ຊອກ​ຫ​າ
+frmVoucherStatus.btnExit.Text:ປິດ
+frmVoucherStatus.btnExport.Text:ເອັກ​ເຊວ
+frmVoucherStatus.groupBox4.Text:ບັນ​ຊີ
+frmVoucherStatus.btnGoPage.Text:ໄປທີ່ໜ້າ
+frmVoucherStatus.lblTotalRow.Text:ລວມທັງໝົດ
+frmVoucherStatus.lblPage.Text:ໜ້າ
+frmVoucherStatus.label2.Text:ເສັ້ນ / ໜ້າ
+frmVoucherStatus.Column2.HeaderText:ຮ້ານຄ້າ
+frmVoucherStatus.Column1.HeaderText:ລະຫັດຟອມ
+frmVoucherStatus.colItem_de.HeaderText:ຕົວ​ຫານ
+frmVoucherStatus.colItem_real.HeaderText:ຫານ​ຕົວ​ຈິງ
+frmVoucherStatus.colBalance.HeaderText:ເກີນ​ໄປ
+frmVoucherStatus.Column6.HeaderText:ສະ​ຖາ​ນະ
+frmVoucherStatus.Column10.HeaderText:ສ້າງວັນ​ທີ
+frmVoucherStatus.Column5.HeaderText:​ລະ​ຫັດ​ເຊື່ອມ​ໂຍງ
+frmVoucherStatus.Text:ລາຍ​ງານ​ການ​ຂາຍ
+frmCompareImportProductReport.label10.Text:ເຖິງວັນທີ
+frmCompareImportProductReport.label9.Text:ວັນທີໃບບິນ
+frmCompareImportProductReport.label8.Text:ເລກ PO
+frmCompareImportProductReport.label7.Text:ຈຳ​ນວນ​ຊຸດ
+frmCompareImportProductReport.label6.Text:ຈຳ​ນວນ​ໃບ​ບິນ
+frmCompareImportProductReport.label4.Text:ຜະລິດຕະພັນ
+frmCompareImportProductReport.label3.Text:ຄຸນ​ລັກ​ສະ​ນະ​ຂອງ​ຜະ​ລິດ​ຕະ​ພັນ
+frmCompareImportProductReport.label2.Text:ເຖີງວັນ​ທີ
+frmCompareImportProductReport.label1.Text:ຈາກວັນ​ທີ
+frmCompareImportProductReport.btnSeach.Text:ຊອກ​ຫ​າ
+frmCompareImportProductReport.btnExport.Text:ເອັກ​ເຊວ
+frmCompareImportProductReport.btnExit.Text:ປິດ
+frmCompareImportProductReport.btnPrint.Text:ພິມ
+frmCompareImportProductReport.Text:04.06 ລາຍງານຄວາມແຕກຕ່າງຂອງລາຄາ
+frmEntryInventoryProductReportSale.groupBox2.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmEntryInventoryProductReportSale.label3.Text:ເຖິງວັນທີ
+frmEntryInventoryProductReportSale.label5.Text:ຜະລິດຕະພັນ
+frmEntryInventoryProductReportSale.label6.Text:ຕັ້ງແຕ່ວັນທີ
+frmEntryInventoryProductReportSale.btnSearch.Text:ຊອກຫາ
+frmEntryInventoryProductReportSale.btnExit.Text:ປິດ
+frmEntryInventoryProductReportSale.btnExport.Text:ເອັກເຊວ
+frmEntryInventoryProductReportSale.btnPrint.Text:ພິມ
+frmEntryInventoryProductReportSale.groupBox4.Text:ລາຍຊື່
+frmEntryInventoryProductReportSale.Column1.HeaderText:ອຸດສາຫະກຳ
+frmEntryInventoryProductReportSale.Column3.HeaderText:ລະຫັດສິນຄ້າ
+frmEntryInventoryProductReportSale.Column4.HeaderText:ຊື່ສິນຄ້າ
+frmEntryInventoryProductReportSale.Column5.HeaderText:UOM
+frmEntryInventoryProductReportSale.colDK.HeaderText:ໃນ​ໄລ​ຍະ​ເວ​ລາ​ເລີ່ມ​ຕົ້ນ​ຮຸ້ນ
+frmEntryInventoryProductReportSale.colPriceDK.HeaderText:ໃນ​ໄລ​ຍະ​ເວ​ລາ​ເລີ່ມ​ຕົ້ນ​ລາ​ຄາ
+frmEntryInventoryProductReportSale.colTotalDK.HeaderText:ຍອດ​ເງິນ​ເຫຼືອ
+frmEntryInventoryProductReportSale.colImTotal.HeaderText:ຊ່ວງ​ໄລ​ຍະ​ເວ​ລາ​ນຳ​ເຂົ້າ​ທັງ​ໝົດ
+frmEntryInventoryProductReportSale.colSumImPro.HeaderText:ເຂົ້າ​ສູ່​ການ​ຊື້
+frmEntryInventoryProductReportSale.colToTalIm.HeaderText:ຊື້​ເງິນ
+frmEntryInventoryProductReportSale.colQuanDC.HeaderText:ການ​ປັບ​ປຸງ​ປະ​ລິ​ມານ​ການ​ປ້ອນ​ຂໍ້​ມູນ
+frmEntryInventoryProductReportSale.colMoneyDC.HeaderText:ການ​ປັບ​ປຸງ​ເງິນ
+frmEntryInventoryProductReportSale.colTotalEx.HeaderText:ຊ່ວງ​ໄລ​ຍະ​ເວ​ລາ​ສົ່ງ​ອອກ​ທັງ​ໝົດ
+frmEntryInventoryProductReportSale.colExPro.HeaderText:ປິດ​ການ​ຂາຍ
+frmEntryInventoryProductReportSale.colTotalExPro.HeaderText:ຂາຍ​ເງິນ
+frmEntryInventoryProductReportSale.colPromotionPro.HeaderText:ຂາຍ KM
+frmEntryInventoryProductReportSale.colPromotion.HeaderText:ເງິນ KM
+frmEntryInventoryProductReportSale.colQuanExDC.HeaderText:ການ​ປັບ​ປຸງ​ປະ​ລິ​ມານ​ຜົນ​ຜະ​ລິດ
+frmEntryInventoryProductReportSale.colTotalExDC.HeaderText:ການ​ປັບ​ປຸງ​ການ​ຈ່າຍ​ເງິນ
+frmEntryInventoryProductReportSale.colTotalEnd.HeaderText:ຮຸ້ນ​ທີ່​ສິ້ນ​ສຸດ
+frmEntryInventoryProductReportSale.colEndPice.HeaderText:ລາ​ຄາ​ທີ່​ສິ້ນ​ສຸດ
+frmEntryInventoryProductReportSale.colSumTotalEnd.HeaderText:ຍອດ​ຈຳ​ນວນ​ເງິນ​ສຸດ​ທ້າຍ
+frmEntryInventoryProductReportSale.Text:06.01 ລາຍງານການຂາຍ
+frmInventoryReportSale.label4.Text:ຜະລິດຕະພັນ
+frmInventoryReportSale.label3.Text:ຄຸນລັກສະນະຂອງສິນຄ້າ
+frmInventoryReportSale.label1.Text:ເຖິງວັນທີ
+frmInventoryReportSale.btnSeach.Text:ຊອກຫາ
+frmInventoryReportSale.btnExport.Text:ເອັກເຊວ
+frmInventoryReportSale.btnExit.Text:ປິດ
+frmInventoryReportSale.Text:​06.01 ລາຍ​ງານ​ສິນ​ຄ້າ​ສາງ
+frmReportProductsSale.label10.Text:ເຖິງວັນທີ
+frmReportProductsSale.label9.Text:0
+frmReportProductsSale.label8.Text:ເລກ PO
+frmReportProductsSale.label7.Text:​ຈຳ​ນວນ​ຊຸດ
+frmReportProductsSale.label6.Text:ຈຳ​ນວນ​ໃບ​ບິນ
+frmReportProductsSale.label5.Text:ປະເພດຂາເຂົ້າ
+frmReportProductsSale.label4.Text:ຜະລິດຕະພັນ
+frmReportProductsSale.label3.Text:​ຄຸນ​ລັກ​ສະ​ນະ​ຜະ​ລິດ​ຕະ​ພັນ
+frmReportProductsSale.label2.Text:ເຖິງວັນທີ
+frmReportProductsSale.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmReportProductsSale.btnSeach.Text:ຊອກຫາ
+frmReportProductsSale.btnExport.Text:ເອັກເຊວ
+frmReportProductsSale.btnExit.Text:ປິດ
+frmReportProductsSale.Text:ຮ້ານນຳເຂົ້າ
+frmSalePromotionGifts.groupBox2.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmSalePromotionGifts.label1.Text:ລະຫັດໃບບິນ
+frmSalePromotionGifts.label3.Text:ເຖິງວັນທີ
+frmSalePromotionGifts.label5.Text:ຜະລິດຕະພັນ
+frmSalePromotionGifts.label6.Text:ຕັ້ງແຕ່ວັນທີ
+frmSalePromotionGifts.btnSearch.Text:ຊອກຫາ
+frmSalePromotionGifts.btnExit.Text:ປິດ
+frmSalePromotionGifts.btnExport.Text:ເອັກເຊວ
+frmSalePromotionGifts.btnPrint.Text:ພິມ
+frmSalePromotionGifts.groupBox4.Text:ລາຍຊື່
+frmSalePromotionGifts.Column2.HeaderText:ວັນທີຂາຍ
+frmSalePromotionGifts.Column1.HeaderText:ອຸດສາຫະກຳ
+frmSalePromotionGifts.Column3.HeaderText:ລະຫັດສິນຄ້າ
+frmSalePromotionGifts.Column4.HeaderText:ໃບບິນ
+frmSalePromotionGifts.Column9.HeaderText:ປະລິມານ
+frmSalePromotionGifts.Column7.HeaderText:ລາຄາ
+frmSalePromotionGifts.Column8.HeaderText:ຈຳນວນ
+frmSalePromotionGifts.Column6.HeaderText:ບາໂຄດ
+frmSalePromotionGifts.Column10.HeaderText:ລະຫັດສິນຄ້າ
+frmSalePromotionGifts.Column5.HeaderText:UOM
+frmSalePromotionGifts.btnGoPage.Text:ໄປທີ່ໜ້າ
+frmSalePromotionGifts.lblTotalRow.Text:ລວມທັງໝົດ
+frmSalePromotionGifts.lblPage.Text:ໜ້າ
+frmSalePromotionGifts.label2.Text:ເສັ້ນ / ໜ້າ
+frmSalePromotionGifts.Text:06.01 ລາຍງານການຂາຍ
+rptExportProductsStoreSale.label8.Text:ເລກ PO
+rptExportProductsStoreSale.label7.Text:ໝາຍເລກພາຍໃນ
+rptExportProductsStoreSale.label6.Text:ຈຳ​ນວນ​ໃບ​ບິນ
+rptExportProductsStoreSale.label5.Text:ປະເພດຜົນໄດ້ຮັບ
+rptExportProductsStoreSale.label4.Text:ຜະລິດຕະພັນ
+rptExportProductsStoreSale.label3.Text:ຄຸນລັກສະນະຂອງສິນຄ້າ
+rptExportProductsStoreSale.label2.Text:ເຖິງວັນທີ
+rptExportProductsStoreSale.label1.Text:ຕັ້ງແຕ່ວັນທີ
+rptExportProductsStoreSale.btnSeach.Text:ຊອກຫາ
+rptExportProductsStoreSale.btnExit.Text:ປິດ
+rptExportProductsStoreSale.btnPrint.Text:ພິມ
+rptExportProductsStoreSale.Text:​ສິນ​ຄ້າ​ໝົດ
+frmCashReport.groupBox2.Text:ລາຍ​ງານ​ຄົ້ນ​ຫາ​ຂໍ້​ມູນ
+frmCashReport.chkPayment.Text:ລາຍ​ງານລາຍ​ຈ່າຍ​ເງິນ​ສົດ
+frmCashReport.chkReceipt.Text:​ລາຍ​ງານ​ການ​ເກັບ​ເງິນ
+frmCashReport.label3.Text:ເຖິງວັນທີ
+frmCashReport.label6.Text:ຕັ້ງແຕ່ວັນທີ
+frmCashReport.btnSearch.Text:ຊອກຫາ
+frmCashReport.btnExit.Text:ປິດ
+frmCashReport.btnExport.Text:ເອັກເຊວ
+frmCashReport.groupBox4.Text:ລາຍຊື່
+frmCashReport.btnGoPage.Text:ໄປທີ່ໜ້າ
+frmCashReport.lblTotalRow.Text:ລວມທັງໝົດ
+frmCashReport.lblPage.Text:ໜ້າ
+frmCashReport.label2.Text:ເສັ້ນ / ໜ້າ
+frmCashReport.Column2.HeaderText:ປະເພດລະຫັດ
+frmCashReport.Column1.HeaderText:ຊື່ພະນັກງານ
+frmCashReport.Column3.HeaderText:ຊື່​ແທ້
+frmCashReport.clnCashPerson.HeaderText:ຄົນທີ່ໃຊ້ເງິນ
+frmCashReport.clnMasterName.HeaderText:ປະເພດໃບຮັບເງິນ
+frmCashReport.colAmount.HeaderText:ຈຳນວນເງິນ
+frmCashReport.Column6.HeaderText:ເງິນຕາ
+frmCashReport.Column10.HeaderText:ອັດ​ຕາ​ແລກ​ປ່ຽນ
+frmCashReport.colTotal.HeaderText:ຈຳນວນ
+frmCashReport.Column5.HeaderText:ຮ້ານຄ້າ
+frmCashReport.Column11.HeaderText:ສ້າງວັນທີ
+frmCashReport.Text:06.01 ລາຍງານການຂາຍ
+frmItemReturnReport.groupBox1.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmItemReturnReport.label2.Text:ເຖິງວັນທີ
+frmItemReturnReport.label4.Text:ຜະລິດຕະພັນ
+frmItemReturnReport.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmItemReturnReport.btnPrint.Text:ພິມ
+frmItemReturnReport.btnExport.Text:ເອັກເຊວ
+frmItemReturnReport.btnExit.Text:ປິດ
+frmItemReturnReport.groupBox2.Text:ເຫດຜົນສຳລັບການຈັດສົ່ງ
+frmItemReturnReport.btnSearch.Text:ຊອກຫາ
+frmItemReturnReport.groupBox4.Text:ລາຍຊື່
+frmItemReturnReport.Column1.HeaderText:ລະຫັດກັບຄືນ - ໃບເກັບເງິນ - ລູກຄ້າ
+frmItemReturnReport.Column2.HeaderText:ອຸດສາຫະກຳ
+frmItemReturnReport.Column3.HeaderText:ລະຫັດຜະລິດຕະພັນ
+frmItemReturnReport.Column4.HeaderText:ຊື່ຜະລິດຕະພັນ
+frmItemReturnReport.Column5.HeaderText:UOM
+frmItemReturnReport.colQuan.HeaderText:ຈຳນວນ
+frmItemReturnReport.colPrice.HeaderText:ລາຄາ
+frmItemReturnReport.ColTotal.HeaderText:ຈຳນວນ
+frmItemReturnReport.ColTotalReturn.HeaderText:ການສົ່ງເງິນຄືນ
+frmItemReturnReport.Column10.HeaderText:ມື້ຈ່າຍເງິນ
+frmItemReturnReport.Column11.HeaderText:ເຫດຜົນສຳລັບການຈ່າຍເງິນ
+frmItemReturnReport.Column12.HeaderText:ຄຳຕິຊົມ
+frmItemReturnReport.Text:06.01 ລາຍງານການຂາຍ
+frmLiablityReport.groupBox1.Text:ຄົ້ນຫາ
+frmLiablityReport.label6.Text:ຕັ້ງແຕ່ວັນທີ
+frmLiablityReport.label3.Text:ເຖິງວັນທີ
+frmLiablityReport.groupBox3.Text:ຂໍ້ມູນຄູປອງ
+frmLiablityReport.rdbCancel.Text:ຢຸດເຊົາ
+frmLiablityReport.label4.Text:ມາ
+frmLiablityReport.rdbUsed.Text:ໃຊ້
+frmLiablityReport.rdbActive.Text:ສົ່ງອອກ
+frmLiablityReport.label7.Text:ຄຸນຄ່າຈາກ
+frmLiablityReport.rdbWait.Text:ຍັງບໍ່ໄດ້ສົ່ງອອກເທື່ອ
+frmLiablityReport.groupBox2.Text:ຂໍ້ມູນໂຄງການ
+frmLiablityReport.label8.Text:ຫຼຸດລົງ
+frmLiablityReport.label1.Text:ຊື່
+frmLiablityReport.label5.Text:ລະຫັດແບບຟອມ
+frmLiablityReport.btnExit.Text:ປິດ
+frmLiablityReport.btnExport.Text:ເອັກເຊວ
+frmLiablityReport.btnSearch.Text:ພິມ
+frmLiablityReport.Text:06.01 ບົດລາຍງານໜີ້
+frmCreateReasion.label1.Text:ຊື່
+frmCreateReasion.btnSave.Text:ບັນທຶກ
+frmCreateReasion.Text:ເພີ່ມເງື່ອນໄຂ
+frmCustomerListSearchByNoExportCode.groupBox1.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmCustomerListSearchByNoExportCode.btnPrint.Text:ພິມ
+frmCustomerListSearchByNoExportCode.btnExit.Text:ປິດ
+frmCustomerListSearchByNoExportCode.btnExport.Text:ເອັກເຊວ
+frmCustomerListSearchByNoExportCode.btnSeach.Text:ຊອກຫາ
+frmCustomerListSearchByNoExportCode.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmCustomerListSearchByNoExportCode.groupBox2.Text:ລາຍຊື່
+frmCustomerListSearchByNoExportCode.CUSTOMER_ID.HeaderText:ລະຫັດລູກຄ້າ
+frmCustomerListSearchByNoExportCode.CUSTOMER_NAME.HeaderText:ລະຫັດລູກຄ້າ
+frmCustomerListSearchByNoExportCode.ADDRESSS.HeaderText:ທີ່ຢູ່
+frmCustomerListSearchByNoExportCode.lblCount.Text:ລວມທັງໝົດ
+frmCustomerListSearchByNoExportCode.btnChoosePage.Text:ໄປທີ່ໜ້າ
+frmCustomerListSearchByNoExportCode.lblPage.Text:ໜ້າ
+frmCustomerListSearchByNoExportCode.label6.Text:ເສັ້ນ / ໜ້າ
+frmCustomerListSearchByNoExportCode.Text:06.07 ການລາຍງານລາຍຊື່ລູກຄ້າໂດຍບໍ່ມີການເຮັດທຸລະກຳ
+frmDeleteResion.Resion.Text:ສະພາບການ
+frmDeleteResion.btnExit.Text:ປິດ
+frmDeleteResion.btnDelete.Text:ເອັກເຊວ
+frmDeleteResion.Text:ສະພາບການ
+frmEmployeeSearchSale.gbxToChuc.Text:ການຈັດຕັ້ງ
+frmEmployeeSearchSale.btnEmployeeSearch.Text:ຊອກຫາ
+frmEmployeeSearchSale.gbxNhanVien.Text:ພະນັກງານ
+frmEmployeeSearchSale.lblPage.Text:ໜ້າ
+frmEmployeeSearchSale.lblRowlist.Text:ລວມທັງໝົດ
+frmEmployeeSearchSale.columnHeader1.Text:ລະຫັດພະນັກງານ
+frmEmployeeSearchSale.columnHeader2.Text:ຊື່
+frmEmployeeSearchSale.columnHeader3.Text:ນາມສະກຸນ
+frmEmployeeSearchSale.groupBox3.Text:ເລືອກ
+frmEmployeeSearchSale.columnHeader4.Text:ລະຫັດພະນັກງານ
+frmEmployeeSearchSale.columnHeader5.Text:ຊື່
+frmEmployeeSearchSale.columnHeader6.Text:ນາມສະກຸນ
+frmEmployeeSearchSale.columnHeader7.Text:ພະແນກ
+frmEmployeeSearchSale.btnOK.Text:ຕົກລົງ
+frmEmployeeSearchSale.btnCancel.Text:ປິດ
+frmEmployeeSearchSale.tabPage1.Text:ລາຍຊື່ພະນັກງານ
+frmEmployeeSearchSale.Text:ຊອກຫາພະນັກງານ
+
+frmInvoicher.lblScount.Text:ໄປທີ່ໜ້າ
+frmInvoicher.btnChoosePage.Text:ໜ້າ
+frmInvoicher.lblPage.Text:ເສັ້ນ / ໜ້າ
+frmInvoicher.label6.Text:ລາຍຊື່
+frmInvoicher.groupBox2.Text:ບໍ່
+frmInvoicher.STT.HeaderText:ຄົ້ນຫາຂໍ້ມູນ
+frmInvoicher.groupBox1.Text:​ຈຳ​ນວນ​ແບບ​ຟອມ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmInvoicher.chkFromInvoi.Text:ປິດ
+frmInvoicher.btnExit.Text:ເອັກເຊວ
+frmInvoicher.btnExport.Text:ເຖິງວັນທີ
+frmInvoicher.label2.Text:ຊອກຫາ
+frmInvoicher.btnSeach.Text:ຕັ້ງແຕ່ວັນທີ
+frmInvoicher.label1.Text:ຈາກວັນ​ທີ
+frmInvoicher.Text:​ລາຍ​ງານ​ການ​ເກັບ​ເງິນ
+frmInvoicherManagement.lblSCount.Text:ລວມ​ທັງ​ໝົດ
+frmInvoicherManagement.btnChoosePage.Text:​ໄປ​ທີ່​ໜ້າ​ທີ
+frmInvoicherManagement.label3.Text:​ໜ້າ​ທີ
+frmInvoicherManagement.label6.Text:​ເສັ້ນ/ໜ້າ​ທີ
+frmInvoicherManagement.groupBox2.Text:​ລາຍ​ການ
+frmInvoicherManagement.STT.HeaderText:ບໍ່
+frmInvoicherManagement.groupBox1.Text:​ຄົ້ນ​ຫາ​ຂໍ້​ມູນ
+frmInvoicherManagement.chkToMoney.Text:​ມາ
+frmInvoicherManagement.chkFromMoney.Text:​ຈຳ​ນວນ​ຄຳ
+frmInvoicherManagement.btnExit.Text:​ປິດ
+frmInvoicherManagement.btnExport.Text:​ເອັກ​ເຊວ
+frmInvoicherManagement.label2.Text:​ເຖິງວັນ​ທີ
+frmInvoicherManagement.btnSeach.Text:​ຊອກ​ຫາ
+frmInvoicherManagement.label1.Text:​ຈາກ​ວັນ​ທີ
+frmInvoicherManagement.Text:ລາຍງານການຂາຍໂດຍໃບເກັບເງິນ
+frmListCustomerReport.lblPage.Text:ໜ້າ
+frmListCustomerReport.lblSCount.Text:ລວມທັງໝົດ
+frmListCustomerReport.btnChoosePage.Text:ໄປທີ່ໜ້າ
+frmListCustomerReport.label11.Text:ເສັ້ນ / ໜ້າ
+frmListCustomerReport.groupBox1.Text:ລາຍລະອຽດ
+frmListCustomerReport.chkNo.Text:ບໍ່ແມ່ນ
+frmListCustomerReport.chkYes.Text:ມີ
+frmListCustomerReport.chkToMoney.Text:ອື່ນໆ
+frmListCustomerReport.label7.Text:ເປີດໃຊ້ງານແລ້ວ
+frmListCustomerReport.label5.Text:ກຸ່ມ KH
+frmListCustomerReport.label4.Text:ການແຕ່ງງານ
+frmListCustomerReport.label3.Text:ອາຊີບ
+frmListCustomerReport.label1.Text:ເພດ
+frmListCustomerReport.groupBox2.Text:ການສື່ສານ
+frmListCustomerReport.label13.Text:ແຂວງ / ເມືອງ
+frmListCustomerReport.label12.Text:ປະເທດ
+frmListCustomerReport.btnSeach.Text:ຊອກຫາ
+frmListCustomerReport.btnExport.Text:ເອັກເຊວ
+frmListCustomerReport.groupBox5.Text:ລາຍຊື່
+frmListCustomerReport.btnExit.Text:ປິດ
+frmListCustomerReport.CUSTOMER_ID.HeaderText:ລະຫັດລູກຄ້າ
+frmListCustomerReport.FIRST_NAME.HeaderText:ຊື່
+frmListCustomerReport.LAST_NAME.HeaderText:ນາມສະກຸນ
+frmListCustomerReport.DATE_OF_BIRTH.HeaderText:ວັນເດືອນປີເກີດ
+frmListCustomerReport.YEAR_OF_BIRTH.HeaderText:ປີເກີດ
+frmListCustomerReport.PLACE_OF_BIRTH.HeaderText:ສະຖານທີ່ເກີດ
+frmListCustomerReport.TEL.HeaderText:ເບີໂທລະສັບ
+frmListCustomerReport.MOBILE_PHONE.HeaderText:ເບີມືຖື
+frmListCustomerReport.EMAIL_ADDRESS.HeaderText:ທີ່ຢູ່ອີເມວ
+frmListCustomerReport.FAX.HeaderText:ເບີແຟັກ
+frmListCustomerReport.ADDRESS.HeaderText:ທີ່ຢູ່
+frmListCustomerReport.Country.HeaderText:ປະເທດ
+frmListCustomerReport.City.HeaderText:ຕົວເມືອງ
+frmListCustomerReport.DISTRICT_OTHER.HeaderText:ເມືອງ
+frmListCustomerReport.COMMUNES_WARDS.HeaderText:​ເຂດ​ເລືອກ​ຕັ້ງ
+frmListCustomerReport.HOUSE_STREET.HeaderText:ເບີຫ້ອງອາພາດເມັນ
+frmListCustomerReport.WORKING_OFFICE.HeaderText:ສະຖານທີ່ເຮັດວຽກ
+frmListCustomerReport.OFFICE_ADDRESS.HeaderText:ທີ່ຢູ່ບ່ອນເຮັດວຽກ
+frmListCustomerReport.Sex.HeaderText:ເພດ
+frmListCustomerReport.Column21.HeaderText:ກຸບເລືອດ
+frmListCustomerReport.RaceName.HeaderText:ເຊື້ອຊາດ
+frmListCustomerReport.RegionName.HeaderText:ສາສະໜາ
+frmListCustomerReport.OCCUPATION_OTHER.HeaderText:ອາຊີບອື່ນໆ
+frmListCustomerReport.Column25.HeaderText:ອາຊີບ
+frmListCustomerReport.Marital.HeaderText:ການແຕ່ງງານ
+frmListCustomerReport.Column27.HeaderText:ກຸ່ມ KH
+frmListCustomerReport.ID_NO.HeaderText:ລະຫັດບັດ
+frmListCustomerReport.ID_NO_ISSUED_DATE.HeaderText:ວັນທີອອກບັດ
+frmListCustomerReport.ID_NO_ISSUED_PLACE.HeaderText:ອອກໂດຍ
+frmListCustomerReport.PASSPORT_NO.HeaderText:ໜັງສືຜ່ານແດນ
+frmListCustomerReport.PASSPORT_NO_EXPIRY_DATE.HeaderText:ວັນທີອອກໜັງສືຜ່ານແດນ
+frmListCustomerReport.PASSPORT_NO_ISSUED_DATE.HeaderText:ວັນໝົດອາຍຸໜັງສືຜ່ານແດນ
+frmListCustomerReport.PASSPORT_NO_ISSUED_PLACE.HeaderText:ສະຖານທີ່ອອກໜັງສືຜ່ານແດນ
+frmListCustomerReport.REMARK.HeaderText:ໝາຍເຫດ
+frmListCustomerReport.CREATE_DATE.HeaderText:ສ້າງວັນທີ
+frmListCustomerReport.CREATE_BY.HeaderText:ຜູ້ສ້າງ
+frmListCustomerReport.UPDATE_DATE.HeaderText:ມື້ປັງປຸງ
+frmListCustomerReport.LAST_UPDATE_BY.HeaderText:ບຸກຄົນທີ່ຖືກປັບປຸງ
+frmListCustomerReport.Text:ລາຍງານລາຍຊື່ຂອງລູກຄ້າ
+frmProductReportSearch.label1.Text:ສະພາບການ
+frmProductReportSearch.tabReasion.Text:ສະພາບການ
+frmProductReportSearch.groupBox2.Text:ຄຸນສົມບັດ
+frmProductReportSearch.groupBox1.Text:ກຸ່ມຜະລິດຕະພັນ
+frmProductReportSearch.groupBox3.Text:ລາຍຊື່ຖັນ
+frmProductReportSearch.btnClose.Text:ປິດ
+frmProductReportSearch.btnSave.Text:ບັນທຶກ
+frmProductReportSearch.btnInsert.Text:ເພີ່ມ
+frmProductReportSearch.btnOK.Text:ຍອມຮັບ
+frmProductReportSearch.Text:ຄຳຄົ້ນຫາ
+frmReportSale.btnSeach.Text:ຊອກຫາ
+frmReportSale.btnExport.Text:ການສົ່ງອອກຂໍ້ມູນ
+frmReportSale.btnExit.Text:ປິດ
+frmReportSale.label5.Text:ນັກສະສົມ
+frmReportSale.label4.Text:ຜະລິດຕະພັນ
+frmReportSale.label3.Text:ຄຸນລັກສະນະຂອງສິນຄ້າ
+frmReportSale.label2.Text:ເຖິງວັນທີ
+frmReportSale.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmReportSale.groupBox2.Text:ລາຍຊື່
+frmReportSale.Column1.HeaderText:ລະຫັດບິນ
+frmReportSale.Column2.HeaderText:ລະຫັດລູກຄ້າ
+frmReportSale.Column3.HeaderText:ຊື່​ແທ້
+frmReportSale.CAT.HeaderText:ອຸດສາຫະກຳ
+frmReportSale.Column5.HeaderText:ລະຫັດຜະລິດຕະພັນ
+frmReportSale.Column6.HeaderText:ຊື່ຜະລິດຕະພັນ
+frmReportSale.Column7.HeaderText:UOM
+frmReportSale.Column8.HeaderText:ວັນທີຂາຍ
+frmReportSale.Column9.HeaderText:ຈຳນວນ
+frmReportSale.Column10.HeaderText:ລາຄາ
+frmReportSale.Column11.HeaderText:ລວມທັງໝົດ
+frmReportSale.Column12.HeaderText:ຜະລິດຕະພັນ
+frmReportSale.Column13.HeaderText:ຈ່າຍ
+frmReportSale.Column14.HeaderText:ໝາຍເຫດ
+frmReportSale.Column15.HeaderText:ລະຫັດພະນັກງານ
+frmReportSale.Column16.HeaderText:​ຊື່​ແທ້
+frmReportSale.Column17.HeaderText:ຮ້ານຄ້າ
+frmReportSale.Column18.HeaderText:ລະບົບຕ່ອງໂສ້ຂອງຮ້ານຄ້າ
+frmReportSale.Column19.HeaderText:ກຸ່ມຜະລິດຕະພັນ
+frmReportSale.lblPage.Text:ໜ້າ
+frmReportSale.lblScount.Text:ລວມທັງໝົດ
+frmReportSale.btnChoosePage.Text:ໄປທີ່ໜ້າ
+frmReportSale.btnPrint.Text:ພິມ
+frmReportSale.Text:06.01 ລາຍງານການຂາຍ
+frmSalesExportSearchReportByCat.btnDownList.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmSalesExportSearchReportByCat.btnPrint.Text:ພິມ
+frmSalesExportSearchReportByCat.btnExit.Text:ປິດ
+frmSalesExportSearchReportByCat.btnExport.Text:ເອັກເຊວ
+frmSalesExportSearchReportByCat.label2.Text:ເຖິງວັນທີ
+frmSalesExportSearchReportByCat.btnSeach.Text:ຊອກຫາ
+frmSalesExportSearchReportByCat.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmSalesExportSearchReportByCat.groupBox2.Text:ລາຍຊື່
+frmSalesExportSearchReportByCat.lblPage.Text:ໜ້າ
+frmSalesExportSearchReportByCat.lblScount.Text:ລວມທັງໝົດ
+frmSalesExportSearchReportByCat.btnChoosePage.Text:ໄປທີ່ໜ້າ
+frmSalesExportSearchReportByCat.label6.Text:ເສັ້ນ / ໜ້າ
+frmSalesExportSearchReportByCat.STT.HeaderText:ບໍ່
+frmSalesExportSearchReportByCat.Text:06.03 ລາຍງານໜັງສືພິມ ໂດຍ CAT
+frmSalesReportByCustomerSale.groupBox2.Text:ບົດລາຍງານການຄົ້ນຫາຂໍ້ມູນ
+frmSalesReportByCustomerSale.label18.Text:ຄຸນລັກສະນະຂອງສິນຄ້າ
+frmSalesReportByCustomerSale.label17.Text:ອາຍຸຈາກ
+frmSalesReportByCustomerSale.groupBox7.Text:ສ້າງວັນທີ
+frmSalesReportByCustomerSale.label14.Text:ເຖິງວັນທີ
+frmSalesReportByCustomerSale.label15.Text:ຕັ້ງແຕ່ວັນທີ
+frmSalesReportByCustomerSale.groupBox6.Text:ການສື່ສານ
+frmSalesReportByCustomerSale.label13.Text:ແຂວງ / ເມືອງ
+frmSalesReportByCustomerSale.label12.Text:ປະເທດ
+frmSalesReportByCustomerSale.groupBox5.Text:ລາຍລະອຽດ
+frmSalesReportByCustomerSale.label10.Text:ກຸ່ມ KH
+frmSalesReportByCustomerSale.label11.Text:ການແຕ່ງງານ
+frmSalesReportByCustomerSale.chkToMoney.Text:ອື່ນໆ
+frmSalesReportByCustomerSale.label3.Text:ອາຊີບ
+frmSalesReportByCustomerSale.label7.Text:ເພດ
+frmSalesReportByCustomerSale.label4.Text:ຜະລິດຕະພັນ
+frmSalesReportByCustomerSale.label19.Text:ລາຍຊື່ພະນັກງານ
+frmSalesReportByCustomerSale.label2.Text:ເຖິງວັນທີ
+frmSalesReportByCustomerSale.label1.Text:ຕັ້ງແຕ່ວັນທີ
+frmSalesReportByCustomerSale.btnExit.Text:ປິດ
+frmSalesReportByCustomerSale.btnExport.Text:ເອັກເຊວ
+frmSalesReportByCustomerSale.btnSeach.Text:ຄົ້ນຫາ
+frmSalesReportByCustomerSale.groupBox1.Text:ລາຍຊື່
+frmSalesReportByCustomerSale.Column1.HeaderText:ຮ້ານຄ້າ
+frmSalesReportByCustomerSale.Column2.HeaderText:ລະບົບຕ່ອງໂສ້
+frmSalesReportByCustomerSale.Column3.HeaderText:ລະຫັດໃບບິນ
+frmSalesReportByCustomerSale.CUSTOMER_ID.HeaderText:ລະຫັດລູກຄ້າ
+frmSalesReportByCustomerSale.Column5.HeaderText:ຊື່ເຕັມ
+frmSalesReportByCustomerSale.Column6.HeaderText:ອຸດສາຫະກຳ
+frmSalesReportByCustomerSale.Column7.HeaderText:ກຸ່ມຜະລິດຕະພັນ
+frmSalesReportByCustomerSale.Column8.HeaderText:ລະຫັດຜະລິດຕະພັນ
+frmSalesReportByCustomerSale.Column9.HeaderText:ຊື່ຜະລິດຕະພັນ
+frmSalesReportByCustomerSale.Column10.HeaderText:UOM
+frmSalesReportByCustomerSale.Column11.HeaderText:ບາໂຄດ
+frmSalesReportByCustomerSale.Column12.HeaderText:ວັນທີຂາຍ
+frmSalesReportByCustomerSale.Column13.HeaderText:ຈຳນວນ
+frmSalesReportByCustomerSale.Column14.HeaderText:ລາຄາ
+frmSalesReportByCustomerSale.Column15.HeaderText:ລວມທັງໝົດ
+frmSalesReportByCustomerSale.Column16.HeaderText:ຫຼຸດາຄາ
+frmSalesReportByCustomerSale.Column17.HeaderText:ຫຼຸດາຄາ
+frmSalesReportByCustomerSale.Column18.HeaderText:ຫຼຸດລາຄາຕາມບັດລູກຄ້າ
+frmSalesReportByCustomerSale.Column19.HeaderText:ໂປໂມຊັນ
+frmSalesReportByCustomerSale.Column20.HeaderText:ຈຳນວນເງິນທີ່ຈ່າຍທັງໝົດ
+frmSalesReportByCustomerSale.Column21.HeaderText:ໝາຍເຫດ
+frmSalesReportByCustomerSale.Column22.HeaderText:ລະຫັດພະນັກງານ
+frmSalesReportByCustomerSale.Column23.HeaderText:​ຊື່​ແທ້
+frmSalesReportByCustomerSale.label6.Text:ເສັ້ນ / ໜ້າ
+frmSalesReportByCustomerSale.lblPage.Text:ໜ້າ
+frmSalesReportByCustomerSale.btnChoosePage.Text:ໄປທີ່ໜ້າ
+frmSalesReportByCustomerSale.lblSumCount.Text:ລວມທັງໝົດ
+frmSalesReportByCustomerSale.btnPrint.Text:ພິມໜ້າ
+frmSalesReportByCustomerSale.Text:06.02 ລາຍງານກ່ຽວກັບການຂາຍຂອງລູກຄ້າ, ໂດຍພະນັກງານຂາຍ
+
+frmEmployeeSearchReport.gbxToChuc.Text:​ອົງ​ການ​ຈັດ​ຕັງ
+frmEmployeeSearchReport.btnEmployeeSearch.Text:​ຊອກ​ຫາ
+frmEmployeeSearchReport.gbxNhanVien.Text:​ພະ​ນັກ​ງານ
+frmEmployeeSearchReport.columnHeader1.Text:​ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeSearchReport.columnHeader2.Text:​ຊື່
+frmEmployeeSearchReport.columnHeader3.Text:ນາມ​ສະ​ກຸນ
+frmEmployeeSearchReport.groupBox3.Text:ເລືອກ
+frmEmployeeSearchReport.columnHeader4.Text:​ລະ​ຫັດ​ພະ​ນັກ​ງານ
+frmEmployeeSearchReport.columnHeader5.Text:ຊື່
+frmEmployeeSearchReport.columnHeader6.Text:ນາມ​ສະ​ກຸນ
+frmEmployeeSearchReport.columnHeader7.Text:ພະ​ແນກ
+frmEmployeeSearchReport.btnOK.Text:ຕົກ​ລົງ
+frmEmployeeSearchReport.btnCancel.Text:ປິດ
+frmEmployeeSearchReport.Text:ຊອກ​ຫາ​ພະ​ນັກ​ງານ
+
+frmReport.btnOpen.Text:ເປີດ
+frmReport.btnClose.Text:ປິດ
+frmReport.Text:ລາຍ​ງານ​ການ​ຄຸ້ມ​ຄອງ
+
+frmAddEditUser.groupBox1.Text :ຜູ້​ນຳ​ໃຊ້​ຂໍ້​ມູນ
+frmAddEditUser.cbxPermissionChangePrice.Text :ອະ​ນຸ​ຍາດ​ການ​ປ່ຽນ​ລາ​ຄາ
+frmAddEditUser.cbxPermissionDiscount.Text :ອະ​ນຸ​ຍາດ​ການຫຼຸດ​ລາ​ຄາ&​ລຶບ​ໃບ​ແຈ້ງ​ລາ​ຄາ
+frmAddEditUser.rbtAdmin.Text :​ກຸ່ມ​ຜູ້​ຈັດ​ການ
+frmAddEditUser.rbtShop.Text :ກຸ່ມ​ຮ້ານ
+frmAddEditUser.label9.Text :ກຸ່ມ​ຜູ້​ນຳ​ໃຊ້
+frmAddEditUser.label8.Text :ໝາຍ​ເຫດ
+frmAddEditUser.label7.Text :ອີ​ເມວ
+frmAddEditUser.label6.Text :ໂທ​ລະ​ສັບ
+frmAddEditUser.label5.Text :ຊື່
+frmAddEditUser.label4.Text :ນາມ​ສະ​ກຸນ
+frmAddEditUser.label3.Text :ຢັ້ງ​ຢືນ​ລະ​ຫັດ​ຜ່ານ
+frmAddEditUser.label2.Text :ລະ​ຫັດ​ຜ່ານ
+frmAddEditUser.label1.Text :ຊື່​ຜູ້​ນຳ​ໃຊ້
+frmAddEditUser.button1.Text :ບັນ​ທຶກ
+frmAddEditUser.button2.Text :ປິດ
+frmAddEditUser.Text :ຜູ້​ນຳ​ໃຊ້
+
+FrmGroupUser.tabUsers.Text :ຜູ້​ນຳ​ໃຊ້
+FrmGroupUser.rbtGroupManagement.Text :ກຸ່ມ​ຜູ້​ຈັດ​ການ
+FrmGroupUser.rbtGroupStore.Text :ກຸ່ມ​ຮ້ານ
+FrmGroupUser.label5.Text :ກຸ່ມ​ຜູ້​ນຳ​ໃຊ້
+FrmGroupUser.btnUpdateStore.Text :ອັບ​ເດດ​ຮ້ານ
+FrmGroupUser.btnCloseTabUser.Text :ປິດ
+FrmGroupUser.btnChangePass.Text :ປ່ຽນ​ລະ​ຫັດ​ຜ່ານ
+FrmGroupUser.btnDeleteTabUser.Text :ລົບ​ລ້າງ
+FrmGroupUser.btnInsertTabUser.Text :ເພີ່ມ​ໃໝ່
+FrmGroupUser.groupBox2.Text :ບັນ​ຊີ​ຮ້ານ
+FrmGroupUser.columnHeader1.Text :ຜູ້​ນຳ​ໃຊ້
+FrmGroupUser.columnHeader2.Text :ຮ້ານ
+FrmGroupUser.groupBox1.Text :ບັນ​ຊີ
+FrmGroupUser.ACCOUNT.HeaderText :ຜູ້​ນຳ​ໃຊ້
+FrmGroupUser.Column2.HeaderText :ຊື່
+FrmGroupUser.Column3.HeaderText :ນາມ​ສະ​ກຸນ
+FrmGroupUser.Column4.HeaderText :ໂທ​ລະ​ສັບ
+FrmGroupUser.Column5.HeaderText :ອີ​ເມວ
+FrmGroupUser.Column6.HeaderText :ສ້າງວັນ​ທີ
+FrmGroupUser.Column7.HeaderText :ໝາຍ​ເຫດ
+FrmGroupUser.btnStore.Text :ຮ້ານ
+FrmGroupUser.label9.Text :ຄົ້ນ​ຫາ​ຊື່
+FrmGroupUser.label6.Text :ໝາຍ​ເຫດ
+FrmGroupUser.label7.Text :ໂທ​ລະ​ສັບ
+FrmGroupUser.label8.Text :ສ້າງວັນ​ທີ
+FrmGroupUser.label4.Text :ອີ​ເມວ
+FrmGroupUser.label3.Text :ນາມ​ສະ​ກຸນ
+FrmGroupUser.label2.Text :ຊື່
+FrmGroupUser.label1.Text :ຜູ້​ນຳ​ໃຊ້
+FrmGroupUser.tabGroup.Text :ກຸ່ມ
+FrmGroupUser.btnClose.Text :ປິດ
+FrmGroupUser.btnDelete.Text :ລົບ​ລ້າງ
+FrmGroupUser.btnSave.Text :ບັນ​ທຶກ
+FrmGroupUser.btnInsert.Text :ເພີ່ມ​ໃໝ່
+FrmGroupUser.label11.Text :ຄຳ​ອະ​ທິ​ບາຍ
+FrmGroupUser.label10.Text :ກຸ່ມ​ລະ​ຫັດ
+FrmGroupUser.tabPage3.Text :ເພີ່ມ​ກຸ່ມ
+FrmGroupUser.btnStoreTab3.Text :ຮ້ານ
+FrmGroupUser.label12.Text :ຄົ້ນ​ຫາ​ໄວ
+FrmGroupUser.Text :ຜູ້​ຈັດ​ການ​ຜູ້​ນຳ​ໃຊ້​ແລະ​ກຸ່ມ
+frmChangePass.button1.Text :ບັນ​ທຶກ
+frmChangePass.button2.Text :ປິດ
+frmChangePass.label1.Text :ຜູ້​ນຳ​ໃຊ້
+frmChangePass.label2.Text :ລະ​ຫັດ​ຜ່ານ
+frmChangePass.label3.Text :ພິມ​ລະ​ຫັດ​ຜ່ານ​ອີກ​ຄັ້ງ

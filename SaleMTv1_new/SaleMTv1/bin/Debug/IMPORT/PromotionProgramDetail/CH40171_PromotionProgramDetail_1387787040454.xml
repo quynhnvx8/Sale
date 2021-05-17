@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<promotionProgramDetailXml>
+    <PromotionProgramDetail>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <discPer>5.0</discPer>
+        <id>25999</id>
+        <productCode>01DAHD5</productCode>
+        <promotionProgramCode>KTZV01</promotionProgramCode>
+        <saleQty>100</saleQty>
+        <saleUom>HOP</saleUom>
+        <synAction>1</synAction>
+    </PromotionProgramDetail>
+</promotionProgramDetailXml>

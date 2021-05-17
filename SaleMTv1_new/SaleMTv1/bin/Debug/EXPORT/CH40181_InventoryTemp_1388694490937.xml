@@ -1,0 +1,119 @@
+<inventoryTempXml>
+  <InventoryTemp>
+    <inventoryId>ce822e53-d6c2-46e6-8fc0-6b46ac3424c1</inventoryId>
+    <createdDate>2014-01-02T17:36:43.153+07:00</createdDate>
+    <productId>07DA04</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>17c2bb1d-0efb-4977-93f2-8cbc5b10b021</inventoryId>
+    <createdDate>2014-01-02T17:36:43.16+07:00</createdDate>
+    <productId>01SC01</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>80dca5f8-a209-4ca4-a9b5-8cd6bc1e3d83</inventoryId>
+    <createdDate>2014-01-02T17:36:43.147+07:00</createdDate>
+    <productId>05AA30</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>485c0b9c-5926-45c5-b025-a0e5bee3f0f1</inventoryId>
+    <createdDate>2014-01-02T17:36:43.157+07:00</createdDate>
+    <productId>07DA20</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>b6de14ab-5ce2-489d-8274-b0e69e454186</inventoryId>
+    <createdDate>2014-01-02T17:36:43.157+07:00</createdDate>
+    <productId>02AA10</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>24f42169-fd40-4a7a-82f1-b33aed600c6a</inventoryId>
+    <createdDate>2014-01-02T17:36:43.15+07:00</createdDate>
+    <productId>07BN10</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>79c9be57-a90f-4305-aa8a-b37b4e6461f2</inventoryId>
+    <createdDate>2014-01-02T17:36:43.15+07:00</createdDate>
+    <productId>05AG10</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>e2c23a84-97c1-4829-8912-bb0f46bc0b82</inventoryId>
+    <createdDate>2014-01-02T16:36:36.48+07:00</createdDate>
+    <productId>01sb01</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00002</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000047</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+  <InventoryTemp>
+    <inventoryId>f77e37af-494e-4762-ac08-ccb3bc359ba3</inventoryId>
+    <createdDate>2014-01-02T17:36:43.1+07:00</createdDate>
+    <productId>05AA11</productId>
+    <pId />
+    <amount>1000</amount>
+    <typeCode>1</typeCode>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <zoneCode />
+    <generateCode>EDC.CH40181.14.00003</generateCode>
+    <eventId>LUAN-PC-CH40181-14-000000055</eventId>
+    <synAction>1</synAction>
+  </InventoryTemp>
+</inventoryTempXml>

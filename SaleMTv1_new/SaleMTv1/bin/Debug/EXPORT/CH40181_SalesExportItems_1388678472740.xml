@@ -1,0 +1,54 @@
+<salesExportItemsXml>
+  <SalesExportItems>
+    <exportCode>SAL.CH40211140101000</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <synAction>3</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportDate>2014-01-01T15:38:49.2+07:00</exportDate>
+    <inputDate>2014-01-01T15:38:49.173+07:00</inputDate>
+    <exportCode>SAL.CH40211140101001</exportCode>
+    <productCode>02AA10</productCode>
+    <barcode />
+    <quantity>20</quantity>
+    <amount>2200</amount>
+    <priceDefault>110</priceDefault>
+    <priceSales>110</priceSales>
+    <discount>0</discount>
+    <rebate>0</rebate>
+    <promotion>0</promotion>
+    <remark />
+    <employeeId />
+    <eventId>HAITHANH-PC-CH40211-14-00011</eventId>
+    <totalAmount>2200</totalAmount>
+    <deliveryDate>2014-01-01T15:38:49.173+07:00</deliveryDate>
+    <rebateByCustomerCard>0</rebateByCustomerCard>
+    <quantityExported>0</quantityExported>
+    <synAction>1</synAction>
+  </SalesExportItems>
+  <SalesExportItems>
+    <exportDate>2014-01-01T17:49:00.923+07:00</exportDate>
+    <inputDate>2014-01-01T17:48:59.11+07:00</inputDate>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <productCode>02AA10</productCode>
+    <barcode />
+    <quantity>1</quantity>
+    <amount>110</amount>
+    <priceDefault>110</priceDefault>
+    <priceSales>110</priceSales>
+    <discount>0</discount>
+    <rebate>0</rebate>
+    <promotion>0</promotion>
+    <remark />
+    <employeeId>00003</employeeId>
+    <eventId>LUAN-PC-CH40211-14-000000002</eventId>
+    <totalAmount>110</totalAmount>
+    <deliveryDate>2014-01-01T17:48:59.11+07:00</deliveryDate>
+    <rebateByCustomerCard>0</rebateByCustomerCard>
+    <quantityExported>0</quantityExported>
+    <synAction>1</synAction>
+  </SalesExportItems>
+</salesExportItemsXml>

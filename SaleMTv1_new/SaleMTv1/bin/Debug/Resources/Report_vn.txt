@@ -1,0 +1,245 @@
+﻿#02. Item Return Report 
+
+ItemReutrn.Title:HÀNG TRẢ LẠI
+ItemReutrn.FromDate: Từ ngày
+ItemReutrn.ToDate: Đến ngày
+ItemReutrn.PrintDate: Ngày in
+ItemReutrn.TotalQty: Tổng SL
+ItemReutrn.TotalAmount: Tổng TT
+ItemReutrn.TotalOther: Tổng TTL
+ItemReutrn.Order: STT
+ItemReutrn.ItemCode: Mã SP
+ItemReutrn.ItemName: Tên SP
+ItemReutrn.UOM: ĐVT
+ItemReutrn.Quantity: SL
+ItemReutrn.Price: ĐG
+ItemReutrn.Amount: T.Tiền
+ItemReutrn.AmountReturn: Tiền T.lại
+ItemReturn.CAT: Loại 
+ItemReturn.CodeReturn: Mã trả
+ItemReturn.CodeInvoice: Mã hóa đơn
+ItemReutrn.Printer: Người in
+ItemReutrn.Supervisor: Cửa hàng trưởng
+ItemReutrn.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#04.01. Import Product Sale Report
+
+ImportProduct.Title:CỬA HÀNG NHẬP HÀNG
+ImportProduct.FromDate: Từ ngày
+ImportProduct.ToDate: Đến ngày
+ImportProduct.PrintDate: Ngày in
+ImportProduct.TotalQty: Tổng SL
+ImportProduct.Total: Tổng TT
+ImportProduct.ImportType: Loại nhập
+ImportProduct.InvoiceNo: Số HĐ
+ImportProduct.InvoiceCode: Mã nhập
+ImportProduct.InvoiceDate: Ngày HĐ
+ImportProduct.PosNo: Số PO
+ImportProduct.InternalNo: Số nội bộ
+ImportProduct.Order: STT
+ImportProduct.ItemCode: Mã SP
+ImportProduct.ItemName: Tên SP
+ImportProduct.UOM: ĐVT
+ImportProduct.Qty: SL
+ImportProduct.CAT: Loại
+ImportProduct.Price: ĐG
+ImportProduct.Amount: T.Tiền
+ImportProduct.Adjust: Điều chỉnh
+ImportProduct.GrandTotal: Tổng cộng
+
+#04.02 Cua hang xuat hang
+
+ExportProduct.Title:CỬA HÀNG XUẤT HÀNG
+ExportProduct.FromDate: Từ ngày
+ExportProduct.ToDate: Đến ngày
+ExportProduct.PrintDate: Ngày in
+ExportProduct.TotalQty: Tổng SL
+ExportProduct.Total: Tổng TT
+ExportProduct.ExportType: Loại xuất
+ExportProduct.InvoiceNo: Số HĐ
+ExportProduct.InvoiceCode: Mã nhập
+ExportProduct.InvoiceDate: Ngày HĐ
+ExportProduct.PosNo: Số PO
+ExportProduct.InternalNo: Số nội bộ
+ExportProduct.Order: STT
+ExportProduct.ItemCode: Mã SP
+ExportProduct.ItemName: Tên SP
+ExportProduct.UOM: ĐVT
+ExportProduct.Qty: SL
+ExportProduct.CAT: Loại
+ExportProduct.Price: ĐG
+ExportProduct.Amount: T.Tiền
+ExportProduct.Adjust: Điều chỉnh
+ExportProduct.GrandTotal: Tổng cộng
+
+#04.03 Cua hang xuat hang
+
+InventorySale.Title:TỒN KHO CỬA HÀNG
+InventorySale.Date: Ngày
+InventorySale.PrintDate: Ngày In
+InventorySale.TotalQty: Tổng SL
+InventorySale.Total: Tổng tiền
+InventorySale.CAT: Ngành
+InventorySale.Order: STT
+InventorySale.ItemCode: Mã SP
+InventorySale.ItemName: Tên SP
+InventorySale.UOM: ĐVT
+InventorySale.Qty: SL
+InventorySale.Price: Giá
+InventorySale.Amount: T.Tiền
+InventorySale.Printer: Người in
+InventorySale.Supervisor: Cửa hàng trưởng
+InventorySale.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#04.04 Bao cao nhap xuat ton
+
+BalanceItem.Title:BÁO CÁO NHẬP XUẤT TỒN
+BalanceItem.FromDate: Từ ngày
+BalanceItem.ToDate: Đến ngày
+BalanceItem.PrintDate: Ngày In
+BalanceItem.GrandTotal: Tổng cộng
+BalanceItem.BalanceFirst: Đầu kỳ
+BalanceItem.Input: Nhập trong kỳ
+BalanceItem.Output: Xuất trong kỳ
+BalanceItem.BalanceFinal: Tồn cuối kỳ
+BalanceItem.CAT: Ngành
+BalanceItem.Order: STT
+BalanceItem.ItemCode: Mã SP
+BalanceItem.ItemName: Tên SP
+BalanceItem.UOM: ĐVT
+BalanceItem.FirstQty: SL
+BalanceItem.FirstPrice: Giá
+BalanceItem.FirstTotal: T.Tiền
+BalanceItem.InputQty: SL
+BalanceItem.InputTotal: Tiền
+BalanceItem.InputQtyAdjust: ĐC
+BalanceItem.InputTotalAdjust: Tiền
+BalanceItem.OutputGrandTotal:Tổng
+BalanceItem.WarantyQty: BH
+BalanceItem.WarantyTotal: Tiền
+BalanceItem.PromotionQty: KM
+BalanceItem.PromotionTotal:Tiền
+BalanceItem.OutputQtyAdjust:ĐC
+BalanceItem.OutputTotalAdjust:Tiền
+BalanceItem.FinalQty: SL
+BalanceItem.FinalPrice: Giá
+BalanceItem.FinalTotal: Tiền
+BalanceItem.Printer: Người in
+BalanceItem.Supervisor: Cửa hàng trưởng
+BalanceItem.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#04.05. Bao cao hang khuyen mai
+
+Promotion.Title:HÀNG KHUYẾN MÃI
+Promotion.FromDate: Từ
+Promotion.ToDate: Đến
+Promotion.PrintDate: Ngày in
+Promotion.GrandTotal: Tổng cộng
+Promotion.CAT: Ngành hàng
+Promotion.Order: STT
+Promotion.SaleDate: Ngày bán
+Promotion.InvoiceNo: Hóa đơn
+Promotion.ItemCode: Mã SP
+Promotion.ItemName: Tên SP
+Promotion.UOM: ĐVT
+Promotion.Qty: SL
+Promotion.Price: ĐG
+Promotion.Amount: T.Tiền
+Promotion.PersonPrint: Người in
+Promotion.Supervisor: Cửa hàng trưởng
+Promotion.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#04.06. Bao cao chenh lech gia
+
+Compare.Title:BÁO CÁO CHÊNH LỆCH GIÁ
+Compare.FromDate: Từ
+Compare.ToDate: Đến
+Compare.PrintDate: Ngày in
+Compare.GrandTotal: Tổng cộng
+Compare.Order: STT
+Compare.ItemCode: Mã SP
+Compare.ItemName: Tên SP
+Compare.UOM: ĐVT
+Compare.Qty: SL
+Compare.Input: Đầu vào
+Compare.Output: Đầu ra
+Compare.InputPrice: ĐG
+Compare.InputAmount: T.Tiền
+Compare.OutputPrice: ĐG
+Compare.OutputAmount: T.Tiền
+Compare.Difference: Chênh lệch
+
+#06.01. Sale Report
+
+SaleReport.Title:BÁO CÁO BÁN HÀNG
+SaleReport.FromDate: Từ ngày
+SaleReport.ToDate: Đến ngày
+SaleReport.PrintDate: Ngày in
+SaleReport.TotalInvoice: Tổng số HĐ
+SaleReport.Total: Tổng cộng
+SaleReport.Order: STT
+SaleReport.CodeInvoice: Mã HĐ
+SaleReport.CodeCustomer: Mã KH
+SaleReport.NameCustomer: Tên KH
+SaleReport.ItemCategory: Ngành
+SaleReport.ItemCode: Mã SP
+SaleReport.ItemName: Tên SP
+SaleReport.UOM: ĐVT
+SaleReport.Quantity: SL
+SaleReport.Price: ĐG
+SaleReport.Amount: T.Tiền
+SaleReport.Promotion: KM
+SaleReport.Payment: T. Toán
+SaleReport.PersonPrint: Người in
+SaleReport.Supervisor: Cửa hàng trưởng
+SaleReport.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#06.02. Sale Report by Employee 
+
+SaleReportEmp.Title:BÁO CÁO BÁN HÀNG
+SaleReportEmp.FromDate: Từ ngày
+SaleReportEmp.ToDate: Đến ngày
+SaleReportEmp.PrintDate: Ngày in
+SaleReportEmp.TotalInvoice: Tổng số HĐ
+SaleReportEmp.Total: Tổng cộng
+SaleReportEmp.Order: STT
+SaleReportEmp.CodeInvoice: Mã HĐ
+SaleReportEmp.CodeCustomer: Mã KH
+SaleReportEmp.NameCustomer: Tên KH
+SaleReportEmp.ItemCategory: Ngành
+SaleReportEmp.ItemCode: Mã SP
+SaleReportEmp.ItemName: Tên SP
+SaleReportEmp.UOM: ĐVT
+SaleReportEmp.Quantity: SL
+SaleReportEmp.Price: ĐG
+SaleReportEmp.Amount: T.Tiền
+SaleReportEmp.Promotion: KM
+SaleReportEmp.Payment: T. Toán
+SaleReportEmp.Employee: Nhân viên
+SaleReportEmp.PersonPrint: Người in
+SaleReportEmp.Supervisor: Cửa hàng trưởng
+SaleReportEmp.TitleSign: ......,Ngày.... Tháng... Năm .....
+
+#06.03. Bao cao doanh so theo CAT
+
+SaleByCAT.Title:BÁO CÁO DOANH SỐ THEO CAT
+SaleByCAT.FromDate: Từ
+SaleByCAT.ToDate: Đến
+SaleByCAT.PrintDate: Ngày in
+SaleByCAT.GrandTotal: Tổng cộng
+SaleByCAT.Order: STT
+SaleByCAT.CustCode: Mã KH
+SaleByCAT.CustName: Tên KH
+SaleByCAT.Address: Địa chỉ
+SaleByCAT.Sequence: Tần suất
+
+#06.07. Bao cao doanh so theo CAT
+
+SaleNoExport.Title:BÁO CÁO KHÁCH HÀNG KHÔNG GIAO DỊCH
+SaleNoExport.FromDate: Từ
+SaleNoExport.ToDate: Đến
+SaleNoExport.PrintDate: Ngày in
+SaleNoExport.Order: STT
+SaleNoExport.CustCode: Mã KH
+SaleNoExport.CustName: Tên KH
+SaleNoExport.Address: Địa chỉ

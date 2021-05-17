@@ -1,0 +1,52 @@
+<exportProductsXml>
+  <ExportProducts>
+    <invoiceCode>EDC.CH40181.14.00002</invoiceCode>
+    <dateExport>2014-01-02T16:36:27+07:00</dateExport>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <remarksExport />
+    <statusExport>1</statusExport>
+    <dateImport>2014-01-02T16:36:27+07:00</dateImport>
+    <importCode>EDC.CH40181.14.00002</importCode>
+    <remarksImport />
+    <statusImport>1</statusImport>
+    <userImport>Admin</userImport>
+    <isImportDC>1</isImportDC>
+    <eventId>LUAN-PC-CH40181-14-000000048</eventId>
+    <deliveryStatus>0</deliveryStatus>
+    <deliveryDate>1753-01-01T00:00:00+07:00</deliveryDate>
+    <isImportDebt>1</isImportDebt>
+    <createDate>2014-01-02T16:36:36.487+07:00</createDate>
+    <discountType1>0.00</discountType1>
+    <isImportDebtSale>0</isImportDebtSale>
+    <redInvoiceNo />
+    <orderDate>1753-01-01T00:00:00+07:00</orderDate>
+    <moneyConfig>0</moneyConfig>
+    <importType>IMT.0002</importType>
+    <synAction>1</synAction>
+  </ExportProducts>
+  <ExportProducts>
+    <invoiceCode>EDC.CH40181.14.00003</invoiceCode>
+    <dateExport>2014-01-02T17:35:19+07:00</dateExport>
+    <shopCode>CH40181@STO.0001@LOC.0002</shopCode>
+    <remarksExport />
+    <statusExport>1</statusExport>
+    <dateImport>2014-01-02T17:35:19+07:00</dateImport>
+    <importCode>EDC.CH40181.14.00003</importCode>
+    <remarksImport />
+    <statusImport>1</statusImport>
+    <userImport>Admin</userImport>
+    <isImportDC>1</isImportDC>
+    <eventId>LUAN-PC-CH40181-14-000000056</eventId>
+    <deliveryStatus>0</deliveryStatus>
+    <deliveryDate>1753-01-01T00:00:00+07:00</deliveryDate>
+    <isImportDebt>1</isImportDebt>
+    <createDate>2014-01-02T17:36:43.163+07:00</createDate>
+    <discountType1>0.00</discountType1>
+    <isImportDebtSale>0</isImportDebtSale>
+    <redInvoiceNo />
+    <orderDate>1753-01-01T00:00:00+07:00</orderDate>
+    <moneyConfig>0</moneyConfig>
+    <importType>IMT.0002</importType>
+    <synAction>1</synAction>
+  </ExportProducts>
+</exportProductsXml>

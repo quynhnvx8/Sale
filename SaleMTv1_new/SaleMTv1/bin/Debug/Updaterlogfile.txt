@@ -1,0 +1,1 @@
+2013-12-25 17:11:17,501 [1] ERROR Updater.Program - Error 'Updater' : Access to the path 'D:\SVN\SaleMTv1\SaleMTv1\bin\Debug\SaleMT.vshost.exe.PendingOverwrite' is denied.

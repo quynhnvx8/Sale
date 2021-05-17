@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ECB738B-5A43-46D2-B662-739FF674AD5C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccessLayer</RootNamespace>
+    <AssemblyName>DataAccessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibUsed\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.0\lib\net451\Npgsql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StandardDAC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibUsed\StandardDAC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SaleMTDAL\AppConfigFileSettings.cs" />
+    <Compile Include="SaleMTDAL\EncryptDecryptText.cs" />
+    <Compile Include="SaleMTDAL\rdodb_KTSqlDAC.cs" />
+    <Compile Include="SaleMTDAL\SaleMTEncrypt.cs" />
+    <Compile Include="SaleMTObj\APP_CONFIG.cs" />
+    <Compile Include="SaleMTObj\BK_EMAIL_INFO.cs" />
+    <Compile Include="SaleMTObj\BK_EVENT_CONFIG_ARG.cs" />
+    <Compile Include="SaleMTObj\BK_EVENT_STACK_TABLE.cs" />
+    <Compile Include="SaleMTObj\CASH_PAYMENT.cs" />
+    <Compile Include="SaleMTObj\CASH_RECEIPT.cs" />
+    <Compile Include="SaleMTObj\CASH_RECEIPT_PAYMENT_DETAIL.cs" />
+    <Compile Include="SaleMTObj\CN_HoaDon.cs" />
+    <Compile Include="SaleMTObj\CN_NopTienTT.cs" />
+    <Compile Include="SaleMTObj\CN_ThanhToan.cs" />
+    <Compile Include="SaleMTObj\COMPANY_INFO.cs" />
+    <Compile Include="SaleMTObj\COUPONS.cs" />
+    <Compile Include="SaleMTObj\COUPONS_SALES.cs" />
+    <Compile Include="SaleMTObj\COUPONS_SALES_DETAIL.cs" />
+    <Compile Include="SaleMTObj\COUPON_STORES.cs" />
+    <Compile Include="SaleMTObj\CURRENCY.cs" />
+    <Compile Include="SaleMTObj\CUSTOMERS.cs" />
+    <Compile Include="SaleMTObj\CUSTOMERS_TEMP.cs" />
+    <Compile Include="SaleMTObj\CUSTOMER_CARD.cs" />
+    <Compile Include="SaleMTObj\CUSTOMER_CARD_RESET.cs" />
+    <Compile Include="SaleMTObj\DATA_CHANGED.cs" />
+    <Compile Include="SaleMTObj\DEBT_APPORTION.cs" />
+    <Compile Include="SaleMTObj\DEBT_NOTE_FOR_EMPLOYEE.cs" />
+    <Compile Include="SaleMTObj\DEBT_RECEIPT_PAYMENT_VOUNCHER.cs" />
+    <Compile Include="SaleMTObj\DEBT_VOUNCHER.cs" />
+    <Compile Include="SaleMTObj\DEPT.cs" />
+    <Compile Include="SaleMTObj\DEPT_HISTORY.cs" />
+    <Compile Include="SaleMTObj\DEV_IN_DM_NHOMVATTU.cs" />
+    <Compile Include="SaleMTObj\DEV_IN_DM_SEG_NHOMVT.cs" />
+    <Compile Include="SaleMTObj\DEV_IN_SEG_NHOMVT_PHUTHUOC.cs" />
+    <Compile Include="SaleMTObj\DEV_MASTER_PRODUCT_ATTRIBUTES.cs" />
+    <Compile Include="SaleMTObj\DEV_PRICEITEMS.cs" />
+    <Compile Include="SaleMTObj\DEV_PRICETABLES.cs" />
+    <Compile Include="SaleMTObj\DEV_PRODUCT_ATTRIBUTES.cs" />
+    <Compile Include="SaleMTObj\DISCOUNT_DEPT.cs" />
+    <Compile Include="SaleMTObj\DISCOUNT_TERM.cs" />
+    <Compile Include="SaleMTObj\DM_LOOKUP.cs" />
+    <Compile Include="SaleMTObj\DM_NHOMVT_ATTRIBUTES.cs" />
+    <Compile Include="SaleMTObj\DM_VATTU.cs" />
+    <Compile Include="SaleMTObj\EMPLOYEE_INFO.cs" />
+    <Compile Include="SaleMTObj\EMPLOYEE_INFO_TEST.cs" />
+    <Compile Include="SaleMTObj\employee_sex.cs" />
+    <Compile Include="SaleMTObj\EMPLOYEE_TIME_SHEET.cs" />
+    <Compile Include="SaleMTObj\EMPLOYEE_WORKING_TIME.cs" />
+    <Compile Include="SaleMTObj\EMPLOYEE_ZONE_HISTORYS.cs" />
+    <Compile Include="SaleMTObj\EXCHANGE_RATE.cs" />
+    <Compile Include="SaleMTObj\EXPORT_DETAIL.cs" />
+    <Compile Include="SaleMTObj\EXPORT_PRODUCTS.cs" />
+    <Compile Include="SaleMTObj\EXPORT_PRODUCT_STORE.cs" />
+    <Compile Include="SaleMTObj\EXPORT_PRODUCT_STORE_DETAIL.cs" />
+    <Compile Include="SaleMTObj\EXPORT_PRODUCT_ZONE.cs" />
+    <Compile Include="SaleMTObj\EXPORT_PRODUCT_ZONE_DETAIL.cs" />
+    <Compile Include="SaleMTObj\IMPORT_PRODUCTS.cs" />
+    <Compile Include="SaleMTObj\INVENTORY_TEMP.cs" />
+    <Compile Include="SaleMTObj\IN_DM_NHOMVATTU.cs" />
+    <Compile Include="SaleMTObj\IN_DM_SEG_NHOMVT.cs" />
+    <Compile Include="SaleMTObj\ITEM_RETURN.cs" />
+    <Compile Include="SaleMTObj\ITEM_RETURN_DETAIL.cs" />
+    <Compile Include="SaleMTObj\MAIL_TEMPLATE.cs" />
+    <Compile Include="SaleMTObj\MASTER_DATA.cs" />
+    <Compile Include="SaleMTObj\MASTER_DATA_GROUP.cs" />
+    <Compile Include="SaleMTObj\MASTER_EX_EXAMEYE.cs" />
+    <Compile Include="SaleMTObj\MASTER_EX_LENSESORDER.cs" />
+    <Compile Include="SaleMTObj\MASTER_EX_LENSESORDER_INFO.cs" />
+    <Compile Include="SaleMTObj\MASTER_EX_LENSESORDER_SERVICES.cs" />
+    <Compile Include="SaleMTObj\MASTER_WARRANTY_ERROR.cs" />
+    <Compile Include="SaleMTObj\MEMBERS.cs" />
+    <Compile Include="SaleMTObj\MESSAGE.cs" />
+    <Compile Include="SaleMTObj\MESSAGE_STORES.cs" />
+    <Compile Include="SaleMTObj\NORM_PRODUCT_STORE.cs" />
+    <Compile Include="SaleMTObj\NORM_PRODUCT_STORE_DETAIL.cs" />
+    <Compile Include="SaleMTObj\ORDER_PRODUCTS.cs" />
+    <Compile Include="SaleMTObj\ORDER_PRODUCT_DETAIL.cs" />
+    <Compile Include="SaleMTObj\ORDER_PRODUCT_STATUS.cs" />
+    <Compile Include="SaleMTObj\PARAMETER.cs" />
+    <Compile Include="SaleMTObj\PERMISSIONS.cs" />
+    <Compile Include="SaleMTObj\PERMISSION_CHAT.cs" />
+    <Compile Include="SaleMTObj\PERMISSION_INVENTORY.cs" />
+    <Compile Include="SaleMTObj\POLICIES.cs" />
+    <Compile Include="SaleMTDAL\posdb_vnmSqlDAC.cs" />
+    <Compile Include="SaleMTObj\PO_DVKH.cs" />
+    <Compile Include="SaleMTObj\PO_FORECAST.cs" />
+    <Compile Include="SaleMTObj\PO_SAFETY_STOCK.cs" />
+    <Compile Include="SaleMTObj\PO_SAFETY_STOCK_DETAIL.cs" />
+    <Compile Include="SaleMTObj\PO_SALES_DAY.cs" />
+    <Compile Include="SaleMTObj\PRODUCTS.cs" />
+    <Compile Include="SaleMTObj\PRODUCT_ATTRIBUTES.cs" />
+    <Compile Include="SaleMTObj\PRODUCT_INFO.cs" />
+    <Compile Include="SaleMTObj\PROGRAM_CATEGORY.cs" />
+    <Compile Include="SaleMTObj\PROGRAM_MASTER_DATA.cs" />
+    <Compile Include="SaleMTObj\PROGRAM_PRODUCT.cs" />
+    <Compile Include="SaleMTObj\PROMOTIONS.cs" />
+    <Compile Include="SaleMTObj\PROMOTION_DETAIL.cs" />
+    <Compile Include="SaleMTObj\PROMOTION_GIFTS.cs" />
+    <Compile Include="SaleMTObj\RED_INVOICE_PRINT.cs" />
+    <Compile Include="SaleMTObj\REPORT_COLUMN.cs" />
+    <Compile Include="SaleMTObj\REPORT_CONDITIONS.cs" />
+    <Compile Include="SaleMTObj\REPORT_INFO.cs" />
+    <Compile Include="SaleMTObj\REPORT_TEMPLATE.cs" />
+    <Compile Include="SaleMTObj\RETURNS_PRODUCT.cs" />
+    <Compile Include="SaleMTObj\RETURNS_PRODUCT_DETAIL.cs" />
+    <Compile Include="SaleMTObj\ROLES.cs" />
+    <Compile Include="SaleMTObj\SALES_EXPORTS.cs" />
+    <Compile Include="SaleMTObj\SALES_EXPORTS_ITEMS.cs" />
+    <Compile Include="SaleMTObj\SALES_PAYMENT_HISTORY.cs" />
+    <Compile Include="SaleMTObj\SALES_PAYMENT_HISTORY_DETAIL.cs" />
+    <Compile Include="SaleMTObj\SALES_PAYMENT_HISTORY_DETAIL_CARD.cs" />
+    <Compile Include="SaleMTObj\SALES_SPECIAL_DISCOUNT.cs" />
+    <Compile Include="SaleMTObj\SALE_ORDERS.cs" />
+    <Compile Include="SaleMTObj\SALE_ORDERS_PARENT.cs" />
+    <Compile Include="SaleMTObj\SALE_ORDER_HISTORY.cs" />
+    <Compile Include="SaleMTObj\SALE_PROMOTION.cs" />
+    <Compile Include="SaleMTObj\SALE_PROMOTION_GIFTS.cs" />
+    <Compile Include="SaleMTObj\SHIFT.cs" />
+    <Compile Include="SaleMTObj\STORE.cs" />
+    <Compile Include="SaleMTObj\sysdiagrams.cs" />
+    <Compile Include="SaleMTObj\Table_KIEMKE.cs" />
+    <Compile Include="SaleMTObj\TEMP_01.cs" />
+    <Compile Include="SaleMTObj\TEMP_IMPORT_PRODUCTS.cs" />
+    <Compile Include="SaleMTObj\TEST_SYNCHRO.cs" />
+    <Compile Include="SaleMTObj\TRANSFER_SHIFT.cs" />
+    <Compile Include="SaleMTObj\UPDATE_SQL_SCRIPT.cs" />
+    <Compile Include="SaleMTObj\UPDATE_SQL_SCRIPT_ERROR.cs" />
+    <Compile Include="SaleMTObj\USERS.cs" />
+    <Compile Include="SaleMTObj\USER_CHAT.cs" />
+    <Compile Include="SaleMTObj\USER_DEPT.cs" />
+    <Compile Include="SaleMTObj\VOUCHERS.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_GIFT.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_GIFT_ITEMS.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_GIFT_SALES.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_GIFT_SALES_ITEMS.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_GIFT_TRANSFER.cs" />
+    <Compile Include="SaleMTObj\VOUCHER_TRANSFER.cs" />
+    <Compile Include="SaleMTObj\WAREHOUSE.cs" />
+    <Compile Include="SaleMTObj\WARRANTY.cs" />
+    <Compile Include="SaleMTObj\WARRANTY_ERROR.cs" />
+    <Compile Include="SaleMTObj\WARRANTY_EXECUTE.cs" />
+    <Compile Include="SaleMTObj\WARRANTY_PAYMENT.cs" />
+    <Compile Include="SaleMTObj\ZONE_PRICE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

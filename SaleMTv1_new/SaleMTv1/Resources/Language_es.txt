@@ -1,0 +1,1995 @@
+﻿#Message Dialog:
+Msg.TitleDialog:Notification
+Msg.PermissionDialog:You do not have permission to access this function
+Msg.Error:Error
+Msg.UpdateSuccess:Update success
+Msg.EmailNotFound: Email not found
+Msg.AmountNotEmpty: Amount not empty!
+Msg.DataNotFound: Data not found
+Msg.InvoiceNotEmpty: Invoice not empty
+Msg.InvoiceExists: Invoice exists!
+Msg.MustBeSelected: Please select data
+Msg.NoPermissionQty:The quantity is not allowed
+Msg.PasswordNotSame: Password not same!
+Msg.Mandatory: Required to enter fields marked with (*)
+Msg.PercentDiscount:Input percent discount please!
+#End Message Dialog:
+#frmMain:
+frmSaleMTMain.Text		:Sales Manager
+mnuSystem				:System
+mnuLogin				:Login
+mnuDatabaseConfig		:Database connection
+mnuChangePassword		:Change the password
+mnuCustomizeFormat      :Custom
+mnuSetupPrinter         :Printer options
+mnuOptionSynData        :Configure data synchronization
+mnuFtpConfig            :Configure FTP
+mnuQuitApp              :Exit
+mnuInvenManagement      :Warehouse Manager
+mnuOrder                :Order
+mnuGoodsReceipt         :Import Goods
+mnuGoodsDelivery        :Export Goods
+mnuCheckInventory       :Inventory check
+mnuInputStock           :Input Opening Stocks
+mnuSaleManage           :Sales Manager
+mnuSale                 :Sell
+mnuReturnItems          :Returned goods
+mnuCash                 :Cash Manager
+mnuCashPay              :Payment
+mnuCashReceipt          :Receipts
+mnuManageReceipt        :Invoice Manager
+tsmCusManager           :Customer manager
+mnuShiftReport          :Print shift
+mnuCloseShift           :End of work
+tsmnuQuanLyKHNV         :Customer && Staff Manager
+mnuCustomersManage      :Customer information Manager
+mnuEmployeeInfor        :Staff information
+mnuShiftmanage          :Schedule work shifts
+mnuTimeAttendance       :Staff scan the card
+mnuLiabilityManage      :Debt Manager
+mnuCashDepo             :Payment statement
+mnuInvoicePay           :Payment Orders
+mnuInputLiability       :Input Opening Cash
+mnuLiablityReport       :Debt report
+mnuReport               :Report
+mnuRReport              :Report
+mnuUtilities            :Utilities
+mnuBarcodeScaner        :Barcode Scanner
+mnuCalculator           :Computer
+mnuNotepad              :Submit text
+mnuCompareExcel         :Compare quantities
+mnuGoodsInventory       :Inventory
+mnuHelp                 :Help
+mnuUserGuide            :User manual
+mnuAppInfo              :Program information
+mnuAbout                :Copyright information
+mnuWindow               :Window
+mnuExitWindow           :Close all
+testToolStripMenuItem   :Admin
+btnAdd                  :Add new  (Ctrl N)
+btnSave                 :Save (Ctrl S)
+btnEdit                 :Edit(Ctrl E)
+btnCancel               :Cancel(Ctrl Q)
+btnDelete               :Delete(Ctrl D)
+btnPrint                :Print(Ctrl P)
+btnExport               :Export(Ctrl T)
+btnViewReport           :View report (Ctrl R)
+btnSearch               :Find info (Ctrl F)
+btnLogin                :Login(Ctrl L)
+btnLogout               :Exit (Ctrl O)
+btnExit                 :Closed
+lblStore                :Store
+frmOptionDatabase.label1 :Server host
+frmOptionDatabase.label2 :Database
+frmOptionDatabase.label3 :user name
+frmOptionDatabase.label4 :password
+frmOptionDatabase.btnSave :Save
+frmOptionDatabase.btnClose :Closed
+frmOptionDatabase.Text :Establish database connection
+frmLogin.label1	:user name
+frmLogin.label2:password
+frmLogin.btnLogin:Log in
+frmLogin.btnClose:Closed
+frmLogin.chkRememberPass:Remember me
+frmLogin.Text:Login
+frmChangePass.lblMKcu.Text :Old password
+frmChangePass.lblMKmoi.Text :New password
+frmChangePass.lblXacNhanMK.Text :Confirm password
+frmChangePass.Text :Change the password
+frmChangePassword.label1.Text :Old password
+frmChangePassword.btnClose.Text :Closed
+frmChangePassword.label2.Text :New password
+frmChangePassword.label3.Text :Confirm password
+frmChangePassword.btnSave.Text :Save
+frmChangePassword.Text :Change the password
+frmFTPMonitor.statusStrip1.Text :statusStrip1
+frmFTPMonitor.grbParameter.Text :Connection parameters to FTP server
+frmFTPMonitor.label6.Text :Port
+frmFTPMonitor.label5.Text :Password
+frmFTPMonitor.label4.Text :User name
+frmFTPMonitor.label3.Text :Host
+frmFTPMonitor.btnExCheckConn.Text :Checking connection
+frmFTPMonitor.ckbExSSL.Text :SSL
+frmFTPMonitor.btnImpCheckConn.Text :Checking connection
+frmFTPMonitor.ckbImpSSL.Text :SSL
+frmFTPMonitor.label2.Text :Export
+frmFTPMonitor.label1.Text :Import
+frmFTPMonitor.rdDif.Text :Export and Import to another server
+frmFTPMonitor.rdSame.Text :Export and Import with the server
+frmFTPMonitor.grbDir.Text :Execution directory
+frmFTPMonitor.label12.Text :Note
+frmFTPMonitor.label10.Text :Export
+frmFTPMonitor.label11.Text :Import
+frmFTPMonitor.label9.Text :Local
+frmFTPMonitor.label8.Text :FTP
+frmFTPMonitor.btnLoad.Text :Reload setting
+frmFTPMonitor.btnSave.Text :Save
+frmFTPMonitor.Text :FTP Monitor
+frmOptionData.groupBox1.Text :Server connection information
+frmOptionData.label6.Text :Schema
+frmOptionData.lblPass.Text :Password
+frmOptionData.lblUserName.Text :User name
+frmOptionData.label3.Text :Database
+frmOptionData.chkAccountDomain.Text :Domain accounts
+frmOptionData.lblServer.Text :Server
+frmOptionData.groupBox2.Text :Parameter
+frmOptionData.chkHide.Text :Hide on program startup
+frmOptionData.label8.Text :Process the following data
+frmOptionData.label9.Text :Connect the following Web service
+frmOptionData.chkShowInfor.Text :Display message when not successfully connected to the server
+frmOptionData.chkOpenSynData.Text :Turn on sync with the server
+frmOptionData.label1.Text :Check the server connection when the network drops later
+frmOptionData.label7.Text :Synchronize the following data
+frmOptionData.btnClose.Text :Closed
+frmOptionData.btnSave.Text :Save
+frmOptionData.btnExit.Text :Turn off sync
+frmOptionData.label2.Text :Minute
+frmOptionData.Text :Set up data synchronization information
+frmOptionFormat.tabFormat.Text :Format
+frmOptionFormat.groupBox2.Text :Form
+frmOptionFormat.label6.Text :Currency
+frmOptionFormat.label9.Text :Date
+frmOptionFormat.label7.Text :Number
+frmOptionFormat.label8.Text :Hours
+frmOptionFormat.groupBox1.Text :Datatypes
+frmOptionFormat.label5.Text :Decimal
+frmOptionFormat.label4.Text :Currency
+frmOptionFormat.label3.Text :Number
+frmOptionFormat.label2.Text :Hours
+frmOptionFormat.label1.Text :Date
+frmOptionFormat.btnCheckDisplay.Text :Test display
+frmOptionFormat.label11.Text :Baud Rate
+frmOptionFormat.label10.Text :Com Port
+frmOptionFormat.chkChoose.Text :Is Use
+frmOptionFormat.tabPrintInvoi.Text :Invoice printing
+frmOptionFormat.label15.Text :Customer Name
+frmOptionFormat.label14.Text :Default Customer Code
+frmOptionFormat.label13.Text :Customer Name on Invoice
+frmOptionFormat.label12.Text :Default number of printing sales
+frmOptionFormat.btnSave.Text :Save
+frmOptionFormat.btnClose.Text :Closed
+frmOptionFormat.Text :Custom
+frmRegister.lblNVHienthi.Text :Register
+frmRegister.cmdGiupdo.Text :&Help
+frmRegister.cmdThoat.Text :E&xit
+frmRegister.cmdChapnhan.Text :&Accept
+frmRegister.lblgiaima.Text :Registration code
+frmRegister.lblmadangky.Text :Your code
+frmShips.grbShifts.Text :The list of unfinished work
+frmShips.columnHeader1.Text :Shift
+frmShips.columnHeader2.Text :Day
+frmShips.columnHeader3.Text :User
+frmShips.btnPrint.Text :Print
+frmShips.btnOkShifts.Text :Finished work
+frmShips.btnContinute.Text :Continue
+frmShips.Text :Notification
+SetupPrint.chkCheck.Text :Print preview
+SetupPrint.groupBox1.Text :Receipt printers
+SetupPrint.label2.Text :Printer 2
+SetupPrint.label1.Text :Printer 1
+SetupPrint.groupBox2.Text :Report printer
+SetupPrint.label4.Text :Printer 2
+SetupPrint.label3.Text :Printer 1
+SetupPrint.btnSave.Text :Save
+SetupPrint.btnClose.Text :Closed
+SetupPrint.Text :Printer options
+dlgImportProduct.groupBox1.Text :File
+dlgImportProduct.btnImportExcel.Text :Import form
+dlgImportProduct.btnBegin.Text :Begin
+dlgImportProduct.label3.Text :Sheet
+dlgImportProduct.label2.Text :File
+dlgImportProduct.groupBox2.Text :List
+dlgImportProduct.ProductCode.HeaderText :Items Code
+dlgImportProduct.Quantity.HeaderText :Amount
+dlgImportProduct.lblStatus.Text :ready
+dlgImportProduct.btnClose.Text :Closed
+dlgImportProduct.btnOK.Text :OK
+dlgImportProduct.lblSum.Text :Total
+dlgImportProduct.Text :Import Item Code
+frmBarcodeScaner.label1.Text :Items Code
+frmBarcodeScaner.label14.Text :Barcode (F5)
+frmBarcodeScaner.groupBox3.Text :List of goods
+frmBarcodeScaner.label7.Text :Price list
+frmBarcodeScaner.btnExportData.Text :Data export
+frmBarcodeScaner.btnExportGroup.Text :Group export
+frmBarcodeScaner.btnDelete.Text :Clear list
+frmBarcodeScaner.btnClose.Text :Closed
+frmBarcodeScaner.BarCode.HeaderText :Barcode
+frmBarcodeScaner.ProductID.HeaderText :Items Code
+frmBarcodeScaner.colProductName.HeaderText :Items Name
+frmBarcodeScaner.UnitName.HeaderText :UOM
+frmBarcodeScaner.Quantity.HeaderText :Quantity
+frmBarcodeScaner.Price.HeaderText :Price
+frmBarcodeScaner.TotalPrice.HeaderText :Amount
+frmBarcodeScaner.Text :Barcode Scanner
+frmCheckProduct.tabPSanPham.Text :Product
+frmCheckProduct.btnClose.Text :Closed
+frmCheckProduct.btnSave.Text :Save
+frmCheckProduct.btnCancel.Text :X
+frmCheckProduct.btnF5.Text :(F5) >>
+frmCheckProduct.groupBox2.Text :Selected
+frmCheckProduct.columnHeader1.Text :Product code
+frmCheckProduct.columnHeader2.Text :Product's name
+frmCheckProduct.label2.Text :total
+frmCheckProduct.btnImport.Text :Import
+frmCheckProduct.groupBox1.Text :Select the product
+frmCheckProduct.btnSearch.Text :Find
+frmCheckProduct.btnExcel.Text :Excel
+frmCheckProduct.label1.Text :total
+frmCheckProduct.label7.Text :Filter by
+frmCheckProduct.Text :Select the product
+frmCompareExcelFile.STT.HeaderText :No
+frmCompareExcelFile.clnProductCode.HeaderText :Product code
+frmCompareExcelFile.clnQuantity.HeaderText :Amount
+frmCompareExcelFile.STTB.HeaderText :No
+frmCompareExcelFile.clnProductCodeB.HeaderText :Product code
+frmCompareExcelFile.clnQuantityB.HeaderText :Amount
+frmCompareExcelFile.btnImportB.Text :Import
+frmCompareExcelFile.gbxDuLieu.Text :Different figures
+frmCompareExcelFile.STTK.HeaderText :No
+frmCompareExcelFile.MaSPK.HeaderText :Product code
+frmCompareExcelFile.SoLuongK.HeaderText :Amount
+frmCompareExcelFile.GhiChu.HeaderText :Note
+frmCompareExcelFile.btnCompare.Text :Compare
+frmCompareExcelFile.btnClose.Text :Closed
+frmCompareExcelFile.lblTotal.Text :total
+frmCompareExcelFile.Text :Compare quantities
+frmGoodsInventory.groupBox4.Text :List of products
+frmGoodsInventory.colCAT.HeaderText :Industry
+frmGoodsInventory.colPRODUCT_GROUP.HeaderText :Item Group
+frmGoodsInventory.colPRODUCT_ID.HeaderText :Item code
+frmGoodsInventory.colPRODUCT_NAME.HeaderText :Item Name
+frmGoodsInventory.colQUANTITY.HeaderText :Qty balance
+frmGoodsInventory.colPRODUCT_PRICE.HeaderText :Price
+frmGoodsInventory.colTotalMoney.HeaderText :Amount
+frmGoodsInventory.colQuantityIvent.HeaderText :Qty Packet inventory
+frmGoodsInventory.colQuantityOdd.HeaderText :Qty Odd inventory
+frmGoodsInventory.colTotalQuantity.HeaderText :Total inventory Qty
+frmGoodsInventory.colDifferen.HeaderText :Difference
+frmGoodsInventory.colUNIT1.HeaderText :UOM Packet
+frmGoodsInventory.colPRICE.HeaderText :Convert Quantity
+frmGoodsInventory.colUNIT_SLQD.HeaderText :UOM Unit
+frmGoodsInventory.label2.Text :Product
+frmGoodsInventory.label3.Text :To date
+frmGoodsInventory.btnClose.Text :Closed
+frmGoodsInventory.btnExportDC.Text :Export adjustments
+frmGoodsInventory.btnExportExcel.Text :Data export
+frmGoodsInventory.btnImportDC.Text :Enter adjustment
+frmGoodsInventory.btnInventory.Text :Get inventory data
+frmGoodsInventory.gbxlistTK.Text :List
+frmGoodsInventory.Column1.HeaderText :Code
+frmGoodsInventory.lblDate.Text :Day
+frmGoodsInventory.btnSearch.Text :Search
+frmGoodsInventory.Text :Product inventory
+dlgChooseGift.label1.Text :(Press F2 to change the amount)
+dlgChooseGift.btnOK.Text :OK
+dlgChooseGift.btnClose.Text :Closed
+dlgChooseGift.grbGift2.Text :Gift list 2
+dlgChooseGift.columnHeader1.Text :Items Code
+dlgChooseGift.columnHeader2.Text :Items Name
+dlgChooseGift.columnHeader3.Text :Quantity
+dlgChooseGift.columnHeader4.Text :TK
+dlgChooseGift.columnHeader5.Text :Promotion Code
+dlgChooseGift.columnHeader6.Text :Promotion Name
+dlgChooseGift.colProCode.Text :Items Code
+dlgChooseGift.colProName.Text :Items Name
+dlgChooseGift.colQuantity.Text :Quantity
+dlgChooseGift.colTK.Text :TK
+dlgChooseGift.colProgramPro.Text :Promotion Code
+dlgChooseGift.colProgramCode.Text :Promotion Name
+dlgChooseGift.grbGift1.Text :Gift list 1
+dlgChooseGift.Text :Choose a gift
+dlgCoupon.groupBox1.Text :Coupons
+dlgCoupon.btnClose.Text :Cancel
+dlgCoupon.btnOK.Text :OK
+dlgCoupon.columnHeader1.Text :Programme
+dlgCoupon.columnHeader2.Text :From Date
+dlgCoupon.columnHeader3.Text :To date
+dlgCoupon.columnHeader4.Text :Form code
+dlgCoupon.columnHeader5.Text :Reduction %
+dlgCoupon.btnAdd.Text :More
+dlgCoupon.Text :Coupons
+dlgPromotion.tabNum.Text :Amount
+dlgPromotion.groupBox1.Text :Programme
+dlgPromotion.colProCode.Text :Promotion Code
+dlgPromotion.colProName.Text :Promotion Name
+dlgPromotion.colDateFrom.Text :From Date
+dlgPromotion.colDateTo.Text :To date
+dlgPromotion.colNumMin.Text :Min Quantity
+dlgPromotion.colNumMax.Text :Max Quantity
+dlgPromotion.columnHeader7.Text :Decreased
+dlgPromotion.columnHeader8.Text :Reduced value
+dlgPromotion.columnHeader9.Text :Total SL purchase
+dlgPromotion.columnHeader10.Text :Total purchase
+dlgPromotion.columnHeader11.Text :Reduced Amount
+dlgPromotion.btnOK.Text :OK
+dlgPromotion.btnClose.Text :Closed
+dlgPromotion.Text :Promotion program
+dlgSearchCustomer.gbListCustomer.Text :Customer List
+dlgSearchCustomer.clnSTT.HeaderText :No
+dlgSearchCustomer.clnCustomerCode.HeaderText :Customer Code
+dlgSearchCustomer.clnOldCode.HeaderText :Old code
+dlgSearchCustomer.clnFirstName.HeaderText :Name
+dlgSearchCustomer.clnLastName.HeaderText :Surname
+dlgSearchCustomer.clnPhoneNumber.HeaderText :Mobile phone
+dlgSearchCustomer.clnBirthDate.HeaderText :Date of birth
+dlgSearchCustomer.clnIDNO.HeaderText :ID card
+dlgSearchCustomer.clnTelephone.HeaderText :Desk phone
+dlgSearchCustomer.clnEmail.HeaderText :Email
+dlgSearchCustomer.clnAdress.HeaderText :Address
+dlgSearchCustomer.clnGroup.HeaderText :group
+dlgSearchCustomer.clnPlace.HeaderText :Store
+dlgSearchCustomer.clnPurchase.HeaderText :Sales
+dlgSearchCustomer.btnGoPage.Text :Go to the page
+dlgSearchCustomer.lblTotalRow.Text :total
+dlgSearchCustomer.lblPage.Text :Page
+dlgSearchCustomer.btnClose.Text :Closed
+dlgSearchCustomer.Text :Search Results
+frmCashPaymentVoucher.gbxTTChiTien.Text :Money spending information
+frmCashPaymentVoucher.label9.Text :Exchange rate
+frmCashPaymentVoucher.label8.Text :Hours
+frmCashPaymentVoucher.lblDate.Text :Day
+frmCashPaymentVoucher.label6.Text :Note
+frmCashPaymentVoucher.label5.Text :Amount of money
+frmCashPaymentVoucher.label4.Text :Receiver
+frmCashPaymentVoucher.label3.Text :Payment Type
+frmCashPaymentVoucher.label2.Text :Who spend
+frmCashPaymentVoucher.label1.Text :Payment code
+frmCashPaymentVoucher.gbxDanhSach.Text :List
+frmCashPaymentVoucher.columnHeader1.Text :People who spend money
+frmCashPaymentVoucher.columnHeader2.Text :Name Payment Type
+frmCashPaymentVoucher.columnHeader3.Text :Receiver
+frmCashPaymentVoucher.columnHeader4.Text :Amount of money
+frmCashPaymentVoucher.columnHeader5.Text :Currency
+frmCashPaymentVoucher.columnHeader6.Text :Exchange rate
+frmCashPaymentVoucher.columnHeader7.Text :Date spent
+frmCashPaymentVoucher.columnHeader8.Text :Note
+frmCashPaymentVoucher.btnPrintVoucher.Text :Print the coupon
+frmCashPaymentVoucher.btnClose.Text :Closed
+frmCashPaymentVoucher.btnDelete.Text :Erase
+frmCashPaymentVoucher.btnSave.Text :Save
+frmCashPaymentVoucher.btnInsert.Text :Add new
+frmCashPaymentVoucher.Text :Money spending information
+frmCashReceiveVouche.gbxTTThuTien.Text :Collection information
+frmCashReceiveVouche.label9.Text :Hours
+frmCashReceiveVouche.lblDateReceipt.Text :Day
+frmCashReceiveVouche.label7.Text :Exchange rate
+frmCashReceiveVouche.label6.Text :Note
+frmCashReceiveVouche.label5.Text :Amount of money
+frmCashReceiveVouche.label4.Text :Received from
+frmCashReceiveVouche.label3.Text :Receipt Type
+frmCashReceiveVouche.label2.Text :Receiver
+frmCashReceiveVouche.label1.Text :Receipt code
+frmCashReceiveVouche.gbxDanhSach.Text :List
+frmCashReceiveVouche.columnHeader1.Text :Collecter
+frmCashReceiveVouche.columnHeader2.Text :Name Receipt Type
+frmCashReceiveVouche.columnHeader3.Text :Received from
+frmCashReceiveVouche.columnHeader4.Text :Amount of money
+frmCashReceiveVouche.columnHeader5.Text :Currency
+frmCashReceiveVouche.columnHeader6.Text :Exchange rate
+frmCashReceiveVouche.columnHeader7.Text :Autumn day
+frmCashReceiveVouche.columnHeader8.Text :Note
+frmCashReceiveVouche.btnInsert.Text :Add new
+frmCashReceiveVouche.btnSave.Text :Save
+frmCashReceiveVouche.btnDelete.Text :Erase
+frmCashReceiveVouche.btnClose.Text :Closed
+frmCashReceiveVouche.btnPrint.Text :Print the coupon
+frmCashReceiveVouche.Text :Collection information
+frmCustomerSearch.gbxTimKiem.Text :Search terms
+frmCustomerSearch.btnSearch.Text :Find
+frmCustomerSearch.label11.Text :Address
+frmCustomerSearch.label10.Text :Email address
+frmCustomerSearch.label9.Text :Mobile-desk phone
+frmCustomerSearch.label8.Text :ID card-Passport
+frmCustomerSearch.label7.Text :Religion
+frmCustomerSearch.label6.Text :Blood group
+frmCustomerSearch.label5.Text :Customer Code
+frmCustomerSearch.chkActive.Text :Customer deactivated
+frmCustomerSearch.label4.Text :Race
+frmCustomerSearch.label3.Text :Sex
+frmCustomerSearch.label2.Text :Year of Birth
+frmCustomerSearch.label1.Text :Full name
+frmCustomerSearch.gbxDanhSach.Text :List of customers
+frmCustomerSearch.clnSTT.HeaderText :No
+frmCustomerSearch.clnCustomerCode.HeaderText :Customer Code
+frmCustomerSearch.clnOldCode.HeaderText :Old code
+frmCustomerSearch.clnFirstName.HeaderText :Name
+frmCustomerSearch.clnLastName.HeaderText :Surname
+frmCustomerSearch.clnPhoneNumber.HeaderText :Mobile phone
+frmCustomerSearch.clnBirthDate.HeaderText :Date of birth
+frmCustomerSearch.clnIDNO.HeaderText :ID card
+frmCustomerSearch.clnTelephone.HeaderText :Desk phone
+frmCustomerSearch.clnEmail.HeaderText :Email
+frmCustomerSearch.clnAdress.HeaderText :Address
+frmCustomerSearch.clnPlace.HeaderText :Store
+frmCustomerSearch.btnOK.Text :OK
+frmCustomerSearch.btnClose.Text :Closed
+frmCustomerSearch.btnGoPage.Text :Go to the page
+frmCustomerSearch.lblTotalRow.Text :total
+frmCustomerSearch.lblPage.Text :Page
+frmCustomerSearch.label12.Text :Line / page
+frmCustomerSearch.Text :Finding customers
+frmDialogAuthentication.label1.Text :User name
+frmDialogAuthentication.btnCheck.Text :Check
+frmDialogAuthentication.label2.Text :password
+frmDialogAuthentication.btnClose.Text :Closed
+frmDialogDiscountProduct.groupBox1.Text :List of goods
+frmDialogDiscountProduct.clnChose.HeaderText :Choose
+frmDialogDiscountProduct.clnProductCode.HeaderText :Items Code
+frmDialogDiscountProduct.clnProductName.HeaderText :Items Name
+frmDialogDiscountProduct.clnQuantity.HeaderText :Amount
+frmDialogDiscountProduct.clnPrice.HeaderText :Cost
+frmDialogDiscountProduct.clnPriceSales.HeaderText :Price
+frmDialogDiscountProduct.clnIntoMoney.HeaderText :Amount
+frmDialogDiscountProduct.chkChose.Text :Uncheck all products
+frmDialogDiscountProduct.btnOK.Text :OK
+frmDialogDiscountProduct.btnClose.Text :Cancel
+frmDialogDiscountProduct.Text :Choose a discount product
+frmDialogPayment.tpPayCard.Text :Foreign currency, payment card
+frmDialogPayment.label14.Text :Amount of money
+frmDialogPayment.label15.Text :card type
+frmDialogPayment.label16.Text :Visa
+frmDialogPayment.clnCurrency.HeaderText :Currency
+frmDialogPayment.clnExchangeRate.HeaderText :Exchange rate
+frmDialogPayment.clnAmount.HeaderText :Amount of money
+frmDialogPayment.clnIntoMoney.HeaderText :Amount
+frmDialogPayment.tpGift.Text :Gift Certificate
+frmDialogPayment.clnCode.HeaderText :Form code
+frmDialogPayment.clnPar.HeaderText :Braidh price
+frmDialogPayment.clnBalance.HeaderText :Surplus
+frmDialogPayment.clnMaxPay.HeaderText :TT Max
+frmDialogPayment.clnPayment.HeaderText :Pay
+frmDialogPayment.clnRemain.HeaderText :Rest
+frmDialogPayment.tpPromotion.Text :Promotion
+frmDialogPayment.tpBill.Text :VAT invoice
+frmDialogPayment.label17.Text :Note
+frmDialogPayment.label18.Text :Tax code
+frmDialogPayment.label19.Text :Address
+frmDialogPayment.label20.Text :Company name
+frmDialogPayment.chkRedBill.Text :Red invoice printing
+frmDialogPayment.grbPayment.Text :Pay
+frmDialogPayment.label5.Text :Have to pay
+frmDialogPayment.label4.Text :Discount
+frmDialogPayment.label3.Text :Money Deals
+frmDialogPayment.label2.Text :Discount
+frmDialogPayment.label1.Text :Money for goods
+frmDialogPayment.groupBox2.Text :Money given by customers
+frmDialogPayment.label7.Text :VND
+frmDialogPayment.label6.Text :Other money (Visa, Master, foreign currency ...)
+frmDialogPayment.groupBox3.Text :total
+frmDialogPayment.label11.Text :Quantity bill
+frmDialogPayment.label10.Text :Missing
+frmDialogPayment.label9.Text :Refunds
+frmDialogPayment.label8.Text :Total received
+frmDialogPayment.btnClose.Text :ESC
+frmDialogPayment.btnPayment.Text :F9
+frmDialogPayment.btnPayAndPrint.Text :F8
+frmDialogPayment.btnPrintTemp.Text :F7
+frmDialogPayment.Text :Pay
+frmDialogRedInvoice.groupBox1.Text :Red invoice information
+frmDialogRedInvoice.label15.Text :TT form
+frmDialogRedInvoice.label9.Text :Note
+frmDialogRedInvoice.label8.Text :Buyer
+frmDialogRedInvoice.label7.Text :Address (*)
+frmDialogRedInvoice.label5.Text :Tax code (*)
+frmDialogRedInvoice.label6.Text :Unit name (*)
+frmDialogRedInvoice.label3.Text :Print date
+frmDialogRedInvoice.label4.Text :Contract number (*)
+frmDialogRedInvoice.label2.Text :Customer name
+frmDialogRedInvoice.label1.Text :Customer Code
+frmDialogRedInvoice.groupBox2.Text :List of goods
+frmDialogRedInvoice.label14.Text :Total payment
+frmDialogRedInvoice.label12.Text :Add the goods
+frmDialogRedInvoice.label11.Text :Total Quantity
+frmDialogRedInvoice.label10.Text :Actual total purchase
+frmDialogRedInvoice.btnPrint.Text :Print
+frmDialogRedInvoice.btnClose.Text :Closed
+frmDialogRedInvoice.ProductID.HeaderText :Items Code
+frmDialogRedInvoice.colProductName.HeaderText :Items Name, Services
+frmDialogRedInvoice.ProductRIC.HeaderText :NH
+frmDialogRedInvoice.Quantity.HeaderText :Quantity
+frmDialogRedInvoice.UnitName.HeaderText :UOM
+frmDialogRedInvoice.PriceSale.HeaderText :Unit price
+frmDialogRedInvoice.PriceTotal.HeaderText :Amount
+frmDialogRedInvoice.VAT.HeaderText :VAT
+frmDialogRedInvoice.Remark.HeaderText :Note
+frmDialogRedInvoice.Text :Red invoice printing
+frmDialogRedInvoiceMng.groupBox1.Text :Search
+frmDialogRedInvoiceMng.label4.Text :To date
+frmDialogRedInvoiceMng.label3.Text :From Date
+frmDialogRedInvoiceMng.label2.Text :Client's name
+frmDialogRedInvoiceMng.label1.Text :Customer Code
+frmDialogRedInvoiceMng.groupBox2.Text :List
+frmDialogRedInvoiceMng.btnLoad.Text :Find
+frmDialogRedInvoiceMng.btnPrint.Text :Print
+frmDialogRedInvoiceMng.btnView.Text :Review
+frmDialogRedInvoiceMng.btnDelete.Text :Erase
+frmDialogRedInvoiceMng.btnClose.Text :Closed
+frmDialogRedInvoiceMng.INVOICE_NO.HeaderText :Red invoice number
+frmDialogRedInvoiceMng.OFFICE_WORKING.HeaderText :Unit name
+frmDialogRedInvoiceMng.OFFICE_ADDRESS.HeaderText :Address
+frmDialogRedInvoiceMng.TAX_CODE.HeaderText :Tax code
+frmDialogRedInvoiceMng.TOTAL_QUANTITY.HeaderText :Amount
+frmDialogRedInvoiceMng.TOTAL_MONEY.HeaderText :Money for goods
+frmDialogRedInvoiceMng.VAT.HeaderText :VAT amount
+frmDialogRedInvoiceMng.TOTAL.HeaderText :Total payment
+frmDialogRedInvoiceMng.PRINT_DATE.HeaderText :Print date
+frmDialogRedInvoiceMng.REMARKS.HeaderText :Red contract notes
+frmDialogRedInvoiceMng.AUTO_ID.HeaderText :AUTO_ID
+frmDialogRedInvoiceMng.CREATE_DATE.HeaderText :CREATE_DATE
+frmDialogRedInvoiceMng.USER_CREATE.HeaderText :USER_CREATE
+frmDialogRedInvoiceMng.PAYMENT_TYPE.HeaderText :PAYMENT_TYPE
+frmDialogRedInvoiceMng.CUSTOMER_ID.HeaderText :CUSTOMER_ID
+frmDialogRedInvoiceMng.LIST_INVOICE.HeaderText :LIST_INVOICE
+frmDialogRedInvoiceMng.Text :Red invoice management
+frmDialogReturnItemAdd.groupBox1.Text :Return information
+frmDialogReturnItemAdd.label6.Text :Total refund
+frmDialogReturnItemAdd.label5.Text :Feedback (*)
+frmDialogReturnItemAdd.label4.Text :Reason for payment (*)
+frmDialogReturnItemAdd.label3.Text :Hours(*)
+frmDialogReturnItemAdd.label2.Text :Day(*)
+frmDialogReturnItemAdd.btnSearch.Text :Search
+frmDialogReturnItemAdd.label1.Text :Code Bill(*)
+frmDialogReturnItemAdd.btnSave.Text :Save
+frmDialogReturnItemAdd.btnClose.Text :Closed
+frmDialogReturnItemAdd.clnProductCode.HeaderText :Items Code
+frmDialogReturnItemAdd.clnProductName.HeaderText :Items Name
+frmDialogReturnItemAdd.clnQuantity.HeaderText :Amount
+frmDialogReturnItemAdd.clnPriceSale.HeaderText :Price
+frmDialogReturnItemAdd.clnCashReturn.HeaderText :Refunds
+frmDialogReturnItemAdd.clnCode.HeaderText :code
+frmDialogReturnItemAdd.clnREASON.HeaderText :REASON
+frmDialogReturnItemAdd.clnMASTER_CODE.HeaderText :MASTER_CODE
+frmDialogReturnItemAdd.Text :Return information
+frmDialogSales.clnProductCode.HeaderText :Item code
+frmDialogSales.clnBarCode.HeaderText :Barcode
+frmDialogSales.clnProductName.HeaderText :Item Name
+frmDialogSales.Text :List of products
+frmDialogSaleBillSearch.groupBox1.Text :Search terms
+frmDialogSaleBillSearch.btnSearch.Text :Search
+frmDialogSaleBillSearch.label2.Text :To date
+frmDialogSaleBillSearch.label1.Text :From Date
+frmDialogSaleBillSearch.groupBox2.Text :Invoice list
+frmDialogSaleBillSearch.clnSaleCode.HeaderText :Code Bill
+frmDialogSaleBillSearch.clnSaleDate.HeaderText :Bill date
+frmDialogSaleBillSearch.clnTotalAmount.HeaderText :Total
+frmDialogSaleBillSearch.btnOK.Text :OK
+frmDialogSaleBillSearch.btnClose.Text :Closed
+frmDialogSaleBillSearch.Text :Invoice search results
+frmDialogSpecialDiscount.rdbTime.Text :Discount timing
+frmDialogSpecialDiscount.rdbSpecial.Text :Special discounts
+frmDialogSpecialDiscount.label4.Text :Note
+frmDialogSpecialDiscount.label3.Text :Discounted by
+frmDialogSpecialDiscount.label2.Text :Discount type
+frmDialogSpecialDiscount.label1.Text :Discount
+frmDialogSpecialDiscount.btnOk.Text :Agree
+frmDialogSpecialDiscount.btnClose.Text :Closed
+frmDialogSpecialDiscount.label5.Text :Discount name
+frmDialogSpecialDiscount.label6.Text :Discount %
+frmDialogSpecialDiscount.Text :Special discounts
+frmExportDiscountVoucher.gbxDanhSachKH.Text :Customer List
+frmExportDiscountVoucher.columnHeader1.Text :Customer Code
+frmExportDiscountVoucher.columnHeader2.Text :Name
+frmExportDiscountVoucher.columnHeader3.Text :Surname
+frmExportDiscountVoucher.gbxTimKiem.Text :Quick search
+frmExportDiscountVoucher.btnDiscountVoucherSearch.Text :Find
+frmExportDiscountVoucher.label13.Text :Note
+frmExportDiscountVoucher.label11.Text :Time of export
+frmExportDiscountVoucher.label9.Text :Export date
+frmExportDiscountVoucher.label10.Text :Code Bill
+frmExportDiscountVoucher.label8.Text :Coupon code
+frmExportDiscountVoucher.label7.Text :Email
+frmExportDiscountVoucher.label6.Text :ID card
+frmExportDiscountVoucher.label5.Text :Full name
+frmExportDiscountVoucher.label4.Text :Place of creation
+frmExportDiscountVoucher.label3.Text :Phone
+frmExportDiscountVoucher.label2.Text :Date of birth
+frmExportDiscountVoucher.label1.Text :Customer Code
+frmExportDiscountVoucher.gbxDanhSachPhieu.Text :List of votes
+frmExportDiscountVoucher.gbxDanhSachXuatPhieu.Text :Coupon list
+frmExportDiscountVoucher.Text :Coupon issuance
+frmManagerReceive.gbxDanhSach.Text :Invoice list
+frmManagerReceive.btnInvoicesRedPrint.Text :Red invoice printing
+frmManagerReceive.btnInvoicesManage.Text :Red contract management
+frmManagerReceive.btnInvoicePrint.Text :Invoice printing
+frmManagerReceive.btnDeleteInvoice.Text :Delete invoice
+frmManagerReceive.btnGoPage.Text :Go to the page
+frmManagerReceive.lblTotalRow.Text :total
+frmManagerReceive.lblPage.Text :Page
+frmManagerReceive.label7.Text :Line / page
+frmManagerReceive.tabPage1.Text :Invoice details
+frmManagerReceive.PRODUCT_ID.HeaderText :Product code
+frmManagerReceive.P_ID.HeaderText :ID
+frmManagerReceive.PRODUCT_NAME.HeaderText :Product's name
+frmManagerReceive.PRODUCT_NAME_PRINT.HeaderText :Invoice printing name
+frmManagerReceive.UNIT_NAME.HeaderText :Unit
+frmManagerReceive.Quantity.HeaderText :Amount
+frmManagerReceive.PRICE_SALES.HeaderText :Price
+frmManagerReceive.Amount.HeaderText :Amount
+frmManagerReceive.TotalDiscount.HeaderText :Discount
+frmManagerReceive.TotalAmount.HeaderText :Pay
+frmManagerReceive.Remark.HeaderText :Note
+frmManagerReceive.columnHeader20.Text :Product code
+frmManagerReceive.columnHeader21.Text :ID
+frmManagerReceive.columnHeader22.Text :Product's name
+frmManagerReceive.columnHeader23.Text :Invoice printing name
+frmManagerReceive.columnHeader24.Text :Unit
+frmManagerReceive.columnHeader25.Text :Amount
+frmManagerReceive.columnHeader26.Text :Price
+frmManagerReceive.columnHeader27.Text :Amount
+frmManagerReceive.columnHeader28.Text :Discount
+frmManagerReceive.columnHeader30.Text :Pay
+frmManagerReceive.columnHeader29.Text :Note
+frmManagerReceive.tabPage2.Text :Billing Information
+frmManagerReceive.columnHeader1.Text :Payment times
+frmManagerReceive.columnHeader2.Text :Currency
+frmManagerReceive.columnHeader3.Text :Exchange rate
+frmManagerReceive.columnHeader4.Text :Amount of money
+frmManagerReceive.columnHeader5.Text :Have to pay
+frmManagerReceive.columnHeader6.Text :Paid
+frmManagerReceive.columnHeader7.Text :Rest
+frmManagerReceive.columnHeader8.Text :Refunds
+frmManagerReceive.columnHeader9.Text :Collecter
+frmManagerReceive.columnHeader10.Text :Autumn day
+frmManagerReceive.tabPage3.Text :Discounts & discounts
+frmManagerReceive.columnHeader11.Text :Coupon / Card / Program
+frmManagerReceive.columnHeader12.Text :Type
+frmManagerReceive.columnHeader13.Text :Discount / discount
+frmManagerReceive.columnHeader14.Text :% Discount / discount
+frmManagerReceive.columnHeader15.Text :Total discount / discount
+frmManagerReceive.columnHeader16.Text :Performed by
+frmManagerReceive.columnHeader17.Text :Verified by
+frmManagerReceive.tabPage4.Text :Promotion
+frmManagerReceive.label8.Text :Programme
+frmManagerReceive.groupBox1.Text :Present
+frmManagerReceive.columnHeader18.Text :Product code
+frmManagerReceive.columnHeader19.Text :Product's name
+frmManagerReceive.columnHeader31.Text :Invoice printing name
+frmManagerReceive.columnHeader32.Text :Amount
+frmManagerReceive.btnSearch.Text :Search
+frmManagerReceive.btnExit.Text :Closed
+frmManagerReceive.gbxThongTinHD.Text :Invoice information
+frmManagerReceive.label6.Text :Come
+frmManagerReceive.label5.Text :Sold from
+frmManagerReceive.label4.Text :Red contract
+frmManagerReceive.label3.Text :Code Bill
+frmManagerReceive.label2.Text :Customer name
+frmManagerReceive.label1.Text :Customer Code
+frmManagerReceive.colSelect.HeaderText :Choose
+frmManagerReceive.EXPORT_CODE.HeaderText :Code Bill
+frmManagerReceive.TRANSFER_SHIFT_CODE.HeaderText :Shift
+frmManagerReceive.CUSTOMER_ID.HeaderText :Customer Code
+frmManagerReceive.FIRST_NAME.HeaderText :Name
+frmManagerReceive.LAST_NAME.HeaderText :Surname
+frmManagerReceive.EXPORT_DATE.HeaderText :Date of sale
+frmManagerReceive.TOTAL_AMOUNT.HeaderText :Total value
+frmManagerReceive.TOTAL_DISCOUNT.HeaderText :Discount money
+frmManagerReceive.TOTAL_PAYMENTS.HeaderText :Payments
+frmManagerReceive.USED_RED_INVOIDE.HeaderText :Red print contract
+frmManagerReceive.Column11.HeaderText :CTy / Unit
+frmManagerReceive.Column12.HeaderText :Tax code
+frmManagerReceive.Column13.HeaderText :Address
+frmManagerReceive.Column14.HeaderText :Red contract notes
+frmManagerReceive.Column15.HeaderText :Note
+frmManagerReceive.Column17.HeaderText :No
+frmManagerReceive.Text :Bill management
+frmProductSearch.btnSearch.Text :Find
+frmProductSearch.rdbTenHang.Text :Items Name
+frmProductSearch.rdbMaHang.Text :Items Code
+frmProductSearch.groupBox2.Text :List
+frmProductSearch.PRODUCT_ID.HeaderText :Items Code
+frmProductSearch.PRODUCT_NAME.HeaderText :Items Name
+frmProductSearch.btnOK.Text :OK
+frmProductSearch.btnExit.Text :Closed
+frmProductSearch.Text :Search Item Code
+frmReturnItems.groupBox5.Text :Total amount returned
+frmReturnItems.label11.Text :Total amount returned
+frmReturnItems.label10.Text :Feedback
+frmReturnItems.label9.Text :Reason for paying
+frmReturnItems.groupBox4.Text :Information on goods paid
+frmReturnItems.clnDetailsCode.HeaderText :code
+frmReturnItems.clnMASTER_CODE.HeaderText :MASTER_CODE
+frmReturnItems.clnREASON.HeaderText :REASON
+frmReturnItems.clnProductCode.HeaderText :Goods Code
+frmReturnItems.clnProductName.HeaderText :Items Name
+frmReturnItems.clnQuantity.HeaderText :Amount
+frmReturnItems.clnReturnMoney.HeaderText :Refunds
+frmReturnItems.groupBox3.Text :List of returns
+frmReturnItems.columnHeader4.Text :Return code
+frmReturnItems.columnHeader5.Text :Return date
+frmReturnItems.columnHeader6.Text :Bill
+frmReturnItems.groupBox1.Text :Customer List
+frmReturnItems.columnHeader1.Text :Customer Code
+frmReturnItems.columnHeader2.Text :Name
+frmReturnItems.columnHeader3.Text :Surname
+frmReturnItems.gbxTim.Text :Quick search
+frmReturnItems.btnCustomerSearch.Text :Find
+frmReturnItems.label1.Text :Customer List
+frmReturnItems.label8.Text :Email
+frmReturnItems.label7.Text :ID card
+frmReturnItems.label6.Text :Full name
+frmReturnItems.label5.Text :Place of creation
+frmReturnItems.label4.Text :Phone
+frmReturnItems.label3.Text :Date of birth
+frmReturnItems.label2.Text :Customer Code
+frmReturnItems.Text :Return information
+frmSale.gbxBanHang.Text :Sell
+frmSale.label12.Text :Shift
+frmSale.lblDate.Text :Day
+frmSale.label3.Text :Hours
+frmSale.label2.Text :Day
+frmSale.label1.Text :Item code (F5)
+frmSale.btnF2.Text :F2 Quantity
+frmSale.btnF3.Text :F3 Customer
+frmSale.btnF8.Text :F8 Payment
+frmSale.btnF9.Text :F9 Change Price
+frmSale.btnF10.Text :F10 Discount
+frmSale.btnF11.Text :F11 Coupons
+frmSale.btnF12.Text :F12 Exit
+frmSale.btnEsc.Text :Esc
+frmSale.gbxDanhSach.Text :List of goods
+frmSale.clnBARCODE.HeaderText :Barcode
+frmSale.clnPRODUCT_ID.HeaderText :Items Code
+frmSale.clnPRODUCT_NAME.HeaderText :Items Name
+frmSale.clnUNIT_NAME.HeaderText :UOM
+frmSale.clnQUANTITY.HeaderText :Quantity
+frmSale.clnINVENTORY.HeaderText :TK
+frmSale.clnPrice.HeaderText :Price
+frmSale.clnIntoMoney.HeaderText :Amount
+frmSale.clnCoupons.HeaderText :Reduce PGG
+frmSale.clnCustomerCard.HeaderText :Discount card customer
+frmSale.clnPromotion.HeaderText :Promotion
+frmSale.clnSpecialDiscount.HeaderText :Discount NE
+frmSale.clnPayment.HeaderText :Pay
+frmSale.clnEmployee.HeaderText :Staff
+frmSale.clnRemarks.HeaderText :Note
+frmSale.gbxKhachHang.Text :Customer
+frmSale.label13.Text :Cumulative sales
+frmSale.label4.Text :Customer Code (F4)
+frmSale.label6.Text :Address
+frmSale.label5.Text :Client's name
+frmSale.gbxThanhToan.Text :Pay
+frmSale.label7.Text :Pay
+frmSale.label11.Text :Discount
+frmSale.label10.Text :Promotion
+frmSale.label9.Text :Discount
+frmSale.label8.Text :Money for goods
+frmSale.Text :Sell
+frmSellGiftVoucher.label13.Text :Note
+frmSellGiftVoucher.label12.Text :Total
+frmSellGiftVoucher.label11.Text :Hours of sale
+frmSellGiftVoucher.label10.Text :Code Bill
+frmSellGiftVoucher.label9.Text :Date of sale
+frmSellGiftVoucher.label8.Text :Coupon code
+frmSellGiftVoucher.gbxDanhSachPhieu.Text :List of votes
+frmSellGiftVoucher.gbxDanhSachBanPhieu.Text :List selling gift certificates
+frmSellGiftVoucher.gbxDanhSachKH.Text :Customer List
+frmSellGiftVoucher.columnHeader1.Text :Customer Code
+frmSellGiftVoucher.columnHeader2.Text :Name
+frmSellGiftVoucher.columnHeader3.Text :Surname
+frmSellGiftVoucher.gbxTimKiem.Text :Quick search
+frmSellGiftVoucher.btnGiftVoucherSearch.Text :Find
+frmSellGiftVoucher.label7.Text :Email
+frmSellGiftVoucher.label6.Text :ID card
+frmSellGiftVoucher.label5.Text :Full name
+frmSellGiftVoucher.label4.Text :Place of creation
+frmSellGiftVoucher.label3.Text :Phone
+frmSellGiftVoucher.label2.Text :Date of birth
+frmSellGiftVoucher.label1.Text :Customer Code
+frmSellGiftVoucher.Text :Voucher sale
+frmTimeEndAttendance.label42.Text :Day
+frmTimeEndAttendance.label20.Text :Barcode (F5)
+frmTimeEndAttendance.gbxThongTinNV.Text :Staff information
+frmTimeEndAttendance.label4.Text :Workplace
+frmTimeEndAttendance.label3.Text :Date and time of card scanning
+frmTimeEndAttendance.label1.Text :Full name
+frmTimeEndAttendance.label31.Text :Staff Code
+frmTimeEndAttendance.label28.Text :Picture
+frmTimeEndAttendance.label2.Text :Main information
+frmTimeEndAttendance.Text :Staff card scanning
+frmShiftManagement.gbxDanhSachNV.Text :Staff List
+frmShiftManagement.btnView.Text :Check calendar
+frmShiftManagement.chkAllEmployee.Text :Select all Staff
+frmShiftManagement.columnHeader1.Text :Staff Code
+frmShiftManagement.columnHeader2.Text :Surname
+frmShiftManagement.columnHeader3.Text :Name
+frmShiftManagement.gbxShift.Text :Set up work schedule
+frmShiftManagement.label1.Text :Select shift
+frmShiftManagement.label27.Text :To date
+frmShiftManagement.label42.Text :From Date
+frmShiftManagement.gbxLich.Text :Calendar
+frmShiftManagement.Text :Sales schedule
+frmSearchEmployeeName.groupBox1.Text :Staff List
+frmSearchEmployeeName.btnChoosePage.Text :Go to the page
+frmSearchEmployeeName.lblPage.Text :Page
+frmSearchEmployeeName.label1.Text :Number of lines / page
+frmSearchEmployeeName.colEmployeeCode.Text :Staff Code
+frmSearchEmployeeName.colEmploeeName.Text :Name
+frmSearchEmployeeName.colEmployeeFisrtName.Text :Surname
+frmSearchEmployeeName.colRoom.Text :Department
+frmSearchEmployeeName.btnOK.Text :OK
+frmSearchEmployeeName.btnClose.Text :Closed
+frmSearchEmployeeName.Text :Find Staff
+frmEmployeeSearch.gbxToChuc.Text :Organization
+frmEmployeeSearch.btnEmployeeSearch.Text :Find
+frmEmployeeSearch.gbxNhanVien.Text :Staff
+frmEmployeeSearch.lblPage.Text :Page
+frmEmployeeSearch.lblRowlist.Text :total
+frmEmployeeSearch.columnHeader1.Text :Staff Code
+frmEmployeeSearch.columnHeader2.Text :Name
+frmEmployeeSearch.columnHeader3.Text :Surname
+frmEmployeeSearch.groupBox3.Text :Selected
+frmEmployeeSearch.columnHeader4.Text :Staff Code
+frmEmployeeSearch.columnHeader5.Text :Name
+frmEmployeeSearch.columnHeader6.Text :Surname
+frmEmployeeSearch.columnHeader7.Text :Department
+frmEmployeeSearch.btnOK.Text :OK
+frmEmployeeSearch.btnCancel.Text :Closed
+frmEmployeeSearch.tabPage1.Text :Staff List
+frmEmployeeSearch.Text :Find Staff
+frmEmployeeInfomation.gbxTTNhanVien.Text :Staff information
+frmEmployeeInfomation.label45.Text :(*) are required data
+frmEmployeeInfomation.label27.Text :Day off
+frmEmployeeInfomation.label25.Text :Working status
+frmEmployeeInfomation.label24.Text :Salary (VND)
+frmEmployeeInfomation.label42.Text :Start day
+frmEmployeeInfomation.label23.Text :Position
+frmEmployeeInfomation.label22.Text :Group
+frmEmployeeInfomation.label21.Text :Workplace(*)
+frmEmployeeInfomation.label19.Text :Workplace
+frmEmployeeInfomation.label18.Text :Temporary address
+frmEmployeeInfomation.label16.Text :Permanent address
+frmEmployeeInfomation.label14.Text :Temporary phone
+frmEmployeeInfomation.label15.Text :Regular phone
+frmEmployeeInfomation.label12.Text :Mobile phone
+frmEmployeeInfomation.label11.Text :Email
+frmEmployeeInfomation.label9.Text :Communications
+frmEmployeeInfomation.label8.Text :Issued by
+frmEmployeeInfomation.label26.Text :Date Range
+frmEmployeeInfomation.label20.Text :ID card
+frmEmployeeInfomation.label6.Text :ID card
+frmEmployeeInfomation.label4.Text :Education
+frmEmployeeInfomation.label10.Text :Marital status
+frmEmployeeInfomation.label17.Text :Religion
+frmEmployeeInfomation.label7.Text :Sex
+frmEmployeeInfomation.label44.Text :Place of birth
+frmEmployeeInfomation.label5.Text :Date of birth
+frmEmployeeInfomation.label1.Text :Barcode
+frmEmployeeInfomation.label13.Text :Name(*)
+frmEmployeeInfomation.label3.Text :Full name (*)
+frmEmployeeInfomation.label31.Text :Staff Code
+frmEmployeeInfomation.label2.Text :Main information
+frmEmployeeInfomation.gbxDanhSachNV.Text :Staff List
+frmEmployeeInfomation.columnHeader1.Text :Staff Code
+frmEmployeeInfomation.columnHeader2.Text :Surname
+frmEmployeeInfomation.columnHeader3.Text :Name
+frmEmployeeInfomation.gbxTim.Text :Quick search
+frmEmployeeInfomation.btnEmployeeSearch.Text :Find
+frmEmployeeInfomation.Text :Staff information
+frmCustomerManagement.label1.Text :Customer List
+frmCustomerManagement.gbxTim.Text :Quick search
+frmCustomerManagement.btnCustomerSearch.Text :Find
+frmCustomerManagement.gbxDanhSachKH.Text :Customer List
+frmCustomerManagement.columnHeader1.Text :Customer Code
+frmCustomerManagement.columnHeader2.Text :Name
+frmCustomerManagement.columnHeader3.Text :Surname
+frmCustomerManagement.tabCustomer.Text :Customer
+frmCustomerManagement.gbxTTKhachhang.Text :Customer information
+frmCustomerManagement.label17.Text :Date of card creation
+frmCustomerManagement.label16.Text :Card Type Customer
+frmCustomerManagement.label15.Text :Customer card information
+frmCustomerManagement.label8.Text :apartment number
+frmCustomerManagement.label46.Text :Email
+frmCustomerManagement.label45.Text :(*) are required data
+frmCustomerManagement.label44.Text :Place of creation
+frmCustomerManagement.label43.Text :Date updated / by
+frmCustomerManagement.label42.Text :Date created / by
+frmCustomerManagement.label41.Text :Other information
+frmCustomerManagement.label40.Text :Tax code
+frmCustomerManagement.label39.Text :Working address
+frmCustomerManagement.label38.Text :Work unit
+frmCustomerManagement.label37.Text :Address
+frmCustomerManagement.label36.Text :Street
+frmCustomerManagement.label35.Text :Wards (*)
+frmCustomerManagement.label34.Text :District (*)
+frmCustomerManagement.label33.Text :Province / City (*)
+frmCustomerManagement.label32.Text :Nation (*)
+frmCustomerManagement.label31.Text :Mobile phone (*)
+frmCustomerManagement.label30.Text :Desk / Fax
+frmCustomerManagement.label29.Text :Communications
+frmCustomerManagement.label26.Text :Date Range
+frmCustomerManagement.label25.Text :Note
+frmCustomerManagement.label21.Text :Issued by
+frmCustomerManagement.label20.Text :ID card / Passport
+frmCustomerManagement.label19.Text :ID card & Passport
+frmCustomerManagement.chkCusOfStore.Text :Own customer store
+frmCustomerManagement.label18.Text :Customer group (*)
+frmCustomerManagement.chkOther.Text :Other
+frmCustomerManagement.label14.Text :Customer Code
+frmCustomerManagement.label13.Text :Name (*)
+frmCustomerManagement.label12.Text :Status
+frmCustomerManagement.label11.Text :Cumulative sales
+frmCustomerManagement.label10.Text :Marriage
+frmCustomerManagement.label9.Text :Job
+frmCustomerManagement.label7.Text :Sex
+frmCustomerManagement.label6.Text :Place of birth
+frmCustomerManagement.label5.Text :Date of birth (*)
+frmCustomerManagement.label4.Text :Barcode
+frmCustomerManagement.label3.Text :Surname (*)
+frmCustomerManagement.label2.Text :Main information
+frmCustomerManagement.tabCustomerHistory.Text :Customer history
+frmCustomerManagement.label28.Text :content
+frmCustomerManagement.btnPhone.Text :Save
+frmCustomerManagement.label47.Text :Title
+frmCustomerManagement.label48.Text :Date of call
+frmCustomerManagement.label49.Text :phone number
+frmCustomerManagement.label50.Text :Caller
+frmCustomerManagement.btnSaveFeedback.Text :Save
+frmCustomerManagement.label22.Text :content
+frmCustomerManagement.label23.Text :Title
+frmCustomerManagement.label24.Text :Customer
+frmCustomerManagement.label27.Text :Day
+frmCustomerManagement.btnEmail.Text :Send email
+frmCustomerManagement.button3.Text :Phone
+frmCustomerManagement.button2.Text :Feedback
+frmCustomerManagement.groupBox4.Text :List
+frmCustomerManagement.dataGridViewTextBoxColumn3.HeaderText :Day
+frmCustomerManagement.dataGridViewTextBoxColumn4.HeaderText :Type
+frmCustomerManagement.dataGridViewTextBoxColumn5.HeaderText :Title
+frmCustomerManagement.Column6.HeaderText :Contact
+frmCustomerManagement.Column7.HeaderText :Contact
+frmCustomerManagement.Column8.HeaderText :Store
+frmCustomerManagement.Column9.HeaderText :Chain
+frmCustomerManagement.Column10.HeaderText :Location
+frmCustomerManagement.dataGridViewTextBoxColumn1.HeaderText :Pay day
+frmCustomerManagement.dataGridViewTextBoxColumn2.HeaderText :Return code
+frmCustomerManagement.groupBox2.Text :List of products
+frmCustomerManagement.Column3.HeaderText :Items Code
+frmCustomerManagement.Column4.HeaderText :Items Name
+frmCustomerManagement.Column5.HeaderText :Seller
+frmCustomerManagement.groupBox1.Text :Invoice list
+frmCustomerManagement.Column1.HeaderText :Date of purchase
+frmCustomerManagement.colExportCode.HeaderText :Code Bill
+frmCustomerManagement.Text :Customer manager
+frmAbout.label2.Text :Copyright APIS 2020
+frmAbout.label1.Text :Software version
+frmAbout.Text :Copyright information
+frmAppInfo.label2.Text :(Version 6.0)
+frmAppInfo.label1.Text :RDo SALES MANAGEMENT PROGRAM
+frmAppInfo.Text :Program information
+frmPaymentInvoice.btnSearch.Text :Find
+frmPaymentInvoice.label4.Text :To
+frmPaymentInvoice.label3.Text :To
+frmPaymentInvoice.label2.Text :From Date
+frmPaymentInvoice.label1.Text :From Date
+frmPaymentInvoice.groupBox2.Text :Invoice list
+frmPaymentInvoice.SoHD.HeaderText :Some bills
+frmPaymentInvoice.SoPO.HeaderText :PO number
+frmPaymentInvoice.SoNoiBo.HeaderText :Internal number
+frmPaymentInvoice.NgayHD.HeaderText :Bill date
+frmPaymentInvoice.SoTien.HeaderText :Amout
+frmPaymentInvoice.SoTienDaThanhToan.HeaderText :Paid
+frmPaymentInvoice.SoThanhToan.HeaderText :Pay
+frmPaymentInvoice.SoTienconLai.HeaderText :Unpaid amount
+frmPaymentInvoice.groupBox3.Text :Payment information
+frmPaymentInvoice.btnPhanBo.Text :Allocation
+frmPaymentInvoice.label7.Text :VND
+frmPaymentInvoice.label6.Text :Amount of money(*)
+frmPaymentInvoice.label5.Text :Day
+frmPaymentInvoice.btnTableStatementMoney.Text :Payment statement
+frmPaymentInvoice.btnSave.Text :&Save
+frmPaymentInvoice.btnClose.Text :&Closed
+frmPaymentInvoice.Text :Pay the bill
+frmLiablityView.btnImport.Text :Excel
+frmLiablityView.btnView.Text :View
+frmLiablityView.label8.Text :Day
+frmLiablityView.label9.Text :Invoice Payment Detail
+frmLiablityView.btnImportPay.Text :Excel
+frmLiablityView.btnViewPay.Text :View
+frmLiablityView.label4.Text :come
+frmLiablityView.label5.Text :From Date
+frmLiablityView.label6.Text :Statement of payment to the company
+frmLiablityView.btnImportLiablity.Text :Excel
+frmLiablityView.btnViewLiablity.Text :View
+frmLiablityView.label1.Text :come
+frmLiablityView.label2.Text :From Date
+frmLiablityView.label3.Text :Reconciliation of company debt
+frmLiablityView.btnImportInvoices.Text :Excel
+frmLiablityView.btnViewInvoices.Text :View
+frmLiablityView.label27.Text :come
+frmLiablityView.label42.Text :From Date
+frmLiablityView.label31.Text :Detailed list of imported invoices
+frmLiablityView.btnClose.Text :Closed
+frmLiablityView.Text :Debt report
+frmInvoicePayment.label28.Text :Payment times
+frmInvoicePayment.label27.Text :To date
+frmInvoicePayment.label42.Text :From Date
+frmInvoicePayment.gbxDanhSach.Text :Payment list
+frmInvoicePayment.MaTT.HeaderText :Code
+frmInvoicePayment.Ngay.HeaderText :Day
+frmInvoicePayment.MASTER_NAME.HeaderText :Type
+frmInvoicePayment.gbxChiTietTT.Text :Payment details
+frmInvoicePayment.Column1.HeaderText :Some bills
+frmInvoicePayment.SoPO.HeaderText :PO number
+frmInvoicePayment.SoNoiBo.HeaderText :Internal number
+frmInvoicePayment.NgayHD.HeaderText :Bill date
+frmInvoicePayment.NgayTT.HeaderText :Date of maturity
+frmInvoicePayment.SoTien.HeaderText :Amount of money
+frmInvoicePayment.SoThanhToan.HeaderText :Pay
+frmInvoicePayment.SoTienDaThanhToan.HeaderText :TC. Paid
+frmInvoicePayment.SoTienconLai.HeaderText :Unpaid amount
+frmInvoicePayment.gbxThanhToanHD.Text :Payment details according to the contract
+frmInvoicePayment.dataGridViewTextBoxColumn1.HeaderText :Some bills
+frmInvoicePayment.dataGridViewTextBoxColumn2.HeaderText :Bill date
+frmInvoicePayment.MASTERNAME.HeaderText :Payment type
+frmInvoicePayment.sSoThanhToan.HeaderText :Amount of money
+frmInvoicePayment.GhiChu.HeaderText :Note
+frmInvoicePayment.Text :Payment orders
+frmInputOpeningLiablity.gbxThongTinCongNo.Text :Information debt at the beginning of the period
+frmInputOpeningLiablity.label7.Text :Note
+frmInputOpeningLiablity.label4.Text :Rest
+frmInputOpeningLiablity.label5.Text :Paid
+frmInputOpeningLiablity.label6.Text :Amount of money(*)
+frmInputOpeningLiablity.label27.Text :Date of payment
+frmInputOpeningLiablity.label42.Text :Bill date
+frmInputOpeningLiablity.label2.Text :Internal number(*)
+frmInputOpeningLiablity.label1.Text :PO number (*)
+frmInputOpeningLiablity.label3.Text :Some bills(*)
+frmInputOpeningLiablity.gbxDanhSach.Text :List of debt at the beginning of the period
+frmInputOpeningLiablity.SoHD.HeaderText :Some bills
+frmInputOpeningLiablity.SoPO.HeaderText :PO number
+frmInputOpeningLiablity.SoNoiBo.HeaderText :Internal number
+frmInputOpeningLiablity.NgayHoaDon.HeaderText :Bill date
+frmInputOpeningLiablity.SoTien.HeaderText :Amount of money
+frmInputOpeningLiablity.SoTienDaThanhToan.HeaderText :The amount paid
+frmInputOpeningLiablity.SoTienConLai.HeaderText :The remaining amount
+frmInputOpeningLiablity.GhiChu.HeaderText :Note
+frmInputOpeningLiablity.NgayTT.HeaderText :RightTT
+frmInputOpeningLiablity.btnImport.Text :Import
+frmInputOpeningLiablity.btnInsert.Text :Add new
+frmInputOpeningLiablity.btnSave.Text :Save
+frmInputOpeningLiablity.btnDelete.Text :Erase
+frmInputOpeningLiablity.btnClose.Text :Closed
+frmInputOpeningLiablity.gbxImport.Text :File
+frmInputOpeningLiablity.label10.Text :Date Added
+frmInputOpeningLiablity.lblSum.Text :total
+frmInputOpeningLiablity.lblStatus.Text :ready
+frmInputOpeningLiablity.btnSampleExcel.Text :Import form
+frmInputOpeningLiablity.btnBegin.Text :Begin
+frmInputOpeningLiablity.label8.Text :Sheet
+frmInputOpeningLiablity.label9.Text :File
+frmInputOpeningLiablity.Text :Enter the debt at the beginning of the period
+frmCashDeposit.gbxThongTin.Text :Payment information
+frmCashDeposit.label6.Text :VND
+frmCashDeposit.label5.Text :VND
+frmCashDeposit.label4.Text :Explain
+frmCashDeposit.label3.Text :Cash POS
+frmCashDeposit.label2.Text :Cash
+frmCashDeposit.label1.Text :Day
+frmCashDeposit.groupBox2.Text :List of payments
+frmCashDeposit.btnExport.Text :Data export
+frmCashDeposit.btnClose.Text :Closed
+frmCashDeposit.btnCashSearch.Text :Search
+frmCashDeposit.label7.Text :From Date
+frmCashDeposit.label8.Text :come
+frmCashDeposit.btnInsert.Text :Add new
+frmCashDeposit.btnSave.Text :Save
+frmCashDeposit.btnDelete.Text :Erase
+frmCashDeposit.Ma.HeaderText :Code
+frmCashDeposit.Ngay.HeaderText :Date
+frmCashDeposit.DienGiai.HeaderText :Explain
+frmCashDeposit.SoTien.HeaderText :Cash
+frmCashDeposit.POS.HeaderText :Cash POS
+frmCashDeposit.TongCong.HeaderText :total
+frmCashDeposit.Text :Pay the company payment
+frmSOManagement.label4.Text :SO No
+frmSOManagement.label1.Text :Product
+frmSOManagement.btnSearch.Text :Search
+frmSOManagement.clnId.HeaderText :Id
+frmSOManagement.clnSONo.HeaderText :SO No
+frmSOManagement.clnProductID.HeaderText :Product code
+frmSOManagement.clnProductName.HeaderText :Product's name
+frmSOManagement.clnPRICE.HeaderText :Price
+frmSOManagement.clnQuantity.HeaderText :Amount
+frmSOManagement.clnTOTAL.HeaderText :Amount
+frmSOManagement.clnQuantitySuspend.HeaderText :Number of hanging
+frmSOManagement.btnSave.Text :Save
+frmSOManagement.btnExportExcel.Text :Export Excel
+frmSOManagement.btnExit.Text :Closed
+frmSOManagement.Text :Management SO
+frmOrder.btnSearch.Text :Search
+frmOrder.btnSendOrder.Text :Submit an order
+frmOrder.gbxDanhSach.Text :List
+frmOrder.columnHeader1.Text :Order date
+frmOrder.columnHeader2.Text :Order code
+frmOrder.btnSoManagement.Text :Management SO
+frmOrder.btnCreateAutoOrder.Text :Automatic order creation
+frmOrder.gbxSanPham.Text :Product
+frmOrder.label18.Text :Number of lines
+frmOrder.clnProductId.HeaderText :Items Code
+frmOrder.clnQuantity.HeaderText :Amount
+frmOrder.clnProductPrice.HeaderText :Price
+frmOrder.clnProductName.HeaderText :Items Name
+frmOrder.clnUnit.HeaderText :UOM
+frmOrder.clnTotalMoney.HeaderText :Amount
+frmOrder.Column1.HeaderText :CAT
+frmOrder.label17.Text :Total TT
+frmOrder.label16.Text :Total SL
+frmOrder.label3.Text :To date
+frmOrder.label2.Text :Date set from
+frmOrder.label1.Text :Order code
+frmOrder.gbxTTDatHang.Text :order information
+frmOrder.label11.Text :Order date
+frmOrder.label9.Text :Note
+frmOrder.txtTTDatHang.Text :Order code
+frmOrder.Text :Order
+frmInputOpeningStock.groupBox1.Text :File
+frmInputOpeningStock.btnImportExcel.Text :Import form
+frmInputOpeningStock.btnBegin.Text :Begin
+frmInputOpeningStock.label2.Text :File
+frmInputOpeningStock.label1.Text :Date Added
+frmInputOpeningStock.groupBox2.Text :List
+frmInputOpeningStock.ProductCode.HeaderText :Items Code
+frmInputOpeningStock.Quantity.HeaderText :Amount
+frmInputOpeningStock.lblStatus.Text :ready
+frmInputOpeningStock.btnClose.Text :Closed
+frmInputOpeningStock.btnOK.Text :OK
+frmInputOpeningStock.lblSum.Text :total
+frmInputOpeningStock.Text :Enter inventory at the beginning of the period
+frmGoodsReceipt.label19.Text :(*) is required data
+frmGoodsReceipt.tabPage1.Text :Product
+frmGoodsReceipt.label21.Text :Number of lines
+frmGoodsReceipt.label18.Text :Number of lines
+frmGoodsReceipt.label9.Text :Total TT (VAT)
+frmGoodsReceipt.label8.Text :Total TT
+frmGoodsReceipt.label7.Text :Total SL
+frmGoodsReceipt.tabPage2.Text :Promotion
+frmGoodsReceipt.label20.Text :Number of lines
+frmGoodsReceipt.label23.Text :Total SL
+frmGoodsReceipt.ProductIdKM.HeaderText :Items Code
+frmGoodsReceipt.QuantityKM.HeaderText :Amount
+frmGoodsReceipt.ProductPriceKM.HeaderText :Price
+frmGoodsReceipt.ProductNameKM.HeaderText :Items Name
+frmGoodsReceipt.UnitKM.HeaderText :UOM
+frmGoodsReceipt.SaleOrderNumberKM.HeaderText :SO No
+frmGoodsReceipt.VATKM.HeaderText :VAT
+frmGoodsReceipt.P_IDKM.HeaderText :ID
+frmGoodsReceipt.groupBox4.Text :List
+frmGoodsReceipt.columnHeader1.Text :Date Added
+frmGoodsReceipt.columnHeader2.Text :Some bills
+frmGoodsReceipt.columnHeader3.Text :Internal number
+frmGoodsReceipt.columnHeader4.Text :Quantity
+frmGoodsReceipt.columnHeader5.Text :S. Money
+frmGoodsReceipt.columnHeader6.Text :Entry code
+frmGoodsReceipt.btnBarcodeScan.Text :Barcode Scanner
+frmGoodsReceipt.btnSearch.Text :Search
+frmGoodsReceipt.gbxDathang.Text :Import information
+frmGoodsReceipt.chkInsert.Text :Add to debt
+frmGoodsReceipt.label25.Text :Date Added
+frmGoodsReceipt.label17.Text :Explain
+frmGoodsReceipt.label16.Text :Amount of money
+frmGoodsReceipt.label15.Text :Adjustment type
+frmGoodsReceipt.label14.Text :PO No (*)
+frmGoodsReceipt.label13.Text :Internal number (*)
+frmGoodsReceipt.label12.Text :Contract number (*)
+frmGoodsReceipt.label11.Text :Input Type
+frmGoodsReceipt.label6.Text :Note
+frmGoodsReceipt.label5.Text :Date of contract
+frmGoodsReceipt.label4.Text :Entry code
+frmGoodsReceipt.label10.Text :Input Type
+frmGoodsReceipt.label3.Text :To date
+frmGoodsReceipt.label2.Text :Date set from
+frmGoodsReceipt.label1.Text :Entry code
+frmGoodsReceipt.ProductId.HeaderText :Items Code
+frmGoodsReceipt.Quantity.HeaderText :Amount
+frmGoodsReceipt.ProductPrice.HeaderText :Price
+frmGoodsReceipt.colProductName.HeaderText :Items Name
+frmGoodsReceipt.Unit.HeaderText :UOM
+frmGoodsReceipt.TotalPrice.HeaderText :Amount
+frmGoodsReceipt.SaleOrderNumber.HeaderText :SO No
+frmGoodsReceipt.VAT.HeaderText :VAT
+frmGoodsReceipt.P_ID.HeaderText :ID
+frmGoodsReceipt.Text :Import goods
+frmGoodsDelivery.label19.Text :(* is required data entry)
+frmGoodsDelivery.gbxSanPham.Text :Product
+frmGoodsDelivery.label18.Text :Number of lines
+frmGoodsDelivery.label17.Text :Amount
+frmGoodsDelivery.label16.Text :Total
+frmGoodsDelivery.gbxDanhSach.Text :List
+frmGoodsDelivery.NgayXuat.Text :Export date
+frmGoodsDelivery.MaXuat.Text :Delivery code
+frmGoodsDelivery.SoLuongT.Text :Amount
+frmGoodsDelivery.ThanhTien.Text :Amount
+frmGoodsDelivery.btnInventory.Text :Inventory
+frmGoodsDelivery.btnCodeScaner.Text :Barcode Scanner
+frmGoodsDelivery.btnSearch.Text :Find
+frmGoodsDelivery.gbxTTXuat.Text :Export information
+frmGoodsDelivery.cbxDebt.Text :Deduct from your debt
+frmGoodsDelivery.label13.Text :PO No
+frmGoodsDelivery.label15.Text :Explain
+frmGoodsDelivery.label12.Text :Date of contract
+frmGoodsDelivery.label14.Text :Amount of money
+frmGoodsDelivery.label11.Text :Export date
+frmGoodsDelivery.label10.Text :Adjustment type
+frmGoodsDelivery.label9.Text :Note
+frmGoodsDelivery.label8.Text :Internal number
+frmGoodsDelivery.label7.Text :Contract number
+frmGoodsDelivery.label6.Text :Output Type
+frmGoodsDelivery.label5.Text :Delivery code
+frmGoodsDelivery.label4.Text :Output Type
+frmGoodsDelivery.label3.Text :To date
+frmGoodsDelivery.label2.Text :From Date
+frmGoodsDelivery.label1.Text :Delivery code
+frmGoodsDelivery.ProductId.HeaderText :Items Code
+frmGoodsDelivery.Quantity.HeaderText :Amount
+frmGoodsDelivery.Price.HeaderText :Price
+frmGoodsDelivery.colProductName.HeaderText :Items Name
+frmGoodsDelivery.Unit.HeaderText :UOM
+frmGoodsDelivery.P_ID.HeaderText :Id
+frmGoodsDelivery.Text :Release
+frmGiftReceipt.gpxPhieuQuaTang.Text :Gift Certificate
+frmGiftReceipt.label12.Text :Total real value
+frmGiftReceipt.label11.Text :Total value
+frmGiftReceipt.label10.Text :Total votes
+frmGiftReceipt.gbxPhieuTang.Text :List
+frmGiftReceipt.btnSearchGift.Text :Find
+frmGiftReceipt.gpxThongTinPT.Text :Voucher entry information
+frmGiftReceipt.btnTaiVe.Text :Download
+frmGiftReceipt.label9.Text :Code Bill
+frmGiftReceipt.label8.Text :Place of issue
+frmGiftReceipt.label7.Text :Time of export
+frmGiftReceipt.label6.Text :Note
+frmGiftReceipt.label5.Text :Date Added
+frmGiftReceipt.label4.Text :Coupon entry code
+frmGiftReceipt.label3.Text :To date
+frmGiftReceipt.label2.Text :From Date
+frmGiftReceipt.label1.Text :Coupon entry code
+frmGiftReceipt.Text :Enter a voucher
+frmGiftDelivery.gbxPTangQua.Text :Gift voucher
+frmGiftDelivery.btnChooseGift.Text :Choose a voucher
+frmGiftDelivery.label12.Text :Total real value
+frmGiftDelivery.label11.Text :the total amount
+frmGiftDelivery.label10.Text :Total votes
+frmGiftDelivery.gbxDanhSach.Text :List
+frmGiftDelivery.btnGiftSearch.Text :Find
+frmGiftDelivery.gpxXuatPT.Text :Voucher issue information
+frmGiftDelivery.rbnExportStore.Text :Export to another store
+frmGiftDelivery.rbnExportWasehouse.Text :Export to warehouse
+frmGiftDelivery.label9.Text :Place of issue
+frmGiftDelivery.label8.Text :Place of receipt
+frmGiftDelivery.label7.Text :Time of export
+frmGiftDelivery.label6.Text :Note
+frmGiftDelivery.label5.Text :Export date
+frmGiftDelivery.label4.Text :Coupon code
+frmGiftDelivery.label3.Text :To date
+frmGiftDelivery.label2.Text :From Date
+frmGiftDelivery.label1.Text :Coupon code
+frmGiftDelivery.Text :Issue vouchers
+frmDiscoutVoucherReceipt.gbxPhieuGG.Text :Coupons
+frmDiscoutVoucherReceipt.label7.Text :Total votes
+frmDiscoutVoucherReceipt.gbxDanhSach.Text :List
+frmDiscoutVoucherReceipt.btnVoucherSearch.Text :Search
+frmDiscoutVoucherReceipt.gbxPhieuGiamGia.Text :Coupon information
+frmDiscoutVoucherReceipt.btnTaiVe.Text :Download
+frmDiscoutVoucherReceipt.label12.Text :Code Bill
+frmDiscoutVoucherReceipt.label5.Text :Place of issue
+frmDiscoutVoucherReceipt.label11.Text :Time of entry
+frmDiscoutVoucherReceipt.label10.Text :Note
+frmDiscoutVoucherReceipt.label6.Text :Date Added
+frmDiscoutVoucherReceipt.label4.Text :Coupon entry code
+frmDiscoutVoucherReceipt.label3.Text :To date
+frmDiscoutVoucherReceipt.label2.Text :From Date
+frmDiscoutVoucherReceipt.label1.Text :Coupon entry code
+frmDiscoutVoucherReceipt.Text :Enter coupons
+frmDiscoutVoucherDelivery.label3.Text :To date
+frmDiscoutVoucherDelivery.label2.Text :From Date
+frmDiscoutVoucherDelivery.label1.Text :Coupon code
+frmDiscoutVoucherDelivery.btnSearchVoucher.Text :Find
+frmDiscoutVoucherDelivery.gbxDanhSach.Text :List
+frmDiscoutVoucherDelivery.gbxPhieuGiamGia.Text :Coupon issuance
+frmDiscoutVoucherDelivery.btnChonPhieu.Text :Choose your ticket
+frmDiscoutVoucherDelivery.label10.Text :Total votes
+frmDiscoutVoucherDelivery.gbxTTPhieuXuatGG.Text :Information coupon
+frmDiscoutVoucherDelivery.rbnExportStore.Text :Export to another store
+frmDiscoutVoucherDelivery.rbnExportWasehouse.Text :Export to warehouse
+frmDiscoutVoucherDelivery.label9.Text :Place of issue
+frmDiscoutVoucherDelivery.label8.Text :Place of receipt
+frmDiscoutVoucherDelivery.label7.Text : Time of export
+frmDiscoutVoucherDelivery.label6.Text :Note
+frmDiscoutVoucherDelivery.label5.Text :Export date
+frmDiscoutVoucherDelivery.label4.Text :Coupon code
+frmDiscoutVoucherDelivery.Text :Coupon issuance
+frmDialogSearchInventory.btnSearch.Text :Find
+frmDialogSearchInventory.rdbProductName.Text :Items Name
+frmDialogSearchInventory.rdbProductCode.Text :Items Code
+frmDialogSearchInventory.groupBox3.Text :List
+frmDialogSearchInventory.clnProductCode.HeaderText :Items Code
+frmDialogSearchInventory.clnProductName.HeaderText :Items Name
+frmDialogSearchInventory.clnPrice.HeaderText :Price
+frmDialogSearchInventory.clnShortName.HeaderText :short
+frmDialogSearchInventory.btnOK.Text :OK
+frmDialogSearchInventory.btnClose.Text :Closed
+frmDialogSearchInventory.Text :Search Item Code
+frmDialogReportF1.btnPrint.Text :Print
+frmDialogReportF1.btnExcel.Text :Export Excel
+frmDialogReportF1.btnPO.Text :Converted to PO
+frmDialogReportF1.btnClose.Text :Closed
+frmDialogReportF1.PRODUCT_ID.HeaderText :Items Code
+frmDialogReportF1.PRODUCT_NAME.HeaderText :Items Name
+frmDialogReportF1.DAUKY.HeaderText :Beginning
+frmDialogReportF1.NHAP.HeaderText :Import
+frmDialogReportF1.XUAT.HeaderText :Export
+frmDialogReportF1.TON.HeaderText :Survive
+frmDialogReportF1.LKTTT.HeaderText :LKTTT
+frmDialogReportF1.KHTTT.HeaderText :KHTTT
+frmDialogReportF1.DMKH.HeaderText :DMKH
+frmDialogReportF1.DTKH.HeaderText :DTKH
+frmDialogReportF1.DTTT.HeaderText :DTTT
+frmDialogReportF1.TKMIN.HeaderText :Min
+frmDialogReportF1.TKNEXT.HeaderText :next
+frmDialogReportF1.TKLEAD.HeaderText :Lead
+frmDialogReportF1.YCTON.HeaderText :Y / c exists
+frmDialogReportF1.POCONFIRM.HeaderText :POConfirm
+frmDialogReportF1.PODVKH.HeaderText :PODVKH
+frmDialogReportF1.QC.HeaderText :QC
+frmDialogReportF1.SLT.HeaderText :Total Quantity
+frmDialogReportF1.THANHTIEN.HeaderText :Money
+frmDialogReportF1.CB.HeaderText :CB
+frmDialogReportF1.Text :F1 report on import and export
+frmDialogProductSearch.btnSearch.Text :Find
+frmDialogProductSearch.rdbTenHang.Text :Items Name
+frmDialogProductSearch.rdbMaHang.Text :Items Code
+frmDialogProductSearch.groupBox2.Text :List
+frmDialogProductSearch.PRODUCT_ID.HeaderText :Items Code
+frmDialogProductSearch.PRODUCT_NAME.HeaderText :Items Name
+frmDialogProductSearch.btnOK.Text :OK
+frmDialogProductSearch.btnExit.Text :Closed
+frmDialogProductSearch.Text :Search Item Code
+frmDialogImport.btnDownloadPO.Text :Download data from the server
+frmDialogImport.tabPage3.Text :Imported goods
+frmDialogImport.SaleOrderNumber.HeaderText :SO No
+frmDialogImport.ItemCode.HeaderText :Product code
+frmDialogImport.ItemName.HeaderText :Product's name
+frmDialogImport.Price.HeaderText :Price
+frmDialogImport.Quantity.HeaderText :Amount
+frmDialogImport.Amount.HeaderText :Amount
+frmDialogImport.Unit.HeaderText :Unit
+frmDialogImport.tabPage4.Text :Sale off
+frmDialogImport.SaleOrderNumberKM.HeaderText :SO No
+frmDialogImport.ItemCodeKM.HeaderText :Product code
+frmDialogImport.ItemNameKM.HeaderText :Product's name
+frmDialogImport.PriceKM.HeaderText :Price
+frmDialogImport.QuantityKM.HeaderText :Amount
+frmDialogImport.AmountKM.HeaderText :Amount
+frmDialogImport.UnitKM.HeaderText :Unit
+frmDialogImport.POCONumber.HeaderText :PO No
+frmDialogImport.SoNoiBo.HeaderText :Internal number
+frmDialogImport.OrderDate.HeaderText :Day
+frmDialogImport.tabPage2.Text :Compare SO - PO
+frmDialogImport.chkDetail.Text :View Detail
+frmDialogImport.btnSearch.Text :Find
+frmDialogImport.btnClose.Text :Closed
+frmDialogImport.btnExcel.Text :Excel
+frmDialogImport.groupBox2.Text :Different data
+frmDialogImport.label4.Text :Come
+frmDialogImport.label3.Text :SO No.
+frmDialogImport.label2.Text :Product
+frmDialogImport.label1.Text :From Date
+frmDialogImport.btnImport.Text :Import goods
+frmDialogImport.btnExportExcel.Text :Export Excel
+frmDialogImport.btnExit.Text :Closed
+frmDialogImport.Column1.HeaderText :No
+frmDialogImport.SaleOrderNumberCol.HeaderText :SO No.
+frmDialogImport.ItemCodeCol.HeaderText :Item code
+frmDialogImport.PONO.HeaderText :PO No.
+frmDialogImport.SOQuantityCol.HeaderText :Quantity SO
+frmDialogImport.POQuantityCol.HeaderText :Quantity PO
+frmDialogImport.SOPOCol.HeaderText :SO - PO
+frmDialogImport.NameCol.HeaderText :Item Name
+frmDialogImport.UnitCol.HeaderText :UOM
+frmDialogImport.PriceCol.HeaderText :PRICE
+frmDialogImport.Text :Import
+frmCheckInventory.gbxSanPham.Text :Product information
+frmCheckInventory.btnCheck.Text :Check
+frmCheckInventory.label4.Text :Price
+frmCheckInventory.label3.Text :Abbreviations
+frmCheckInventory.label2.Text :Product's name
+frmCheckInventory.label1.Text :Product code
+frmCheckInventory.gpxTonKho.Text :Inventory
+frmCheckInventory.StoreName.HeaderText :Store
+frmCheckInventory.StoreCode.HeaderText :Chain
+frmCheckInventory.StoreLocation.HeaderText :Location
+frmCheckInventory.Quantity.HeaderText :Inventory
+frmCheckInventory.StoreAddress.HeaderText :Store address
+frmCheckInventory.StoreTel.HeaderText :Phone
+frmCheckInventory.StoreFax.HeaderText :Fax
+frmCheckInventory.btnExit.Text :Closed
+frmCheckInventory.Text :Inventory check
+dlgSOImport.groupBox1.Text :File
+dlgSOImport.btnImportExcel.Text :Import form
+dlgSOImport.btnBegin.Text :Begin
+dlgSOImport.label2.Text :File
+dlgSOImport.groupBox2.Text :List
+dlgSOImport.clnProductCode.HeaderText :Items Code
+dlgSOImport.clnProductName.HeaderText :Items Name
+dlgSOImport.btnOK.Text :OK
+dlgSOImport.btnClose.Text :Closed
+dlgSOImport.label5.Text :total
+dlgSOImport.Text :Import Item Code
+dlgChooseProduct.groupBox1.Text :Select the product
+dlgChooseProduct.columnHeader2.Text :Product
+dlgChooseProduct.columnHeader1.Text :Product code
+dlgChooseProduct.clnProductCode.HeaderText :Item code
+dlgChooseProduct.clnProductName.HeaderText :Item Name
+dlgChooseProduct.lblTotalProduct.Text :total
+dlgChooseProduct.label1.Text :Filter by
+dlgChooseProduct.groupBox2.Text :Selected
+dlgChooseProduct.lblTotalChoosed.Text :total
+dlgChooseProduct.clnProduct_Id.HeaderText :Item code
+dlgChooseProduct.clnProduct_name.HeaderText :Item Name
+dlgChooseProduct.btnClose.Text :Closed
+dlgChooseProduct.btnSave.Text :Save
+dlgChooseProduct.tabPage2.Text :Product
+dlgChooseProduct.Text :Select the product
+frmCouponStatus.groupBox2.Text:Program information
+frmCouponStatus.label8.Text:Decreased
+frmCouponStatus.label1.Text:Name
+frmCouponStatus.label5.Text:Form code
+frmCouponStatus.label3.Text:To date
+frmCouponStatus.label6.Text:From Date
+frmCouponStatus.btnSearch.Text:Find
+frmCouponStatus.btnExit.Text:Closed
+frmCouponStatus.btnExport.Text:Excel
+frmCouponStatus.groupBox4.Text:List
+frmCouponStatus.btnGoPage.Text:Go to the page
+frmCouponStatus.lblTotalRow.Text:total
+frmCouponStatus.lblPage.Text:Page
+frmCouponStatus.label2.Text:Line / page
+frmCouponStatus.groupBox3.Text:Coupon information
+frmCouponStatus.rdbCancel.Text:Discontinued
+frmCouponStatus.label4.Text:come
+frmCouponStatus.rdbUsed.Text:Used
+frmCouponStatus.rdbActive.Text:Exported
+frmCouponStatus.label7.Text:Value from
+frmCouponStatus.rdbWait.Text:Not yet exported
+frmCouponStatus.groupBox1.Text:Search
+frmCouponStatus.Column2.HeaderText:Store
+frmCouponStatus.Column1.HeaderText:Form code
+frmCouponStatus.colAmount.HeaderText:Reduction
+frmCouponStatus.Column7.HeaderText:Species
+frmCouponStatus.Column8.HeaderText:Status
+frmCouponStatus.Column6.HeaderText:Program code
+frmCouponStatus.Column10.HeaderText:Name of the program
+frmCouponStatus.Column5.HeaderText:Start day
+frmCouponStatus.Column3.HeaderText:End date
+frmCouponStatus.Text:06.01 Sales report
+frmVoucherStatus.groupBox2.Text:Information search report
+frmVoucherStatus.label3.Text:to date
+frmVoucherStatus.label6.Text:From Date
+frmVoucherStatus.btnSearch.Text:Find
+frmVoucherStatus.btnExit.Text:Closed
+frmVoucherStatus.btnExport.Text:Excel
+frmVoucherStatus.groupBox4.Text:List
+frmVoucherStatus.btnGoPage.Text:Go to the page
+frmVoucherStatus.lblTotalRow.Text:total
+frmVoucherStatus.lblPage.Text:Page
+frmVoucherStatus.label2.Text:Line / page
+frmVoucherStatus.Column2.HeaderText:Store
+frmVoucherStatus.Column1.HeaderText:Form code
+frmVoucherStatus.colItem_de.HeaderText:Denominations
+frmVoucherStatus.colItem_real.HeaderText:Real denomination
+frmVoucherStatus.colBalance.HeaderText:Surplus
+frmVoucherStatus.Column6.HeaderText:Status
+frmVoucherStatus.Column10.HeaderText:Date created
+frmVoucherStatus.Column5.HeaderText:Affiliate code
+frmVoucherStatus.Text:06.01 Sales report
+frmCompareImportProductReport.label10.Text:To date
+frmCompareImportProductReport.label9.Text:Bill date
+frmCompareImportProductReport.label8.Text:PO number
+frmCompareImportProductReport.label7.Text:Number of sets
+frmCompareImportProductReport.label6.Text:Some bills
+frmCompareImportProductReport.label4.Text:Product
+frmCompareImportProductReport.label3.Text:Product attributes
+frmCompareImportProductReport.label2.Text:To date
+frmCompareImportProductReport.label1.Text:From Date
+frmCompareImportProductReport.btnSeach.Text:Find
+frmCompareImportProductReport.btnExport.Text:Excel
+frmCompareImportProductReport.btnExit.Text:Closed
+frmCompareImportProductReport.btnPrint.Text:Print
+frmCompareImportProductReport.Text:04.06 Price difference report
+frmEntryInventoryProductReportSale.groupBox2.Text:Information search report
+frmEntryInventoryProductReportSale.label3.Text:To date
+frmEntryInventoryProductReportSale.label5.Text:Product
+frmEntryInventoryProductReportSale.label6.Text:From Date
+frmEntryInventoryProductReportSale.btnSearch.Text:Find
+frmEntryInventoryProductReportSale.btnExit.Text:Closed
+frmEntryInventoryProductReportSale.btnExport.Text:Excel
+frmEntryInventoryProductReportSale.btnPrint.Text:Print
+frmEntryInventoryProductReportSale.groupBox4.Text:List
+frmEntryInventoryProductReportSale.Column1.HeaderText:Industry
+frmEntryInventoryProductReportSale.Column3.HeaderText:Items Code
+frmEntryInventoryProductReportSale.Column4.HeaderText:Items Name
+frmEntryInventoryProductReportSale.Column5.HeaderText:UOM
+frmEntryInventoryProductReportSale.colDK.HeaderText:Stock at the beginning of the period
+frmEntryInventoryProductReportSale.colPriceDK.HeaderText:Price at the beginning of the period
+frmEntryInventoryProductReportSale.colTotalDK.HeaderText:Amount balance before
+frmEntryInventoryProductReportSale.colImTotal.HeaderText:Total imported during the period
+frmEntryInventoryProductReportSale.colSumImPro.HeaderText:Enter purchase
+frmEntryInventoryProductReportSale.colToTalIm.HeaderText:Purchase money
+frmEntryInventoryProductReportSale.colQuanDC.HeaderText:Quantity Input adjustment
+frmEntryInventoryProductReportSale.colMoneyDC.HeaderText:Adjustment money
+frmEntryInventoryProductReportSale.colTotalEx.HeaderText:Total exports during the period
+frmEntryInventoryProductReportSale.colExPro.HeaderText:Out of sales
+frmEntryInventoryProductReportSale.colTotalExPro.HeaderText:Sales money
+frmEntryInventoryProductReportSale.colPromotionPro.HeaderText:Sales KM
+frmEntryInventoryProductReportSale.colPromotion.HeaderText:Money KM
+frmEntryInventoryProductReportSale.colQuanExDC.HeaderText:Quantity Output adjustment
+frmEntryInventoryProductReportSale.colTotalExDC.HeaderText:Adjustment payout
+frmEntryInventoryProductReportSale.colTotalEnd.HeaderText:Ending stocks
+frmEntryInventoryProductReportSale.colEndPice.HeaderText:Ending price
+frmEntryInventoryProductReportSale.colSumTotalEnd.HeaderText:Amount balance final
+frmEntryInventoryProductReportSale.Text:06.01 Sales report
+frmInventoryReportSale.label4.Text:Product
+frmInventoryReportSale.label3.Text:Product attributes
+frmInventoryReportSale.label1.Text:To date
+frmInventoryReportSale.btnSeach.Text:Find
+frmInventoryReportSale.btnExport.Text:Excel
+frmInventoryReportSale.btnExit.Text:Closed
+frmInventoryReportSale.Text:06.01 Store inventory report
+frmReportProductsSale.label10.Text:To date
+frmReportProductsSale.label9.Text:Bill date
+frmReportProductsSale.label8.Text:PO number
+frmReportProductsSale.label7.Text:Number of sets
+frmReportProductsSale.label6.Text:Some bills
+frmReportProductsSale.label5.Text:Input Type
+frmReportProductsSale.label4.Text:Product
+frmReportProductsSale.label3.Text:Product attributes
+frmReportProductsSale.label2.Text:To date
+frmReportProductsSale.label1.Text:From Date
+frmReportProductsSale.btnSeach.Text:Find
+frmReportProductsSale.btnExport.Text:Excel
+frmReportProductsSale.btnExit.Text:Closed
+frmReportProductsSale.Text:Import shop
+frmSalePromotionGifts.groupBox2.Text:Information search report
+frmSalePromotionGifts.label1.Text:Code Bill
+frmSalePromotionGifts.label3.Text:To date
+frmSalePromotionGifts.label5.Text:Product
+frmSalePromotionGifts.label6.Text:From Date
+frmSalePromotionGifts.btnSearch.Text:Find
+frmSalePromotionGifts.btnExit.Text:Closed
+frmSalePromotionGifts.btnExport.Text:Excel
+frmSalePromotionGifts.btnPrint.Text:Print
+frmSalePromotionGifts.groupBox4.Text:List
+frmSalePromotionGifts.Column2.HeaderText:Date of sale
+frmSalePromotionGifts.Column1.HeaderText:Industry
+frmSalePromotionGifts.Column3.HeaderText:Items Code
+frmSalePromotionGifts.Column4.HeaderText:Bill
+frmSalePromotionGifts.Column9.HeaderText:Quantity
+frmSalePromotionGifts.Column7.HeaderText:Price
+frmSalePromotionGifts.Column8.HeaderText:Amount
+frmSalePromotionGifts.Column6.HeaderText:Barcode
+frmSalePromotionGifts.Column10.HeaderText:Items Name
+frmSalePromotionGifts.Column5.HeaderText:UOM
+frmSalePromotionGifts.btnGoPage.Text:Go to the page
+frmSalePromotionGifts.lblTotalRow.Text:total
+frmSalePromotionGifts.lblPage.Text:Page
+frmSalePromotionGifts.label2.Text:Line / page
+frmSalePromotionGifts.Text:06.01 Sales report
+rptExportProductsStoreSale.label8.Text:PO number
+rptExportProductsStoreSale.label7.Text:Internal number
+rptExportProductsStoreSale.label6.Text:Some bills
+rptExportProductsStoreSale.label5.Text:Output Type
+rptExportProductsStoreSale.label4.Text:Product
+rptExportProductsStoreSale.label3.Text:Product attributes
+rptExportProductsStoreSale.label2.Text:To date
+rptExportProductsStoreSale.label1.Text:From Date
+rptExportProductsStoreSale.btnSeach.Text:Find
+rptExportProductsStoreSale.btnExit.Text:Closed
+rptExportProductsStoreSale.btnPrint.Text:Print
+rptExportProductsStoreSale.Text:Out of stock
+frmCashReport.groupBox2.Text:Information search report
+frmCashReport.chkPayment.Text:Cash expense report
+frmCashReport.chkReceipt.Text:Cash collection report
+frmCashReport.label3.Text:To date
+frmCashReport.label6.Text:From Date
+frmCashReport.btnSearch.Text:Find
+frmCashReport.btnExit.Text:Closed
+frmCashReport.btnExport.Text:Excel
+frmCashReport.groupBox4.Text:List
+frmCashReport.btnGoPage.Text:Go to the page
+frmCashReport.lblTotalRow.Text:total
+frmCashReport.lblPage.Text:Page
+frmCashReport.label2.Text:Line / page
+frmCashReport.Column2.HeaderText:Code type
+frmCashReport.Column1.HeaderText:Staff's name
+frmCashReport.Column3.HeaderText:Full name
+frmCashReport.clnCashPerson.HeaderText:People who spend money
+frmCashReport.clnMasterName.HeaderText:Name Receipt Type
+frmCashReport.colAmount.HeaderText:Amount of money
+frmCashReport.Column6.HeaderText:Currency
+frmCashReport.Column10.HeaderText:Exchange rate
+frmCashReport.colTotal.HeaderText:Amount
+frmCashReport.Column5.HeaderText:Store
+frmCashReport.Column11.HeaderText:Date created
+frmCashReport.Text:06.01 Sales report
+frmItemReturnReport.groupBox1.Text:Information search report
+frmItemReturnReport.label2.Text:To date
+frmItemReturnReport.label4.Text:Product
+frmItemReturnReport.label1.Text:From Date
+frmItemReturnReport.btnPrint.Text:Print
+frmItemReturnReport.btnExport.Text:Excel
+frmItemReturnReport.btnExit.Text:Closed
+frmItemReturnReport.groupBox2.Text:Reason for delivery
+frmItemReturnReport.btnSearch.Text:Find
+frmItemReturnReport.groupBox4.Text:List
+frmItemReturnReport.Column1.HeaderText:Return code - Invoice - Customer
+frmItemReturnReport.Column2.HeaderText:Industry
+frmItemReturnReport.Column3.HeaderText:Product code
+frmItemReturnReport.Column4.HeaderText:Product's name
+frmItemReturnReport.Column5.HeaderText:UOM
+frmItemReturnReport.colQuan.HeaderText:Amount
+frmItemReturnReport.colPrice.HeaderText:Price
+frmItemReturnReport.ColTotal.HeaderText:Amount
+frmItemReturnReport.ColTotalReturn.HeaderText:Refunds
+frmItemReturnReport.Column10.HeaderText:Pay day
+frmItemReturnReport.Column11.HeaderText:Reason for payment
+frmItemReturnReport.Column12.HeaderText:Feedback
+frmItemReturnReport.Text:06.01 Sales report
+frmLiablityReport.groupBox1.Text:Search
+frmLiablityReport.label6.Text:From Date
+frmLiablityReport.label3.Text:To date
+frmLiablityReport.groupBox3.Text:Coupon information
+frmLiablityReport.rdbCancel.Text:Discontinued
+frmLiablityReport.label4.Text:come
+frmLiablityReport.rdbUsed.Text:Used
+frmLiablityReport.rdbActive.Text:Exported
+frmLiablityReport.label7.Text:Value from
+frmLiablityReport.rdbWait.Text:Not yet exported
+frmLiablityReport.groupBox2.Text:Program information
+frmLiablityReport.label8.Text:Decreased
+frmLiablityReport.label1.Text:Name
+frmLiablityReport.label5.Text:Form code
+frmLiablityReport.btnExit.Text:Closed
+frmLiablityReport.btnExport.Text:Excel
+frmLiablityReport.btnSearch.Text:Print
+frmLiablityReport.Text:06.01 Debt report
+frmCreateReasion.label1.Text:Name
+frmCreateReasion.btnSave.Text:Save
+frmCreateReasion.Text:Add conditions
+frmCustomerListSearchByNoExportCode.groupBox1.Text:Information search report
+frmCustomerListSearchByNoExportCode.btnPrint.Text:Print
+frmCustomerListSearchByNoExportCode.btnExit.Text:Closed
+frmCustomerListSearchByNoExportCode.btnExport.Text:Excel
+frmCustomerListSearchByNoExportCode.btnSeach.Text:Find
+frmCustomerListSearchByNoExportCode.label1.Text:From Date
+frmCustomerListSearchByNoExportCode.groupBox2.Text:List
+frmCustomerListSearchByNoExportCode.CUSTOMER_ID.HeaderText:Customer Code
+frmCustomerListSearchByNoExportCode.CUSTOMER_NAME.HeaderText:Customer Code
+frmCustomerListSearchByNoExportCode.ADDRESSS.HeaderText:Address
+frmCustomerListSearchByNoExportCode.lblCount.Text:total
+frmCustomerListSearchByNoExportCode.btnChoosePage.Text:Go to the page
+frmCustomerListSearchByNoExportCode.lblPage.Text:Page
+frmCustomerListSearchByNoExportCode.label6.Text:Line / page
+frmCustomerListSearchByNoExportCode.Text:06.07 Reporting the list of customers with no transactions
+frmDeleteResion.Resion.Text:Condition
+frmDeleteResion.btnExit.Text:Closed
+frmDeleteResion.btnDelete.Text:Erase
+frmDeleteResion.Text:Condition
+frmEmployeeSearchSale.gbxToChuc.Text:Organization
+frmEmployeeSearchSale.btnEmployeeSearch.Text:Find
+frmEmployeeSearchSale.gbxNhanVien.Text:Staff
+frmEmployeeSearchSale.lblPage.Text:Page
+frmEmployeeSearchSale.lblRowlist.Text:total
+frmEmployeeSearchSale.columnHeader1.Text:Staff Code
+frmEmployeeSearchSale.columnHeader2.Text:Name
+frmEmployeeSearchSale.columnHeader3.Text:Surname
+frmEmployeeSearchSale.groupBox3.Text:Selected
+frmEmployeeSearchSale.columnHeader4.Text:Staff Code
+frmEmployeeSearchSale.columnHeader5.Text:Name
+frmEmployeeSearchSale.columnHeader6.Text:Surname
+frmEmployeeSearchSale.columnHeader7.Text:Department
+frmEmployeeSearchSale.btnOK.Text:OK
+frmEmployeeSearchSale.btnCancel.Text:Closed
+frmEmployeeSearchSale.tabPage1.Text:Staff List
+frmEmployeeSearchSale.Text:Find Staff
+
+frmInvoicher.lblScount.Text:total
+frmInvoicher.btnChoosePage.Text:Go to the page
+frmInvoicher.lblPage.Text:Page
+frmInvoicher.label6.Text:Line / page
+frmInvoicher.groupBox2.Text:List
+frmInvoicher.STT.HeaderText:No
+frmInvoicher.groupBox1.Text:Information search
+frmInvoicher.chkFromInvoi.Text:Number of invoices from
+frmInvoicher.btnExit.Text:Closed
+frmInvoicher.btnExport.Text:Excel
+frmInvoicher.label2.Text:To date
+frmInvoicher.btnSeach.Text:Find
+frmInvoicher.label1.Text:From Date
+frmInvoicher.Text:Reported by invoice
+frmInvoicherManagement.lblSCount.Text:total
+frmInvoicherManagement.btnChoosePage.Text:Go to the page
+frmInvoicherManagement.label3.Text:Page
+frmInvoicherManagement.label6.Text:Line / page
+frmInvoicherManagement.groupBox2.Text:List
+frmInvoicherManagement.STT.HeaderText:No
+frmInvoicherManagement.groupBox1.Text:Information search
+frmInvoicherManagement.chkToMoney.Text:Come
+frmInvoicherManagement.chkFromMoney.Text:Amount of word
+frmInvoicherManagement.btnExit.Text:Closed
+frmInvoicherManagement.btnExport.Text:Excel
+frmInvoicherManagement.label2.Text:To date
+frmInvoicherManagement.btnSeach.Text:Find
+frmInvoicherManagement.label1.Text:From Date
+frmInvoicherManagement.Text:Report sales by invoice
+frmListCustomerReport.lblPage.Text:Page
+frmListCustomerReport.lblSCount.Text:total
+frmListCustomerReport.btnChoosePage.Text:Go to the page
+frmListCustomerReport.label11.Text:Line / page
+frmListCustomerReport.groupBox1.Text:Details
+frmListCustomerReport.chkNo.Text:Are not
+frmListCustomerReport.chkYes.Text:Have
+frmListCustomerReport.chkToMoney.Text:Other
+frmListCustomerReport.label7.Text:Activated
+frmListCustomerReport.label5.Text:KH group
+frmListCustomerReport.label4.Text:Marriage
+frmListCustomerReport.label3.Text:Job
+frmListCustomerReport.label1.Text:Sex
+frmListCustomerReport.groupBox2.Text:Communications
+frmListCustomerReport.label13.Text:Province / City
+frmListCustomerReport.label12.Text:nation
+frmListCustomerReport.btnSeach.Text:Find
+frmListCustomerReport.btnExport.Text:Excel
+frmListCustomerReport.groupBox5.Text:List
+frmListCustomerReport.btnExit.Text:Closed
+frmListCustomerReport.CUSTOMER_ID.HeaderText:Customer Code
+frmListCustomerReport.FIRST_NAME.HeaderText:Name
+frmListCustomerReport.LAST_NAME.HeaderText:Surname
+frmListCustomerReport.DATE_OF_BIRTH.HeaderText:Date of birth
+frmListCustomerReport.YEAR_OF_BIRTH.HeaderText:Year of Birth
+frmListCustomerReport.PLACE_OF_BIRTH.HeaderText:Place of birth
+frmListCustomerReport.TEL.HeaderText:Phone
+frmListCustomerReport.MOBILE_PHONE.HeaderText:Mobile
+frmListCustomerReport.EMAIL_ADDRESS.HeaderText:Email address
+frmListCustomerReport.FAX.HeaderText:Fax
+frmListCustomerReport.ADDRESS.HeaderText:Address
+frmListCustomerReport.Country.HeaderText:nation
+frmListCustomerReport.City.HeaderText:City
+frmListCustomerReport.DISTRICT_OTHER.HeaderText:District
+frmListCustomerReport.COMMUNES_WARDS.HeaderText:Wards
+frmListCustomerReport.HOUSE_STREET.HeaderText:apartment number
+frmListCustomerReport.WORKING_OFFICE.HeaderText:Work place
+frmListCustomerReport.OFFICE_ADDRESS.HeaderText:Working address
+frmListCustomerReport.Sex.HeaderText:Sex
+frmListCustomerReport.Column21.HeaderText:Blood group
+frmListCustomerReport.RaceName.HeaderText:Race
+frmListCustomerReport.RegionName.HeaderText:Religion
+frmListCustomerReport.OCCUPATION_OTHER.HeaderText:Other occupations
+frmListCustomerReport.Column25.HeaderText:Job
+frmListCustomerReport.Marital.HeaderText:Marriage
+frmListCustomerReport.Column27.HeaderText:KH group
+frmListCustomerReport.ID_NO.HeaderText:ID card
+frmListCustomerReport.ID_NO_ISSUED_DATE.HeaderText:Date of issue of ID card
+frmListCustomerReport.ID_NO_ISSUED_PLACE.HeaderText:Issued by
+frmListCustomerReport.PASSPORT_NO.HeaderText:Passport
+frmListCustomerReport.PASSPORT_NO_EXPIRY_DATE.HeaderText:Date of issue of passport
+frmListCustomerReport.PASSPORT_NO_ISSUED_DATE.HeaderText:Passport expiration date
+frmListCustomerReport.PASSPORT_NO_ISSUED_PLACE.HeaderText:Place of issue of passport
+frmListCustomerReport.REMARK.HeaderText:Note
+frmListCustomerReport.CREATE_DATE.HeaderText:Date created
+frmListCustomerReport.CREATE_BY.HeaderText:Creator
+frmListCustomerReport.UPDATE_DATE.HeaderText:Update day
+frmListCustomerReport.LAST_UPDATE_BY.HeaderText:The updated person
+frmListCustomerReport.Text:Report a list of customers
+frmProductReportSearch.label1.Text:Condition
+frmProductReportSearch.tabReasion.Text:Condition
+frmProductReportSearch.groupBox2.Text:Properties
+frmProductReportSearch.groupBox1.Text:Product Groups
+frmProductReportSearch.groupBox3.Text:Column list
+frmProductReportSearch.btnClose.Text:Closed
+frmProductReportSearch.btnSave.Text:Save
+frmProductReportSearch.btnInsert.Text:Add
+frmProductReportSearch.btnOK.Text:Accept
+frmProductReportSearch.Text:Search terms
+frmReportSale.btnSeach.Text:Find
+frmReportSale.btnExport.Text:Data export
+frmReportSale.btnExit.Text:Closed
+frmReportSale.label5.Text:Collecter
+frmReportSale.label4.Text:Product
+frmReportSale.label3.Text:Product attributes
+frmReportSale.label2.Text:To date
+frmReportSale.label1.Text:From Date
+frmReportSale.groupBox2.Text:List
+frmReportSale.Column1.HeaderText:Code Bill
+frmReportSale.Column2.HeaderText:Customer Code
+frmReportSale.Column3.HeaderText:Full name
+frmReportSale.CAT.HeaderText:Industry
+frmReportSale.Column5.HeaderText:Product code
+frmReportSale.Column6.HeaderText:Product's name
+frmReportSale.Column7.HeaderText:UOM
+frmReportSale.Column8.HeaderText:Date of sale
+frmReportSale.Column9.HeaderText:Amount
+frmReportSale.Column10.HeaderText:Price
+frmReportSale.Column11.HeaderText:total
+frmReportSale.Column12.HeaderText:Promotion
+frmReportSale.Column13.HeaderText:Pay
+frmReportSale.Column14.HeaderText:Note
+frmReportSale.Column15.HeaderText:Staff Code
+frmReportSale.Column16.HeaderText:Full name
+frmReportSale.Column17.HeaderText:Store
+frmReportSale.Column18.HeaderText:Chain of stores
+frmReportSale.Column19.HeaderText:Product Groups
+frmReportSale.lblPage.Text:Page
+frmReportSale.lblScount.Text:total
+frmReportSale.btnChoosePage.Text:Go to the page
+frmReportSale.btnPrint.Text:Print
+frmReportSale.Text:06.01 Sales report
+frmSalesExportSearchReportByCat.btnDownList.Text:Information search report
+frmSalesExportSearchReportByCat.btnPrint.Text:Print
+frmSalesExportSearchReportByCat.btnExit.Text:Closed
+frmSalesExportSearchReportByCat.btnExport.Text:Excel
+frmSalesExportSearchReportByCat.label2.Text:To date
+frmSalesExportSearchReportByCat.btnSeach.Text:Find
+frmSalesExportSearchReportByCat.label1.Text:From Date
+frmSalesExportSearchReportByCat.groupBox2.Text:List
+frmSalesExportSearchReportByCat.lblPage.Text:Page
+frmSalesExportSearchReportByCat.lblScount.Text:total
+frmSalesExportSearchReportByCat.btnChoosePage.Text:Go to the page
+frmSalesExportSearchReportByCat.label6.Text:Line / page
+frmSalesExportSearchReportByCat.STT.HeaderText:No
+frmSalesExportSearchReportByCat.Text:06.03 Newspapersales report by CAT
+frmSalesReportByCustomerSale.groupBox2.Text:Information search report
+frmSalesReportByCustomerSale.label18.Text:Product attributes
+frmSalesReportByCustomerSale.label17.Text:Age from
+frmSalesReportByCustomerSale.groupBox7.Text:Date created
+frmSalesReportByCustomerSale.label14.Text:to date
+frmSalesReportByCustomerSale.label15.Text:From Date
+frmSalesReportByCustomerSale.groupBox6.Text:Communications
+frmSalesReportByCustomerSale.label13.Text:Province / City
+frmSalesReportByCustomerSale.label12.Text:nation
+frmSalesReportByCustomerSale.groupBox5.Text:Details
+frmSalesReportByCustomerSale.label10.Text:KH group
+frmSalesReportByCustomerSale.label11.Text:Marriage
+frmSalesReportByCustomerSale.chkToMoney.Text:Other
+frmSalesReportByCustomerSale.label3.Text:Job
+frmSalesReportByCustomerSale.label7.Text:Sex
+frmSalesReportByCustomerSale.label4.Text:Product
+frmSalesReportByCustomerSale.label19.Text:Staff List
+frmSalesReportByCustomerSale.label2.Text:To date
+frmSalesReportByCustomerSale.label1.Text:From Date
+frmSalesReportByCustomerSale.btnExit.Text:Closed
+frmSalesReportByCustomerSale.btnExport.Text:Excel
+frmSalesReportByCustomerSale.btnSeach.Text:Find
+frmSalesReportByCustomerSale.groupBox1.Text:List
+frmSalesReportByCustomerSale.Column1.HeaderText:Store
+frmSalesReportByCustomerSale.Column2.HeaderText:Chain
+frmSalesReportByCustomerSale.Column3.HeaderText:Code Bill
+frmSalesReportByCustomerSale.CUSTOMER_ID.HeaderText:Customer Code
+frmSalesReportByCustomerSale.Column5.HeaderText:Full name
+frmSalesReportByCustomerSale.Column6.HeaderText:Industry
+frmSalesReportByCustomerSale.Column7.HeaderText:Product Groups
+frmSalesReportByCustomerSale.Column8.HeaderText:Product code
+frmSalesReportByCustomerSale.Column9.HeaderText:Product's name
+frmSalesReportByCustomerSale.Column10.HeaderText:UOM
+frmSalesReportByCustomerSale.Column11.HeaderText:Barcode
+frmSalesReportByCustomerSale.Column12.HeaderText:Date of sale
+frmSalesReportByCustomerSale.Column13.HeaderText:Amount
+frmSalesReportByCustomerSale.Column14.HeaderText:Price
+frmSalesReportByCustomerSale.Column15.HeaderText:total
+frmSalesReportByCustomerSale.Column16.HeaderText:Discount
+frmSalesReportByCustomerSale.Column17.HeaderText:Discount
+frmSalesReportByCustomerSale.Column18.HeaderText:Discount according to customer card
+frmSalesReportByCustomerSale.Column19.HeaderText:Promotion
+frmSalesReportByCustomerSale.Column20.HeaderText:Total amount paid
+frmSalesReportByCustomerSale.Column21.HeaderText:Note
+frmSalesReportByCustomerSale.Column22.HeaderText:Staff Code
+frmSalesReportByCustomerSale.Column23.HeaderText:Full name
+frmSalesReportByCustomerSale.label6.Text:Line / page
+frmSalesReportByCustomerSale.lblPage.Text:Page
+frmSalesReportByCustomerSale.btnChoosePage.Text:Go to the page
+frmSalesReportByCustomerSale.lblSumCount.Text:total
+frmSalesReportByCustomerSale.btnPrint.Text:Printing page
+frmSalesReportByCustomerSale.Text:06.02 Report on sales by customers, by sales staff
+
+frmEmployeeSearchReport.gbxToChuc.Text:Organization
+frmEmployeeSearchReport.btnEmployeeSearch.Text:Find
+frmEmployeeSearchReport.gbxNhanVien.Text:Staff
+frmEmployeeSearchReport.columnHeader1.Text:Staff Code
+frmEmployeeSearchReport.columnHeader2.Text:Name
+frmEmployeeSearchReport.columnHeader3.Text:Surname
+frmEmployeeSearchReport.groupBox3.Text:Selected
+frmEmployeeSearchReport.columnHeader4.Text:Staff Code
+frmEmployeeSearchReport.columnHeader5.Text:Name
+frmEmployeeSearchReport.columnHeader6.Text:Surname
+frmEmployeeSearchReport.columnHeader7.Text:Department
+frmEmployeeSearchReport.btnOK.Text:OK
+frmEmployeeSearchReport.btnCancel.Text:Closed
+frmEmployeeSearchReport.Text:Find Staff
+
+frmReport.btnOpen.Text:Open
+frmReport.btnClose.Text:Closed
+frmReport.Text:Report management
+
+frmAddEditUser.groupBox1.Text :User information
+frmAddEditUser.cbxPermissionChangePrice.Text :Permission Change Prices
+frmAddEditUser.cbxPermissionDiscount.Text :Permission Discount & Delete Invoice
+frmAddEditUser.rbtAdmin.Text :Management Group
+frmAddEditUser.rbtShop.Text :Group of stores
+frmAddEditUser.label9.Text :User Groups (*)
+frmAddEditUser.label8.Text :Note
+frmAddEditUser.label7.Text :Email
+frmAddEditUser.label6.Text :Phone
+frmAddEditUser.label5.Text :Name (*)
+frmAddEditUser.label4.Text :Surname (*)
+frmAddEditUser.label3.Text :Confirm password (*)
+frmAddEditUser.label2.Text :Password (*)
+frmAddEditUser.label1.Text :User name (*)
+frmAddEditUser.button1.Text :Save
+frmAddEditUser.button2.Text :Closed
+frmAddEditUser.Text :User
+
+FrmGroupUser.tabUsers.Text :User
+FrmGroupUser.rbtGroupManagement.Text :Management Group
+FrmGroupUser.rbtGroupStore.Text :Group of stores
+FrmGroupUser.label5.Text :User groups
+FrmGroupUser.btnUpdateStore.Text :Update store
+FrmGroupUser.btnCloseTabUser.Text :Closed
+FrmGroupUser.btnChangePass.Text :Change Password
+FrmGroupUser.btnDeleteTabUser.Text :Erase
+FrmGroupUser.btnInsertTabUser.Text :Add new
+FrmGroupUser.groupBox2.Text :List of stores
+FrmGroupUser.columnHeader1.Text :User
+FrmGroupUser.columnHeader2.Text :Store
+FrmGroupUser.groupBox1.Text :List
+FrmGroupUser.ACCOUNT.HeaderText :User
+FrmGroupUser.Column2.HeaderText :Name
+FrmGroupUser.Column3.HeaderText :Surname
+FrmGroupUser.Column4.HeaderText :Phone
+FrmGroupUser.Column5.HeaderText :Email
+FrmGroupUser.Column6.HeaderText :Date created
+FrmGroupUser.Column7.HeaderText :Note
+FrmGroupUser.btnStore.Text :Store
+FrmGroupUser.label9.Text :Quick search by name
+FrmGroupUser.label6.Text :Note
+FrmGroupUser.label7.Text :Phone
+FrmGroupUser.label8.Text :Date created
+FrmGroupUser.label4.Text :Email
+FrmGroupUser.label3.Text :Surname
+FrmGroupUser.label2.Text :Name
+FrmGroupUser.label1.Text :User
+FrmGroupUser.tabGroup.Text :Group
+FrmGroupUser.btnClose.Text :Closed
+FrmGroupUser.btnDelete.Text :Erase
+FrmGroupUser.btnSave.Text :Save
+FrmGroupUser.btnInsert.Text :Add new
+FrmGroupUser.label11.Text :Describe
+FrmGroupUser.label10.Text :Group code
+FrmGroupUser.tabPage3.Text :Add to Group
+FrmGroupUser.btnStoreTab3.Text :Store
+FrmGroupUser.label12.Text :Quick Search
+FrmGroupUser.Text :Manage users and groups
+frmChangePass.button1.Text :Save
+frmChangePass.button2.Text :Close
+frmChangePass.label1.Text :User
+frmChangePass.label2.Text :Password
+frmChangePass.label3.Text :Retype Password

@@ -1,0 +1,66 @@
+<salesExportXml>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101000</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <synAction>3</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101001</exportCode>
+    <exportDate>2014-01-01T15:38:49.2+07:00</exportDate>
+    <inputDate>2014-01-01T15:38:49.173+07:00</inputDate>
+    <totalAmount>2200</totalAmount>
+    <totalDiscount>0</totalDiscount>
+    <accountUser>Admin</accountUser>
+    <customerCode>CUS.AM10021.00006</customerCode>
+    <shopCode>CH40211@STO.0001@LOC.0002</shopCode>
+    <currencyId>VND</currencyId>
+    <eventId>HAITHANH-PC-CH40211-14-00010</eventId>
+    <totalPromotion>0</totalPromotion>
+    <totalPayments>2200</totalPayments>
+    <totalPayments1>2200</totalPayments1>
+    <balance>0</balance>
+    <transferShiftCode>TRA.CH40211.01.01.14.00001</transferShiftCode>
+    <isBarter>0</isBarter>
+    <totalRebate>0</totalRebate>
+    <totalNumberMark>0</totalNumberMark>
+    <redInvoiceCompanyName />
+    <redInvoiceTaxCode />
+    <redInvoiceAddress />
+    <usedRedInvoice>false</usedRedInvoice>
+    <customerNumberMark>0</customerNumberMark>
+    <customerCardDiscountPercent>0</customerCardDiscountPercent>
+    <redInvoiceRemark />
+    <synAction>1</synAction>
+  </SalesExport>
+  <SalesExport>
+    <exportCode>SAL.CH40211140101002</exportCode>
+    <exportDate>2014-01-01T17:49:00.777+07:00</exportDate>
+    <inputDate>2014-01-01T17:48:59.11+07:00</inputDate>
+    <totalAmount>110</totalAmount>
+    <totalDiscount>0</totalDiscount>
+    <accountUser>Admin</accountUser>
+    <customerCode>CUS.AM10021.00002</customerCode>
+    <shopCode>CH40211@STO.0001@LOC.0002</shopCode>
+    <currencyId>VND</currencyId>
+    <eventId>LUAN-PC-CH40211-14-000000001</eventId>
+    <totalPromotion>0</totalPromotion>
+    <totalPayments>110</totalPayments>
+    <totalPayments1>110</totalPayments1>
+    <balance>0</balance>
+    <transferShiftCode>TRA.CH40211.01.01.14.00001</transferShiftCode>
+    <isBarter>0</isBarter>
+    <totalRebate>0</totalRebate>
+    <totalNumberMark>0</totalNumberMark>
+    <redInvoiceCompanyName />
+    <redInvoiceTaxCode />
+    <redInvoiceAddress />
+    <usedRedInvoice>false</usedRedInvoice>
+    <customerNumberMark>0</customerNumberMark>
+    <customerCardDiscountPercent>0</customerCardDiscountPercent>
+    <redInvoiceRemark />
+    <synAction>1</synAction>
+  </SalesExport>
+</salesExportXml>

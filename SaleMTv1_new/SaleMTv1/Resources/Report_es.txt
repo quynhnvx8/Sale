@@ -1,0 +1,245 @@
+﻿#02. Item Return Report 
+
+ItemReutrn.Title:ITEM RETURN
+ItemReutrn.FromDate: FromDate
+ItemReutrn.ToDate: ToDate
+ItemReutrn.PrintDate: PrintDate
+ItemReutrn.TotalQty: Total Qty
+ItemReutrn.TotalAmount: Total Amount
+ItemReutrn.TotalOther: Total Other
+ItemReutrn.Order: No
+ItemReutrn.ItemCode: Code Item
+ItemReutrn.ItemName: Name Item
+ItemReutrn.UOM: UOM
+ItemReutrn.Quantity: Quantity
+ItemReutrn.Price: Price
+ItemReutrn.Amount: Amount
+ItemReutrn.AmountReturn: Amt Return
+ItemReturn.CAT: CAT
+ItemReturn.CodeReturn: Code Return
+ItemReturn.CodeInvoice: Code Invoice
+ItemReutrn.Printer: Printer
+ItemReutrn.Supervisor: Supervisor
+ItemReutrn.TitleSign: ......,Day.... Month... Year .....
+
+#04.01. Import Product Sale Report
+
+ImportProduct.Title:ITEM INPUT
+ImportProduct.FromDate: FromDate
+ImportProduct.ToDate: ToDate
+ImportProduct.PrintDate: PrintDate
+ImportProduct.TotalQty: Total Qty
+ImportProduct.Total: Total Amt
+ImportProduct.ImportType: Type Import
+ImportProduct.InvoiceNo: Invoice No
+ImportProduct.InvoiceCode: Code Input
+ImportProduct.InvoiceDate: Invoice Date
+ImportProduct.PosNo: PO No
+ImportProduct.InternalNo: Internal No
+ImportProduct.Order: No
+ImportProduct.ItemCode: Item Code
+ImportProduct.ItemName: Item Name
+ImportProduct.UOM: UOM
+ImportProduct.Qty: Qty
+ImportProduct.CAT: CAT
+ImportProduct.Price: Price
+ImportProduct.Amount: Amount
+ImportProduct.Adjust: Adjust
+ImportProduct.GrandTotal: Grand Total 
+
+#04.02 Cua hang xuat hang
+
+ExportProduct.Title:ITEM OUTPUT
+ExportProduct.FromDate: FromDate
+ExportProduct.ToDate: ToDate
+ExportProduct.PrintDate: PrintDate
+ExportProduct.TotalQty: Total Qty
+ExportProduct.Total: Total Amt
+ExportProduct.ExportType: Type Export
+ExportProduct.InvoiceNo: Invoice No
+ExportProduct.InvoiceCode: Code Output
+ExportProduct.InvoiceDate: Invoice Date
+ExportProduct.PosNo: PO No
+ExportProduct.InternalNo: Internal No
+ExportProduct.Order: No
+ExportProduct.ItemCode: Item Code
+ExportProduct.ItemName: Item Name
+ExportProduct.UOM: UOM
+ExportProduct.Qty: Qty
+ExportProduct.CAT: CAT
+ExportProduct.Price: Price
+ExportProduct.Amount: Amount
+ExportProduct.Adjust: Adjust
+ExportProduct.GrandTotal: Grand Total 
+
+#04.03 Cua hang xuat hang
+
+InventorySale.Title:INVENTORY ITEM
+InventorySale.Date: Date
+InventorySale.PrintDate: PrintDate
+InventorySale.TotalQty: Total Qty
+InventorySale.Total: Total Amt
+InventorySale.CAT: CAT
+InventorySale.Order: No
+InventorySale.ItemCode: Item Code
+InventorySale.ItemName: Item Name
+InventorySale.UOM: UOM
+InventorySale.Qty: Qty
+InventorySale.Price: Price
+InventorySale.Amount: Amount
+InventorySale.Printer: Printer
+InventorySale.Supervisor: Supervisor
+InventorySale.TitleSign: ......,Day.... Month... Year.....
+
+#04.04 Bao cao nhap xuat ton
+
+BalanceItem.Title:BALANCE INVENTORY ITEM
+BalanceItem.FromDate: From
+BalanceItem.ToDate: To
+BalanceItem.PrintDate: Print
+BalanceItem.GrandTotal: Grand Total
+BalanceItem.BalanceFirst: First Balance
+BalanceItem.Input: Input Period
+BalanceItem.Output: Output Period
+BalanceItem.BalanceFinal: Final Balance
+BalanceItem.CAT: CAT
+BalanceItem.Order: No
+BalanceItem.ItemCode: Item Code
+BalanceItem.ItemName: Item Name
+BalanceItem.UOM: UOM
+BalanceItem.FirstQty: Qty
+BalanceItem.FirstPrice: Price
+BalanceItem.FirstTotal: Amt
+BalanceItem.InputQty: Qty
+BalanceItem.InputTotal: Amt
+BalanceItem.InputQtyAdjust: Adj.
+BalanceItem.InputTotalAdjust: Amt
+BalanceItem.OutputGrandTotal:Total
+BalanceItem.WarantyQty: War..
+BalanceItem.WarantyTotal: Amt
+BalanceItem.PromotionQty: Pro.
+BalanceItem.PromotionTotal:Amt
+BalanceItem.OutputQtyAdjust:Adj.
+BalanceItem.OutputTotalAdjust:Amt
+BalanceItem.FinalQty: Qty
+BalanceItem.FinalPrice: Price
+BalanceItem.FinalTotal: Amount
+BalanceItem.Printer: Printer
+BalanceItem.Supervisor: Supervisor
+BalanceItem.TitleSign: ......,Day.... Month... Year .....
+
+#04.05. Bao cao hang khuyen mai
+
+Promotion.Title:ITEM PROMOTION
+Promotion.FromDate: From
+Promotion.ToDate: To
+Promotion.PrintDate: Print
+Promotion.GrandTotal: Total
+Promotion.CAT: CAT
+Promotion.Order: No
+Promotion.SaleDate: SaleDate
+Promotion.InvoiceNo: Invoice
+Promotion.ItemCode: Item Code
+Promotion.ItemName: Item Name
+Promotion.UOM: UOM
+Promotion.Qty: Qty
+Promotion.Price: Price
+Promotion.Amount: Amount
+Promotion.PersonPrint: Printer
+Promotion.Supervisor: Supervisor
+Promotion.TitleSign: ......,Day.... Month... Year .....
+
+#04.06. Bao cao chenh lech gia
+
+Compare.Title:COMPARE PRICE REPORT
+Compare.FromDate: From
+Compare.ToDate: To
+Compare.PrintDate: Print
+Compare.GrandTotal: Grand Total
+Compare.Order: No
+Compare.ItemCode: Item Code
+Compare.ItemName: Item Name
+Compare.UOM: UOM
+Compare.Qty: Qty
+Compare.Input: Input
+Compare.Output: Output
+Compare.InputPrice: Price
+Compare.InputAmount: Amount
+Compare.OutputPrice: Price
+Compare.OutputAmount: Amount
+Compare.Difference: Difference
+
+#06.01. Sale Report
+
+SaleReport.Title:SALE REPORT
+SaleReport.FromDate: From Date
+SaleReport.ToDate: To Date
+SaleReport.PrintDate: Date Print
+SaleReport.TotalInvoice: Total Invoice
+SaleReport.Total: Total
+SaleReport.Order: No
+SaleReport.CodeInvoice: Code Invoice
+SaleReport.CodeCustomer: Cus Code
+SaleReport.NameCustomer: Cus Name
+SaleReport.ItemCategory: CAT
+SaleReport.ItemCode: Item Code
+SaleReport.ItemName: Item Name
+SaleReport.UOM: UOM
+SaleReport.Quantity: Qty
+SaleReport.Price: Price
+SaleReport.Amount: Amount
+SaleReport.Promotion: Promotion
+SaleReport.Payment: Payment
+SaleReport.PersonPrint: Printer
+SaleReport.Supervisor: Supervisor
+SaleReport.TitleSign: ......,Day.... Month... Year .....
+
+#06.02. Sale Report by Employee 
+
+SaleReportEmp.Title:SALE REPORT
+SaleReportEmp.FromDate: From Date
+SaleReportEmp.ToDate: To Date
+SaleReportEmp.PrintDate: Date Print
+SaleReportEmp.TotalInvoice: Total Invoice
+SaleReportEmp.Total: Total
+SaleReportEmp.Order: No
+SaleReportEmp.CodeInvoice: Code Invoice
+SaleReportEmp.CodeCustomer: Cus Code
+SaleReportEmp.NameCustomer: Cus Name
+SaleReportEmp.ItemCategory: CAT
+SaleReportEmp.ItemCode: Item Code
+SaleReportEmp.ItemName: Item Name
+SaleReportEmp.UOM: UOM
+SaleReportEmp.Quantity: Qty
+SaleReportEmp.Price: Price
+SaleReportEmp.Amount: Amount
+SaleReportEmp.Promotion: Promotion
+SaleReportEmp.Payment: Payment
+SaleReportEmp.Employee: Employee
+SaleReportEmp.PersonPrint: Printer
+SaleReportEmp.Supervisor: Supervisor
+SaleReportEmp.TitleSign: ......,Day.... Month... Year .....
+
+#06.03. Bao cao doanh so theo CAT
+
+SaleByCAT.Title:SALE BY CAT REPORT
+SaleByCAT.FromDate: From
+SaleByCAT.ToDate: To
+SaleByCAT.PrintDate: Print
+SaleByCAT.GrandTotal: Grand Total
+SaleByCAT.Order: No
+SaleByCAT.CustCode: Cus Code
+SaleByCAT.CustName: Cus Name
+SaleByCAT.Address: Address
+SaleByCAT.Sequence: Sequence
+
+#06.07. Bao cao doanh so theo CAT
+
+SaleNoExport.Title:CUSTOMER NO TRANSACTION
+SaleNoExport.FromDate: From
+SaleNoExport.ToDate: To
+SaleNoExport.PrintDate: Print
+SaleNoExport.Order: No
+SaleNoExport.CustCode: Cus Code
+SaleNoExport.CustName: Cus Name
+SaleNoExport.Address: Address

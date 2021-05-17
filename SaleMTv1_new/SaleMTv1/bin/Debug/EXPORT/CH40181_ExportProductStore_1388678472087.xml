@@ -1,0 +1,22 @@
+<exportProductStoreXml>
+  <ExportProductStore>
+    <exportStoreCode>EXS.CH40211.14.00001</exportStoreCode>
+    <dateExport>2014-01-01T16:44:44+07:00</dateExport>
+    <shopCode>CH40211@STO.0001@LOC.0002</shopCode>
+    <exportType>3</exportType>
+    <remarks />
+    <createBy>Admin</createBy>
+    <dateCreate>2014-01-01T16:44:50.327+07:00</dateCreate>
+    <dateUpdate>1753-01-01T00:00:00+07:00</dateUpdate>
+    <eventId>HAITHANH-PC-CH40211-14-00025</eventId>
+    <isImportDebt>0</isImportDebt>
+    <invoiceNo />
+    <pocoNumber />
+    <secrectNumber />
+    <orderDate>1753-01-01T00:00:00+07:00</orderDate>
+    <moneyConfig>0</moneyConfig>
+    <noteConfig />
+    <exportTypeCode>ETY.0001</exportTypeCode>
+    <synAction>1</synAction>
+  </ExportProductStore>
+</exportProductStoreXml>

@@ -1,0 +1,772 @@
+2014-01-06 17:13:35,426 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-06 17:13:40,436 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10061: No connection could be made because the target machine actively refused it 192.168.1.88:8080. 
+2014-01-08 09:35:29,613 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 09:35:37,659 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 09:36:04,356 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-08 09:36:27,746 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 09:36:30,563 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 09:36:52,061 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-08 11:50:11,256 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 11:50:35,228 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-08 14:52:44,360 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error 'EventChangeQuantity': Index and length must refer to a location within the string.
+Parameter name: length
+2014-01-08 16:28:16,280 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 16:28:42,900 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-08 16:30:41,329 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 16:31:02,903 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-08 16:31:33,384 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-08 16:40:20,180 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-08 16:40:41,833 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:04:49,589 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:04:52,400 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:05:17,075 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:10:41,464 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:11:03,005 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:17:33,356 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:17:55,260 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:19:29,583 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:19:51,117 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:22:12,512 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:22:34,084 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:23:39,234 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-09 09:23:42,680 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-09 09:27:03,177 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:27:24,723 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 09:28:15,256 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-09 09:28:19,008 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-09 09:32:09,610 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-09 09:46:53,391 [8] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 09:47:15,075 [8] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 10:06:42,143 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 10:07:03,875 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 10:07:42,874 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error 'EventChangeQuantity': Index and length must refer to a location within the string.
+Parameter name: length
+2014-01-09 10:10:10,044 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error 'EventChangeQuantity': Index and length must refer to a location within the string.
+Parameter name: length
+2014-01-09 10:10:14,462 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error 'EventChangeQuantity': Index and length must refer to a location within the string.
+Parameter name: length
+2014-01-09 12:02:45,316 [8] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 12:03:12,175 [8] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 12:03:37,294 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 12:03:40,929 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 12:04:02,438 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 12:07:03,129 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 15:17:54,606 [8] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 15:18:28,246 [8] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 15:24:18,387 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 15:24:40,669 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 20:28:34,893 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-09 20:29:01,573 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-09 20:29:45,005 [1] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-10 09:06:16,067 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 09:06:19,597 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 09:06:45,953 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 10:01:02,310 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 10:01:24,440 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 11:36:44,385 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 11:36:46,543 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 11:37:08,389 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 11:45:11,135 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 11:45:38,607 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 12:22:33,312 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 12:22:59,816 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 12:38:23,340 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 12:38:47,816 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 14:35:17,326 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-10 14:35:42,123 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-10 14:36:26,995 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:27,016 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:28,672 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:28,680 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:33,181 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:33,189 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:38,314 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:38,322 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:43,011 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicherManagement - Error: LoadgirdCannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:43,055 [9] ERROR SaleMTInterfaces.FrmReporter.frmReport - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:48,194 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicherManagement - Error: LoadgirdCannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:48,214 [9] ERROR SaleMTInterfaces.FrmReporter.frmReport - Error: Object reference not set to an instance of an object.
+2014-01-10 14:36:53,489 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicherManagement - Error: LoadgirdCannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:36:53,508 [9] ERROR SaleMTInterfaces.FrmReporter.frmReport - Error: Object reference not set to an instance of an object.
+2014-01-10 14:37:01,029 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicherManagement - Error: LoadgirdCannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:37:01,051 [9] ERROR SaleMTInterfaces.FrmReporter.frmReport - Error: Object reference not set to an instance of an object.
+2014-01-10 14:37:07,057 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:37:07,065 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-10 14:37:13,010 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Cannot resolve the collation conflict between "Vietnamese_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in the equal to operation.
+2014-01-10 14:37:13,017 [9] ERROR SaleMTInterfaces.FrmReporter.FrmReportSale.frmInvoicher - Error: Object reference not set to an instance of an object.
+2014-01-11 10:25:48,900 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-11 10:25:53,420 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-11 10:25:58,341 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-11 10:27:45,010 [1] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-11 10:46:04,158 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-11 10:46:34,917 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-11 11:31:19,651 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-11 11:31:25,799 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-11 11:49:32,809 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-11 11:49:39,401 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-12 20:19:22,210 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-12 20:19:24,981 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-12 20:19:29,121 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-12 20:34:23,120 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-12 20:34:23,680 [11] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-12 20:37:21,240 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-12 20:37:21,832 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10065: A socket operation was attempted to an unreachable host 192.168.1.88:8080. 
+2014-01-13 09:32:43,465 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 09:33:15,797 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 09:33:43,839 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 09:37:16,849 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 09:37:38,441 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 09:44:57,881 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 10:11:45,907 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 10:12:08,055 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 10:57:46,984 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 10:58:16,594 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 10:59:41,743 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-13 11:00:10,671 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:01:07,354 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:02:07,758 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:02:29,345 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:02:37,398 [10] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-13 11:02:56,151 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:03:36,610 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:07:56,324 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:08:17,925 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:09:07,054 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-13 11:09:14,773 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:09:25,348 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:12:08,698 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:12:11,029 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:12:32,740 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:17:22,031 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:18:57,256 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:19:00,616 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:19:03,186 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:19:03,903 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:19:04,659 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:22:54,120 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:23:15,855 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:26:05,302 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:27:15,046 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:27:36,796 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:28:04,977 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:29:47,058 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:30:36,857 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:30:58,446 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:31:18,987 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:39:59,117 [8] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:40:20,758 [8] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 11:40:44,128 [8] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 11:41:43,956 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 11:42:05,806 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 13:30:19,981 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 13:45:41,126 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 13:46:12,034 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 13:46:35,730 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 13:53:31,764 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 13:53:53,426 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 13:56:11,639 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-13 18:03:31,023 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-13 18:03:57,998 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-13 18:04:18,021 [10] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-13 18:04:27,544 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-13 18:04:29,111 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-14 09:33:15,417 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 09:33:36,586 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 09:34:02,390 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 09:40:29,573 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 09:41:08,863 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 09:43:20,451 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 09:43:46,422 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 09:48:34,659 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 09:48:56,547 [11] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 10:09:14,460 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 10:35:14,705 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 10:35:41,401 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 14:45:53,838 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 14:46:23,560 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 14:46:38,808 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 14:49:26,478 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueEntities': Object reference not set to an instance of an object.
+2014-01-14 14:49:26,723 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 14:51:21,798 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueEntities': Object reference not set to an instance of an object.
+2014-01-14 14:51:21,984 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 14:54:48,420 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 14:55:10,079 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 14:56:13,143 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 14:56:24,928 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 14:59:22,070 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 14:59:43,799 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 15:00:06,920 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 15:02:04,208 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 15:02:25,870 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 15:05:52,470 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 15:06:04,645 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 15:06:36,016 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-14 15:44:53,803 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 15:45:15,798 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 15:47:07,199 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-14 15:47:29,150 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-14 15:52:03,716 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-15 09:07:22,798 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-15 09:07:28,957 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-15 09:07:55,703 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 09:08:28,796 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 09:08:54,307 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 09:12:17,334 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 09:12:20,656 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 09:12:42,290 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 10:59:35,644 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:00:21,825 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:16:06,599 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:16:35,364 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:22:54,642 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-16 11:23:25,318 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:25:22,946 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:25:25,714 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:25:50,685 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:25:59,053 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-16 11:26:08,662 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:27:26,258 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:27:28,345 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:27:50,909 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:30:57,832 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:31:20,708 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:32:01,284 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:33:46,602 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:34:08,754 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:34:18,434 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:41:37,339 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:41:59,942 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:44:17,071 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:46:09,623 [10] ERROR SaleMTBusiness.CustomerManagement.CustomerManager -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-16 11:46:32,967 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:51:35,833 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:51:56,236 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:52:52,811 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 11:54:46,933 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 11:55:10,465 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-16 11:55:26,724 [10] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error 'SetValueControlText': Object reference not set to an instance of an object.
+2014-01-16 12:13:07,289 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-16 12:13:30,028 [11] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 08:56:48,208 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 08:56:51,148 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 08:57:16,989 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 08:57:31,105 [10] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-21 09:27:08,307 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-21 10:15:40,612 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-21 10:16:51,016 [10] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-21 10:35:38,326 [10] ERROR SaleMTInterfaces.PrintBill.frmReportView - Error: Load report failed.
+2014-01-21 10:40:00,783 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 10:40:27,139 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 10:43:41,493 [10] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-21 10:44:00,650 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-21 10:44:03,246 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-01-21 10:44:09,496 [10] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Nullable object must have a value.
+2014-01-21 10:48:39,363 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 10:49:00,976 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 11:19:50,250 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 11:20:12,456 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 11:20:45,619 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 11:21:07,191 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-21 16:57:10,302 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-21 16:57:40,968 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 10:43:14,788 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 10:43:21,296 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 10:43:54,865 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 11:51:48,201 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 11:51:55,709 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 11:52:26,092 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 11:54:15,374 [7] ERROR SaleMTSync.frmSync - Error 'DownloadXMLQueue' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 12:19:40,762 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 12:20:02,546 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 13:27:21,893 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 13:27:22,793 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 14:04:16,370 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 14:04:44,027 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 14:05:58,683 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 14:05:58,719 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 14:09:35,493 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 14:09:35,504 [6] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-01-22 14:24:07,515 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 14:24:29,455 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 14:24:50,098 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-22 14:25:36,889 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:40,703 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:48,178 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:48,966 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:49,173 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:49,359 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:49,546 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:49,718 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:49,924 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:50,108 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:50,311 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:50,500 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:25:50,656 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmCustomerManagement - Error: Procedure or function CUSTOMERS_Create has too many arguments specified.
+2014-01-22 14:26:19,903 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-22 14:33:54,417 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2014-01-22 17:17:30,060 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 17:17:57,012 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 17:18:47,518 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 17:18:50,640 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 17:19:12,317 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 19:13:48,212 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-01-22 19:14:16,056 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-01-22 19:40:49,324 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-01-22 19:41:10,604 [10] ERROR SaleMTInterfaces.PrintBill.frmReportView - Error: Error in File C:\Users\ADMINI~1\AppData\Local\Temp\rptSalesInvoice {1BB26480-9C88-4FA6-B9B2-2E8BE266FB81}.rpt:
+Unable to connect: incorrect log on parameters.
+2014-01-22 19:41:46,492 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-01-22 19:44:47,626 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-01-22 19:46:04,050 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-01-22 19:46:31,531 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-01-22 19:46:48,376 [10] ERROR SaleMTBusiness.SaleManagement.Payment - Error : Object reference not set to an instance of an object.
+2014-02-07 15:58:42,990 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-07 15:58:47,217 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-07 15:59:13,408 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-07 16:03:11,462 [7] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-02-07 16:03:11,475 [7] ERROR SaleMTSync.frmSync - Error 'ReadnSave XML' : Root element is missing.
+2014-02-11 08:35:51,161 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 08:35:55,543 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 08:36:23,429 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-11 08:59:31,082 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 08:59:33,749 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 09:00:03,104 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-11 09:03:20,432 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 09:03:42,501 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-11 14:02:35,914 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 14:03:03,459 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-11 14:03:50,351 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:03:52,451 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:03:54,038 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:03:58,411 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:03:59,762 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:03:59,998 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:00,187 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:03,488 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:06,101 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:06,338 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:06,545 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:16,214 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:46,749 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:49,023 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:04:50,298 [10] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2014-02-11 14:04:59,660 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:05:00,986 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:05:01,524 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:05:01,731 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:05:01,915 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'USERS_Read'.
+2014-02-11 14:08:25,132 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:08:27,607 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:08:28,947 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:08:29,307 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:14:18,161 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:14:20,856 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Could not find stored procedure 'LoadInformationEm'.
+2014-02-11 14:17:50,360 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-11 14:18:12,074 [11] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 13:35:04,790 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:35:17,613 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:35:44,000 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 13:36:51,934 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:37:27,807 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-02-14 13:44:22,776 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:45:45,572 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:53:38,267 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:54:00,407 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 13:57:27,942 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 13:57:49,514 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 14:55:50,551 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 14:56:19,613 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 15:11:15,709 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 15:11:43,481 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 15:12:57,293 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 15:13:18,855 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 16:18:42,465 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 16:19:04,206 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 16:26:15,822 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 16:26:37,445 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-14 16:40:27,577 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 16:52:39,652 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-14 16:53:01,510 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-17 11:04:41,568 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 11:04:57,017 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 11:05:25,979 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-17 11:08:42,767 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 11:09:06,639 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-17 11:30:19,884 [10] ERROR SaleMTInterfaces.FrmUtilities.frmGoodsInventory - Error: Procedure or function 'Table_KIEMKE_FindByMaKK' expects parameter '@LIST_STORE_CODE', which was not supplied.
+2014-02-17 11:30:24,586 [10] ERROR SaleMTInterfaces.FrmUtilities.frmGoodsInventory - Error: Procedure or function 'Table_KIEMKE_FindByMaKK' expects parameter '@LIST_STORE_CODE', which was not supplied.
+2014-02-17 11:38:56,199 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 11:39:20,874 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-17 13:32:35,790 [8] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 13:33:06,393 [8] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-17 16:10:24,259 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-17 16:10:53,972 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-02-26 08:56:00,553 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-26 08:56:09,622 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-02-26 08:56:35,619 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-01 09:30:13,572 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-01 09:30:20,365 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-01 09:30:46,841 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-01 09:35:19,995 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-01 09:35:22,367 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-01 09:35:44,144 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-01 09:44:07,390 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogReturnItemAdd - Error 'SaveItemReturn': Cannot insert the value NULL into column 'CUSTOMER_ID', table 'dbvnm1212.dbo.ITEM_RETURN'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2014-03-01 09:50:16,308 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogReturnItemAdd - Error 'SaveItemReturn': Violation of PRIMARY KEY constraint 'PK_ITEM_RETURN'. Cannot insert duplicate key in object 'dbo.ITEM_RETURN'.
+The statement has been terminated.
+2014-03-01 09:51:21,782 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogReturnItemAdd - Error 'SaveItemReturn': Violation of PRIMARY KEY constraint 'PK_ITEM_RETURN'. Cannot insert duplicate key in object 'dbo.ITEM_RETURN'.
+The statement has been terminated.
+2014-03-26 11:17:50,726 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 11:18:16,950 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 11:20:49,552 [10] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogAuthentication - Error: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2014-03-26 11:22:43,667 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 11:23:05,722 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 11:23:32,986 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 11:24:14,274 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 11:24:16,858 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 11:30:26,714 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 11:30:48,335 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 11:39:26,619 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 11:39:40,218 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 11:39:40,242 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 12:38:36,002 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 12:39:04,043 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 12:40:42,345 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 12:41:03,998 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 12:42:13,683 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 12:42:18,249 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 12:42:18,251 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 13:17:26,345 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 13:17:48,247 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 13:19:37,151 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 13:19:44,596 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 13:19:44,598 [10] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 13:40:40,324 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-03-26 13:41:01,942 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-03-26 13:41:24,376 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 13:41:29,527 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error: Object reference not set to an instance of an object.
+2014-03-26 13:42:38,470 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 13:43:40,139 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmSale - Error 'EventPayment': A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+2014-03-26 13:44:42,533 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogPayment - Error : The ConnectionString property has not been initialized.
+2014-03-26 13:44:52,415 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 13:46:45,810 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 13:48:06,689 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 13:48:24,492 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 13:48:25,690 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 13:48:25,691 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 14:03:23,322 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogPayment - Error : A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2014-03-26 14:04:30,621 [9] ERROR SaleMTInterfaces.FrmSaleManagement.frmDialogPayment - Error : Violation of PRIMARY KEY constraint 'PK_SALES_EXPORTS'. Cannot insert duplicate key in object 'dbo.SALES_EXPORTS'.
+The statement has been terminated.
+2014-03-26 14:06:50,656 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 14:07:05,399 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form started !.
+2014-03-26 14:07:06,489 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed .
+2014-03-26 14:07:06,489 [9] DEBUG SaleMTInterfaces.FrmSaleManagement.frmDialogDiscountProduct - Notice: form closed.
+2014-03-26 14:15:18,266 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-03-26 14:20:55,703 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2014-04-16 13:58:26,317 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-04-23 10:13:53,904 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-04-23 10:13:57,024 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2014-04-23 10:14:26,524 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2014-04-23 10:14:48,384 [1] ERROR SaleMTCommon.Conversion - Error 'stringToDateTime': String was not recognized as a valid DateTime.
+2015-01-10 08:38:53,121 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:39:14,702 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:39:19,085 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:39:21,155 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:39:25,552 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:39:43,028 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Login failed for user 'sa'. The user is not associated with a trusted SQL Server connection.
+2015-01-10 08:40:35,862 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-10 08:40:44,004 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-10 08:41:07,749 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2015-01-10 08:41:31,378 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-10 08:41:36,120 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Invalid URI: The URI is empty.
+2015-01-10 08:41:49,676 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-10 08:41:49,814 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Invalid URI: The URI is empty.
+2015-01-17 12:06:25,252 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-17 12:06:29,426 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-01-17 12:06:29,811 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Invalid URI: The URI is empty.
+2015-05-19 15:43:11,877 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-05-19 15:43:19,891 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2015-05-19 15:43:44,272 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-06 09:50:24,531 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-06 11:35:01,328 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-06 13:55:27,525 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-06 13:55:34,410 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-06 13:55:56,544 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-06 15:30:01,577 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-06 15:44:19,155 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-06 15:44:19,186 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 12:41:57,476 [10] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-11 14:00:27,839 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:27,871 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:30,401 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:30,417 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:35,423 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:35,441 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:35,970 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:35,985 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:36,350 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:36,366 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:36,592 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:36,607 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:36,816 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:00:36,831 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:00:59,755 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-11 14:01:44,056 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:01:44,084 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:01:56,095 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:01:56,117 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:01:56,657 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:01:56,672 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:02:19,267 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-11 14:21:04,557 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:21:04,604 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:23:13,643 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-11 14:24:13,766 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:24:13,802 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:24:21,504 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:24:21,521 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:24:22,060 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:24:22,088 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:24:22,486 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 14:24:22,501 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 14:24:45,097 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-11 15:08:05,201 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 15:08:05,228 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 15:08:09,491 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 15:08:09,511 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 15:08:32,356 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-11 15:10:19,112 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 15:10:19,140 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 15:10:35,799 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-11 15:10:35,816 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-11 15:10:58,293 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-13 08:53:41,879 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-13 08:53:41,915 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-13 08:54:11,501 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-17 17:11:06,722 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-17 17:11:14,943 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-17 17:11:40,036 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-17 17:15:09,755 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-17 17:15:27,637 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-17 17:16:04,424 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-17 22:18:39,188 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-17 22:18:53,024 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-17 22:19:50,842 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-17 22:29:23,488 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-17 22:32:24,618 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-18 08:53:33,933 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-19 12:32:19,576 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 12:32:31,999 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 12:33:06,996 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 12:33:24,467 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Object reference not set to an instance of an object.
+2020-11-19 12:45:10,154 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-19 12:47:26,357 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 12:47:26,380 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 12:47:29,909 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 12:47:29,920 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 12:47:53,348 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 13:29:38,236 [10] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-19 13:30:42,589 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:30:42,619 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:30:45,911 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:30:45,925 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:30:47,939 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:30:47,954 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:30:48,159 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:30:48,170 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:31:11,508 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 13:34:07,898 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmCashDeposit - Notice: form started.
+2020-11-19 13:34:12,735 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInputOpeningLiablity - Notice: form started.
+2020-11-19 13:40:33,082 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-19 13:41:48,978 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:41:49,002 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:41:51,694 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:41:51,703 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:41:52,144 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:41:52,154 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:41:52,369 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 13:41:52,379 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 13:42:14,875 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:24:49,319 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:24:49,342 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:25:13,698 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:26:33,408 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmCashDeposit - Notice: form started.
+2020-11-19 16:26:41,492 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-19 16:26:51,242 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInputOpeningLiablity - Notice: form started.
+2020-11-19 16:30:31,839 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:30:31,860 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:30:55,792 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:31:03,062 [10] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmCashDeposit - Notice: form started.
+2020-11-19 16:31:29,471 [10] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-19 16:32:27,464 [10] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-19 16:33:15,481 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:33:15,502 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:33:40,921 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:34:12,748 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-19 16:34:22,424 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmCashDeposit - Notice: form started.
+2020-11-19 16:51:04,182 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:51:04,205 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:51:28,142 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:52:30,522 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:52:30,546 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:52:53,855 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-19 16:53:26,660 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-19 16:55:28,677 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-19 16:55:28,700 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-19 16:55:59,494 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-20 15:57:09,493 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-21 12:39:22,395 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 12:39:22,421 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 12:39:23,943 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 12:39:23,952 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 12:39:24,393 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 12:39:24,402 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 12:39:24,619 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 12:39:24,627 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 12:40:01,870 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 12:40:28,461 [9] DEBUG SaleMTInterfaces.FrmLiablityManagement.frmInvoicePayment - Notice: form started.
+2020-11-21 13:45:12,597 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:14,472 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:14,787 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:15,012 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:17,216 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:17,666 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:17,907 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:18,357 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:45:19,431 [11] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-21 13:45:24,766 [11] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:46:24,064 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2020-11-21 13:48:24,963 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 13:48:24,984 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 13:48:31,824 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10061: No connection could be made because the target machine actively refused it 192.168.1.88:8080. 
+2020-11-21 14:40:01,985 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:40:02,007 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:40:02,870 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:40:02,880 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:40:25,460 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:41:44,513 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:41:44,538 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:42:07,468 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:46:21,603 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:46:21,626 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:46:44,986 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:47:02,900 [10] ERROR SaleMTInterfaces.FrmReporter.FrmReportView.frmReportViewNew - Error: The given key was not present in the dictionary.
+2020-11-21 14:47:34,652 [10] ERROR SaleMTInterfaces.FrmReporter.FrmReportView.frmReportViewNew - Error: The given key was not present in the dictionary.
+2020-11-21 14:49:29,491 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:49:29,513 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:49:57,401 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:53:07,166 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:53:07,188 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:53:30,624 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:55:54,298 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:55:54,321 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:55:55,017 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:55:55,027 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:56:17,453 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-21 14:57:23,430 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-21 14:57:23,452 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-21 14:57:47,078 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 15:27:23,344 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 15:27:23,360 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 15:27:53,487 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 15:32:12,548 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 15:32:12,579 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 15:32:35,354 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 15:34:06,177 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 15:34:06,199 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 15:34:29,456 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 15:52:14,915 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 15:52:14,937 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 15:52:38,305 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 15:56:32,365 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 15:56:32,396 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 15:56:50,947 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10061: No connection could be made because the target machine actively refused it 192.168.1.88:8080. 
+2020-11-23 16:22:56,421 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 16:22:56,436 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 16:23:23,138 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-23 21:40:42,682 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-23 21:40:42,699 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-23 21:41:07,218 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-24 08:30:16,289 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-24 08:30:16,310 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-24 08:30:40,941 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-24 08:34:52,986 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-24 08:34:53,010 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-24 08:35:16,793 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-24 08:39:04,635 [10] ERROR SaleMTCommon.GridPageView - Error: Input string was not in a correct format.
+2020-11-24 08:39:05,870 [10] ERROR SaleMTCommon.GridPageView - Error: Input string was not in a correct format.
+2020-11-24 08:43:09,143 [9] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-24 08:43:13,189 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-24 08:43:13,204 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-24 08:49:35,369 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-24 08:49:35,391 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-24 08:50:00,576 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-24 09:27:19,821 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:20,340 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:20,598 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:20,790 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:20,985 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:21,180 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:21,375 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:21,573 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:21,795 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:22,575 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:23,354 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:23,579 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:23,774 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-24 09:27:23,969 [9] ERROR SaleMTCommon.GridPageView - Error 'DoPaging': Object reference not set to an instance of an object.
+2020-11-26 08:55:40,590 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-26 08:55:40,623 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-26 08:56:04,869 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-26 08:57:23,221 [9] ERROR SaleMTBusiness.SaleManagement.Sale -  Error 'SearchCustomer': Input string was not in a correct format.
+2020-11-26 08:57:30,735 [9] ERROR SaleMTBusiness.CustomerManagement.CustomerManager - Error 'LoadCardType': Could not find stored procedure 'MASTER_DATA_Read_CardType'.
+2020-11-26 10:55:32,891 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-26 10:55:32,914 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-26 10:55:58,100 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-26 10:59:59,467 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-26 10:59:59,492 [10] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-26 11:00:22,519 [10] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-26 11:16:36,288 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-26 11:16:36,313 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-26 11:16:59,940 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-26 11:23:29,609 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-26 11:23:29,633 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-26 11:23:59,812 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-26 11:24:18,318 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmEmployeeInformation - Error 'SetBalance' : Index and length must refer to a location within the string.
+Parameter name: length
+2020-11-26 11:24:54,167 [9] ERROR SaleMTInterfaces.FrmCustomerEmployee.frmEmployeeSearch - Error: Object cannot be cast from DBNull to other types.
+2020-11-27 11:14:21,928 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-27 11:15:47,332 [1] ERROR SaleMTInterfaces.frmSaleMTMain - Error 'AutoUpdate' : Value cannot be null.
+Parameter name: uri
+2020-11-27 11:32:30,715 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-27 11:32:30,739 [9] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-27 11:32:53,990 [9] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-27 11:33:19,711 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-27 11:33:19,727 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-27 11:33:43,052 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 
+2020-11-27 11:34:42,810 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error:LoadLogin Input string was not in a correct format.
+2020-11-27 11:34:42,830 [1] ERROR SaleMTInterfaces.FrmSystem.frmLogin - Error: Object reference not set to an instance of an object.
+2020-11-27 11:35:05,566 [1] ERROR SaleMTSync.Sync - Error 'CheckUpdate' : Could not connect to http://192.168.1.88:8080/GetExp. TCP error code 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.88:8080. 

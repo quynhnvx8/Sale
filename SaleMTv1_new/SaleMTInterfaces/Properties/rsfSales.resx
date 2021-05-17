@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Authentication" xml:space="preserve">
+    <value>Tên người dùng không được để trống.</value>
+  </data>
+  <data name="Authentication1" xml:space="preserve">
+    <value>Bạn chưa nhập mật khẩu.</value>
+  </data>
+  <data name="Authentication2" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng.</value>
+  </data>
+  <data name="CreateSuccess" xml:space="preserve">
+    <value>Thêm mới thành công.</value>
+  </data>
+  <data name="EditSuccess" xml:space="preserve">
+    <value>Cập nhật thành công.</value>
+  </data>
+  <data name="ItemReturn" xml:space="preserve">
+    <value>Bạn phải chọn khách hàng.</value>
+  </data>
+  <data name="ItemReturn1" xml:space="preserve">
+    <value>Bạn phải chọn đơn hàng trả lại.</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Thông báo </value>
+  </data>
+  <data name="NotItem" xml:space="preserve">
+    <value>Không có dữ liệu cần tìm.</value>
+  </data>
+  <data name="QuestionDelete" xml:space="preserve">
+    <value>Anh/Chị có muốn xóa dữ liệu này không ?</value>
+  </data>
+  <data name="Sale" xml:space="preserve">
+    <value>Không có dữ liệu bán hàng.</value>
+  </data>
+  <data name="Sale1" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy thông tin bán hàng hay không ?</value>
+  </data>
+  <data name="Sale2" xml:space="preserve">
+    <value>Bạn có chắc muốn đóng màn hình bán hàng ?</value>
+  </data>
+  <data name="Sale3" xml:space="preserve">
+    <value>Hàng không đủ số lượng bán</value>
+  </data>
+  <data name="Sale4" xml:space="preserve">
+    <value>Vui lòng nhập ít nhất 4 ký tự</value>
+  </data>
+  <data name="Sale5" xml:space="preserve">
+    <value>Bạn phải chọn thông tin khách hàng trước.</value>
+  </data>
+  <data name="SpecialDiscount" xml:space="preserve">
+    <value>Chỉ được chiết khấu một trong hai loại theo % hoặc theo số tiền.</value>
+  </data>
+  <data name="SpecialDiscount1" xml:space="preserve">
+    <value>Anh/chị vui lòng nhập giá trị chiết khấu.</value>
+  </data>
+  <data name="SpecialDiscount2" xml:space="preserve">
+    <value>Xin vui lòng chọn người chiết khấu.</value>
+  </data>
+  <data name="SpecialDiscount3" xml:space="preserve">
+    <value>Bạn chưa nhập ghi chú cho chiết khấu.</value>
+  </data>
+  <data name="SpecialDiscount4" xml:space="preserve">
+    <value>Tên người dùng hoặc mật khẩu không đúng.</value>
+  </data>
+  <data name="SpecialDiscount5" xml:space="preserve">
+    <value>Người dùng {0} chỉ có quyền chiết khấu với số tiền nhỏ hơn hoặc bằng {1} VNĐ.</value>
+  </data>
+  <data name="SpecialDiscount6" xml:space="preserve">
+    <value>Số tiền chiết khấu không được lớn hơn tổng số tiền của hóa đơn.</value>
+  </data>
+  <data name="CastPayment" xml:space="preserve">
+    <value>Vui lòng nhập thông tin nhận tiền từ đâu.</value>
+  </data>
+  <data name="CastPayment1" xml:space="preserve">
+    <value>Vui lòng nhập số tiền.</value>
+  </data>
+  <data name="CastPayment4" xml:space="preserve">
+    <value>Bạn phải chọn dòng trước khi xóa.</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>Xóa thành công.</value>
+  </data>
+  <data name="Payment1" xml:space="preserve">
+    <value>Số tiền thanh toán không được lớn hơn số dư hiện tại.</value>
+  </data>
+  <data name="Payment2" xml:space="preserve">
+    <value>Mã quà tặng không tồn tại.</value>
+  </data>
+  <data name="Payment3" xml:space="preserve">
+    <value>Phiếu quà tặng chưa được kích hoạt.</value>
+  </data>
+  <data name="Payment4" xml:space="preserve">
+    <value>Phiếu quà tặng đã được sử dụng.</value>
+  </data>
+  <data name="Payment5" xml:space="preserve">
+    <value>Phiếu quà tặng không thể sử dụng thanh toán cho các mặt hàng hiện tại !</value>
+  </data>
+  <data name="Promotion1" xml:space="preserve">
+    <value>Số lượng sản phẩm khuyến mại của chương trình {0} không được lớn hơn số lượng quy định.</value>
+  </data>
+  <data name="Promotion3" xml:space="preserve">
+    <value>Số lượng sản phẩm khuyến mại của chương trình {0} không được nhỏ hơn số lượng quy định.</value>
+  </data>
+  <data name="Promotion4" xml:space="preserve">
+    <value>Tồn kho sản phẩm có mã {0} không đủ để xuất khuyến mại.</value>
+  </data>
+  <data name="Coupon" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy sử dụng phiếu giảm giá.</value>
+  </data>
+  <data name="Coupon1" xml:space="preserve">
+    <value>Phiếu giảm giá không tồn tại.</value>
+  </data>
+  <data name="Coupon2" xml:space="preserve">
+    <value>Phiếu giảm giá đã được sử dụng.</value>
+  </data>
+  <data name="Coupon3" xml:space="preserve">
+    <value>Phiếu giảm giá chưa thể sử dụng.</value>
+  </data>
+  <data name="Coupon4" xml:space="preserve">
+    <value>Phiếu giảm giá đã ngưng sử dụng.</value>
+  </data>
+  <data name="Login1" xml:space="preserve">
+    <value>Đăng nhập thành công , chương trình sẽ khởi động lại cho chính xác.</value>
+  </data>
+  <data name="Sale6" xml:space="preserve">
+    <value>Thanh toán thành công.</value>
+  </data>
+  <data name="Sale7" xml:space="preserve">
+    <value>Chưa đủ tiền thanh toán cho hóa đơn này.</value>
+  </data>
+  <data name="Authentication3" xml:space="preserve">
+    <value>Người dùng </value>
+  </data>
+  <data name="Authentication4" xml:space="preserve">
+    <value>Người dùng {0} không có quyền thay đổi giá sản phẩm.</value>
+  </data>
+  <data name="Authentication5" xml:space="preserve">
+    <value>Người dùng {0} không có quyền chiết khấu.</value>
+  </data>
+  <data name="Sale8" xml:space="preserve">
+    <value>Không tìm thấy sản phẩm nào.</value>
+  </data>
+  <data name="Shift1" xml:space="preserve">
+    <value>Anh/Chị có muốn kết ca làm việc không ?</value>
+  </data>
+  <data name="Shift2" xml:space="preserve">
+    <value>Anh/Chị có muốn chuyển ca làm việc tiếp theo không ?</value>
+  </data>
+  <data name="ItemReturn3" xml:space="preserve">
+    <value>Vui lòng nhập thông tin phản hồi.</value>
+  </data>
+  <data name="BarCode1" xml:space="preserve">
+    <value>Vui lòng chọn bảng giá.</value>
+  </data>
+  <data name="BarCode2" xml:space="preserve">
+    <value>Mã vạch không hợp lệ.</value>
+  </data>
+  <data name="BarCode3" xml:space="preserve">
+    <value>Sản phẩm không có thông tin mã vạch.</value>
+  </data>
+  <data name="ItemReturn4" xml:space="preserve">
+    <value>Không thể cập nhật. Dữ liệu đã được bàn giao ca.</value>
+  </data>
+  <data name="ItemReturn5" xml:space="preserve">
+    <value>Anh/Chị có muốn xóa dữ liệu này không ?</value>
+  </data>
+  <data name="SpecialDiscount7" xml:space="preserve">
+    <value>Người dùng {0} chỉ có quyền chiết khấu % nhỏ hơn hoặc bằng {1} %.</value>
+  </data>
+  <data name="BarCode4" xml:space="preserve">
+    <value>Không có dữ liệu xuất Excel.</value>
+  </data>
+  <data name="RedBill" xml:space="preserve">
+    <value>Vui lòng nhập tên công ty in hóa đơn.</value>
+  </data>
+  <data name="RedBill1" xml:space="preserve">
+    <value>Vui lòng nhập mã số thuế in hóa đơn không ít hơn 10 và nhỏ hơn 15 ký tự.</value>
+  </data>
+  <data name="RedBill2" xml:space="preserve">
+    <value>Vui lòng nhập địa chỉ công ty in hóa đơn không ít hơn 10 ký tự.</value>
+  </data>
+  <data name="SpecialDiscount8" xml:space="preserve">
+    <value>Không có sản phẩm cho chiết khấu này.</value>
+  </data>
+  <data name="OptionData1" xml:space="preserve">
+    <value>Lưu thông tin thành công, chương trình sẽ được đóng lại để điều chỉnh thông số, vui lòng mở lại chương trình</value>
+  </data>
+  <data name="SCom" xml:space="preserve">
+    <value>Không tìm thấy cổng COM !</value>
+  </data>
+  <data name="Promotion5" xml:space="preserve">
+    <value>Chương trình {0} phải chọn 1 trong 2 danh sách.</value>
+  </data>
+</root>

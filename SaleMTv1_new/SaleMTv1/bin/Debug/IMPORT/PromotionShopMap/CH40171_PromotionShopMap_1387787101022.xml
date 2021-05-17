@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<promotionShopMapXml>
+    <PromotionShopMap>
+        <createDate>2015-06-23T15:23:19+07:00</createDate>
+        <createUser>salemt_admin</createUser>
+        <id>3999</id>
+        <promotionProgramCode>KTZV01</promotionProgramCode>
+        <quantityMax>2</quantityMax>
+        <quantityReceived>0</quantityReceived>
+        <shopCode>VP40071</shopCode>
+        <status>RUNNING</status>
+        <synAction>1</synAction>
+    </PromotionShopMap>
+</promotionShopMapXml>

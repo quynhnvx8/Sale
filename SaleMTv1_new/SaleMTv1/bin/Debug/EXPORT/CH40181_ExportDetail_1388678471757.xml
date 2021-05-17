@@ -1,0 +1,122 @@
+<exportDetailXml>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00001</exportProductsCode>
+    <productCode>01SX01</productCode>
+    <pId />
+    <productPrice>18700</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>18700</productPriceVAT>
+    <priceSale>18700</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00001</exportProductsCode>
+    <productCode>02aa12</productCode>
+    <pId />
+    <productPrice>220000</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>220000</productPriceVAT>
+    <priceSale>220000</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00001</exportProductsCode>
+    <productCode>02aa22</productCode>
+    <pId />
+    <productPrice>107250</productPrice>
+    <quantity>2000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>107250</productPriceVAT>
+    <priceSale>107250</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00001</exportProductsCode>
+    <productCode>02ao30</productCode>
+    <pId />
+    <productPrice>161040</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>161040</productPriceVAT>
+    <priceSale>161040</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40181.14.00001</exportProductsCode>
+    <productCode>02eo10</productCode>
+    <pId />
+    <productPrice>351890</productPrice>
+    <quantity>1000</quantity>
+    <eventId>LUAN-PC-CH40181-14-000000002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>351890</productPriceVAT>
+    <priceSale>351890</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40211.14.00001</exportProductsCode>
+    <productCode>02aa10</productCode>
+    <pId />
+    <productPrice>110</productPrice>
+    <quantity>100</quantity>
+    <eventId>HAITHANH-PC-CH40211-14-00002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>110</productPriceVAT>
+    <priceSale>110</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40211.14.00001</exportProductsCode>
+    <productCode>02aa12</productCode>
+    <pId />
+    <productPrice>220000</productPrice>
+    <quantity>100</quantity>
+    <eventId>HAITHANH-PC-CH40211-14-00002</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>220000</productPriceVAT>
+    <priceSale>220000</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+  <ExportDetail>
+    <exportProductsCode>EDC.CH40211.14.00002</exportProductsCode>
+    <productCode>01sb01</productCode>
+    <pId />
+    <productPrice>15000</productPrice>
+    <quantity>100</quantity>
+    <eventId>HAITHANH-PC-CH40211-14-00020</eventId>
+    <discount>0</discount>
+    <totalPrice>0</totalPrice>
+    <unitPrice>0</unitPrice>
+    <saleOrderNumber />
+    <productPriceVAT>16500</productPriceVAT>
+    <priceSale>16500</priceSale>
+    <synAction>1</synAction>
+  </ExportDetail>
+</exportDetailXml>
