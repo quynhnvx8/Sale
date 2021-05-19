@@ -44,9 +44,9 @@ namespace SaleMTSync
         private posdb_vnmSqlDAC sqlDac = new posdb_vnmSqlDAC();
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        SaleOnline.GetExportDataWsClient c = new SaleMTSync.SaleOnline.GetExportDataWsClient();                
+        SaleOnline.GetExportDataWsClient c = new SaleMTSync.SaleOnline.GetExportDataWsClient();
         #endregion
-        
+
         /// <summary>
         /// Người tạo Thanvn – 18/11/2013 : Khai báo địa chỉ server đồng bộ
         /// </summary>
@@ -70,7 +70,7 @@ namespace SaleMTSync
         {
             set { value = strPass; }
             get { return strPass; }
-        }        
+        }
         /// <summary>
         /// Người tạo Thanvn – 18/11/2013 : Lấy địa chỉ MAC của client
         /// </summary>
@@ -110,8 +110,8 @@ namespace SaleMTSync
         /// <summary>
         /// Người tạo Thanvn – 18/11/2013 : Download xml từ server.
         /// </summary>
-        private WebClient wClient;        
-        private void downloadXml(string url,string objName)
+        private WebClient wClient;
+        private void downloadXml(string url, string objName)
         {
             try
             {
@@ -143,7 +143,7 @@ namespace SaleMTSync
         {
             try
             {
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Downloading: " + countDL + " file completed"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Downloading: " + countDL + " file completed"); });
                 //txtLog.Text += Environment.NewLine + ">Downloading: " + countDL + " file completed";
                 if (e.Error == null)
                 {
@@ -157,13 +157,13 @@ namespace SaleMTSync
                 }
                 else
                 {
-                    this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Download Completed"); });
+                    this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Download Completed"); });
                     if (deleteXML.Count > 0)
                     {
-                       
-                        this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Delete request sent: "+deleteXML.Count.ToString()+" files"); });
-                        
-                        string[] objArray = new string[] { "Product", "ProductInfo", "PromotionProgram", "PromotionProgramDetail", "PromotionShopMap", "PromotionCustAttr", "PromotionCustAttrDetail", "Customer", "User", "UserShop", "GroupUser", "Members", "Permissions", "Parameters", "Shop", "MTPrice","CategoryData" };
+
+                        this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Delete request sent: " + deleteXML.Count.ToString() + " files"); });
+
+                        string[] objArray = new string[] { "Product", "ProductInfo", "PromotionProgram", "PromotionProgramDetail", "PromotionShopMap", "PromotionCustAttr", "PromotionCustAttrDetail", "Customer", "User", "UserShop", "GroupUser", "Members", "Permissions", "Parameters", "Shop", "MTPrice", "CategoryData" };
                         foreach (string objName in objArray)
                         {
                             List<string> fileList = new List<string>();
@@ -190,7 +190,7 @@ namespace SaleMTSync
                     ImportFromDatabase();
                     //Export(); //Bo phan nay
                     completed = true;
-                }                
+                }
             }
             catch (Exception ex)
             {
@@ -211,8 +211,8 @@ namespace SaleMTSync
         {
             try
             {
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + "---------"); });
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Export Begin"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + "---------"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Export Begin"); });
 
                 string[] objArray = new string[] { "ExportDetail", "ExportProducts", "ExportProductStore", "ExportProductStoreDetail", "ItemReturnDetail", "SalePromotion", "SalePromotionGifts", "SalesExportItems", "SalesExport", "ItemReturn", "InventoryTemp", "Customers", "OrderProductDetail", "OrderProducts" };
                 foreach (string objName in objArray)
@@ -225,11 +225,11 @@ namespace SaleMTSync
                     if (UploadXML(file))
                     {
                         File.Delete(file);
-                        this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Upload file: " + Path.GetFileName(file)); });
+                        this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Upload file: " + Path.GetFileName(file)); });
                     }
                 }
 
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Export Completed"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Export Completed"); });
             }
             catch (Exception ex)
             {
@@ -249,7 +249,7 @@ namespace SaleMTSync
                 DataTable dt = sqlDac.GetDataTable("GetXML_" + objName + "_Read", sqlPara);
                 if (dt.Rows.Count > 0)
                 {
-                   
+
                     if (dt.Rows.Count <= 5000)
                     {
                         StringWriter sw = new StringWriter();
@@ -275,15 +275,15 @@ namespace SaleMTSync
                         sqlPara[1] = posdb_vnmSqlDAC.newInParam("@SyncDateTime", sqlDac.GetDateTimeServer());
                         sqlDac.InlineSql_ExecuteNonQuery(sqlQuery, sqlPara);
 
-                        this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Export file: " + Path.GetFileName(filepath)); });
+                        this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Export file: " + Path.GetFileName(filepath)); });
                     }
                     else
                     {
                         int i = 0;
                         while (i < dt.Rows.Count)
-                        {                            
+                        {
                             DataTable dt2 = dt.Clone();
-                            dt.AsEnumerable().Skip(i).Take(5000).CopyToDataTable(dt2,LoadOption.OverwriteChanges);
+                            dt.AsEnumerable().Skip(i).Take(5000).CopyToDataTable(dt2, LoadOption.OverwriteChanges);
                             i += 5000;
 
                             StringWriter sw = new StringWriter();
@@ -309,7 +309,7 @@ namespace SaleMTSync
                             sqlPara[1] = posdb_vnmSqlDAC.newInParam("@SyncDateTime", sqlDac.GetDateTimeServer());
                             sqlDac.InlineSql_ExecuteNonQuery(sqlQuery, sqlPara);
 
-                            this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Export file: " + Path.GetFileName(filepath)); });
+                            this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Export file: " + Path.GetFileName(filepath)); });
                         }
                     }
 
@@ -333,7 +333,7 @@ namespace SaleMTSync
                     Byte[] fileContent = File.ReadAllBytes(fileName);
 
                     MemoryStream mStream = new MemoryStream(fileContent);
-                  
+
                     string objName = "";
                     using (XmlReader reader = XmlReader.Create(mStream))
                     {
@@ -350,9 +350,9 @@ namespace SaleMTSync
                     fileName = Path.GetFileName(fileName);
                     objName = ToUpperFirstLetter(objName.Replace("Xml", ""));
 
-                  
+
                     b = c.uploadFile(UserImformation.DeptCode, objName, fileName, fileContent, getMac());
-                
+
                 }
                 else
                     b = false;
@@ -363,7 +363,7 @@ namespace SaleMTSync
             }
             return b;
         }
-       
+
         /// <summary>
         /// Người tạo thanhd – 20/11/2013 : Lưu XML vào database
         /// </summary>
@@ -372,9 +372,9 @@ namespace SaleMTSync
             try
             {
                 bool promo = false;
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + "---------"); });
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Import Begin"); });
-                string[] objArray = new string[] { "Product", "ProductInfo", "PromotionProgram", "PromotionProgramDetail", "PromotionShopMap", "PromotionCustAttr", "PromotionCustAttrDetail", "Customer", "User", "UserShop", "GroupUser", "Members", "Permissions", "Parameters", "Shop", "MTPrice","CategoryData" };
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + "---------"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Import Begin"); });
+                string[] objArray = new string[] { "Product", "ProductInfo", "PromotionProgram", "PromotionProgramDetail", "PromotionShopMap", "PromotionCustAttr", "PromotionCustAttrDetail", "Customer", "User", "UserShop", "GroupUser", "Members", "Permissions", "Parameters", "Shop", "MTPrice", "CategoryData" };
 
                 foreach (string objName in objArray)
                 {
@@ -402,10 +402,10 @@ namespace SaleMTSync
                             {
                                 byte[] fileContent = ReadFile(filePath);
                                 MemoryStream mStream = new MemoryStream(fileContent);
-                               
+
                                 DataSet ds = new DataSet();
-                                ds.ReadXml(mStream);                                
-                                
+                                ds.ReadXml(mStream);
+
                                 string dtn = ds.Tables[0].TableName;
                                 sqlDac.Copy_To_ClientDB(ds.Tables[0], "SaleOnline_" + objName);
                                 File.Delete(filePath);
@@ -418,7 +418,7 @@ namespace SaleMTSync
                         }
                     }
                 }
-                this.Invoke((MethodInvoker)delegate() { SetLog(Environment.NewLine + ">Import Completed"); });
+                this.Invoke((MethodInvoker)delegate () { SetLog(Environment.NewLine + ">Import Completed"); });
                 //txtLog.Text += Environment.NewLine + ">Import Completed";
 
                 SqlParameter[] sqlPara;
@@ -451,7 +451,7 @@ namespace SaleMTSync
             {
                 int length = (int)fileStream.Length;
                 buffer = new byte[length];
-                int count; 
+                int count;
                 int sum = 0;
                 while ((count = fileStream.Read(buffer, sum, length - sum)) > 0)
                     sum += count;
@@ -490,7 +490,7 @@ namespace SaleMTSync
             // return the array made of the new char array
             return new string(letters);
         }
-       
+
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             this.WindowState = FormWindowState.Normal == this.WindowState ? FormWindowState.Minimized : FormWindowState.Normal;
@@ -503,7 +503,7 @@ namespace SaleMTSync
         {
             try
             {
-             
+
                 //ImportXML();
                 ImportFromDatabase();
             }
@@ -518,7 +518,7 @@ namespace SaleMTSync
             c.Endpoint.Address = new System.ServiceModel.EndpointAddress(strEndPointSync);
             //c.ClientCredentials.Windows.AllowNtlm = true;
             c.ClientCredentials.UserName.UserName = strUser;
-            c.ClientCredentials.UserName.Password = strPass;           
+            c.ClientCredentials.UserName.Password = strPass;
 
             if (UserImformation.OpenSynData == true)
             {
@@ -530,7 +530,7 @@ namespace SaleMTSync
                 t = int.Parse(UserImformation.SysDataAfter);
                 syncTimer.Start();
             }
-                        
+
         }
 
         private void syncTimer_Tick(object sender, EventArgs e)
@@ -538,14 +538,14 @@ namespace SaleMTSync
             t--;
             if (t == 0)
             {
-                
+
                 if (bgWorkerGetupdate.IsBusy != true && completed == true)
                 {
                     txtLog.Text = "";
                     bgWorkerGetupdate.RunWorkerAsync();
                 }
                 t = int.Parse(UserImformation.SysDataAfter);
-            }            
+            }
         }
 
         //{ "Product", "ProductInfo", "PromotionProgram", "PromotionProgramDetail", 
@@ -582,7 +582,7 @@ namespace SaleMTSync
             foreach (DataRow r in dt.Rows)
             {
                 USERS user = new USERS();
-               
+
                 user.ACCOUNT = r["Value"].ToString();
                 user.FIRSTNAME = r["Name"].ToString();
                 user.PASSWORD = r["Password"].ToString();
@@ -606,8 +606,8 @@ namespace SaleMTSync
                     u.Save(false);
                 else
                 {
-                    u.Save(true);                    
-                }                    
+                    u.Save(true);
+                }
             }
 
             foreach (USER_DEPT u in listDept)
@@ -630,9 +630,9 @@ namespace SaleMTSync
 
                 lineNew.IDROLE = r["AD_ROLE_ID"].ToString();
                 lineNew.DESCRIPTION = r["Name"].ToString();
-                
+
                 listUser.Add(lineNew);
-                
+
             }
             foreach (ROLES u in listUser)
             {
@@ -644,18 +644,18 @@ namespace SaleMTSync
                 }
             }
 
-            
+
         }
 
         private void SaveDept()
         {
             string listDept = posdb_vnmSqlDAC.getListKey("DEPT", "DEPT_CODE", true, null);
             List<DEPT> listImport = new List<DEPT>();
-            string sql = "Select o.AD_Org_ID, o.Parent_ID, o.Value, o.Name, o.Address, o.Description,  "+
+            string sql = "Select o.AD_Org_ID, o.Parent_ID, o.Value, o.Name, o.Address, o.Description,  " +
                 "   (Select Value From C_SalesRegion s Where o.C_SalesRegion_ID = s.C_SalesRegion_ID) as locationCode," +
                 "  COALESCE(oi.Phone, oi.Phone2) Phone, oi.Fax" +
-                " From AD_Org o Inner Join AD_OrgInfo oi On o.AD_Org_ID = oi.AD_Org_ID "+
-                " Where o.AD_Client_ID = " + client_ID + " And o.IsActive = 'Y' And oi.IsActive = 'Y' "+
+                " From AD_Org o Inner Join AD_OrgInfo oi On o.AD_Org_ID = oi.AD_Org_ID " +
+                " Where o.AD_Client_ID = " + client_ID + " And o.IsActive = 'Y' And oi.IsActive = 'Y' " +
                 "   and o.Updated >= current_date - 10 ";
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
@@ -783,17 +783,17 @@ namespace SaleMTSync
         {
             string listProduct = posdb_vnmSqlDAC.getListKey("PRODUCTS", "PRODUCT_ID", true, null);
             List<PRODUCTS> listImport = new List<PRODUCTS>();
-            string sql = "Select p.Value ProductCode, p.Name ProductName, p.Barcode, "+
+            string sql = "Select p.Value ProductCode, p.Name ProductName, p.Barcode, " +
                 "   u.UOMSymbol unitCode, u.Name unitName, c.Value catCode, c.Name catName, p.PackageStd, " +
-                "   ("+
-                "       Select Price From M_Price r "+
-                "       Where p.M_Product_ID = r.M_Product_ID And DocStatus = 'CO' "+
+                "   (" +
+                "       Select Price From M_Price r " +
+                "       Where p.M_Product_ID = r.M_Product_ID And DocStatus = 'CO' " +
                 "       And validfrom < current_date and current_date <= validto order by validfrom desc limit 1 " +
                 "   ) as Price " +
                 " From M_Product p " +
                 "       Inner Join C_UOM u On p.C_UOM_ID = u.C_UOM_ID " +
                 "       Inner Join M_Product_Category c On c.M_Product_Category_ID = p.M_Product_Category_ID " +
-                " Where p.AD_Client_ID = "+ client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
+                " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -813,7 +813,7 @@ namespace SaleMTSync
                     lineNew.PRICE = float.Parse(r["Price"].ToString());
                 lineNew.CONV_FACT = float.Parse(r["PackageStd"].ToString());
                 lineNew.CAT = "";
-                
+
                 listImport.Add(lineNew);
             }
             foreach (PRODUCTS item in listImport)
@@ -829,7 +829,7 @@ namespace SaleMTSync
         {
             string listProduct = posdb_vnmSqlDAC.getListKey("DEV_IN_DM_NHOMVATTU", "NhomVT_ID", true, null);
             List<DEV_IN_DM_NHOMVATTU> listImport = new List<DEV_IN_DM_NHOMVATTU>();
-            string sql = "Select M_Product_Category_ID, Value, Name "+
+            string sql = "Select M_Product_Category_ID, Value, Name " +
                 " From M_Product_Category  " +
                 " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
@@ -840,7 +840,7 @@ namespace SaleMTSync
                 lineNew.TenNhom = r["Name"].ToString();
                 lineNew.Id = int.Parse(r["M_Product_Category_ID"].ToString());
                 lineNew.Active = "1";
-                
+
                 listImport.Add(lineNew);
             }
             foreach (DEV_IN_DM_NHOMVATTU item in listImport)
@@ -853,10 +853,10 @@ namespace SaleMTSync
         }
         private void SavePrice()
         {
-           
+
             List<DEV_PRICEITEMS> listImport = new List<DEV_PRICEITEMS>();
-            string sql = 
-                " Select r.Price, p.Value, r.M_Price_ID, r.ValidFrom, r.Created, r.CreatedBy "+
+            string sql =
+                " Select r.Price, p.Value, r.M_Price_ID, r.ValidFrom, r.Created, r.CreatedBy " +
                 " From M_Price r Inner Join M_Product p On r.M_Product_ID = p.M_Product_ID " +
                 " Where r.DocStatus = 'CO' " +
                 "       And r.validfrom < current_date and current_date <= r.validto " +
@@ -871,7 +871,7 @@ namespace SaleMTSync
                 lineNew.START_DATE1 = DateTime.Parse(r["ValidFrom"].ToString());
                 lineNew.CREATE_DATE1 = DateTime.Parse(r["Created"].ToString());
                 lineNew.USER_CREATE1 = r["CreatedBy"].ToString();
-               
+
                 listImport.Add(lineNew);
             }
             foreach (DEV_PRICEITEMS item in listImport)
@@ -886,7 +886,7 @@ namespace SaleMTSync
             string sql = "Select M_Promotion_ID, Value, ValidFrom, ValidTo, Description " +
                 " From M_Promotion " +
                 " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y' And DocStatus = 'CO'" +
-                "   And M_Promotion_ID not in ("+ listKey +")";
+                "   And M_Promotion_ID not in (" + listKey + ")";
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -894,8 +894,8 @@ namespace SaleMTSync
                 lineNew.PROMOTION_NO = r["M_Promotion_ID"].ToString();
                 lineNew.PROMOTION_DATE = (DateTime)r["ValidFrom"];
                 lineNew.INPUT_DATE = (DateTime)r["ValidFrom"];
-                lineNew.FROM_DATE = (DateTime) r["ValidFrom"];
-                lineNew.TO_DATE = (DateTime) r["ValidTo"];
+                lineNew.FROM_DATE = (DateTime)r["ValidFrom"];
+                lineNew.TO_DATE = (DateTime)r["ValidTo"];
                 lineNew.REMARK = r["Description"].ToString();
                 listImport.Add(lineNew);
             }
