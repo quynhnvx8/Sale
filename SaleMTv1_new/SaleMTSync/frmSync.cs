@@ -575,7 +575,7 @@ namespace SaleMTSync
             string listAccount = posdb_vnmSqlDAC.getListKey("USERS", "ACCOUNT", true, "ID > 0");
             List<USERS> listUser = new List<USERS>();
             List<USER_DEPT> listDept = new List<USER_DEPT>();
-            string sql = "Select u.AD_User_ID, u.Value, u.Name, u.Password, u.Created, o.AD_Department_ID, Coalesce(u.IsChangePrice,0) IsChangePrice " +
+            string sql = "Select u.AD_User_ID, u.Value, u.Name, u.Password, u.Created, o.AD_Department_ID, Coalesce(u.IsChangePrice,'0') IsChangePrice " +
                 " From AD_User u Inner Join AD_Department o On o.AD_Department_ID = u.AD_Department_ID And o.IsAutoCreate = 'Y' " +
                 " Where u.AD_Client_ID = " + client_ID + " And u.IsActive = 'Y' And u.Updated >= current_date - 10";
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
@@ -600,19 +600,27 @@ namespace SaleMTSync
                     listDept.Add(u);
                 }
             }
-            foreach (USERS u in listUser)
+            try
             {
-                if (listAccount.Contains(u.ACCOUNT))
-                    u.Save(false);
-                else
+
+                foreach (USERS u in listUser)
+                {
+                    if (listAccount.Contains(u.ACCOUNT))
+                        u.Save(false);
+                    else
+                    {
+                        u.Save(true);
+                    }
+                }
+
+                foreach (USER_DEPT u in listDept)
                 {
                     u.Save(true);
                 }
             }
-
-            foreach (USER_DEPT u in listDept)
+            catch (Exception e)
             {
-                u.Save(true);
+                MessageBox.Show(e.ToString());
             }
         }
 
@@ -634,16 +642,23 @@ namespace SaleMTSync
                 listUser.Add(lineNew);
 
             }
-            foreach (ROLES u in listUser)
+            try
             {
-                if (listAccount.Contains(u.IDROLE))
-                    u.Save(false);
-                else
+
+                foreach (ROLES u in listUser)
                 {
-                    u.Save(true);
+                    if (listAccount.Contains(u.IDROLE))
+                        u.Save(false);
+                    else
+                    {
+                        u.Save(true);
+                    }
                 }
             }
-
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
 
         }
 
@@ -672,12 +687,20 @@ namespace SaleMTSync
                 lineNew.STORE_LOCATION_CODE = r["locationCode"].ToString();
                 listImport.Add(lineNew);
             }
-            foreach (DEPT item in listImport)
+            try
             {
-                if (listDept.Contains(item.DEPT_CODE.ToString()))
-                    item.Save(false);
-                else
-                    item.Save(true);
+
+                foreach (DEPT item in listImport)
+                {
+                    if (listDept.Contains(item.DEPT_CODE.ToString()))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
 
@@ -701,13 +724,21 @@ namespace SaleMTSync
                 lineNew.PER_UPDATE = r["IsUpdateable"].ToString().Equals("Y") ? true : false;
                 listImport.Add(lineNew);
             }
-            foreach (PERMISSIONS item in listImport)
+            try
             {
-                string key = item.IDROLE + "_AND_" + item.IDRESOURCE;
-                if (listDept.Contains(key))
-                    item.Save(false);
-                else
-                    item.Save(true);
+
+                foreach (PERMISSIONS item in listImport)
+                {
+                    string key = item.IDROLE + "_AND_" + item.IDRESOURCE;
+                    if (listDept.Contains(key))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
 
@@ -727,15 +758,23 @@ namespace SaleMTSync
                 lineNew.ACCOUNT = r["Value"].ToString();
                 listImport.Add(lineNew);
             }
-            foreach (MEMBERS item in listImport)
+            try
             {
-                string key = item.IDROLE + "_AND_" + item.ACCOUNT;
-                if (listDept.Contains(key))
-                    item.Save(false);
-                else
-                    item.Save(true);
+
+                foreach (MEMBERS item in listImport)
+                {
+                    string key = item.IDROLE + "_AND_" + item.ACCOUNT;
+                    if (listDept.Contains(key))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
             }
-        }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+}
 
         private void SaveCustomer()
         {
@@ -771,12 +810,20 @@ namespace SaleMTSync
                 lineNew.LAST_UPDATE_BY = r["UpdatedBy"].ToString();
                 listImport.Add(lineNew);
             }
-            foreach (CUSTOMERS item in listImport)
+            try
             {
-                if (listDept.Contains(item.DEPT_CODE.ToString()))
-                    item.Save(false);
-                else
-                    item.Save(true);
+
+                foreach (CUSTOMERS item in listImport)
+                {
+                    if (listDept.Contains(item.DEPT_CODE.ToString()))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
         private void SaveProduct()
@@ -816,12 +863,20 @@ namespace SaleMTSync
 
                 listImport.Add(lineNew);
             }
-            foreach (PRODUCTS item in listImport)
+            try
             {
-                if (listProduct.Contains(item.PRODUCT_ID))
-                    item.Save(false);
-                else
-                    item.Save(true);
+
+                foreach (PRODUCTS item in listImport)
+                {
+                    if (listProduct.Contains(item.PRODUCT_ID))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
 
@@ -831,7 +886,7 @@ namespace SaleMTSync
             List<DEV_IN_DM_NHOMVATTU> listImport = new List<DEV_IN_DM_NHOMVATTU>();
             string sql = "Select M_Product_Category_ID, Value, Name " +
                 " From M_Product_Category  " +
-                " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
+                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y'";// and p.Updated >= current_date - 10
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -843,12 +898,20 @@ namespace SaleMTSync
 
                 listImport.Add(lineNew);
             }
-            foreach (DEV_IN_DM_NHOMVATTU item in listImport)
+
+            try
             {
-                if (listProduct.Contains(item.Id.ToString()))
-                    item.Save(false);
-                else
-                    item.Save(true);
+                foreach (DEV_IN_DM_NHOMVATTU item in listImport)
+                {
+                    if (listProduct.Contains(item.Id.ToString()))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
         private void SavePrice()
@@ -874,9 +937,18 @@ namespace SaleMTSync
 
                 listImport.Add(lineNew);
             }
-            foreach (DEV_PRICEITEMS item in listImport)
+            try
             {
-                item.Save(true);
+
+
+                foreach (DEV_PRICEITEMS item in listImport)
+                {
+                    item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
             }
         }
         private void SavePromotion()
@@ -899,10 +971,18 @@ namespace SaleMTSync
                 lineNew.REMARK = r["Description"].ToString();
                 listImport.Add(lineNew);
             }
-            foreach (PROMOTIONS item in listImport)
+            try
             {
-                item.Save(true);
+                foreach (PROMOTIONS item in listImport)
+                {
+                    item.Save(true);
+                }
             }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            
         }
 
         private void SavePromotionLine()
@@ -925,10 +1005,18 @@ namespace SaleMTSync
                 lineNew.QUANTITY_MAX = 0;
                 listImport.Add(lineNew);
             }
-            foreach (PROMOTION_DETAIL item in listImport)
+            try
             {
-                item.Save(true);
+                foreach (PROMOTION_DETAIL item in listImport)
+                {
+                    item.Save(true);
+                }
             }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            
         }
 
         #endregion SERVER => CLIENT

@@ -1,13 +1,13 @@
 
 **/obj/
 /*.cache
-/SaleMTCommon.dll
-/SaleMTCommon.pdb
-/SaleAD.dll
-/SaleAD.pdb
-/DataAccessLayer.dll
-/DataAccessLayer.pdb
-/SaleMTSync.dll
-/SaleMTSync.pdb
-/SaleMTInterfaces.dll
-/SaleMTInterfaces.pdb
+**/SaleMTCommon.dll
+**/SaleMTCommon.pdb
+**/SaleAD.dll
+**/SaleAD.pdb
+**/DataAccessLayer.dll
+**/DataAccessLayer.pdb
+**/SaleMTSync.dll
+**/SaleMTSync.pdb
+**/SaleMTInterfaces.dll
+**/SaleMTInterfaces.pdb

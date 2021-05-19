@@ -31,7 +31,7 @@ namespace SaleMTSync
         private string strPass = UserImformation.WebServicePassword;
 
         string filename = "";
-        UpdateProgress progressUpdate;
+        UpdateProgress progressUpdate = null;
         #endregion
 
         public Sync()
