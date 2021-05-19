@@ -562,6 +562,7 @@ namespace SaleMTSync
             SavePermission();
             SaveMembers();
             SaveCustomer();
+            SaveProductCategory();
             SaveProduct();
             SavePrice();
             SavePromotion();
@@ -824,7 +825,32 @@ namespace SaleMTSync
             }
         }
 
-
+        private void SaveProductCategory()
+        {
+            string listProduct = posdb_vnmSqlDAC.getListKey("DEV_IN_DM_NHOMVATTU", "NhomVT_ID", true, null);
+            List<DEV_IN_DM_NHOMVATTU> listImport = new List<DEV_IN_DM_NHOMVATTU>();
+            string sql = "Select M_Product_Category_ID, Value, Name "+
+                " From M_Product_Category  " +
+                " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
+            DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
+            foreach (DataRow r in dt.Rows)
+            {
+                DEV_IN_DM_NHOMVATTU lineNew = new DEV_IN_DM_NHOMVATTU();
+                lineNew.MaNhom = r["Value"].ToString();
+                lineNew.TenNhom = r["Name"].ToString();
+                lineNew.Id = int.Parse(r["M_Product_Category_ID"].ToString());
+                lineNew.Active = "1";
+                
+                listImport.Add(lineNew);
+            }
+            foreach (DEV_IN_DM_NHOMVATTU item in listImport)
+            {
+                if (listProduct.Contains(item.Id.ToString()))
+                    item.Save(false);
+                else
+                    item.Save(true);
+            }
+        }
         private void SavePrice()
         {
            
