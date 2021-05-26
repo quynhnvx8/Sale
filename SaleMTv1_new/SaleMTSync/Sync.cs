@@ -33,7 +33,7 @@ namespace SaleMTSync
         string filename = "";
         UpdateProgress progressUpdate = null;
         #endregion
-
+        //test
         public Sync()
         {
             c.Endpoint.Address = new System.ServiceModel.EndpointAddress(strEndPointSync);
