@@ -699,7 +699,7 @@ namespace SaleMTInterfaces.FrmInventoryManagement
         {
             try
             {
-                //log.Debug("Notice: form started.");
+                //log.Debug("Notice: form started."); luong test
                 SetMenu(true, false, false);
                 EnableControls();
                 ResetControls();
