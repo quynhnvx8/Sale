@@ -337,11 +337,11 @@ namespace SaleMTInterfaces.FrmLiablityManagement
                                     dr["SoHoaDon"] = ds.Tables[0].Rows[i][0].ToString().Trim();
                                     dr["SoPO"] = ds.Tables[0].Rows[i][1].ToString().Trim();
                                     dr["SoNoiBo"] = ds.Tables[0].Rows[i][2].ToString().Trim();
-                                    dr["NgayHoaDon"] = ds.Tables[0].Rows[i][4].ToString() + "/" + ds.Tables[0].Rows[i][3].ToString() + "/" + ds.Tables[0].Rows[i][5].ToString();
+                                    dr["NgayHoaDon"] = ds.Tables[0].Rows[i][3].ToString() + "/" + ds.Tables[0].Rows[i][4].ToString() + "/" + ds.Tables[0].Rows[i][5].ToString();
                                     dr["SoTien"] = money;
                                     dr["SoTienDaThanhToan"] = pay;
                                     dr["SoTienConLai"] = money - pay;
-                                    dr["GhiChu"] = ds.Tables[0].Rows[i][7].ToString().Trim();
+                                    dr["GhiChu"] = ds.Tables[0].Rows[i][8].ToString().Trim();
                                     dtImported.Rows.Add(dr);
                                 }
                             }

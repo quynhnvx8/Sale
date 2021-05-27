@@ -853,7 +853,7 @@ frmEmployeeInfomation.label27.Text :Ngày nghỉ việc
 frmEmployeeInfomation.label25.Text :Hiện trạng làm việc
 frmEmployeeInfomation.label24.Text :Lương(VNĐ)
 frmEmployeeInfomation.label42.Text :Ngày bắt đầu
-frmEmployeeInfomation.label23.Text :Chức vụ
+frmEmployeeInfomation.label23.Text :Chức vụ(*)
 frmEmployeeInfomation.label22.Text :Nhóm
 frmEmployeeInfomation.label21.Text :Nơi làm việc(*)
 frmEmployeeInfomation.label19.Text :Nơi làm việc
@@ -874,7 +874,7 @@ frmEmployeeInfomation.label17.Text :Tôn giáo
 frmEmployeeInfomation.label7.Text :Giới tính
 frmEmployeeInfomation.label44.Text :Nơi sinh
 frmEmployeeInfomation.label5.Text :Ngày sinh
-frmEmployeeInfomation.label1.Text :Mã vạch
+frmEmployeeInfomation.label1.Text :Mã vạch(*)
 frmEmployeeInfomation.label13.Text :Tên(*)
 frmEmployeeInfomation.label3.Text :Họ & tên đệm(*)
 frmEmployeeInfomation.label31.Text :Mã nhân viên

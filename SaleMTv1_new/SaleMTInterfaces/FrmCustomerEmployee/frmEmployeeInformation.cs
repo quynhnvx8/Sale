@@ -365,6 +365,7 @@ namespace SaleMTInterfaces.FrmCustomerEmployee
                         }
                         loadEmployeeInfor(txtEmployeeCode.Text);    
                     }
+                    SetMenu();
                     add = false;
                 }
             }
@@ -790,7 +791,7 @@ namespace SaleMTInterfaces.FrmCustomerEmployee
             {
                 if (checkUpdate)
                 {
-                    SetMenu();
+                    
                     createEmployee(txtEmployeeCode.Text);
                     if (lvwEmployeeSearch.Items.Count > 0)
                     {

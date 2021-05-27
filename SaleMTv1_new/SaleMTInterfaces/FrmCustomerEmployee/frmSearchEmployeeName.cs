@@ -87,7 +87,7 @@ namespace SaleMTInterfaces.FrmCustomerEmployee
                     lvwSearchEmName.Items.Add(dt.Rows[i]["EMPLOYEE_ID"].ToString());
                     lvwSearchEmName.Items[i].SubItems.Add(dt.Rows[i]["FIRST_NAME"].ToString());
                     lvwSearchEmName.Items[i].SubItems.Add(dt.Rows[i]["LAST_NAME"].ToString());
-                    lvwSearchEmName.Items[i].SubItems.Add(GetPlaceCreate(327));
+                    lvwSearchEmName.Items[i].SubItems.Add(GetPlaceCreate(UserImformation.DeptNumber));
                 }
                 if (dt.Rows.Count < pageSize)
                 {
@@ -177,7 +177,7 @@ namespace SaleMTInterfaces.FrmCustomerEmployee
                         lvwSearchEmName.Items.Add(dt.Rows[i]["EMPLOYEE_ID"].ToString());
                         lvwSearchEmName.Items[j].SubItems.Add(dt.Rows[i]["FIRST_NAME"].ToString());
                         lvwSearchEmName.Items[j].SubItems.Add(dt.Rows[i]["LAST_NAME"].ToString());
-                        lvwSearchEmName.Items[j].SubItems.Add(GetPlaceCreate(327));
+                        lvwSearchEmName.Items[j].SubItems.Add(GetPlaceCreate(UserImformation.DeptNumber));
 
                         if (j % 2 == 0)
                         {

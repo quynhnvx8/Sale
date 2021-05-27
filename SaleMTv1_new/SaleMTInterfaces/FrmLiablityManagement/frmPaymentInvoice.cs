@@ -536,7 +536,7 @@ namespace SaleMTInterfaces.FrmLiablityManagement
                     }
                     
                 }*/
-                if (dgvPaymentInvoice.RowCount > 3)
+                if (dgvPaymentInvoice.RowCount > 2)
                 {
                     double fSoTien = Convert.ToDouble(Conversion.Replaces(txtMoney.Text));
                     double fSoConLai, fSoThanhToan, fTongThanhToan, fTongConLai;

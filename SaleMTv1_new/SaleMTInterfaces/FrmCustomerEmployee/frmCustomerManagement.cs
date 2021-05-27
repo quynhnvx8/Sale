@@ -1143,6 +1143,7 @@ namespace SaleMTInterfaces.FrmCustomerEmployee
                 CustomerManager.LoadCardType(this.cboCardType, cardPrefix);
                 CustomerManager.LoadMasterCode(this.cboProvince, prcPrefix);
                 CustomerManager.LoadMasterCode(this.cboDistrict, disPrefix);
+                CustomerManager.LoadMasterCode(this.cboWard , warPrefix);
                 // set menu tab
                 SetMenu();
                 txtCustomersSearch.Focus();

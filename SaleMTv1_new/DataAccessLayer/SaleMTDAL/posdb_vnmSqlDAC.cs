@@ -154,6 +154,7 @@ namespace SaleMTDataAccessLayer.SaleMTDAL
             }
             catch (Exception ex)
             {
+                string msg = ex.Message;
                 throw ex;
             }
         }
