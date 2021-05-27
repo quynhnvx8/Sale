@@ -33,7 +33,9 @@ namespace SaleMTBusiness.SystemManagement
             try
             {
                 string shift = shiftCode.Substring(shiftCode.Length - 2, 2);
-                string shiftDate = shiftCode.Substring(shiftCode.Length - 11, 8);
+
+                string shiftDate = shiftCode.Substring(0, shiftCode.Length - 8);
+                shiftDate = shiftDate.Substring(shiftDate.Length - 8);
                 shiftDate = shiftDate.Replace(".", "/");
                 DateTime date = DateTime.ParseExact(shiftDate, "dd/MM/yy", null);
                 SqlParameter[] para = new SqlParameter[3];

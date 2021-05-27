@@ -422,7 +422,7 @@ namespace SaleMTInterfaces.FrmSaleManagement
                 {
                     foreach (DataGridViewRow row in dgvInvoiceList.Rows)
                     {
-                        DataGridViewCheckBoxCell select = (DataGridViewCheckBoxCell)row.Cells["Select"];
+                        DataGridViewCheckBoxCell select = (DataGridViewCheckBoxCell)row.Cells["colSelect"];
                         if (Convert.ToBoolean(select.Value) == true)
                         {
                             ReceiptEntities receipt = new ReceiptEntities();
@@ -468,17 +468,25 @@ namespace SaleMTInterfaces.FrmSaleManagement
         }
         private void dgvInvoiceList_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex != -1 && e.ColumnIndex != -1)
+            try
             {
-                DataGridViewCheckBoxCell selected = (DataGridViewCheckBoxCell)dgvInvoiceList.Rows[e.RowIndex].Cells["Select"];
-                DataGridViewCheckBoxCell used = (DataGridViewCheckBoxCell)dgvInvoiceList.Rows[e.RowIndex].Cells["USED_RED_INVOIDE"];
-                if (Convert.ToBoolean(selected.Value) == true && Convert.ToBoolean(used.Value) == true)
+                if (e.RowIndex != -1 && e.ColumnIndex != -1)
                 {
-                    MessageBox.Show(Properties.rsfReceipts.Receipt14.ToString(), translate["Msg.TitleDialog"], MessageBoxButtons.OK,
-                                                           MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
-                    selected.Value = selected.FalseValue;                    
+                    DataGridViewCheckBoxCell selected = (DataGridViewCheckBoxCell)dgvInvoiceList.Rows[e.RowIndex].Cells["colSelect"];
+                    DataGridViewCheckBoxCell used = (DataGridViewCheckBoxCell)dgvInvoiceList.Rows[e.RowIndex].Cells["USED_RED_INVOIDE"];
+                    if (Convert.ToBoolean(selected.Value) == true && Convert.ToBoolean(used.Value) == true)
+                    {
+                        MessageBox.Show(Properties.rsfReceipts.Receipt14.ToString(), translate["Msg.TitleDialog"], MessageBoxButtons.OK,
+                                                               MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+                        selected.Value = selected.FalseValue;
+                    }
                 }
-            }            
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error 'btnSearch_Click' : " + ex.Message);
+            }
+              
         }
         //
         private void btnCustomerSearch_Click(object sender, EventArgs e)

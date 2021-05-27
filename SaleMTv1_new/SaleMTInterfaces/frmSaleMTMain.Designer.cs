@@ -76,9 +76,9 @@
             this.mnuCompareExcel = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuGoodsInventory = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuUserGuide = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAppInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuUserGuide = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuWindow = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuExitWindow = new System.Windows.Forms.ToolStripMenuItem();
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -114,6 +114,7 @@
             this.mnuSaleManagement.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.mnuSaleManagement.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuSaleManagement.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            this.mnuSaleManagement.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuSaleManagement.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuSystem,
             this.mnuInvenManagement,
@@ -130,7 +131,7 @@
             this.mnuSaleManagement.MdiWindowListItem = this.mnuWindow;
             this.mnuSaleManagement.Name = "mnuSaleManagement";
             this.mnuSaleManagement.ShowItemToolTips = true;
-            this.mnuSaleManagement.Size = new System.Drawing.Size(1027, 24);
+            this.mnuSaleManagement.Size = new System.Drawing.Size(1027, 28);
             this.mnuSaleManagement.TabIndex = 0;
             this.mnuSaleManagement.Text = "menuStrip1";
             // 
@@ -148,27 +149,27 @@
             this.toolStripSeparator3,
             this.mnuQuitApp});
             this.mnuSystem.Name = "mnuSystem";
-            this.mnuSystem.Size = new System.Drawing.Size(74, 20);
+            this.mnuSystem.Size = new System.Drawing.Size(89, 24);
             this.mnuSystem.Text = "Hệ thống";
             // 
             // mnuLogin
             // 
             this.mnuLogin.Image = ((System.Drawing.Image)(resources.GetObject("mnuLogin.Image")));
             this.mnuLogin.Name = "mnuLogin";
-            this.mnuLogin.Size = new System.Drawing.Size(222, 22);
+            this.mnuLogin.Size = new System.Drawing.Size(268, 26);
             this.mnuLogin.Text = "Đăng nhập";
             this.mnuLogin.Click += new System.EventHandler(this.mnuLogin_Click_1);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(219, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(265, 6);
             // 
             // mnuDatabaseConfig
             // 
             this.mnuDatabaseConfig.Image = ((System.Drawing.Image)(resources.GetObject("mnuDatabaseConfig.Image")));
             this.mnuDatabaseConfig.Name = "mnuDatabaseConfig";
-            this.mnuDatabaseConfig.Size = new System.Drawing.Size(222, 22);
+            this.mnuDatabaseConfig.Size = new System.Drawing.Size(268, 26);
             this.mnuDatabaseConfig.Text = "Cấu hình cơ sở dữ liệu";
             this.mnuDatabaseConfig.Click += new System.EventHandler(this.mnuDatabaseConfig_Click);
             // 
@@ -176,7 +177,7 @@
             // 
             this.mnuChangePassword.Image = ((System.Drawing.Image)(resources.GetObject("mnuChangePassword.Image")));
             this.mnuChangePassword.Name = "mnuChangePassword";
-            this.mnuChangePassword.Size = new System.Drawing.Size(222, 22);
+            this.mnuChangePassword.Size = new System.Drawing.Size(268, 26);
             this.mnuChangePassword.Text = "Thay đổi mật khẩu";
             this.mnuChangePassword.Click += new System.EventHandler(this.mnuChangePassword_Click);
             // 
@@ -184,7 +185,7 @@
             // 
             this.mnuCustomizeFormat.Image = ((System.Drawing.Image)(resources.GetObject("mnuCustomizeFormat.Image")));
             this.mnuCustomizeFormat.Name = "mnuCustomizeFormat";
-            this.mnuCustomizeFormat.Size = new System.Drawing.Size(222, 22);
+            this.mnuCustomizeFormat.Size = new System.Drawing.Size(268, 26);
             this.mnuCustomizeFormat.Text = "Tùy chỉnh";
             this.mnuCustomizeFormat.Click += new System.EventHandler(this.mnuCustomizeFormat_Click);
             // 
@@ -192,7 +193,7 @@
             // 
             this.mnuSetupPrinter.Image = ((System.Drawing.Image)(resources.GetObject("mnuSetupPrinter.Image")));
             this.mnuSetupPrinter.Name = "mnuSetupPrinter";
-            this.mnuSetupPrinter.Size = new System.Drawing.Size(222, 22);
+            this.mnuSetupPrinter.Size = new System.Drawing.Size(268, 26);
             this.mnuSetupPrinter.Text = "Tùy chọn máy in";
             this.mnuSetupPrinter.Click += new System.EventHandler(this.mnuSetupPrinter_Click);
             // 
@@ -201,7 +202,7 @@
             this.mnuOptionSynData.Image = ((System.Drawing.Image)(resources.GetObject("mnuOptionSynData.Image")));
             this.mnuOptionSynData.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mnuOptionSynData.Name = "mnuOptionSynData";
-            this.mnuOptionSynData.Size = new System.Drawing.Size(222, 22);
+            this.mnuOptionSynData.Size = new System.Drawing.Size(268, 26);
             this.mnuOptionSynData.Text = "Cấu hình đồng bộ dữ liệu";
             this.mnuOptionSynData.Click += new System.EventHandler(this.mnuOptionSynData_Click);
             // 
@@ -209,20 +210,20 @@
             // 
             this.mnuFtpConfig.Image = ((System.Drawing.Image)(resources.GetObject("mnuFtpConfig.Image")));
             this.mnuFtpConfig.Name = "mnuFtpConfig";
-            this.mnuFtpConfig.Size = new System.Drawing.Size(222, 22);
+            this.mnuFtpConfig.Size = new System.Drawing.Size(268, 26);
             this.mnuFtpConfig.Text = "Cấu hình FTP";
             this.mnuFtpConfig.Click += new System.EventHandler(this.mnuFtpConfig_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(219, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(265, 6);
             // 
             // mnuQuitApp
             // 
             this.mnuQuitApp.Image = ((System.Drawing.Image)(resources.GetObject("mnuQuitApp.Image")));
             this.mnuQuitApp.Name = "mnuQuitApp";
-            this.mnuQuitApp.Size = new System.Drawing.Size(222, 22);
+            this.mnuQuitApp.Size = new System.Drawing.Size(268, 26);
             this.mnuQuitApp.Text = "Thoát";
             this.mnuQuitApp.Click += new System.EventHandler(this.mnuQuitApp_Click);
             // 
@@ -235,14 +236,14 @@
             this.mnuCheckInventory,
             this.mnuInputStock});
             this.mnuInvenManagement.Name = "mnuInvenManagement";
-            this.mnuInvenManagement.Size = new System.Drawing.Size(123, 20);
+            this.mnuInvenManagement.Size = new System.Drawing.Size(150, 24);
             this.mnuInvenManagement.Text = "Quản lý kho hàng";
             // 
             // mnuOrder
             // 
             this.mnuOrder.Image = ((System.Drawing.Image)(resources.GetObject("mnuOrder.Image")));
             this.mnuOrder.Name = "mnuOrder";
-            this.mnuOrder.Size = new System.Drawing.Size(198, 22);
+            this.mnuOrder.Size = new System.Drawing.Size(235, 26);
             this.mnuOrder.Text = "Đặt hàng";
             this.mnuOrder.Click += new System.EventHandler(this.mnuOrder_Click);
             // 
@@ -250,7 +251,7 @@
             // 
             this.mnuGoodsReceipt.Image = ((System.Drawing.Image)(resources.GetObject("mnuGoodsReceipt.Image")));
             this.mnuGoodsReceipt.Name = "mnuGoodsReceipt";
-            this.mnuGoodsReceipt.Size = new System.Drawing.Size(198, 22);
+            this.mnuGoodsReceipt.Size = new System.Drawing.Size(235, 26);
             this.mnuGoodsReceipt.Text = "Nhập hàng";
             this.mnuGoodsReceipt.Click += new System.EventHandler(this.mnuGoodsReceipt_Click);
             // 
@@ -258,7 +259,7 @@
             // 
             this.mnuGoodsDelivery.Image = ((System.Drawing.Image)(resources.GetObject("mnuGoodsDelivery.Image")));
             this.mnuGoodsDelivery.Name = "mnuGoodsDelivery";
-            this.mnuGoodsDelivery.Size = new System.Drawing.Size(198, 22);
+            this.mnuGoodsDelivery.Size = new System.Drawing.Size(235, 26);
             this.mnuGoodsDelivery.Text = "Xuất hàng";
             this.mnuGoodsDelivery.Click += new System.EventHandler(this.mnuGoodsDelivery_Click);
             // 
@@ -266,7 +267,7 @@
             // 
             this.mnuCheckInventory.Image = ((System.Drawing.Image)(resources.GetObject("mnuCheckInventory.Image")));
             this.mnuCheckInventory.Name = "mnuCheckInventory";
-            this.mnuCheckInventory.Size = new System.Drawing.Size(198, 22);
+            this.mnuCheckInventory.Size = new System.Drawing.Size(235, 26);
             this.mnuCheckInventory.Text = "Kiểm tra tồn kho";
             this.mnuCheckInventory.Visible = false;
             this.mnuCheckInventory.Click += new System.EventHandler(this.mnuCheckInventory_Click);
@@ -275,7 +276,7 @@
             // 
             this.mnuInputStock.Image = ((System.Drawing.Image)(resources.GetObject("mnuInputStock.Image")));
             this.mnuInputStock.Name = "mnuInputStock";
-            this.mnuInputStock.Size = new System.Drawing.Size(198, 22);
+            this.mnuInputStock.Size = new System.Drawing.Size(235, 26);
             this.mnuInputStock.Text = "Nhập tồn kho đầu kỳ";
             this.mnuInputStock.Click += new System.EventHandler(this.mnuInputStock_Click);
             // 
@@ -290,14 +291,14 @@
             this.mnuShiftReport,
             this.mnuCloseShift});
             this.mnuSaleManage.Name = "mnuSaleManage";
-            this.mnuSaleManage.Size = new System.Drawing.Size(124, 20);
+            this.mnuSaleManage.Size = new System.Drawing.Size(151, 24);
             this.mnuSaleManage.Text = "Quản lý bán hàng";
             // 
             // mnuSale
             // 
             this.mnuSale.Image = ((System.Drawing.Image)(resources.GetObject("mnuSale.Image")));
             this.mnuSale.Name = "mnuSale";
-            this.mnuSale.Size = new System.Drawing.Size(199, 22);
+            this.mnuSale.Size = new System.Drawing.Size(241, 26);
             this.mnuSale.Text = "Bán hàng";
             this.mnuSale.Click += new System.EventHandler(this.mnuSale_Click);
             // 
@@ -305,7 +306,7 @@
             // 
             this.mnuReturnItems.Image = ((System.Drawing.Image)(resources.GetObject("mnuReturnItems.Image")));
             this.mnuReturnItems.Name = "mnuReturnItems";
-            this.mnuReturnItems.Size = new System.Drawing.Size(199, 22);
+            this.mnuReturnItems.Size = new System.Drawing.Size(241, 26);
             this.mnuReturnItems.Text = "Hàng trả lại";
             this.mnuReturnItems.Click += new System.EventHandler(this.mnuReturnItems_Click);
             // 
@@ -316,14 +317,15 @@
             this.mnuCashReceipt});
             this.mnuCash.Image = ((System.Drawing.Image)(resources.GetObject("mnuCash.Image")));
             this.mnuCash.Name = "mnuCash";
-            this.mnuCash.Size = new System.Drawing.Size(199, 22);
+            this.mnuCash.Size = new System.Drawing.Size(241, 26);
             this.mnuCash.Text = "Quản lý thu chi";
+            this.mnuCash.Visible = false;
             // 
             // mnuCashPay
             // 
             this.mnuCashPay.Image = ((System.Drawing.Image)(resources.GetObject("mnuCashPay.Image")));
             this.mnuCashPay.Name = "mnuCashPay";
-            this.mnuCashPay.Size = new System.Drawing.Size(165, 22);
+            this.mnuCashPay.Size = new System.Drawing.Size(201, 26);
             this.mnuCashPay.Text = "Quản lý chi tiền";
             this.mnuCashPay.Click += new System.EventHandler(this.mnuCashPay_Click);
             // 
@@ -331,7 +333,7 @@
             // 
             this.mnuCashReceipt.Image = ((System.Drawing.Image)(resources.GetObject("mnuCashReceipt.Image")));
             this.mnuCashReceipt.Name = "mnuCashReceipt";
-            this.mnuCashReceipt.Size = new System.Drawing.Size(165, 22);
+            this.mnuCashReceipt.Size = new System.Drawing.Size(201, 26);
             this.mnuCashReceipt.Text = "Quản lý thu tiền";
             this.mnuCashReceipt.Click += new System.EventHandler(this.mnuCashReceipt_Click);
             // 
@@ -339,14 +341,14 @@
             // 
             this.mnuManageReceipt.Image = ((System.Drawing.Image)(resources.GetObject("mnuManageReceipt.Image")));
             this.mnuManageReceipt.Name = "mnuManageReceipt";
-            this.mnuManageReceipt.Size = new System.Drawing.Size(199, 22);
+            this.mnuManageReceipt.Size = new System.Drawing.Size(241, 26);
             this.mnuManageReceipt.Text = "Quản lý hóa đơn";
             this.mnuManageReceipt.Click += new System.EventHandler(this.mnuManageReceipt_Click);
             // 
             // tsmCusManager
             // 
             this.tsmCusManager.Name = "tsmCusManager";
-            this.tsmCusManager.Size = new System.Drawing.Size(199, 22);
+            this.tsmCusManager.Size = new System.Drawing.Size(241, 26);
             this.tsmCusManager.Text = "Quản lý khách hàng";
             this.tsmCusManager.Visible = false;
             this.tsmCusManager.Click += new System.EventHandler(this.tsmCusManager_Click);
@@ -355,7 +357,7 @@
             // 
             this.mnuShiftReport.Image = ((System.Drawing.Image)(resources.GetObject("mnuShiftReport.Image")));
             this.mnuShiftReport.Name = "mnuShiftReport";
-            this.mnuShiftReport.Size = new System.Drawing.Size(199, 22);
+            this.mnuShiftReport.Size = new System.Drawing.Size(241, 26);
             this.mnuShiftReport.Text = "In dữ liệu ca làm việc";
             this.mnuShiftReport.Click += new System.EventHandler(this.mnuShiftReport_Click);
             // 
@@ -363,7 +365,7 @@
             // 
             this.mnuCloseShift.Image = ((System.Drawing.Image)(resources.GetObject("mnuCloseShift.Image")));
             this.mnuCloseShift.Name = "mnuCloseShift";
-            this.mnuCloseShift.Size = new System.Drawing.Size(199, 22);
+            this.mnuCloseShift.Size = new System.Drawing.Size(241, 26);
             this.mnuCloseShift.Text = "Kết ca làm việc";
             this.mnuCloseShift.Click += new System.EventHandler(this.mnuCloseShift_Click);
             // 
@@ -375,14 +377,14 @@
             this.mnuShiftmanage,
             this.mnuTimeAttendance});
             this.tsmnuQuanLyKHNV.Name = "tsmnuQuanLyKHNV";
-            this.tsmnuQuanLyKHNV.Size = new System.Drawing.Size(120, 20);
+            this.tsmnuQuanLyKHNV.Size = new System.Drawing.Size(151, 24);
             this.tsmnuQuanLyKHNV.Text = "Quản lý KH && NV";
             // 
             // mnuCustomersManage
             // 
             this.mnuCustomersManage.Image = ((System.Drawing.Image)(resources.GetObject("mnuCustomersManage.Image")));
             this.mnuCustomersManage.Name = "mnuCustomersManage";
-            this.mnuCustomersManage.Size = new System.Drawing.Size(194, 22);
+            this.mnuCustomersManage.Size = new System.Drawing.Size(239, 26);
             this.mnuCustomersManage.Text = "Quản lý thông tin KH";
             this.mnuCustomersManage.Click += new System.EventHandler(this.mnuCustomersManage_Click);
             // 
@@ -390,7 +392,7 @@
             // 
             this.mnuEmployeeInfor.Image = ((System.Drawing.Image)(resources.GetObject("mnuEmployeeInfor.Image")));
             this.mnuEmployeeInfor.Name = "mnuEmployeeInfor";
-            this.mnuEmployeeInfor.Size = new System.Drawing.Size(194, 22);
+            this.mnuEmployeeInfor.Size = new System.Drawing.Size(239, 26);
             this.mnuEmployeeInfor.Text = "Thông tin nhân viên";
             this.mnuEmployeeInfor.Click += new System.EventHandler(this.mnuEmployeeInfor_Click);
             // 
@@ -398,7 +400,7 @@
             // 
             this.mnuShiftmanage.Image = ((System.Drawing.Image)(resources.GetObject("mnuShiftmanage.Image")));
             this.mnuShiftmanage.Name = "mnuShiftmanage";
-            this.mnuShiftmanage.Size = new System.Drawing.Size(194, 22);
+            this.mnuShiftmanage.Size = new System.Drawing.Size(239, 26);
             this.mnuShiftmanage.Text = "Xếp ca làm việc";
             this.mnuShiftmanage.Visible = false;
             this.mnuShiftmanage.Click += new System.EventHandler(this.mnuShiftmanage_Click);
@@ -407,7 +409,7 @@
             // 
             this.mnuTimeAttendance.Image = ((System.Drawing.Image)(resources.GetObject("mnuTimeAttendance.Image")));
             this.mnuTimeAttendance.Name = "mnuTimeAttendance";
-            this.mnuTimeAttendance.Size = new System.Drawing.Size(194, 22);
+            this.mnuTimeAttendance.Size = new System.Drawing.Size(239, 26);
             this.mnuTimeAttendance.Text = "Nhân viên quét thẻ";
             this.mnuTimeAttendance.Visible = false;
             this.mnuTimeAttendance.Click += new System.EventHandler(this.mnuTimeAttendance_Click);
@@ -420,14 +422,14 @@
             this.mnuInputLiability,
             this.mnuLiablityReport});
             this.mnuLiabilityManage.Name = "mnuLiabilityManage";
-            this.mnuLiabilityManage.Size = new System.Drawing.Size(116, 20);
+            this.mnuLiabilityManage.Size = new System.Drawing.Size(142, 24);
             this.mnuLiabilityManage.Text = "Quản lý công nợ";
             // 
             // mnuCashDepo
             // 
             this.mnuCashDepo.Image = ((System.Drawing.Image)(resources.GetObject("mnuCashDepo.Image")));
             this.mnuCashDepo.Name = "mnuCashDepo";
-            this.mnuCashDepo.Size = new System.Drawing.Size(203, 22);
+            this.mnuCashDepo.Size = new System.Drawing.Size(240, 26);
             this.mnuCashDepo.Text = "Bảng kê nộp tiền";
             this.mnuCashDepo.Click += new System.EventHandler(this.mnuCashDepo_Click);
             // 
@@ -435,7 +437,7 @@
             // 
             this.mnuInvoicePay.Image = ((System.Drawing.Image)(resources.GetObject("mnuInvoicePay.Image")));
             this.mnuInvoicePay.Name = "mnuInvoicePay";
-            this.mnuInvoicePay.Size = new System.Drawing.Size(203, 22);
+            this.mnuInvoicePay.Size = new System.Drawing.Size(240, 26);
             this.mnuInvoicePay.Text = "Thanh toán đơn hàng";
             this.mnuInvoicePay.Click += new System.EventHandler(this.mnuInvoicePay_Click);
             // 
@@ -443,7 +445,7 @@
             // 
             this.mnuInputLiability.Image = ((System.Drawing.Image)(resources.GetObject("mnuInputLiability.Image")));
             this.mnuInputLiability.Name = "mnuInputLiability";
-            this.mnuInputLiability.Size = new System.Drawing.Size(203, 22);
+            this.mnuInputLiability.Size = new System.Drawing.Size(240, 26);
             this.mnuInputLiability.Text = "Nhập công nợ đầu kỳ";
             this.mnuInputLiability.Click += new System.EventHandler(this.mnuInputLiability_Click);
             // 
@@ -451,7 +453,7 @@
             // 
             this.mnuLiablityReport.Image = ((System.Drawing.Image)(resources.GetObject("mnuLiablityReport.Image")));
             this.mnuLiablityReport.Name = "mnuLiablityReport";
-            this.mnuLiablityReport.Size = new System.Drawing.Size(203, 22);
+            this.mnuLiablityReport.Size = new System.Drawing.Size(240, 26);
             this.mnuLiablityReport.Text = "Báo cáo công nợ";
             this.mnuLiablityReport.Click += new System.EventHandler(this.mnuLiablityReport_Click);
             // 
@@ -460,14 +462,14 @@
             this.mnuReport.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuRReport});
             this.mnuReport.Name = "mnuReport";
-            this.mnuReport.Size = new System.Drawing.Size(71, 20);
+            this.mnuReport.Size = new System.Drawing.Size(83, 24);
             this.mnuReport.Text = "Báo cáo";
             // 
             // mnuRReport
             // 
             this.mnuRReport.Image = ((System.Drawing.Image)(resources.GetObject("mnuRReport.Image")));
             this.mnuRReport.Name = "mnuRReport";
-            this.mnuRReport.Size = new System.Drawing.Size(127, 22);
+            this.mnuRReport.Size = new System.Drawing.Size(146, 26);
             this.mnuRReport.Text = "Báo cáo";
             this.mnuRReport.Click += new System.EventHandler(this.mnuRReport_Click);
             // 
@@ -480,14 +482,14 @@
             this.mnuCompareExcel,
             this.mnuGoodsInventory});
             this.mnuUtilities.Name = "mnuUtilities";
-            this.mnuUtilities.Size = new System.Drawing.Size(67, 20);
+            this.mnuUtilities.Size = new System.Drawing.Size(80, 24);
             this.mnuUtilities.Text = "Tiện ích";
             // 
             // mnuBarcodeScaner
             // 
             this.mnuBarcodeScaner.Image = ((System.Drawing.Image)(resources.GetObject("mnuBarcodeScaner.Image")));
             this.mnuBarcodeScaner.Name = "mnuBarcodeScaner";
-            this.mnuBarcodeScaner.Size = new System.Drawing.Size(179, 22);
+            this.mnuBarcodeScaner.Size = new System.Drawing.Size(213, 26);
             this.mnuBarcodeScaner.Text = "Quét mã vạch";
             this.mnuBarcodeScaner.Click += new System.EventHandler(this.mnuBarcodeScaner_Click);
             // 
@@ -495,7 +497,7 @@
             // 
             this.mnuCalculator.Image = ((System.Drawing.Image)(resources.GetObject("mnuCalculator.Image")));
             this.mnuCalculator.Name = "mnuCalculator";
-            this.mnuCalculator.Size = new System.Drawing.Size(179, 22);
+            this.mnuCalculator.Size = new System.Drawing.Size(213, 26);
             this.mnuCalculator.Text = "Máy tính";
             this.mnuCalculator.Click += new System.EventHandler(this.mnuCalculator_Click);
             // 
@@ -503,7 +505,7 @@
             // 
             this.mnuNotepad.Image = ((System.Drawing.Image)(resources.GetObject("mnuNotepad.Image")));
             this.mnuNotepad.Name = "mnuNotepad";
-            this.mnuNotepad.Size = new System.Drawing.Size(179, 22);
+            this.mnuNotepad.Size = new System.Drawing.Size(213, 26);
             this.mnuNotepad.Text = "Trình văn bản";
             this.mnuNotepad.Click += new System.EventHandler(this.mnuNotepad_Click);
             // 
@@ -511,7 +513,7 @@
             // 
             this.mnuCompareExcel.Image = ((System.Drawing.Image)(resources.GetObject("mnuCompareExcel.Image")));
             this.mnuCompareExcel.Name = "mnuCompareExcel";
-            this.mnuCompareExcel.Size = new System.Drawing.Size(179, 22);
+            this.mnuCompareExcel.Size = new System.Drawing.Size(213, 26);
             this.mnuCompareExcel.Text = "So sánh số lượng";
             this.mnuCompareExcel.Click += new System.EventHandler(this.mnuCompareExcel_Click);
             // 
@@ -519,7 +521,7 @@
             // 
             this.mnuGoodsInventory.Image = ((System.Drawing.Image)(resources.GetObject("mnuGoodsInventory.Image")));
             this.mnuGoodsInventory.Name = "mnuGoodsInventory";
-            this.mnuGoodsInventory.Size = new System.Drawing.Size(179, 22);
+            this.mnuGoodsInventory.Size = new System.Drawing.Size(213, 26);
             this.mnuGoodsInventory.Text = "Kiểm kê hàng";
             this.mnuGoodsInventory.Click += new System.EventHandler(this.mnuGoodsInventory_Click);
             // 
@@ -530,23 +532,14 @@
             this.mnuAbout,
             this.mnuUserGuide});
             this.mnuHelp.Name = "mnuHelp";
-            this.mnuHelp.Size = new System.Drawing.Size(70, 20);
+            this.mnuHelp.Size = new System.Drawing.Size(82, 24);
             this.mnuHelp.Text = "Trợ giúp";
-            // 
-            // mnuUserGuide
-            // 
-            this.mnuUserGuide.Image = ((System.Drawing.Image)(resources.GetObject("mnuUserGuide.Image")));
-            this.mnuUserGuide.Name = "mnuUserGuide";
-            this.mnuUserGuide.Size = new System.Drawing.Size(205, 22);
-            this.mnuUserGuide.Text = "Hướng dẫn sử dụng";
-            this.mnuUserGuide.Visible = false;
-            this.mnuUserGuide.Click += new System.EventHandler(this.mnuUserGuide_Click);
             // 
             // mnuAppInfo
             // 
             this.mnuAppInfo.Image = ((System.Drawing.Image)(resources.GetObject("mnuAppInfo.Image")));
             this.mnuAppInfo.Name = "mnuAppInfo";
-            this.mnuAppInfo.Size = new System.Drawing.Size(205, 22);
+            this.mnuAppInfo.Size = new System.Drawing.Size(250, 26);
             this.mnuAppInfo.Text = "Thông tin chương trình";
             this.mnuAppInfo.Click += new System.EventHandler(this.mnuAppInfo_Click);
             // 
@@ -554,22 +547,31 @@
             // 
             this.mnuAbout.Image = ((System.Drawing.Image)(resources.GetObject("mnuAbout.Image")));
             this.mnuAbout.Name = "mnuAbout";
-            this.mnuAbout.Size = new System.Drawing.Size(205, 22);
+            this.mnuAbout.Size = new System.Drawing.Size(250, 26);
             this.mnuAbout.Text = "Thông tin bản quyền";
             this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
+            // 
+            // mnuUserGuide
+            // 
+            this.mnuUserGuide.Image = ((System.Drawing.Image)(resources.GetObject("mnuUserGuide.Image")));
+            this.mnuUserGuide.Name = "mnuUserGuide";
+            this.mnuUserGuide.Size = new System.Drawing.Size(250, 26);
+            this.mnuUserGuide.Text = "Hướng dẫn sử dụng";
+            this.mnuUserGuide.Visible = false;
+            this.mnuUserGuide.Click += new System.EventHandler(this.mnuUserGuide_Click);
             // 
             // mnuWindow
             // 
             this.mnuWindow.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuExitWindow});
             this.mnuWindow.Name = "mnuWindow";
-            this.mnuWindow.Size = new System.Drawing.Size(62, 20);
+            this.mnuWindow.Size = new System.Drawing.Size(74, 24);
             this.mnuWindow.Text = "Cửa sổ";
             // 
             // mnuExitWindow
             // 
             this.mnuExitWindow.Name = "mnuExitWindow";
-            this.mnuExitWindow.Size = new System.Drawing.Size(143, 22);
+            this.mnuExitWindow.Size = new System.Drawing.Size(170, 26);
             this.mnuExitWindow.Text = "Đóng tất cả";
             this.mnuExitWindow.Click += new System.EventHandler(this.mnuExitWindow_Click);
             // 
@@ -579,14 +581,14 @@
             this.quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem});
             this.testToolStripMenuItem.Enabled = false;
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.testToolStripMenuItem.Text = "Admin";
             this.testToolStripMenuItem.Visible = false;
             // 
             // quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem
             // 
             this.quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem.Name = "quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem";
-            this.quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem.Size = new System.Drawing.Size(298, 22);
+            this.quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem.Size = new System.Drawing.Size(364, 26);
             this.quảnLýNgườiDùngNhómNgườiDùngToolStripMenuItem.Text = "Quản lý người dùng & nhóm người dùng";
             // 
             // tlsTabbar
@@ -613,7 +615,7 @@
             this.toolStripSeparator1,
             this.btnExit});
             this.tlsTabbar.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.tlsTabbar.Location = new System.Drawing.Point(0, 24);
+            this.tlsTabbar.Location = new System.Drawing.Point(0, 28);
             this.tlsTabbar.Name = "tlsTabbar";
             this.tlsTabbar.Size = new System.Drawing.Size(1027, 37);
             this.tlsTabbar.TabIndex = 1;
@@ -777,6 +779,7 @@
             this.tlsTab.BackColor = System.Drawing.SystemColors.ControlDark;
             this.tlsTab.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.tlsTab.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.tlsTab.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.tlsTab.Location = new System.Drawing.Point(0, 61);
             this.tlsTab.Name = "tlsTab";
             this.tlsTab.Size = new System.Drawing.Size(1027, 25);
@@ -788,15 +791,16 @@
             // staSale
             // 
             this.staSale.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            this.staSale.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.staSale.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblDate,
             this.lblServer,
             this.lblDatabase,
             this.lblUser,
             this.lblStore});
-            this.staSale.Location = new System.Drawing.Point(0, 441);
+            this.staSale.Location = new System.Drawing.Point(0, 436);
             this.staSale.Name = "staSale";
-            this.staSale.Size = new System.Drawing.Size(1027, 24);
+            this.staSale.Size = new System.Drawing.Size(1027, 29);
             this.staSale.TabIndex = 9;
             this.staSale.Text = "statusStrip1";
             // 
@@ -804,7 +808,7 @@
             // 
             this.lblDate.Name = "lblDate";
             this.lblDate.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.lblDate.Size = new System.Drawing.Size(41, 19);
+            this.lblDate.Size = new System.Drawing.Size(51, 24);
             this.lblDate.Text = "Date";
             // 
             // lblServer
@@ -812,7 +816,7 @@
             this.lblServer.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left;
             this.lblServer.Margin = new System.Windows.Forms.Padding(0, 3, 10, 2);
             this.lblServer.Name = "lblServer";
-            this.lblServer.Size = new System.Drawing.Size(43, 19);
+            this.lblServer.Size = new System.Drawing.Size(54, 24);
             this.lblServer.Text = "Server";
             // 
             // lblDatabase
@@ -820,26 +824,26 @@
             this.lblDatabase.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left;
             this.lblDatabase.Margin = new System.Windows.Forms.Padding(0, 3, 10, 2);
             this.lblDatabase.Name = "lblDatabase";
-            this.lblDatabase.Size = new System.Drawing.Size(26, 19);
+            this.lblDatabase.Size = new System.Drawing.Size(33, 24);
             this.lblDatabase.Text = "DB";
             // 
             // lblUser
             // 
             this.lblUser.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left;
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(34, 19);
+            this.lblUser.Size = new System.Drawing.Size(42, 24);
             this.lblUser.Text = "User";
             // 
             // lblStore
             // 
             this.lblStore.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left;
             this.lblStore.Name = "lblStore";
-            this.lblStore.Size = new System.Drawing.Size(28, 19);
+            this.lblStore.Size = new System.Drawing.Size(33, 24);
             this.lblStore.Text = "CH";
             // 
             // frmSaleMTMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 465);
             this.Controls.Add(this.staSale);

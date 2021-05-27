@@ -72,8 +72,8 @@ namespace SaleMTInterfaces.FrmReporter.FrmReportSale
          {
              try
              {
-                 dateFrom = Conversion.FirstDayTime(dtpdateFrom.Value).ToString("yyyy/MM/dd HH:mm:ss");
-                 dateTo = Conversion.LastDayTime(dtpdateTo.Value).ToString("yyyy/MM/dd HH:mm:ss");
+                 dateFrom = Conversion.FirstDayTime(dtpdateFrom.Value).ToString("yyyy/MM/dd");
+                 dateTo = Conversion.LastDayTime(dtpdateTo.Value).ToString("yyyy/MM/dd");
                  Product = txtProduct.Text.Trim();
                  CHAIN_CODE = ","+UserImformation.StoreCode;//lấy theo user đăng nhập
                  ListStoreCode = "," + UserImformation.DeptCode + "@" + UserImformation.StoreCode + "@" + UserImformation.BusinessTypeCode;//Lấy theo User đăng nhập
@@ -90,8 +90,8 @@ namespace SaleMTInterfaces.FrmReporter.FrmReportSale
                  //ImportType = cboTypeInput.SelectedValue != null ? cboTypeInput.SelectedValue.ToString() : "";
                  ImportType = (cboTypeInput.SelectedIndex != -1 && cboTypeInput.Text.Trim() != "") ? cboTypeInput.SelectedValue.ToString() : "";
                  //ImportType = (cboTypeInput.SelectedIndex != -1) ? cboTypeInput.SelectedValue.ToString().Trim() : "";                 
-                 FromDateHD = (dtpDateFromInvoice.Checked) ? Conversion.FirstDayTime(dtpDateFromInvoice.Value).ToString("yyyy/MM/dd HH:mm:ss") : "";
-                 ToDateHD = (dtpDateToInvoice.Checked) ? Conversion.LastDayTime(dtpDateToInvoice.Value).ToString("yyyy/MM/dd HH:mm:ss") : "";
+                 FromDateHD = (dtpDateFromInvoice.Checked) ? Conversion.FirstDayTime(dtpDateFromInvoice.Value).ToString("yyyy/MM/dd") : "";
+                 ToDateHD = (dtpDateToInvoice.Checked) ? Conversion.LastDayTime(dtpDateToInvoice.Value).ToString("yyyy/MM/dd") : "";
                 
                  SoHD = txtCodeInvoice.Text.Trim();
                  SoPO = txtPO.Text.Trim();
