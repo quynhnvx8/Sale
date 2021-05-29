@@ -13,6 +13,14 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         #region members
         int dEPT_CODE;
         string cOUPON_NO;
+        bool? iSPENDING;
+
+        [SqlColumn("ISPENDING", SqlDbType.Bit)]
+        public bool? ISPENDING
+        {
+            get { return iSPENDING; }
+            set { iSPENDING = value; }
+        }
 
         #endregion members
         #region Properties

@@ -14,6 +14,15 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         string pROGRAM_NO;
         string mASTER_CODE;
 
+        bool? iSPENDING;
+
+        [SqlColumn("ISPENDING", SqlDbType.Bit)]
+        public bool? ISPENDING
+        {
+            get { return iSPENDING; }
+            set { iSPENDING = value; }
+        }
+
         #endregion members
         #region Properties
         [PKSqlColumn("PROGRAM_NO", SqlDbType.VarChar, null)]

@@ -90,5 +90,8 @@ namespace SaleMTDataAccessLayer.SaleMTDAL
         public static string strPw,strChkPw;
         public static bool isReg;
         public static int Client_ID;
+        public static int NumberDayScan;
+
+
     }
 }

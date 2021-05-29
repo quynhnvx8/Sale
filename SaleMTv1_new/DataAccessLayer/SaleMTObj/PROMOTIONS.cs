@@ -20,6 +20,15 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         DateTime? iNPUT_DATE;
         bool? iS_ADD_MORE;
 
+        bool? iSPENDING;
+
+        [SqlColumn("ISPENDING", SqlDbType.Bit)]
+        public bool? ISPENDING
+        {
+            get { return iSPENDING; }
+            set { iSPENDING = value; }
+        }
+
         #endregion members
         #region Properties
         [PKSqlColumn("PROMOTION_NO", SqlDbType.VarChar, null)]

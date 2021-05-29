@@ -566,10 +566,11 @@ namespace SaleMTSync
             SaveProduct();
             SavePrice();
             SavePromotion();
-            SavePromotionLine();
+            
         }
 
         private int client_ID = AppConfigFileSettings.Client_ID;
+        private int numDayScan = AppConfigFileSettings.NumberDayScan;
         private void SaveUser()
         {
             string listAccount = posdb_vnmSqlDAC.getListKey("USERS", "ACCOUNT", true, "ID > 0");
@@ -577,7 +578,7 @@ namespace SaleMTSync
             List<USER_DEPT> listDept = new List<USER_DEPT>();
             string sql = "Select u.AD_User_ID, u.Value, u.Name, u.Password, u.Created, o.AD_Department_ID, Coalesce(u.IsChangePrice,'0') IsChangePrice " +
                 " From AD_User u Inner Join AD_Department o On o.AD_Department_ID = u.AD_Department_ID And o.IsAutoCreate = 'Y' " +
-                " Where u.AD_Client_ID = " + client_ID + " And u.IsActive = 'Y' And u.Updated >= current_date - 10";
+                " Where u.AD_Client_ID = " + client_ID + " And u.IsActive = 'Y' And u.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -630,7 +631,7 @@ namespace SaleMTSync
             List<ROLES> listUser = new List<ROLES>();
             string sql = "Select u.AD_ROLE_ID, u.Name " +
                 " From AD_ROLE u" +
-                " Where u.AD_Client_ID = " + client_ID + " And u.IsActive = 'Y' And u.Updated >= current_date - 10";
+                " Where u.AD_Client_ID = " + client_ID + " And u.IsActive = 'Y' And u.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -666,19 +667,20 @@ namespace SaleMTSync
         {
             string listDept = posdb_vnmSqlDAC.getListKey("DEPT", "DEPT_CODE", true, null);
             List<DEPT> listImport = new List<DEPT>();
-            string sql = "Select o.AD_Org_ID, o.Parent_ID, o.Value, o.Name, o.Address, o.Description,  " +
+            string sql = "Select o.AD_Org_ID, Coalesce(o.Parent_ID,0) Parent_ID, o.Value, o.Name, o.Address, o.Description,  " +
                 "   (Select Value From C_SalesRegion s Where o.C_SalesRegion_ID = s.C_SalesRegion_ID) as locationCode," +
                 "  COALESCE(oi.Phone, oi.Phone2) Phone, oi.Fax" +
                 " From AD_Org o Inner Join AD_OrgInfo oi On o.AD_Org_ID = oi.AD_Org_ID " +
                 " Where o.AD_Client_ID = " + client_ID + " And o.IsActive = 'Y' And oi.IsActive = 'Y' " +
-                "   and o.Updated >= current_date - 10 ";
+                "   and o.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
                 DEPT lineNew = new DEPT();
                 lineNew.DEPT_CODE = int.Parse(r["AD_Org_ID"].ToString());
                 lineNew.DEPT_NAME = r["Name"].ToString();
-                lineNew.DEPT_PARENT = int.Parse(r["Parent_ID"].ToString());
+                if (!r["Parent_ID"].ToString().Equals("0"))
+                    lineNew.DEPT_PARENT = int.Parse(r["Parent_ID"].ToString());
                 lineNew.STORE_CODE = r["Value"].ToString();
                 lineNew.FAX = r["Fax"].ToString();
                 lineNew.TEL = r["Phone"].ToString();
@@ -692,7 +694,7 @@ namespace SaleMTSync
 
                 foreach (DEPT item in listImport)
                 {
-                    if (listDept.Contains(item.DEPT_CODE.ToString()))
+                    if (listDept.Contains("'" + item.DEPT_CODE.ToString() + "'"))
                         item.Save(false);
                     else
                         item.Save(true);
@@ -711,7 +713,7 @@ namespace SaleMTSync
             string sql = "Select p.AD_Role_ID, f.Name, p.IsPrinted, p.IsInsertRecord, p.IsDeleteable, p.IsUpdateable  " +
                 " From AD_Permission p Inner Join AD_Form_Sale f On p.AD_Form_Sale_ID = f.AD_Form_Sale_ID " +
                 " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y' And f.IsActive = 'Y' " +
-                "   and p.Updated >= current_date - 10 ";
+                "   and p.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -749,7 +751,7 @@ namespace SaleMTSync
             string sql = "Select p.AD_Role_ID, f.Value  " +
                 " From AD_User_Roles p Inner Join AD_User f On p.AD_User_ID = f.AD_User_ID " +
                 " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y' And f.IsActive = 'Y' " +
-                "   and p.Updated >= current_date - 10 ";
+                "   and p.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -786,7 +788,7 @@ namespace SaleMTSync
                 " from c_bpartner b " +
                 " 	Inner Join c_bpartnerinfo i On b.C_BPartner_ID = i.C_BPartner_ID  " +
                 " Where b.AD_Client_ID = " + client_ID + " And b.IsActive = 'Y' And i.IsActive = 'Y' " +
-                "   and b.Updated >= current_date - 10 ";
+                "   and b.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -840,7 +842,7 @@ namespace SaleMTSync
                 " From M_Product p " +
                 "       Inner Join C_UOM u On p.C_UOM_ID = u.C_UOM_ID " +
                 "       Inner Join M_Product_Category c On c.M_Product_Category_ID = p.M_Product_Category_ID " +
-                " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
+                " Where p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y' and p.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -868,7 +870,7 @@ namespace SaleMTSync
 
                 foreach (PRODUCTS item in listImport)
                 {
-                    if (listProduct.Contains(item.PRODUCT_ID))
+                    if (listProduct.Contains("'"+ item.PRODUCT_ID +"'"))
                         item.Save(false);
                     else
                         item.Save(true);
@@ -886,7 +888,7 @@ namespace SaleMTSync
             List<DEV_IN_DM_NHOMVATTU> listImport = new List<DEV_IN_DM_NHOMVATTU>();
             string sql = "Select M_Product_Category_ID, Value, Name " +
                 " From M_Product_Category  " +
-                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y'";// and p.Updated >= current_date - 10
+                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y' and Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -923,7 +925,7 @@ namespace SaleMTSync
                 " From M_Price r Inner Join M_Product p On r.M_Product_ID = p.M_Product_ID " +
                 " Where r.DocStatus = 'CO' " +
                 "       And r.validfrom < current_date and current_date <= r.validto " +
-                "       And p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y'";// and p.Updated >= current_date - 10
+                "       And p.AD_Client_ID = " + client_ID + " And p.IsActive = 'Y' and r.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -951,14 +953,20 @@ namespace SaleMTSync
                 MessageBox.Show(e.ToString());
             }
         }
+
+        string listKeyPro = "";
+        string listKey = "";
+
         private void SavePromotion()
         {
-            string listKey = posdb_vnmSqlDAC.getListKey("PROMOTIONS", "PROMOTION_NO", false, null);
+            listKeyPro = posdb_vnmSqlDAC.getListKey("PROMOTIONS", "PROMOTION_NO", false, null);
+            listKey = posdb_vnmSqlDAC.getListKey("PROMOTION_DETAIL", "PROMOTION_DETAIL_NO", false, null);
+
             List<PROMOTIONS> listImport = new List<PROMOTIONS>();
-            string sql = "Select M_Promotion_ID, Value, ValidFrom, ValidTo, Description " +
+            string sql = "Select M_Promotion_ID, ValidFrom, ValidTo, Description, isPending " +
                 " From M_Promotion " +
-                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y' And DocStatus = 'CO'" +
-                "   And M_Promotion_ID not in (" + listKey + ")";
+                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y' And DocStatus = 'CO' "+
+                "   And Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
@@ -969,13 +977,85 @@ namespace SaleMTSync
                 lineNew.FROM_DATE = (DateTime)r["ValidFrom"];
                 lineNew.TO_DATE = (DateTime)r["ValidTo"];
                 lineNew.REMARK = r["Description"].ToString();
+                lineNew.ISPENDING = false;
+                if ("Y".Equals(r["isPending"].ToString()))
+                {
+                    lineNew.ISPENDING = true;
+                }
                 listImport.Add(lineNew);
             }
             try
             {
                 foreach (PROMOTIONS item in listImport)
                 {
-                    item.Save(true);
+                    if (listKeyPro.Contains(item.PROMOTION_NO.ToString()))
+                        item.Save(false);
+                    else
+                        item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
+            SavePromotionLine();
+            SaveProgramProduct();
+            SaveProgramProductGift();
+            SavePromotionCus();
+            SaveCouponShop();
+
+        }
+
+        private void SavePromotionLine()
+        {
+            List<PROMOTION_DETAIL> listImport = new List<PROMOTION_DETAIL>();
+            string sql = "Select l.M_PromotionLine_ID, l.M_Product_ID, l.M_Promotion_ID, l.Qty, l.Amount, " +
+                "   l.DiscountAmt, l.DiscountPercent, l.M_Product_Free_ID, l.QtyFree, t.Name " +
+                " From M_PromotionLine l " +
+                "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
+                "       inner Join M_PromotionType t On t.M_PromotionType_ID = p.M_PromotionType_ID " +
+                " Where l.AD_Client_ID = " + client_ID + " And p.DocStatus = 'CO'"+
+                "   And l.Updated >= current_date - " + numDayScan;
+            DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
+            foreach (DataRow r in dt.Rows)
+            {
+                PROMOTION_DETAIL lineNew = new PROMOTION_DETAIL();
+                lineNew.PROMOTION_NO = r["M_Promotion_ID"].ToString();
+                lineNew.PROMOTION_DETAIL_NO = r["M_PromotionLine_ID"].ToString();
+                lineNew.QUANTITY_MIN = Int16.Parse(r["Qty"].ToString());
+                lineNew.DISCOUNT_VALUE = float.Parse(r["DiscountPercent"].ToString());
+                lineNew.PROMOTION_DETAIL_NAME = r["Name"].ToString();
+                float discountAmt = float.Parse(r["DiscountAmt"].ToString());
+                if (discountAmt > 0)
+                {
+                    lineNew.DISCOUNT_ON = "AMOUNT";
+                    lineNew.DISCOUNT_VALUE = float.Parse(r["DiscountAmt"].ToString());
+                }
+                float discountPer = float.Parse(r["DiscountPercent"].ToString());
+                if (discountPer > 0)
+                {
+                    lineNew.DISCOUNT_ON = "PERCENT";
+                    lineNew.DISCOUNT_VALUE = float.Parse(r["DiscountPercent"].ToString());
+                }
+                lineNew.AMOUNT_MIN = float.Parse(r["Amount"].ToString());
+                int qty_free = Int16.Parse(r["Qty_Free"].ToString());
+                if (qty_free > 0)
+                {
+                    lineNew.GIFT = "Selected";
+                    lineNew.QUANTITY_GIFT = qty_free;
+                    lineNew.DISCOUNT_ON = "GIFTS";
+                }
+                listImport.Add(lineNew);
+            }
+            try
+            {
+                foreach (PROMOTION_DETAIL item in listImport)
+                {
+                    if (listKey.Contains(item.PROMOTION_DETAIL_NO.ToString()))
+                        item.Save(false);
+                    else
+                        item.Save(true);
                 }
             }
             catch (Exception e)
@@ -985,29 +1065,35 @@ namespace SaleMTSync
             
         }
 
-        private void SavePromotionLine()
+        private void SaveProgramProduct()
         {
-            string listKey = posdb_vnmSqlDAC.getListKey("PROMOTION_DETAIL", "PROMOTION_DETAIL_NO", false, null);
-            List<PROMOTION_DETAIL> listImport = new List<PROMOTION_DETAIL>();
-            string sql = "Select M_Promotion_ID, Value, ValidFrom, ValidTo, Description " +
-                " From M_Promotion " +
-                " Where AD_Client_ID = " + client_ID + " And IsActive = 'Y' And DocStatus = 'CO'" +
-                "   And M_Promotion_ID not in (" + listKey + ")";
+            String listId = "";
+            List<PROGRAM_PRODUCT> listImport = new List<PROGRAM_PRODUCT>();
+            string sql = "Select l.M_PromotionLine_ID, unnest(string_to_array(l.M_Product_ID,',')) M_Product_ID " +
+                " From M_PromotionLine l " +
+                "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
+                " Where l.AD_Client_ID = " + client_ID + "" +
+                "   and l.Updated >= current_date - " + numDayScan;
             DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
             foreach (DataRow r in dt.Rows)
             {
-                PROMOTION_DETAIL lineNew = new PROMOTION_DETAIL();
-                lineNew.PROMOTION_NO = r["Value"].ToString();
-                lineNew.PROMOTION_DETAIL_NO = r["Name"].ToString();
-                lineNew.PROMOTION_DETAIL_NAME = r["Name"].ToString();
-                lineNew.QUANTITY_BUY = 0;
-                lineNew.QUANTITY_MIN = 0;
-                lineNew.QUANTITY_MAX = 0;
+                PROGRAM_PRODUCT lineNew = new PROGRAM_PRODUCT();
+                lineNew.PRODUCT_ID = r["M_Product_ID"].ToString();
+                lineNew.PROGRAM_NO = r["M_PromotionLine_ID"].ToString();
+                if ("".Equals(listId))
+                    listId = "'"+ r["M_PromotionLine_ID"].ToString() +"'";
+                else
+                    listId = listId + "," + "'"+ r["M_PromotionLine_ID"].ToString() + "'";
                 listImport.Add(lineNew);
             }
             try
             {
-                foreach (PROMOTION_DETAIL item in listImport)
+                //Xóa bản ghi cũ đi.
+                String sqlDelete = "Delete PROGRAM_PRODUCT Where Program_No in (" + listId + ")";
+                posdb_vnmSqlDAC excu = new posdb_vnmSqlDAC();
+                excu.InlineSql_ExecuteNonQuery(sqlDelete, null);
+
+                foreach (PROGRAM_PRODUCT item in listImport)
                 {
                     item.Save(true);
                 }
@@ -1016,7 +1102,149 @@ namespace SaleMTSync
             {
                 MessageBox.Show(e.ToString());
             }
-            
+
+        }
+
+        private void SaveProgramProductGift()
+        {
+            String listId = "";
+            List<PROMOTION_GIFTS> listImport = new List<PROMOTION_GIFTS>();
+            string sql = "Select l.M_PromotionLine_ID, unnest(string_to_array(l.M_Product_Free_ID,',')) M_Product_ID " +
+                " From M_PromotionLine l " +
+                "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
+                " Where l.AD_Client_ID = " + client_ID + "" +
+                "   And l.Updated >= current_date - " + numDayScan;
+            DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
+            foreach (DataRow r in dt.Rows)
+            {
+                PROMOTION_GIFTS lineNew = new PROMOTION_GIFTS();
+                lineNew.PRODUCT_ID = r["M_Product_ID"].ToString();
+                lineNew.PROGRAM_NO = r["M_PromotionLine_ID"].ToString();
+                if ("".Equals(listId))
+                    listId = "'" + r["M_PromotionLine_ID"].ToString() + "'";
+                else
+                    listId = listId + "," + "'" + r["M_PromotionLine_ID"].ToString() + "'";
+                listImport.Add(lineNew);
+            }
+            try
+            {
+                //Xóa bản ghi cũ đi.
+                if (!"".Equals(listId))
+                {
+                    String sqlDelete = "Delete PROMOTION_GIFTS Where Program_No in (" + listId + ")";
+                    posdb_vnmSqlDAC excu = new posdb_vnmSqlDAC();
+                    excu.InlineSql_ExecuteNonQuery(sqlDelete, null);
+                }
+                
+
+                foreach (PROMOTION_GIFTS item in listImport)
+                {
+                    item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
+        }
+
+        private void SavePromotionCus()
+        {
+            String listId = "";
+            List<PROGRAM_MASTER_DATA> listImport = new List<PROGRAM_MASTER_DATA>();
+            string sql = "Select l.M_Promotion_ID, l.C_BP_Group_ID, l.IsPending " +
+                " From M_PromotionCus l " +
+                "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
+                " Where l.AD_Client_ID = " + client_ID + "" +
+                "   And l.Updated >= current_date - " + numDayScan;
+            DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
+            foreach (DataRow r in dt.Rows)
+            {
+                PROGRAM_MASTER_DATA lineNew = new PROGRAM_MASTER_DATA();
+                lineNew.PROGRAM_NO = r["M_Promotion_ID"].ToString();
+                lineNew.MASTER_CODE = r["C_BP_Group_ID"].ToString();
+                lineNew.ISPENDING = false;
+                if ("Y".Equals(r["IsPending"].ToString()))
+                {
+                    lineNew.ISPENDING = true;
+                }
+                if ("".Equals(listId))
+                    listId = "'" + r["M_Promotion_ID"].ToString() + "'";
+                else
+                    listId = listId + "," + "'" + r["M_Promotion_ID"].ToString() + "'";
+                listImport.Add(lineNew);
+            }
+            try
+            {
+                //Xóa bản ghi cũ đi.
+                if (!"".Equals(listId))
+                {
+                    String sqlDelete = "Delete PROGRAM_MASTER_DATA Where PROGRAM_NO in (" + listId + ")";
+                    posdb_vnmSqlDAC excu = new posdb_vnmSqlDAC();
+                    excu.InlineSql_ExecuteNonQuery(sqlDelete, null);
+
+                }
+
+                foreach (PROGRAM_MASTER_DATA item in listImport)
+                {
+                    item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
+        }
+
+        private void SaveCouponShop()
+        {
+            String listId = "";
+            List<COUPON_STORES> listImport = new List<COUPON_STORES>();
+            string sql = "Select l.M_Promotion_ID, l.AD_Department_ID, l.IsPending " +
+                " From M_PromotionShop l " +
+                "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
+                " Where l.AD_Client_ID = " + client_ID + "" +
+                "   And l.Updated >= current_date - " + numDayScan;
+            DataTable dt = posdb_vnmSqlDAC.SelectData_Npgsql(sql, null, null);
+            foreach (DataRow r in dt.Rows)
+            {
+                COUPON_STORES lineNew = new COUPON_STORES();
+                lineNew.COUPON_NO = r["M_Promotion_ID"].ToString();
+                if (!"".Equals(r["AD_Department_ID"].ToString()))
+                    lineNew.DEPT_CODE = Int32.Parse(r["AD_Department_ID"].ToString());
+                lineNew.ISPENDING = false;
+                if ("Y".Equals(r["IsPending"].ToString()))
+                {
+                    lineNew.ISPENDING = true;
+                }
+                if ("".Equals(listId))
+                    listId = "'" + r["M_Promotion_ID"].ToString() + "'";
+                else
+                    listId = listId + "," + "'"  + r["M_Promotion_ID"].ToString() + "'";
+                listImport.Add(lineNew);
+            }
+            try
+            {
+                //Xóa bản ghi cũ đi.
+                if (!"".Equals(listId))
+                {
+                    String sqlDelete = "Delete COUPON_STORES Where COUPON_NO in (" + listId + ")";
+                    posdb_vnmSqlDAC excu = new posdb_vnmSqlDAC();
+                    excu.InlineSql_ExecuteNonQuery(sqlDelete, null);
+                }
+
+                foreach (COUPON_STORES item in listImport)
+                {
+                    item.Save(true);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+
         }
 
         #endregion SERVER => CLIENT

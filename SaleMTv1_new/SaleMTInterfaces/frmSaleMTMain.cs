@@ -463,6 +463,8 @@ namespace SaleMTInterfaces
                 {
                     string strCnnSync = ConfigurationManager.AppSettings["ConnectionString"].ToString();
                     AppConfigFileSettings.Client_ID = int.Parse(ConfigurationManager.AppSettings["Client_ID"].ToString());
+                    AppConfigFileSettings.NumberDayScan = int.Parse(ConfigurationManager.AppSettings["NumberDayScan"].ToString());
+                    
                     //string pass = SaleMTEncrypt.GetMd5Hash(MD5.Create(), "1");
                     AppConfigFileSettings.strConnectionSync = AppConfigFileSettings.strConnectionSync == null ? strCnnSync : AppConfigFileSettings.strConnectionSync;
                     cnnSql.ConnectionString = AppConfigFileSettings.strConnectionSync.Replace("Connection Timeout=300;", "Connection Timeout=10;");
