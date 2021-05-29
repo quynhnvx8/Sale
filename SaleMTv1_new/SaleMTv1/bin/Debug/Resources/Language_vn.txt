@@ -481,10 +481,10 @@ frmDialogPayment.label11.Text :SL bill
 frmDialogPayment.label10.Text :Còn thiếu
 frmDialogPayment.label9.Text :Tiền trả lại
 frmDialogPayment.label8.Text :Tổng tiền nhận
-frmDialogPayment.btnClose.Text :ESC
-frmDialogPayment.btnPayment.Text :F9
-frmDialogPayment.btnPayAndPrint.Text :F8
-frmDialogPayment.btnPrintTemp.Text :F7
+frmDialogPayment.btnClose.Text :ESC-&Hủy bỏ
+frmDialogPayment.btnPayment.Text :F9-&Thanh toán
+frmDialogPayment.btnPayAndPrint.Text :F8-Thanh toán và &In
+frmDialogPayment.btnPrintTemp.Text :F7-I&n HĐ tạm
 frmDialogPayment.Text :Thanh toán
 frmDialogRedInvoice.groupBox1.Text :Thông tin hóa đơn đỏ
 frmDialogRedInvoice.label15.Text :Hình thức TT

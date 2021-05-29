@@ -126,8 +126,8 @@ namespace SaleMTInterfaces.FrmReporter.FrmReportSale
                 para[0] = posdb_vnmSqlDAC.newInParam("@Product", txtProduct.Text.Trim());
                 para[1] = posdb_vnmSqlDAC.newInParam("@DeptCode",  UserImformation.DeptCode );
                 para[2] = posdb_vnmSqlDAC.newInParam("@MasterCode", masterCode);
-                para[3] = posdb_vnmSqlDAC.newInParam("@FromDate", dtpdateFrom.Value.ToString("yyyy/MM/dd") + " 00:00:00");
-                para[4] = posdb_vnmSqlDAC.newInParam("@ToDate", dtpdateTo.Value.ToString("yyyy/MM/dd") + " 23:59:59");
+                para[3] = posdb_vnmSqlDAC.newInParam("@FromDate", dtpdateFrom.Value.ToString("yyyy/MM/dd"));
+                para[4] = posdb_vnmSqlDAC.newInParam("@ToDate", dtpdateTo.Value.ToString("yyyy/MM/dd"));
 
                 ds = sqlDac.GetDataSet(store, para);
                 ds.DataSetName = "dsItemReturnReport";
