@@ -23,6 +23,14 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         int? qUANTITY_GIFT_TWO;
         string pROMOTION_DETAIL_NAME;
 
+        bool? Is_BUNDLE;
+
+        [SqlColumn("IS_BUNDLE", SqlDbType.Bit)]
+        public bool? IS_BUNDLE
+        {
+            get { return Is_BUNDLE; }
+            set { Is_BUNDLE = value; }
+        }
         #endregion members
         #region Properties
         [PKSqlColumn("PROMOTION_DETAIL_NO", SqlDbType.VarChar, null)]

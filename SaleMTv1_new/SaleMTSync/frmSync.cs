@@ -1011,7 +1011,7 @@ namespace SaleMTSync
         {
             List<PROMOTION_DETAIL> listImport = new List<PROMOTION_DETAIL>();
             string sql = "Select l.M_PromotionLine_ID, l.M_Product_ID, l.M_Promotion_ID, l.Qty, l.Amount, " +
-                "   l.DiscountAmt, l.DiscountPercent, l.M_Product_Free_ID, l.QtyFree, t.Name " +
+                "   l.DiscountAmt, l.DiscountPercent, l.M_Product_Free_ID, l.QtyFree, t.Name, l.IsRequiedProduct " +
                 " From M_PromotionLine l " +
                 "       inner Join M_Promotion p On l.M_Promotion_ID = p.M_Promotion_ID " +
                 "       inner Join M_PromotionType t On t.M_PromotionType_ID = p.M_PromotionType_ID " +
@@ -1046,6 +1046,10 @@ namespace SaleMTSync
                     lineNew.QUANTITY_GIFT = qty_free;
                     lineNew.DISCOUNT_ON = "GIFTS";
                 }
+                lineNew.IS_BUNDLE = false;
+                if ("Y".Equals(r["RequiedProduct"].ToString()))
+                    lineNew.IS_BUNDLE = true;
+
                 listImport.Add(lineNew);
             }
             try
