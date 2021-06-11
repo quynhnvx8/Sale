@@ -37,9 +37,18 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         float? pRICE3;
         bool? aCTIVE;
         string rED_INVOICE_CAT;
+        float? iD;
 
         #endregion members
         #region Properties
+
+        [SqlColumn("ID", SqlDbType.Float)]
+        public float? ID
+        {
+            get { return iD; }
+            set { iD = value; }
+        }
+
         [PKSqlColumn("PRODUCT_ID", SqlDbType.VarChar, null)]
         public string PRODUCT_ID
         {

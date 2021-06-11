@@ -13,8 +13,10 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         #region members
         string pROGRAM_NO;
         string pRODUCT_ID;
-        int? fOR_TYPE;
-
+        string pRODUCT_GIF_ID;
+        int? pQTY;
+        int? pQTY_GIF;
+        float? mAMT;
         #endregion members
         #region Properties
         [PKSqlColumn("PROGRAM_NO", SqlDbType.VarChar, null)]
@@ -29,11 +31,33 @@ namespace SaleMTDataAccessLayer.SaleMTObj
             get { return pRODUCT_ID; }
             set { pRODUCT_ID = value; }
         }
-        [SqlColumn("FOR_TYPE", SqlDbType.Int)]
-        public int? FOR_TYPE
+
+        [PKSqlColumn("PRODUCT_GIF_ID", SqlDbType.VarChar, null)]
+        public string PRODUCT_GIF_ID
         {
-            get { return fOR_TYPE; }
-            set { fOR_TYPE = value; }
+            get { return pRODUCT_GIF_ID; }
+            set { pRODUCT_GIF_ID = value; }
+        }
+
+        [SqlColumn("QTY_GIF", SqlDbType.Int)]
+        public int? QTY_GIF
+        {
+            get { return pQTY_GIF; }
+            set { pQTY_GIF = value; }
+        }
+
+        [SqlColumn("QTY", SqlDbType.Int)]
+        public int? QTY
+        {
+            get { return pQTY; }
+            set { pQTY = value; }
+        }
+
+        [SqlColumn("AMT", SqlDbType.Float)]
+        public float? AMT
+        {
+            get { return mAMT; }
+            set { mAMT = value; }
         }
 
         #endregion Properties

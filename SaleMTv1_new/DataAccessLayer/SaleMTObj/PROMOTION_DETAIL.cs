@@ -18,12 +18,29 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         string dISCOUNT_ON;
         float? dISCOUNT_VALUE;
         string gIFT;
+        string promotionType;
         int? qUANTITY_GIFT;
         string gIFT_TWO;
         int? qUANTITY_GIFT_TWO;
         string pROMOTION_DETAIL_NAME;
 
         bool? Is_BUNDLE;
+
+        int? by_SHOP;
+        int? by_CUS;
+
+        [SqlColumn("BY_SHOP", SqlDbType.Bit)]
+        public int? BY_SHOP
+        {
+            get { return by_SHOP; }
+            set { by_SHOP = value; }
+        }
+        [SqlColumn("BY_CUS", SqlDbType.Bit)]
+        public int? BY_CUS
+        {
+            get { return by_CUS; }
+            set { by_CUS = value; }
+        }
 
         [SqlColumn("IS_BUNDLE", SqlDbType.Bit)]
         public bool? IS_BUNDLE
@@ -77,6 +94,14 @@ namespace SaleMTDataAccessLayer.SaleMTObj
             get { return gIFT; }
             set { gIFT = value; }
         }
+
+        [SqlColumn("PROMOTION_TYPE", SqlDbType.NVarChar)]
+        public string PROMOTION_TYPE
+        {
+            get { return promotionType; }
+            set { promotionType = value; }
+        }
+        
         [SqlColumn("QUANTITY_GIFT", SqlDbType.Int)]
         public int? QUANTITY_GIFT
         {

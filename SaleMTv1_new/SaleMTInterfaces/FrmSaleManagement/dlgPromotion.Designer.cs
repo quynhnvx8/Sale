@@ -33,17 +33,16 @@
             this.tabNum = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lvwProgram = new System.Windows.Forms.ListView();
-            this.colProCode = new System.Windows.Forms.ColumnHeader();
-            this.colProName = new System.Windows.Forms.ColumnHeader();
-            this.colDateFrom = new System.Windows.Forms.ColumnHeader();
-            this.colDateTo = new System.Windows.Forms.ColumnHeader();
-            this.colNumMin = new System.Windows.Forms.ColumnHeader();
-            this.colNumMax = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader11 = new System.Windows.Forms.ColumnHeader();
+            this.colProCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colProName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDateFrom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDateTo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colNumMin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnOK = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.tabPromotion.SuspendLayout();
@@ -63,10 +62,10 @@
             // tabNum
             // 
             this.tabNum.Controls.Add(this.groupBox1);
-            this.tabNum.Location = new System.Drawing.Point(4, 25);
+            this.tabNum.Location = new System.Drawing.Point(4, 29);
             this.tabNum.Name = "tabNum";
             this.tabNum.Padding = new System.Windows.Forms.Padding(3);
-            this.tabNum.Size = new System.Drawing.Size(831, 384);
+            this.tabNum.Size = new System.Drawing.Size(831, 380);
             this.tabNum.TabIndex = 0;
             this.tabNum.Text = "Số lượng";
             this.tabNum.UseVisualStyleBackColor = true;
@@ -77,7 +76,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(825, 378);
+            this.groupBox1.Size = new System.Drawing.Size(825, 374);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chương trình";
@@ -90,7 +89,6 @@
             this.colDateFrom,
             this.colDateTo,
             this.colNumMin,
-            this.colNumMax,
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9,
@@ -99,10 +97,10 @@
             this.lvwProgram.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwProgram.FullRowSelect = true;
             this.lvwProgram.GridLines = true;
-            this.lvwProgram.Location = new System.Drawing.Point(3, 18);
+            this.lvwProgram.Location = new System.Drawing.Point(3, 22);
             this.lvwProgram.MultiSelect = false;
             this.lvwProgram.Name = "lvwProgram";
-            this.lvwProgram.Size = new System.Drawing.Size(819, 357);
+            this.lvwProgram.Size = new System.Drawing.Size(819, 349);
             this.lvwProgram.TabIndex = 0;
             this.lvwProgram.UseCompatibleStateImageBehavior = false;
             this.lvwProgram.View = System.Windows.Forms.View.Details;
@@ -132,12 +130,6 @@
             this.colNumMin.Text = "SL tối thiểu";
             this.colNumMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.colNumMin.Width = 78;
-            // 
-            // colNumMax
-            // 
-            this.colNumMax.Text = "SL tối đa";
-            this.colNumMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colNumMax.Width = 70;
             // 
             // columnHeader7
             // 
@@ -230,7 +222,6 @@
         private System.Windows.Forms.ColumnHeader colDateFrom;
         private System.Windows.Forms.ColumnHeader colDateTo;
         private System.Windows.Forms.ColumnHeader colNumMin;
-        private System.Windows.Forms.ColumnHeader colNumMax;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;

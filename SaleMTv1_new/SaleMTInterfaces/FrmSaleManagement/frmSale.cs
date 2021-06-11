@@ -517,21 +517,7 @@ namespace SaleMTInterfaces.FrmSaleManagement
                         if (discount > 0)
                         {
                             promotion = true;
-                            //for (int i = 0; i < dlgPro.LstProPercent.Count; i++)
-                            //{
-                            //    DataRow[] rowDiscount = dsCheckPromotion.Tables[0].Select("PRODUCT_ID = '" + dlgPro.LstProPercent[i].ToString() + "'");
-                                
-                            //    string money = rowDiscount[0]["Discount_Amount"].ToString();
-                            //    DataRow[] row = dtSale.Select("PRODUCT_ID = '" + dlgPro.LstProPercent[i].ToString() + "'");
-                            //    row[0]["PROMOTION"] = Conversion.GetCurrency(money);
-
-
-
-                            //    //// giảm số tiền phải thanh toán
-                            //    //double intoMoney = Convert.ToDouble(Conversion.Replaces(row[0]["INTOMONEY"].ToString()));
-                            //    //row[0]["PAYMENT"] = Conversion.GetCurrency((intoMoney - Convert.ToDouble(money)).ToString());
-                            //    BindToControl();
-                            //}
+                           
                             // gán giá trị khuyến mại tiền cho từng sản phẩm
                             for (int i = 0; i < dsCheckPromotion.Tables[2].Rows.Count; i++)
                             {

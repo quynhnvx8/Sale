@@ -62,7 +62,7 @@ namespace SaleMTInterfaces.FrmSaleManagement
             this.colDateFrom.Text = translate["dlgPromotion.colDateFrom.Text"];
             this.colDateTo.Text = translate["dlgPromotion.colDateTo.Text"];
             this.colNumMin.Text = translate["dlgPromotion.colNumMin.Text"];
-            this.colNumMax.Text = translate["dlgPromotion.colNumMax.Text"];
+            //this.colNumMax.Text = translate["dlgPromotion.colNumMax.Text"];
             this.columnHeader7.Text = translate["dlgPromotion.columnHeader7.Text"];
             this.columnHeader8.Text = translate["dlgPromotion.columnHeader8.Text"];
             this.columnHeader9.Text = translate["dlgPromotion.columnHeader9.Text"];
@@ -92,7 +92,6 @@ namespace SaleMTInterfaces.FrmSaleManagement
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["FROM_DATE"].ToString());
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["TO_DATE"].ToString());
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["QUANTITY_MIN"].ToString());
-                        lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["QUANTITY_MAX"].ToString());
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["DISCOUNT_ON"].ToString());
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["DISCOUNT_VALUE"].ToString());
                         lvwProgram.Items[i].SubItems.Add(dtPromotion.Rows[i]["QUANTITY"].ToString());
@@ -130,6 +129,11 @@ namespace SaleMTInterfaces.FrmSaleManagement
 
         private void btnOK_Click(object sender, EventArgs e)
         {
+            actionEvent();
+        }
+
+        protected void actionEvent()
+        {
             try
             {
                 ListView.ListViewItemCollection item = lvwProgram.Items;
@@ -138,24 +142,24 @@ namespace SaleMTInterfaces.FrmSaleManagement
                 {
                     for (int i = 0; i < item.Count; i++)
                     {
-                        double value = Convert.ToDouble(Conversion.Replaces(item[i].SubItems[7].Text.Trim()));
+                        double value = Convert.ToDouble(Conversion.Replaces(item[i].SubItems[6].Text.Trim()));
                         if (value > 0)
                         {
-                            discount = discount + Convert.ToDouble(Conversion.Replaces(item[i].SubItems[10].Text.Trim()));
+                            discount = discount + Convert.ToDouble(Conversion.Replaces(item[i].SubItems[9].Text.Trim()));
                             bool check = true;
-                            
+
                             for (int j = 0; j < lstProPercent.Count; j++)
                             {
-                                if (lstProPercent[j].ToString() == item[i].SubItems[11].Text.Trim())
+                                if (lstProPercent[j].ToString() == item[i].SubItems[10].Text.Trim())
                                 {
                                     check = false;
                                 }
                             }
                             if (check)
-                                lstProPercent.Add(item[i].SubItems[11].Text.Trim());
+                                lstProPercent.Add(item[i].SubItems[10].Text.Trim());
                         }
                     }
-                    this.Close();   
+                    this.Close();
                 }
             }
             catch (Exception ex)
@@ -170,38 +174,7 @@ namespace SaleMTInterfaces.FrmSaleManagement
         {
             if (keyData == Keys.Enter)
             {
-                try
-                {
-                    ListView.ListViewItemCollection item = lvwProgram.Items;
-                    discount = 0;
-                    if (item.Count > 0)
-                    {
-                        for (int i = 0; i < item.Count; i++)
-                        {
-                            double value = Convert.ToDouble(Conversion.Replaces(item[i].SubItems[7].Text.Trim()));
-                            if (value > 0)
-                            {
-                                discount = discount + Convert.ToDouble(Conversion.Replaces(item[i].SubItems[10].Text.Trim()));
-                                bool check = true;
-
-                                for (int j = 0; j < lstProPercent.Count; j++)
-                                {
-                                    if (lstProPercent[j].ToString() == item[i].SubItems[11].Text.Trim())
-                                    {
-                                        check = false;
-                                    }
-                                }
-                                if (check)
-                                    lstProPercent.Add(item[i].SubItems[11].Text.Trim());
-                            }
-                        }
-                        this.Close();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    log.Error("ProcessCmdKey - Keys.Enter: " + ex.Message);
-                }
+                actionEvent();
             }
             
             return base.ProcessCmdKey(ref msg, keyData);

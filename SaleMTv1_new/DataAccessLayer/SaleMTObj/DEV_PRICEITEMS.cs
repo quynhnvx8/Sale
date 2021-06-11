@@ -13,40 +13,20 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         #region members
         string product;
         DateTime startDate;
-        float? unitCost;
-        float? unitPriceRate;
-        float? unitPrice;
-        float? taxItem;
-        float? unitPriceWithTax;
-        DateTime? sTART_DATE0;
-        float? pRICE0;
-        DateTime? cREATE_DATE0;
-        string uSER_CREATE0;
+        
         DateTime? sTART_DATE1;
-        decimal? pRICE1;
-        string rEASON1;
-        string rEMARK1;
         DateTime? cREATE_DATE1;
         string uSER_CREATE1;
-        DateTime? sTART_DATE2;
-        float? pRICE2;
-        string rEASON2;
-        string rEMARK2;
-        DateTime? cREATE_DATE2;
-        string uSER_CREATE2;
-        DateTime? sTART_DATE3;
-        float? pRICE3;
-        string rEASON3;
-        string rEMARK3;
-        DateTime? cREATE_DATE3;
-        string uSER_CREATE3;
-        DateTime? sTART_DATE4;
-        float? pRICE4;
-        string rEASON4;
-        string rEMARK4;
-        DateTime? cREATE_DATE4;
-        string uSER_CREATE4;
-        Guid aUTO_ID;
+        decimal? pRICE1;
+
+        int? iD;
+       
+        [SqlColumn("ID", SqlDbType.Int)]
+        public int? ID
+        {
+            get { return iD; }
+            set { iD = value; }
+        }
 
         #endregion members
         #region Properties

@@ -13,18 +13,25 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         #region members
         string pROGRAM_NO;
         string mASTER_CODE;
-
+        int? groupID;
         bool? iSPENDING;
 
+
+
+        #endregion members
+        #region Properties
+        [SqlColumn("GROUP_ID", SqlDbType.Int)]
+        public int? GROUP_ID
+        {
+            get { return groupID; }
+            set { groupID = value; }
+        }
         [SqlColumn("ISPENDING", SqlDbType.Bit)]
         public bool? ISPENDING
         {
             get { return iSPENDING; }
             set { iSPENDING = value; }
         }
-
-        #endregion members
-        #region Properties
         [PKSqlColumn("PROGRAM_NO", SqlDbType.VarChar, null)]
         public string PROGRAM_NO
         {
