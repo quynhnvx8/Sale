@@ -24,7 +24,7 @@ namespace SaleMTDataAccessLayer.SaleMTObj
         float dISCOUNT_MONEY;
         float dISCOUNT_PERCENT;
         bool? cHANGE_PRICE;
-        int? uID;
+        int? uAD_USER_ID;
 
         #endregion members
         #region Properties
@@ -82,11 +82,11 @@ namespace SaleMTDataAccessLayer.SaleMTObj
             get { return uSER_GROUP; }
             set { uSER_GROUP = value; }
         }
-        [SqlColumn("ID", SqlDbType.Int)]
-        public int? ID
+        [SqlColumn("AD_USER_ID", SqlDbType.Int)]
+        public int? AD_USER_ID
         {
-            get { return uID; }
-            set { uID = value; }
+            get { return uAD_USER_ID; }
+            set { uAD_USER_ID = value; }
         }
         [SqlColumn("DISCOUNT", SqlDbType.Bit)]
         public bool? DISCOUNT

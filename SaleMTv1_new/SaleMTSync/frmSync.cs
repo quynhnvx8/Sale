@@ -588,7 +588,7 @@ namespace SaleMTSync
                 user.ACCOUNT = r["Value"].ToString();
                 user.FIRSTNAME = r["Name"].ToString();
                 user.PASSWORD = r["Password"].ToString();
-                user.ID = int.Parse(r["AD_User_ID"].ToString());
+                user.AD_USER_ID = int.Parse(r["AD_User_ID"].ToString());
                 user.CREATEDATE = (DateTime)r["Created"];
                 user.DISCOUNT = false;
                 user.CHANGE_PRICE = r["IsChangePrice"].ToString().Equals("Y") ? true : false;
@@ -897,7 +897,7 @@ namespace SaleMTSync
             foreach (DataRow r in dt.Rows)
             {
                 PRODUCTS lineNew = new PRODUCTS();
-                lineNew.ID = float.Parse(r["M_Product_ID"].ToString());
+                lineNew.M_PRODUCT_ID = float.Parse(r["M_Product_ID"].ToString());
                 lineNew.PRODUCT_ID = r["ProductCode"].ToString();
                 lineNew.PRODUCT_NAME = r["ProductName"].ToString();
                 lineNew.PRODUCT_NAME_PRINT = r["ProductName"].ToString();
